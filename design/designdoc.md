@@ -39,7 +39,7 @@ Of course, everything in this document is subject to change.
 
 # Drills 
 * Drills function somewhat like omnifactory's microminers
-* Drills have their own Drill base per drill tier
+* Drills require Drill bases to launch.
 * To launch a drill, players will need the drill itself, some other related item, energy (with the execption of the steam powered drill) and also a special fluid
    * The fluids required start out fairly simple, but ramp up in complexity rapidly
      * Example fluids could be nitro-diesel, heavy and light fuel, oil, and of course custom fluids
