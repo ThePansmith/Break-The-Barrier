@@ -52,9 +52,12 @@ Of course, everything in this document is subject to change.
      * The tier one drill base is the only drill base that operates on steam, and does not require energy.
        * To balance this, the drills that belong to this drill base are is the only one to bring ingots, rather than ores, to prevent ore processing.
          * This also has the helpful conquence of allowing players to skip waiting for ingots to smelt in the early game, as they would have little to no options for ore processing anyways.
-     * The tier one drill base's drills focuses mainly on (high pressure) steam machinary
+     * The tier one drill base's  drills focuses mainly on (high pressure) steam machinary
        * (LV hulls etc will require a new metal) (dark steel?)
-
+* Tier two drill base
+ * Runs on LV power 
+ * Focuses on creating more LV machines, and pushing into MV
+ * Also has some recipes that allow the player to expand their resource options.
 
 # Drill tiers 
 * Tier one drill
@@ -65,6 +68,13 @@ Of course, everything in this document is subject to change.
   * Belongs to the tier one drill base
   * Crafted with materials related to high pressure steam machinary 
   * Brings larger amounts of iron and copper ingots, as well as coal, tin and obsidian.
+* Tier three drill
+ * Belongs to the tier two drill base
+ * Crafted with LV machine parts
+ * First drill to require an actual fluid to launch, luberant.
+   * Is a fairly simple one to start off.
+ * Brings back more metals (now ores) and other stuff related to LV machinary, as well as nickel.
+   * This allows for crafting cupronickel, and thus the first EBF
 
 
 # Mods
@@ -87,14 +97,18 @@ Of course, everything in this document is subject to change.
 
 
 # Progression
-### Note that progression within the GTCE(u) mod itself will be simliar to default.
+### Note that progression within the GTCE(u) mod itself will be simliar to default, as a result, progression noted here will be somewhat bare.
 * Player spawns in, with the items noted above
 * Plant saplings, and set up cobble gen
 * Player makes either a coal powered or a solar powered boiler
 * Create tier one drill base, and tier one drill.
 * Build up infastucture
 * Create tier two drill
+* Craft Basic ciruits (chad can be obtained by pulverising wood dust)
 * Create LV machines 
+* 
+
+
 
 * ???
 * Laser is fired
