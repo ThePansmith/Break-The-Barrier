@@ -55,9 +55,9 @@ Of course, everything in this document is subject to change.
      * The tier one drill base's  drills focuses mainly on (high pressure) steam machinary
        * (LV hulls etc will require a new metal) (dark steel?)
 * Tier two drill base
- * Runs on LV power 
- * Focuses on creating more LV machines, and pushing into MV
- * Also has some recipes that allow the player to expand their resource options.
+   * Runs on LV power 
+   * Focuses on creating more LV machines, and pushing into MV
+   * Also has some recipes that allow the player to expand their resource options.
 
 # Drill tiers 
 * Tier one drill
@@ -69,11 +69,11 @@ Of course, everything in this document is subject to change.
   * Crafted with materials related to high pressure steam machinary 
   * Brings larger amounts of iron and copper ingots, as well as coal, tin, and obsidian.
 * Tier three drill
- * Belongs to the tier two drill base
- * Crafted with LV machine parts
- * First drill to require an actual fluid to launch, luberant.
+  * Belongs to the tier two drill base
+  * Crafted with LV machine parts
+  * First drill to require an actual fluid to launch, luberant.
    * Is a fairly simple one to start off.
- * Brings back more metals (now ores) and other stuff related to LV machinary, as well as nickel.
+  * Brings back more metals (now ores) and other stuff related to LV machinary, as well as nickel.
    * This allows for crafting cupronickel, and thus the first EBF and multismelter tiers.
 
 
