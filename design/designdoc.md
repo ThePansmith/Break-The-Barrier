@@ -26,7 +26,7 @@ Of course, everything in this document is subject to change.
 * The pack will have 4/5 voltage tiers. 
  * Machines tiers will end at HV/EV tier, and the laser will be the only machine to accept EV/IV power
  * This makes for 5/6 Tiers overall, when factoring in a (relatively short) steam age
-
+* EBFs are faster.
 
 # The dimension
 * The player will be locked into spawning into a custom (premade) dimension
@@ -63,18 +63,18 @@ Of course, everything in this document is subject to change.
 * Tier one drill
   * Belongs to the Tier one drill base
   * Crafted with wood and stone materials
-  * Brings clay, dirt, and some iron and copper ingots
+  * Brings clay, dirt, redstone, and some iron and copper ingots
 * Tier two drill
   * Belongs to the tier one drill base
   * Crafted with materials related to high pressure steam machinary 
-  * Brings larger amounts of iron and copper ingots, as well as coal, tin and obsidian.
+  * Brings larger amounts of iron and copper ingots, as well as coal, tin, and obsidian.
 * Tier three drill
  * Belongs to the tier two drill base
  * Crafted with LV machine parts
  * First drill to require an actual fluid to launch, luberant.
    * Is a fairly simple one to start off.
  * Brings back more metals (now ores) and other stuff related to LV machinary, as well as nickel.
-   * This allows for crafting cupronickel, and thus the first EBF
+   * This allows for crafting cupronickel, and thus the first EBF and multismelter tiers.
 
 
 # Mods
@@ -106,7 +106,11 @@ Of course, everything in this document is subject to change.
 * Create tier two drill
 * Craft Basic ciruits (chad can be obtained by pulverising wood dust)
 * Create LV machines 
-* 
+* Create tier two drill base
+* Passive lube with seed oil (progressive automation will be helpful)
+* Create tier three drill 
+* Create EBF and multismelter
+
 
 
 
