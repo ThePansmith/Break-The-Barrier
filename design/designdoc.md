@@ -9,7 +9,7 @@ Of course, everything in this document is subject to change.
 * Pack is centered around building a giant laser to shatter a overhead barrier keeping the player trapped within a dimension
 * Pack is mostly GTCE(u) content, with a few other mods to fill in content were needed
   * List will be found in the mods section
-* Player optains resources from drills (work like omnifactory microminers)
+* Player obtains resources from drills (work like omnifactory microminers)
   * Most resources to craft the next tier of (thing) can be optained with drills
 
 
@@ -95,6 +95,10 @@ Of course, everything in this document is subject to change.
 # Laser 
 * The laser is to be the only EV/IV tier machine in the pack, and is to have a decently sized startup EU cost
 
+# GTCE inventory 
+* Simple connected storage and stocking solution
+* Has the ability to stock items, and to keep certain amounts of items in stock.
+* Unlocked in early MV
 
 # Progression
 ### Note that progression within the GTCE(u) mod itself will be simliar to default, as a result, progression noted here will be somewhat bare.
@@ -110,6 +114,7 @@ Of course, everything in this document is subject to change.
 * Passive lube with seed oil (progressive automation will be helpful)
 * Create tier three drill 
 * Create EBF and multismelter
+
 
 
 
