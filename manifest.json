@@ -1,0 +1,74 @@
+{
+    "author": "Pansmih",
+    "files": [
+        {
+            "fileID": 3478805,
+            "projectID": 293327,
+            "required": true
+        },
+        {
+            "fileID": 3507834,
+            "projectID": 467145,
+            "required": true
+        },
+        {
+            "fileID": 2692318,
+            "projectID": 220606,
+            "required": true
+        },        
+        {
+            "fileID": 2667280,
+            "projectID": 245211,
+            "required": true
+        },
+        {
+            "fileID": 3043174,
+            "projectID": 238222,
+            "required": true
+        },
+        {
+            "fileID": 2950248,
+            "projectID": 238856,
+            "required": true
+        },
+        {
+            "fileID": 3407001,
+            "projectID": 386188,
+            "required": true
+        },        
+        {
+            "fileID": 3523955,
+            "projectID": 239197,
+            "required": true
+        },
+        {
+            "fileID": 3331364,
+            "projectID": 237065,
+            "required": true
+        },
+        {
+            "fileID": 3488553,
+            "projectID": 220954,
+            "required": true
+        },
+        {
+            "fileID": 2779848,
+            "projectID": 242818,
+            "required": true
+        },
+    ],
+    "manifestType": "minecraftModpack",
+    "manifestVersion": 1,
+    "minecraft": {
+        "modLoaders": [
+            {
+                "id": "forge-14.23.5.2855",
+                "primary": true
+            }
+        ],
+        "version": "1.12.2"
+    },
+    "name": "Break The Barrier",
+    "overrides": "overrides",
+    "version": "0.0"
+}
