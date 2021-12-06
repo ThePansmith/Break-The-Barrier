@@ -2,6 +2,8 @@
 ### This document will go over the general ideas, goals, and planned progression for Break the barrier
 This intends to allow me to plan out ideas better, and will better allow for feedback.
 
+[Discord](https://discord.gg/N8b2JEfAqb)
+
 Of course, everything in this document is subject to change.
 
 # Pack main themes 
