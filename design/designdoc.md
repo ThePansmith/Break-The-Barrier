@@ -2,6 +2,8 @@
 ### This document will go over the general ideas, goals, and planned progression for Break the barrier
 This intends to allow me to plan out ideas better, and will better allow for feedback.
 
+[Discord](https://discord.gg/N8b2JEfAqb)
+
 Of course, everything in this document is subject to change.
 
 # Pack main themes 
@@ -18,10 +20,9 @@ Of course, everything in this document is subject to change.
 * Player spawns with some resources 
   * Some metal parts, as well as some related crafttweaker stuff (remains of a broken jetpack)  
    * Enough to either build a coal or solar boiler (player can choose)
-   * Solar boiler will be buffed.
   * Saplings
   * Cobble gen
-  * Water gen (gregicality?)
+  * CEu Water gen 
   * Bonemeal(?)
 * The pack will have 4/5 voltage tiers. 
  * Machines tiers will end at HV/EV tier, and the laser will be the only machine to accept EV/IV power
@@ -31,7 +32,7 @@ Of course, everything in this document is subject to change.
 # The dimension
 * The player will be locked into spawning into a custom (premade) dimension
 * The area will be a decently sized starting area, with a decently sized shaft of light in the middle
-  * Hopefully GTCEu will add some more solar panels, making solar a viable route.
+  * Allows players to take advantage of CEu's additional panel tiers.
   * [The starting area of undertale is a good visual](https://user-images.githubusercontent.com/70342772/143727600-03b48a54-caf8-4857-927d-60212040e77b.png)
 * The dimension itself is Infinite, allowing players to expand as needed
 * Difficulty is locked to peaceful.
@@ -81,9 +82,7 @@ Of course, everything in this document is subject to change.
 * GTCE (duh)
  * Only here for initial pack creation
   * **Will be replaced with CEu once it is released**
-* Gregicality
-  * Likely temporary, as the parts relevant to this pack are planned to be ported into CEu anyways
-* GTCE inventory pipes 
+* LP
   * Will be this packs storage system/autocrafting method
 * Progressive Automation
   * Allows the player to farm trees, as well as to show off Gregicality/CEu's native eu to rf transformation.
@@ -95,12 +94,11 @@ Of course, everything in this document is subject to change.
 # Laser 
 * The laser is to be the only EV/IV tier machine in the pack, and is to have a decently sized startup EU cost
 
-# GTCE inventory 
-* Simple connected storage and stocking solution
-* Has the ability to stock items, and to keep certain amounts of items in stock.
-* Unlocked in early MV
-
+# LP
+* Replacement for GTCE inventory, as there are no plans for CEu compat 
+* Unlocked in MV
 # Progression
+
 ### Note that progression within the GTCE(u) mod itself will be simliar to default, as a result, progression noted here will be somewhat bare.
 * Player spawns in, with the items noted above
 * Plant saplings, and set up cobble gen
