@@ -2,6 +2,4 @@
 
 [Discord](https://discord.gg/N8b2JEfAqb)
 
-Read the design document
-
-Speedrunnable gregpack 
+Pack info can be found in /design/
