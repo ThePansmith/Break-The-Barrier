@@ -1,0 +1,32 @@
+{
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-12-28 12:39:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-12-28 10:52:59 -0600"
+    },
+    "done": true
+  },
+  "progressiveautomation:cobble_gen": {
+    "criteria": {
+      "has_lava": "2021-12-28 12:39:31 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2021-12-28 11:17:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-12-27 23:59:55 -0600"
+    },
+    "done": false
+  }
+}

@@ -7,11 +7,6 @@
             "required": true
         },
         {
-            "fileID": 3507834,
-            "projectID": 467145,
-            "required": true
-        },
-        {
             "fileID": 2692318,
             "projectID": 220606,
             "required": true
@@ -61,8 +56,50 @@
             "projectID": 253211,
             "required": true
         },
+	{
+			"alias": "Ex Nihilo: Creatio",
+			"fileID": 2817545,
+			"projectID": 274456,
+			"required": true
+	},
+	{
+		"alias": "Shadowfacts' Forgelin",
+		"fileID": 2785465,
+		"projectID": 248453,
+		"required": true
+	},
+	{
+		"alias": "Initial Inventory",
+		"fileID": 2465617,
+		"projectID": 253230,
+		"required": true
+	},
+	{
+		"alias": "QMD",
+		"fileID": 3493623,
+		"projectID": 362056,
+		"required": true
+	},
+	{
+		"alias": "NC",
+		"fileID": 3386487,
+		"projectID": 336895,
+		"required": true
+	},
+	{
+		"alias": "Lockdown",
+		"fileID": 2477270,
+		"projectID": 244019,
+		"required": true
+	},
+	{
+		"alias": "Perfect Spawn",
+		"fileID": 2477270,
+		"projectID": 221418,
+		"required": true
+	},
         {
-            "fileID": 3440963,
+            "fileID": 2477270,
             "projectID": 246996,
             "required": true
         }

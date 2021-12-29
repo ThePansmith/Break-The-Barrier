@@ -48,17 +48,12 @@ val tier_one_drill_base = Builder.start(loc, id)
                 "SSS",
                 "SSS",
                 "SSS")
-            .aisle(
-                "~~~",
-                "~B~",
-                "~~~")
             .where("E", IBlockMatcher.controller(loc))
             .where("~", IBlockMatcher.AIR)
-			.where("F", <gregtech:frame_wood>)
+			.where("F", <gregtech:metal_casing:1>)
 			.where("C", <minecraft:cobblestone_wall>)
-			.where("S", <minecraft:stonebrick>)
-			.where("B", <minecraft:stonebrick>)  
-            .whereOr("I", <metastate:stonebrick> as IBlockMatcher,
+			.where("S", <gregtech:metal_casing:1>)
+            .whereOr("I", <metastate:gregtech:metal_casing> as IBlockMatcher,
                             IBlockMatcher.abilityPartPredicate(MultiblockAbility.IMPORT_ITEMS,
                                                                 MultiblockAbility.IMPORT_FLUIDS,
                                                                 MultiblockAbility.EXPORT_ITEMS))
@@ -70,21 +65,21 @@ val tier_one_drill_base = Builder.start(loc, id)
                 "F F",
                 "F F",
 				"IEO",
-				"BBB",
+				"FFF",
 				"   ",
 				"   ")
             .aisle(
                 " C ",
                 " C ",
 				"BBX",
-				"BBB",
-				" B ",
-				" B ")
+				"FFF",
+				"  ",
+				"  ")
             .aisle(
                 "F F",
                 "F F",
 				"BBB",
-				"BBB",
+				"FFF",
 				"   ",
 				"   ")
             .where("I", MetaTileEntities.ITEM_IMPORT_BUS[0], IFacing.north())
@@ -92,10 +87,10 @@ val tier_one_drill_base = Builder.start(loc, id)
             .where("X", MetaTileEntities.FLUID_IMPORT_HATCH[0], IFacing.west())
             .where("E", IBlockInfo.controller(loc))
 			.where(" ", IBlockInfo.EMPTY)
-			.where("F", <gregtech:frame_wood>)
+			.where("F", <metastate:gregtech:metal_casing:1>)
 			.where("C", <metastate:cobblestone_wall>)
 			.where("S", <metastate:stonebrick>)
-			.where("B", <metastate:stonebrick>)
+			.where("B", <metastate:gregtech:metal_casing>)
             .build())
     .withRecipeMap(
         FactoryRecipeMap.start(loc)
@@ -146,4 +141,14 @@ tier_one_drill_base.recipeMap
 			 <gregtech:ore_iron_0:4> * 16,
 	         <gregtech:ore_copper_0:4> * 16,
 	         <gregtech:ore_redstone_0:4> * 8)
+    .buildAndRegister();
+	
+tier_one_drill_base.recipeMap
+    .recipeBuilder()
+    .duration(500)
+    .inputs(<contenttweaker:tiertwodrill>)
+	.fluidInputs(<liquid:steam> * 8000)
+    .outputs(<gregtech:ore_tin_0> * 16,
+	         <minecraft:obsidian> * 32,
+	         <gregtech:ore_gold_0> * 10)
     .buildAndRegister();
