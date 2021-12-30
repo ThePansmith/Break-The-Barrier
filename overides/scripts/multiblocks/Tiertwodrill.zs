@@ -26,10 +26,10 @@ import mods.gregtech.render.Textures;
 // Multiblock 
 
 
-var id = 3000;
-var loc = "tier_one_drill_base";
+var id = 3001;
+var loc = "tier_two_drill_base";
 
-val tier_one_drill_base = Builder.start(loc, id)
+val tier_two_drill_base = Builder.start(loc, id)
     .withPattern(
         FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.BACK, RelativeDirection.UP)
             .aisle(
@@ -44,20 +44,17 @@ val tier_one_drill_base = Builder.start(loc, id)
                 "III",
                 "IBI",
                 "IEI")
-			.aisle(
-                "SSS",
-                "SSS",
-                "SSS")
             .where("E", IBlockMatcher.controller(loc))
             .where("~", IBlockMatcher.AIR)
-			.where("F", <gregtech:metal_casing:1>)
-			.where("C", <minecraft:cobblestone_wall>)
+			.where("F", <gregtech:frame_iron>)
+			.where("C", <minecraft:iron_bars>)
 			.where("S", <gregtech:metal_casing:1>)
-			.where("B", <gregtech:metal_casing>)
-            .whereOr("I", <metastate:gregtech:metal_casing> as IBlockMatcher,
+			.where("B", <gregtech:meta_block_compressed_14:13>)
+            .whereOr("I", <metastate:gregtech:metal_casing:4> as IBlockMatcher,
                             IBlockMatcher.abilityPartPredicate(MultiblockAbility.IMPORT_ITEMS,
                                                                 MultiblockAbility.IMPORT_FLUIDS,
-                                                                MultiblockAbility.EXPORT_ITEMS))
+                                                                MultiblockAbility.EXPORT_ITEMS,
+																MultiblockAbility.INPUT_ENERGY))
 
             .build())
     .addDesign(
@@ -65,33 +62,23 @@ val tier_one_drill_base = Builder.start(loc, id)
             .aisle(
                 "F F",
                 "F F",
-				"IEO",
-				"FFF",
-				"   ",
-				"   ")
+				"IEO")
             .aisle(
                 " C ",
                 " C ",
-				"BBX",
-				"FFF",
-				"  ",
-				"  ")
+				"BBX")
             .aisle(
                 "F F",
                 "F F",
-				"BBB",
-				"FFF",
-				"   ",
-				"   ")
+				"BBB")
             .where("I", MetaTileEntities.ITEM_IMPORT_BUS[0], IFacing.north())
             .where("O", MetaTileEntities.ITEM_EXPORT_BUS[0], IFacing.north())
             .where("X", MetaTileEntities.FLUID_IMPORT_HATCH[0], IFacing.west())
             .where("E", IBlockInfo.controller(loc))
 			.where(" ", IBlockInfo.EMPTY)
-			.where("F", <metastate:gregtech:metal_casing:1>)
-			.where("C", <metastate:cobblestone_wall>)
-			.where("S", <metastate:stonebrick>)
-			.where("B", <metastate:gregtech:metal_casing>)
+			.where("F", <metastate:gregtech:frame_iron>)
+			.where("C", <metastate:iron_bars>)
+			.where("B", <metastate:gregtech:metal_casing:4>)
             .build())
     .withRecipeMap(
         FactoryRecipeMap.start(loc)
@@ -102,54 +89,55 @@ val tier_one_drill_base = Builder.start(loc, id)
 						.minOutputs(1)
                         .maxOutputs(4)
                         .build())
+    .withTexture(<gregtech:turbine_casing:3> as IBlock as ICubeRenderer)
     .buildAndRegister() as Multiblock;
 	
-tier_one_drill_base.noEnergy = true;
 
 // Lang	
 game.setLocalization(
-    "multiblocktweaker.machine.tier_one_drill_base.name",
-    "Tier one drill base controller"
+    "multiblocktweaker.machine.tier_two_drill_base.name",
+    "Tier two drill base controller"
 );
 game.setLocalization(
-    "multiblocktweaker.multiblock.tier_one_drill_base.description",
+    "multiblocktweaker.multiblock.tier_two_drill_base.description",
     "i forgor"
 );	
 
 game.setLocalization(
-    "recipemap.tier_one_drill_base.name",
-    "Tier one drill base"
+    "recipemap.tier_two_drill_base.name",
+    "Tier two drill base"
 );
 
 // Controller Recipe
 recipes.addShaped(
     <gregtech:machine:3000>,
     [
-        [<gregtech:cable:71>,         <gregtech:fluid_pipe:2196>,         <gregtech:fluid_pipe:2196>],
-        [<minecraft:glass>, <gregtech:metal_casing>,  <minecraft:glass>],
-        [<gregtech:cable:71>,         <gregtech:meta_item_2:32487>,         <gregtech:fluid_pipe:2196>]
+        [<gregtech:cable:71>,         <gregtech:meta_item_2:32487>,         <gregtech:cable:71>],
+        [<gregtech:meta_item_2:32487>, <gregtech:metal_casing:2>,  <gregtech:meta_item_2:32487>],
+        [<gregtech:cable:71>,         <gregtech:meta_item_2:32487>,         <gregtech:cable:71>]
     ]
 );
 
 // Recipes	
 	
-tier_one_drill_base.recipeMap
+tier_two_drill_base.recipeMap
     .recipeBuilder()
     .duration(500)
-    .inputs(<contenttweaker:tieronedrill>)
-	.fluidInputs(<liquid:steam> * 8000)
-    .outputs(<minecraft:dirt> * 32,
-			 <gregtech:ore_iron_0:4> * 16,
-	         <gregtech:ore_copper_0:4> * 16,
-	         <gregtech:ore_redstone_0:4> * 8)
+    .inputs(<contenttweaker:tierthreedrill>)
+	.fluidInputs(<liquid:lubricant> * 4000)
+    .outputs(<gregtech:ore_iron_0> * 10,
+			 <gregtech:ore_tin_0> * 16,
+	         <gregtech:ore_copper_0> * 10,
+	         <gregtech:meta_item_1:2061> * 8)
     .buildAndRegister();
 	
-tier_one_drill_base.recipeMap
+tier_two_drill_base.recipeMap
     .recipeBuilder()
     .duration(500)
-    .inputs(<contenttweaker:tiertwodrill>)
-	.fluidInputs(<liquid:steam> * 8000)
-    .outputs(<gregtech:ore_tin_0> * 16,
-	         <minecraft:obsidian> * 32,
-	         <gregtech:ore_gold_0> * 10)
+    .inputs(<contenttweaker:tierfourdrill>)
+	.fluidInputs(<liquid:drilling_fluid> * 4000)
+    .outputs(<gregtech:ore_aluminium_0:2> * 16,
+	         <gregtech:ore_nickel_0:2> * 10,
+	         <gregtech:ore_gold_0:2> * 10,
+			 <gregtech:meta_item_1:1410> * 1)
     .buildAndRegister();

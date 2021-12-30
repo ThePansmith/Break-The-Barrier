@@ -46,3 +46,11 @@ brokenboiler.setToolClass("pickaxe");
 brokenboiler.setToolLevel(1);
 brokenboiler.setBlockSoundType(<soundtype:sand>);
 brokenboiler.register();
+
+var tierthreedrill = VanillaFactory.createItem("tierthreedrill");
+tierthreedrill.maxStackSize = 64;
+tierthreedrill.register();
+
+var tierfourdrill = VanillaFactory.createItem("tierfourdrill");
+tierfourdrill.maxStackSize = 64;
+tierfourdrill.register();

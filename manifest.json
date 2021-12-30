@@ -2,8 +2,8 @@
     "author": "Pansmith",
     "files": [
         {
-            "fileID": 3478805,
-            "projectID": 293327,
+            "fileID": 3585578,
+            "projectID": 557242,
             "required": true
         },
         {
@@ -96,6 +96,12 @@
 		"alias": "Perfect Spawn",
 		"fileID": 2477270,
 		"projectID": 221418,
+		"required": true
+	},
+	{
+		"alias": "BASE",
+		"fileID": 3440963,
+		"projectID": 246996,
 		"required": true
 	},
         {
