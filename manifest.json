@@ -104,6 +104,30 @@
 		"projectID": 246996,
 		"required": true
 	},
+	{
+		"alias": "FancyMenu [Forge]",
+		"fileID": 3556262,
+		"projectID": 367706,
+		"required": true
+	},
+	{
+		"alias": "Konkrete [Forge]",
+		"fileID": 3560067,
+		"projectID": 410295,
+		"required": true
+	},
+	{
+		"alias": "MixinBootstrap",
+		"fileID": 3437402,
+		"projectID": 357178,
+		"required": true
+	},
+	{
+		"alias": "Load My Resources [Forge]",
+		"fileID": 3484298,
+		"projectID": 534502,
+		"required": true
+	},
         {
             "fileID": 2477270,
             "projectID": 246996,

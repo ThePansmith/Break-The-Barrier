@@ -9,7 +9,7 @@ compressor.recipeBuilder().inputs([<gregtech:meta_item_1:2196>]).outputs([<gregt
 
 alloy.recipeBuilder().inputs([<minecraft:coal:1> * 16, <gregtech:meta_item_1:10197>]).outputs([<gregtech:meta_item_1:10184>]).duration(300).EUt(16).buildAndRegister();
 compressor.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
-
+recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
 makeShaped("Coal_boiler", <gregtech:machine:1>,
 	["  ",
 	 " S ",
