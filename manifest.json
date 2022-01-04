@@ -2,13 +2,8 @@
     "author": "Pansmith",
     "files": [
         {
-            "fileID": 3478805,
-            "projectID": 293327,
-            "required": true
-        },
-        {
-            "fileID": 3507834,
-            "projectID": 467145,
+            "fileID": 3585578,
+            "projectID": 557242,
             "required": true
         },
         {
@@ -61,11 +56,77 @@
             "projectID": 253211,
             "required": true
         },
-        {
-            "fileID": 3440963,
-            "projectID": 246996,
-            "required": true
-        }
+	{
+			"alias": "Ex Nihilo: Creatio",
+			"fileID": 2817545,
+			"projectID": 274456,
+			"required": true
+	},
+	{
+		"alias": "Shadowfacts' Forgelin",
+		"fileID": 2785465,
+		"projectID": 248453,
+		"required": true
+	},
+	{
+		"alias": "Lockdown",
+		"fileID": 2477270,
+		"projectID": 244019,
+		"required": true
+	},
+	{
+		"alias": "Perfect Spawn",
+		"fileID": 2477270,
+		"projectID": 221418,
+		"required": true
+	},
+	{
+		"alias": "BASE",
+		"fileID": 3440963,
+		"projectID": 246996,
+		"required": true
+	},
+	{
+		"alias": "Simple Storage Network",
+		"fileID": 3476612,
+		"projectID": 268495,
+		"required": true
+	},
+	{
+		"alias": "Better Questing - Standard Expansion",
+		"fileID": 2863771,
+		"projectID": 238857,
+		"required": true
+	},
+	{
+		"alias": "Difficulty Lock (Forge)",
+		"fileID": 3220701,
+		"projectID": 390886,
+		"required": true
+	},
+	{
+		"alias": "CMM",
+		"fileID": 2857869,
+		"projectID": 226406,
+		"required": true
+	},
+	{
+		"alias": "Collective (Forge)",
+		"fileID": 3533131,
+		"projectID": 342584,
+		"required": true
+	},
+	{
+		"alias": "Load My Resources [Forge]",
+		"fileID": 3484298,
+		"projectID": 534502,
+		"required": true
+	},
+    {
+        "fileID": 2477270,
+        "projectID": 246996,
+        "required": true
+    }
     ],
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
