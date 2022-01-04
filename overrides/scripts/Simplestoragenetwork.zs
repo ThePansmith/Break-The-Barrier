@@ -32,6 +32,3 @@ makeShaped("SSNcable", <storagenetwork:simple_kabel> * 8,
 	  B : <gregtech:meta_plate:260>
 	  });
 	  
-// Conversion recipes
-recipes.addShapeless(<storagenetwork:im_kabel>, <storagenetwork:simple_kabel>]);
-recipes.addShapeless(<storagenetwork:simple_kabel>, <storagenetwork:im_kabel>]);
