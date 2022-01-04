@@ -69,12 +69,6 @@
 		"required": true
 	},
 	{
-		"alias": "Initial Inventory",
-		"fileID": 2465617,
-		"projectID": 253230,
-		"required": true
-	},
-	{
 		"alias": "Lockdown",
 		"fileID": 2477270,
 		"projectID": 244019,
@@ -108,6 +102,12 @@
 		"alias": "Difficulty Lock (Forge)",
 		"fileID": 3220701,
 		"projectID": 390886,
+		"required": true
+	},
+	{
+		"alias": "CMM",
+		"fileID": 2857869,
+		"projectID": 226406,
 		"required": true
 	},
 	{
