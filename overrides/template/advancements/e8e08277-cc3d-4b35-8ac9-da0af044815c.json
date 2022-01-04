@@ -1,7 +1,97 @@
 {
-  "minecraft:story/lava_bucket": {
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
     "criteria": {
-      "lava_bucket": "2021-12-28 12:39:31 -0600"
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "gregtech:low_voltage/23_lv_assembler": {
+    "criteria": {
+      "location": "2022-01-02 22:27:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "gregtech:steam/8_bronze_solar_boiler": {
+    "criteria": {
+      "location": "2022-01-01 11:45:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
     },
     "done": true
   },
@@ -11,15 +101,249 @@
     },
     "done": true
   },
-  "progressiveautomation:cobble_gen": {
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
-      "has_lava": "2021-12-28 12:39:31 -0600"
+      "has_glass": "2022-01-01 11:46:42 -0600"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2021-12-28 11:17:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2022-01-04 08:49:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2022-01-02 22:11:26 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2022-01-01 10:20:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/noteblock": {
+    "criteria": {
+      "has_redstone": "2022-01-01 10:20:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2022-01-01 10:20:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "gregtech:low_voltage/20_lv_conveyor": {
+    "criteria": {
+      "location": "2022-01-01 09:53:40 -0600"
+    },
+    "done": true
+  },
+  "gregtech:steam/2_more_tools": {
+    "criteria": {
+      "location": "2022-01-01 09:54:51 -0600"
+    },
+    "done": true
+  },
+  "gregtech:steam/83_hp_solar_boiler": {
+    "criteria": {
+      "location": "2022-01-01 11:45:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2022-01-01 11:28:38 -0600"
     },
     "done": true
   },
@@ -28,5 +352,299 @@
       "plains": "2021-12-27 23:59:55 -0600"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-12-28 12:39:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-01-01 00:39:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2022-01-01 10:20:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2022-01-04 08:49:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2022-01-04 08:49:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "gregtech:medium_voltage/34_silicon_boule": {
+    "criteria": {
+      "location": "2022-01-02 21:54:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2022-01-04 08:49:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2022-01-04 08:49:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2022-01-01 10:20:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2022-01-04 08:49:45 -0600"
+    },
+    "done": true
+  },
+  "gregtech:low_voltage/88_first_cover_place": {
+    "criteria": {
+      "first_cover_place": "2022-01-01 09:53:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2022-01-02 22:28:33 -0600"
+    },
+    "done": true
+  },
+  "gregtech:medium_voltage/38_super_chest": {
+    "criteria": {
+      "location": "2022-01-01 09:53:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2022-01-01 10:20:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "gregtech:steam/root_steam": {
+    "criteria": {
+      "location": "2022-01-01 10:20:34 -0600"
+    },
+    "done": true
+  },
+  "gregtech:steam/13_steel": {
+    "criteria": {
+      "location": "2022-01-01 10:47:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "gregtech:steam/4_bronze_boiler": {
+    "criteria": {
+      "location": "2022-01-01 00:54:26 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2022-01-01 10:20:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2022-01-01 11:30:13 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2022-01-02 22:14:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_block": {
+    "criteria": {
+      "has_brick": "2022-01-02 22:28:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2022-01-01 11:46:42 -0600"
+    },
+    "done": true
   }
 }

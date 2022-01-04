@@ -75,18 +75,6 @@
 		"required": true
 	},
 	{
-		"alias": "QMD",
-		"fileID": 3493623,
-		"projectID": 362056,
-		"required": true
-	},
-	{
-		"alias": "NC",
-		"fileID": 3386487,
-		"projectID": 336895,
-		"required": true
-	},
-	{
 		"alias": "Lockdown",
 		"fileID": 2477270,
 		"projectID": 244019,
@@ -105,21 +93,27 @@
 		"required": true
 	},
 	{
-		"alias": "FancyMenu [Forge]",
-		"fileID": 3556262,
-		"projectID": 367706,
+		"alias": "Simple Storage Network",
+		"fileID": 3476612,
+		"projectID": 268495,
 		"required": true
 	},
 	{
-		"alias": "Konkrete [Forge]",
-		"fileID": 3560067,
-		"projectID": 410295,
+		"alias": "Better Questing - Standard Expansion",
+		"fileID": 2863771,
+		"projectID": 238857,
 		"required": true
 	},
 	{
-		"alias": "MixinBootstrap",
-		"fileID": 3437402,
-		"projectID": 357178,
+		"alias": "Difficulty Lock (Forge)",
+		"fileID": 3220701,
+		"projectID": 390886,
+		"required": true
+	},
+	{
+		"alias": "Collective (Forge)",
+		"fileID": 3533131,
+		"projectID": 342584,
 		"required": true
 	},
 	{
@@ -128,11 +122,11 @@
 		"projectID": 534502,
 		"required": true
 	},
-        {
-            "fileID": 2477270,
-            "projectID": 246996,
-            "required": true
-        }
+    {
+        "fileID": 2477270,
+        "projectID": 246996,
+        "required": true
+    }
     ],
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,

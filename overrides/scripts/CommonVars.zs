@@ -21,7 +21,7 @@ global assembler         as RecipeMap = RecipeMap.getByName("assembler");
 global assembly_line     as RecipeMap = RecipeMap.getByName("assembly_line");
 global attractor         as RecipeMap = RecipeMap.getByName("attractor");
 global autoclave         as RecipeMap = RecipeMap.getByName("autoclave");
-global blast_furnace     as RecipeMap = RecipeMap.getByName("blast_furnace");
+global blast_furnace     as RecipeMap = RecipeMap.getByName("electric_blast_furnace");
 global brewer            as RecipeMap = RecipeMap.getByName("brewer");
 global canner            as RecipeMap = RecipeMap.getByName("canner");
 global centrifuge        as RecipeMap = RecipeMap.getByName("centrifuge");
@@ -66,6 +66,8 @@ global isSignalum   as IItemCondition = function(stack as IItemStack) { return s
 global isResonant   as IItemCondition = function(stack as IItemStack) { return stack.tag has {Level: 4 as byte} as IData && !(stack.tag has {Creative: 1 as byte} as IData); };
 global isCreative   as IItemCondition = function(stack as IItemStack) { return stack.tag has {Creative: 1 as byte, Level: 4 as byte} as IData; };
 
+
+global rfengine         as IItemStack  = <progressiveautomation:rf_engine>.withTag({Energy: 0});
 
 
 /*

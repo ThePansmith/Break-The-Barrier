@@ -1,0 +1,19 @@
+{
+	"music.menu": {
+		"category": "music",
+		"sounds": [{
+			"name": "music/game/menu/phantomMenu",
+			"stream": true,
+			"replace": true
+		}]
+	}
+}
+
+{
+	"music.menu": {
+		"sounds": [{
+			"name": "music/game/menu/phantomMenu"
+		}],
+		"subtitle": "menu music"
+	}
+}

@@ -137,19 +137,20 @@ tier_one_drill_base.recipeMap
     .recipeBuilder()
     .duration(500)
     .inputs(<contenttweaker:tieronedrill>)
-	.fluidInputs(<liquid:steam> * 8000)
-    .outputs(<minecraft:dirt> * 32,
-			 <gregtech:ore_iron_0:4> * 16,
-	         <gregtech:ore_copper_0:4> * 16,
-	         <gregtech:ore_redstone_0:4> * 8)
+	.fluidInputs(<liquid:steam> * 2000)
+    .outputs(<gregtech:meta_ingot:25> * 16,
+			 <gregtech:meta_ingot:112> * 8,
+	         <minecraft:iron_ingot> * 12,
+	         <minecraft:redstone> * 8)
     .buildAndRegister();
 	
 tier_one_drill_base.recipeMap
     .recipeBuilder()
     .duration(500)
     .inputs(<contenttweaker:tiertwodrill>)
-	.fluidInputs(<liquid:steam> * 8000)
-    .outputs(<gregtech:ore_tin_0> * 16,
-	         <minecraft:obsidian> * 32,
-	         <gregtech:ore_gold_0> * 10)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:coal> * 16,
+	         <gregtech:meta_dust:103> * 10,
+			 <minecraft:iron_ingot> * 20,
+	         <gregtech:meta_ingot:25> * 10)
     .buildAndRegister();

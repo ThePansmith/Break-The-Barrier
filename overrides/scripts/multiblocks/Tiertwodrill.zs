@@ -109,8 +109,7 @@ game.setLocalization(
 );
 
 // Controller Recipe
-recipes.addShaped(
-    <gregtech:machine:3000>,
+recipes.addShaped( <gregtech:machine:3000>,
     [
         [<gregtech:cable:71>,         <gregtech:meta_item_2:32487>,         <gregtech:cable:71>],
         [<gregtech:meta_item_2:32487>, <gregtech:metal_casing:2>,  <gregtech:meta_item_2:32487>],
@@ -128,7 +127,7 @@ tier_two_drill_base.recipeMap
     .outputs(<gregtech:ore_iron_0> * 10,
 			 <gregtech:ore_tin_0> * 16,
 	         <gregtech:ore_copper_0> * 10,
-	         <gregtech:meta_item_1:2061> * 8)
+	         <gregtech:ore_soapstone_0> * 8)
     .buildAndRegister();
 	
 tier_two_drill_base.recipeMap
@@ -139,5 +138,5 @@ tier_two_drill_base.recipeMap
     .outputs(<gregtech:ore_aluminium_0:2> * 16,
 	         <gregtech:ore_nickel_0:2> * 10,
 	         <gregtech:ore_gold_0:2> * 10,
-			 <gregtech:meta_item_1:1410> * 1)
+			 <gregtech:ore_sphalerite_0> * 5)
     .buildAndRegister();
