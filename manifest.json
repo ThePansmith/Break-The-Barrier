@@ -111,10 +111,11 @@
 		"projectID": 534502,
 		"required": true
 	},
+        {
         "fileID": 3440963,
         "projectID": 246996,
         "required": true
-    }
+        }
     ],
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
