@@ -70,12 +70,6 @@
 		"required": true
 	},
 	{
-		"alias": "Perfect Spawn",
-		"fileID": 2477270,
-		"projectID": 221418,
-		"required": true
-	},
-	{
 		"alias": "BASE",
 		"fileID": 3440963,
 		"projectID": 246996,
@@ -116,12 +110,7 @@
 		"fileID": 3484298,
 		"projectID": 534502,
 		"required": true
-	},
-    {
-        "fileID": 2477270,
-        "projectID": 246996,
-        "required": true
-    }
+	}
     ],
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
