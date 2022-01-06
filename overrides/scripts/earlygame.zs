@@ -7,6 +7,7 @@ import scripts.CommonVars.makeShaped as makeShaped;
 // Wood pulp into chad
 compressor.recipeBuilder().inputs([<gregtech:meta_dust:1617> * 2]).outputs([<gregtech:meta_dust:1618>]).duration(100).EUt(10).buildAndRegister();
 alloy.recipeBuilder().inputs([<minecraft:coal:1> * 16, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(300).EUt(16).buildAndRegister();
+alloy.recipeBuilder().inputs([<minecraft:sponge>, <minecraft:ghast_tear>]).outputs([<contenttweaker:spunchcube>]).duration(300).EUt(16).buildAndRegister();
 compressor.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 compressor.recipeBuilder().inputs([<minecraft:coal> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
@@ -109,5 +110,4 @@ makeShaped("AGless goodboard recipe", <gregtech:meta_item_1:402>,
 	{ W : <gregtech:wire_single:51>,
 	  B : <gregtech:meta_item_1:382>,
 	  });
-
 

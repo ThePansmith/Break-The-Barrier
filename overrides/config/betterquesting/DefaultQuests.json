@@ -22,11 +22,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Overworld Drill",
-          "desc:8": "The Overworld Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the overworld drill missions are just for cosmetic purposes, you will need to launch at least one drill to the plains biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE."
+          "name:8": "Biome Drill",
+          "desc:8": "The Biome Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the biome drill missions are just for cosmetic purposes (eg access to resouces to build with), you will need to launch at least one drill to the swamp biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE. As well as that, consider launching a biome drill to the plains biome to get seeds. Seeds can be used to make seed oil."
         }
       },
       "tasks:9": {},
@@ -536,7 +536,8 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier one drill base + T1 drill",
-          "desc:8": ""
+          "desc:8": "Drills are your primary method to get resources in this world. Drills, well, drill, your resouces up. Drills require a base to launch them, and a drill will \"belong\" to a base (eg you can only launch tier one and two drills on a tier one base). A single drill doesnt bring back many resources on it\u0027s own, but it\u0027s power is in numbers. LV and above base, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. While you can not overclock steam, it\u0027s drills are fairly cheap to make, so I would recomend making a few more while you are at it."
+
         }
       },
       "tasks:9": {
@@ -558,7 +559,33 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1151,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1166,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1181,
+              "OreDict:8": ""
+            }
+            }
+          }
+        }
+      }
     },
     "11:10": {
       "questID:3": 56,
@@ -1511,7 +1538,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "T2 drill base",
-          "desc:8": "No Description"
+          "desc:8": "As previously brought up, LV and above bases, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. "
         }
       },
       "tasks:9": {},
@@ -2330,8 +2357,24 @@
               "Count:3": 64,
               "Damage:2": 15,
               "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "tag:10": {
+                "terminal:10": {
+                  "_hw:10": {}
+                }
+              },
+              "Damage:2": 465,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "contenttweaker:brokenboiler",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
-          }
         }
       }
     },

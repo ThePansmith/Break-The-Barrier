@@ -47,6 +47,14 @@ brokenboiler.setToolLevel(1);
 brokenboiler.setBlockSoundType(<soundtype:sand>);
 brokenboiler.register();
 
+var spunchcube = VanillaFactory.createBlock("spunchcube", <blockmaterial:sand>);
+spunchcube.setBlockHardness(0.5);
+spunchcube.setBlockResistance(2.5);
+spunchcube.setToolClass("pickaxe");
+spunchcube.setToolLevel(1);
+spunchcube.setBlockSoundType(<soundtype:sand>);
+spunchcube.register();
+
 var tierthreedrill = VanillaFactory.createItem("tierthreedrill");
 tierthreedrill.maxStackSize = 64;
 tierthreedrill.register();
@@ -54,3 +62,7 @@ tierthreedrill.register();
 var tierfourdrill = VanillaFactory.createItem("tierfourdrill");
 tierfourdrill.maxStackSize = 64;
 tierfourdrill.register();
+
+var biomedrill = VanillaFactory.createItem("biomedrill");
+biomedrill.maxStackSize = 64;
+biomedrill.register();
