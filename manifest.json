@@ -2,7 +2,7 @@
     "author": "Pansmith",
     "files": [
         {
-            "fileID": 3585578,
+            "fileID": 3597722,
             "projectID": 557242,
             "required": true
         },
@@ -133,6 +133,18 @@
 		"alias": "Botania Tweaks",
 		"fileID": 3092102,
 		"projectID": 295114,
+		"required": true
+	},
+	{
+		"alias": "NC",
+		"fileID": 3328174,
+		"projectID": 226254,
+		"required": true
+	},
+	{
+		"alias": "QMD",
+		"fileID": 3493623,
+		"projectID": 362056,
 		"required": true
 	},
 	{
