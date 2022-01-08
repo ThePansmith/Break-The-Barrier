@@ -1,1 +1,10 @@
+tile.contenttweaker.worldgenblock.name=Worldgen Stone
+tile.contenttweaker.worldgendirtblock.name=Worldgen Dirt
+tile.contenttweaker.brokenboiler.name=Broken Boiler
 tile.contenttweaker.spunchcube.name=Spunchcube
+item.contenttweaker.tieronedrill.name=Tier 1 Drill
+item.contenttweaker.woodstonedrilltip.name=Wood stone drill tip
+item.contenttweaker.tiertwodrill.name=Tier 2 Drill
+item.contenttweaker.tierthreedrill.name=Tier 3 Drill
+item.contenttweaker.tierfourdrill.name=Tier 4 Drill
+item.contenttweaker.biomedrill.name=Biome Drill

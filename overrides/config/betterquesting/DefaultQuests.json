@@ -22,11 +22,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Biome Drill",
-          "desc:8": "The Biome Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the biome drill missions are just for cosmetic purposes (eg access to resouces to build with), you will need to launch at least one drill to the swamp biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE. As well as that, consider launching a biome drill to the plains biome to get seeds. Seeds can be used to make seed oil."
+          "name:8": "Overworld Drill",
+          "desc:8": "The Overworld Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the overworld drill missions are just for cosmetic purposes, you will need to launch at least one drill to the plains biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE."
         }
       },
       "tasks:9": {},
@@ -114,7 +114,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Dirt and wood",
           "desc:8": "Thankfully, some of the items you had before the fall didn\u0027t get destoryed. The patch of dirt that you landed on can be reformed into dirt that is plantable. Use that to get some wood going."
         }
@@ -165,7 +165,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Hammer time!",
           "desc:8": "By crafting an ex nihilo hammer, you can mine the blocks that make up this land into cobblestone. On top of cobblestone being useful as is, you can also mine the cobblestone to get gravel, which in turn can be mined into sand and dust."
         }
@@ -226,7 +226,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Bucket of dirt",
           "desc:8": "A barrel has two main uses:\n\n1. You can turn organic matter into dirt by placing it inside the barrel. Your best option currently is saplings.\n\n2. If you place a bucket of water inside, followed by a block of dust, it will turn into clay, this latter one will be a bit more important for the time being."
         }
@@ -277,7 +277,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Cooking and Baking",
           "desc:8": "Come on, you know how a furnace works.\n\nUse it to make some charcoal (you can smelt wood into charcoal)."
         }
@@ -328,7 +328,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Clay",
           "desc:8": "Use the aforementioned method to make some clay. Clay will be used to smelt some bricks, and to make some brick dust with the aid of a hammer.\n\n"
         }
@@ -380,7 +380,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Boiler!",
           "desc:8": "Using some brick blocks and a furance, you can repair that broken boiler into a working steam boiler"
         }
@@ -431,7 +431,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "PBF Bricks",
           "desc:8": "Don\u0027t worry, you dont have to make a PBF. \n\nUse a brick mold to compress the dust into ingots.\n\nThe PBF bricks will be used to make your first drill base."
         }
@@ -482,7 +482,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Finally, good GT pipes.",
           "desc:8": "Fluid pipes can be used to transport fluids, and likewise for item pipes. You can use these pipes to move fluids into and out of your steam generator. CEu pipes work like 5u pipes, and don\u0027t look ugly as well.\n\nPipes will also be used to craft the tier one drill base.\n"
         }
@@ -537,7 +537,6 @@
           "ismain:1": 1,
           "name:8": "Tier one drill base + T1 drill",
           "desc:8": "Drills are your primary method to get resources in this world. Drills, well, drill, your resouces up. Drills require a base to launch them, and a drill will \"belong\" to a base (eg you can only launch tier one and two drills on a tier one base). A single drill doesnt bring back many resources on it\u0027s own, but it\u0027s power is in numbers. LV and above base, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. While you can not overclock steam, it\u0027s drills are fairly cheap to make, so I would recomend making a few more while you are at it."
-
         }
       },
       "tasks:9": {
@@ -582,7 +581,6 @@
               "Damage:2": 1181,
               "OreDict:8": ""
             }
-            }
           }
         }
       }
@@ -612,7 +610,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Bronze",
           "desc:8": "Take some of those iron ingots, turn it into a mortar. You can use that mortar to turn some tin and copper into copper, and thus into bronze."
         }
@@ -663,7 +661,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Steam machines proper",
           "desc:8": "Now with a source of bronze, you can get to work making steam machines.\n\nMost of the recipes in steam machines are fairly obvious (eg the macerator macerates), but I will point out changed or new recipes."
         }
@@ -701,7 +699,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Pressure pushing",
           "desc:8": "By pressurizing some charcoal, you can make diamonds out of it!\nUse these diamonds to make a macerator, and to generally upgrade your tools.\n\n\n"
         }
@@ -752,7 +750,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Steel!",
           "desc:8": "The PBF is slow and boring, so you decided to use something that is slightly less slow. The alloy smelter recipe is somewhat inefficient, but it works well enough for now.\n\nYou can also use it to upgrade your steam machines into highpressure steam machines, which doubles their speed."
         }
@@ -803,7 +801,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Piston efficiency",
           "desc:8": "You can choose to use higher tier ingots while making pistons, which will change how many pistons you will get per craft. For example, using steel instead of iron or bronze will double how many pistons you get.\n\nRegardless if you choose to invest in that, you will still need pistons to craft various machines."
         }
@@ -856,7 +854,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "T2 drill",
           "desc:8": "The tier two drill also runs on steam, and is used to bring back iron at a higher rate, as well as coal and sulfur, which are used in the creation of your first ciruits.\n\nIt also brings back lead."
         }
@@ -907,7 +905,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Grinding away",
           "desc:8": "Don\u0027t use that coal to make torches!\n\nRather, grind it into a dust so you can make some circuits with it!"
         }
@@ -958,7 +956,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Khalimov\u0027s Ernest contribution",
           "desc:8": "Wood pulp can be compressed into chad, which inturn can be compressed into paper.\n\nYes, the quest title is a pun."
         }
@@ -1009,7 +1007,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Glass jars",
           "desc:8": "By smashing and reforming some glass, you can make some glass tubes."
         }
@@ -1042,7 +1040,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Rubber trees and rubber.",
           "desc:8": "Time to put all of that wood to good use! You can extract rubber pulp from rubber tree wood, which can then been combined with sulfur in an alloy smelter to make rubber, which is used to make cables\n\nAs for the rubber pulp, it is used in the creation of your first circuit board, as well as in some other parts of the first circuit."
         }
@@ -1336,9 +1334,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "The power",
-          "desc:8": "It\u0027s overwheming.\n\nCraft your first LV turbine.\n\nยง1ยง1TODO: have overview of wires, cable loss and amps"
+          "desc:8": "It\u0027s overwheming.\n\nCraft your first LV turbine.\n\n§1§1TODO: have overview of wires, cable loss and amps"
         }
       },
       "tasks:9": {
@@ -1485,7 +1483,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Tier three drill",
           "desc:8": "Now with ores! \n\nOres can be futher processed to give the player more resources, or even some resources can the be onlu  obtained with ore processing.\n\n"
         }
@@ -1569,7 +1567,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Machine overview",
           "desc:8": "yeah\n\n(go over the new machines and their uses)"
         }
@@ -1644,7 +1642,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Slippery",
           "desc:8": "Lube can be made in a few ways, the main two currently being from creosote and seed oil. Just note that the slow production of creosote may be a bottleneck, so it may be worth parallelizing it."
         }
@@ -1703,7 +1701,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Drilling fluid",
           "desc:8": "Drilling fluid is made from lube. \n\nTip: It may be worth splitting the output from whatever machine is making into two; One as a tank to hold your lube, and the other is a chemical reactor, to be futher processed into drilling fluid."
         }
@@ -1758,7 +1756,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Tanks!",
           "desc:8": "They store fluids, if you havent made some by this point, you really should.\n\nThere are also wooden tanks, ideal for holding large amounts of water."
         }
@@ -1796,7 +1794,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Tier four drill",
           "desc:8": "These buggers can be a bit expensive to craft, so make sure you have a handle on your resources.\n\nAnyways, the tier four drill brings back:\n"
         }
@@ -1848,7 +1846,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Shockingly hot!",
           "desc:8": "The electric blast furance is, and has been a mainstay of gregtech, and this is no different. \n\nUse the nickel from the tier four drill to make some cupronickel, which will be your first EBF coils.\n\nTip: the EBF steel recipe is much cheaper, and takes less time."
         }
@@ -1907,7 +1905,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Pancakes",
           "desc:8": "Use your EBF to make some boules, then cut them in a cutting saw. These wafers will be used to make your first tier two circuits."
         }
@@ -1958,7 +1956,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Gallium",
           "desc:8": "Gallium can be obtained by electrolyzing your newfound sphalerite."
         }
@@ -2009,7 +2007,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Deville\u0027s Discovery",
           "desc:8": "Silicon can be obtained by electrolyzing your newfound soapstone. Silicon has various uses, such as being a major part of boules.\n\nLater on, silicon can be obtained easier from electroyzing clay dust, and soapstone can be put towards making magnesium, or just making lube at a better ratio.\n"
         }
@@ -2060,7 +2058,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "T3 Base",
           "desc:8": "TBD"
         }
@@ -2095,7 +2093,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 1,
+          "ismain:1": 0,
           "name:8": "Second circuits!",
           "desc:8": "Just like that, you\u0027re already knocking on the door of MV!\n\n"
         }
@@ -2157,7 +2155,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Board-ing",
           "desc:8": "These squares  (and it\u0027s relatives) will be used in a decent number of circuits from here on out.\n\nCrafting them manually will require on, but later one, once you get silver, you can save resources by crafting them in a assember."
         }
@@ -2208,7 +2206,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Diodes",
           "desc:8": "Diodes can be made with glass, but PE can be used to double the output of circuits, though it is not required just yet.\n\nUsing both PE and annealed copper will give you 8 per craft."
         }
@@ -2242,7 +2240,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "An upgrade!",
           "desc:8": "Now with MV machinary at your disposal, you can start making new stuff, and make old stuff faster!\n\nYour first order of business aught to be making an electrolyzer, so you can get aluminum much easier."
         }
@@ -2271,7 +2269,7 @@
     "46:10": {
       "questID:3": 91,
       "preRequisites:11": [
-        86
+        71
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2295,10 +2293,28 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Overworld Drill",
-          "desc:8": "The Overworld Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the overworld drill missions are just for cosmetic purposes, you will need to launch at least one drill to the plains biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE."
+          "desc:8": "The Biome Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the biome drill missions are just for cosmetic purposes (eg access to resouces to build with), you will need to launch at least one drill to the swamp biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE. As well as that, consider launching a biome drill to the plains biome to get seeds. Seeds can be used to make seed oil.\n"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "47:10": {
@@ -2324,7 +2340,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "The Fall",
           "desc:8": "(Exposition goes here)\n\nThe two water buckets are to be replaced with a NC watergen once the NC CEu confict crash is fixed."
         }
@@ -2359,6 +2375,12 @@
               "OreDict:8": ""
             },
             "3:10": {
+              "id:8": "contenttweaker:brokenboiler",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 1,
               "tag:10": {
@@ -2368,13 +2390,8 @@
               },
               "Damage:2": 465,
               "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "contenttweaker:brokenboiler",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
             }
+          }
         }
       }
     },
@@ -2403,7 +2420,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Blue ingots",
           "desc:8": "Aluminum ingots are made in an EBF, and are used to make MV machines.\n\nTip: Use two LV input hatches to overclock your EBF to MV."
         }
@@ -2857,8 +2874,8 @@
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 36,
+          "x:3": -264,
+          "y:3": -24,
           "id:3": 91,
           "sizeY:3": 24
         },

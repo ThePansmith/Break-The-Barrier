@@ -106,6 +106,30 @@
 		"required": true
 	},
 	{
+		"alias": "Botania",
+		"fileID": 3330934,
+		"projectID": 225643,
+		"required": true
+	},
+	{
+		"alias": "Baubles",
+		"fileID": 2518667,
+		"projectID": 227083,
+		"required": true
+	},
+	{
+		"alias": "Botanic Additions",
+		"fileID": 2518667,
+		"projectID": 227083,
+		"required": true
+	},
+	{
+		"alias": "Botania Tweaks",
+		"fileID": 3092102,
+		"projectID": 295114,
+		"required": true
+	},
+	{
 		"alias": "Load My Resources [Forge]",
 		"fileID": 3484298,
 		"projectID": 534502,
@@ -125,5 +149,12 @@
     },
     "name": "Break The Barrier",
     "overrides": "overrides",
-    "version": "0.1"
+	"externalDependencies": [
+    {
+      "name": "Applied Energistics 2 Trousers Edition",
+      "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/Experimental-v49/appliedenergistics2-rv6-stable-7.omni-fixes-v49n.jar",
+      "sha": "55f455ab190db44ad5b5f887f235a8730d2e5d40"
+    }
+  ],
+    "version": "just check github lol"
 }

@@ -1,19 +1,25 @@
-{
-	"music.menu": {
-		"category": "music",
-		"sounds": [{
-			"name": "music/game/menu/phantomMenu",
-			"stream": true,
-			"replace": true
-		}]
-	}
-}
-
-{
-	"music.menu": {
-		"sounds": [{
-			"name": "music/game/menu/phantomMenu"
-		}],
-		"subtitle": "menu music"
-	}
-}
+  "music.menu": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/menu/menu1",
+        "stream": true
+		"replace": true
+      },
+      {
+        "name": "music/menu/menu2",
+        "stream": true
+		"replace": true
+      },
+      {
+        "name": "music/menu/menu3",
+        "stream": true
+		"replace": true
+      },
+      {
+        "name": "music/menu/menu4",
+        "stream": true
+		"replace": true
+      }
+    ]
+  },
