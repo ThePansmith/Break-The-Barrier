@@ -124,6 +124,12 @@
 		"required": true
 	},
 	{
+		"alias": "Hammercore",
+		"fileID": 3366814,
+		"projectID": 247401,
+		"required": true
+	},
+	{
 		"alias": "Botania Tweaks",
 		"fileID": 3092102,
 		"projectID": 295114,
