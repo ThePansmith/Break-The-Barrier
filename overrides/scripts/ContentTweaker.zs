@@ -67,3 +67,14 @@ tierfourdrill.register();
 var biomedrill = VanillaFactory.createItem("biomedrill");
 biomedrill.maxStackSize = 64;
 biomedrill.register();
+
+var dmanastone = VanillaFactory.createBlock("dmanastone", <blockmaterial:sand>);
+dmanastone.setBlockHardness(1);
+dmanastone.setBlockResistance(2.5);
+dmanastone.setToolClass("pickaxe");
+dmanastone.setToolLevel(1);
+dmanastone.setBlockSoundType(<soundtype:sand>);
+dmanastone.register();
+
+var fluidmanasteel = VanillaFactory.createFluid("fluidmanasteel", Color.fromHex("66d1ad")); 
+fluidmanasteel.register();
