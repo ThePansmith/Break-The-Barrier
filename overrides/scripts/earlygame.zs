@@ -6,13 +6,22 @@ import scripts.CommonVars.makeShaped as makeShaped;
 
 // Wood pulp into chad
 compressor.recipeBuilder().inputs([<gregtech:meta_dust:1617> * 2]).outputs([<gregtech:meta_dust:1618>]).duration(100).EUt(10).buildAndRegister();
-alloy.recipeBuilder().inputs([<minecraft:coal:1> * 16, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(300).EUt(16).buildAndRegister();
+alloy.recipeBuilder().inputs([<minecraft:coal:1> * 16, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(200).EUt(16).buildAndRegister();
+alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 8, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(16).buildAndRegister();
 alloy.recipeBuilder().inputs([<minecraft:sponge>, <minecraft:ghast_tear>]).outputs([<contenttweaker:spunchcube>]).duration(300).EUt(16).buildAndRegister();
 compressor.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
-compressor.recipeBuilder().inputs([<minecraft:coal> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
+compressor.recipeBuilder().inputs([<minecraft:coal> * 16]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
+mixer.recipeBuilder().fluidInputs([<liquid:lubricant> * 200, <liquid:manasap> * 100]).fluidOutputs([<liquid:manainfusedlube> * 100]) .duration(20).EUt(10).buildAndRegister();
+mixer.recipeBuilder().inputs([<botania:manaresource:23> * 2]).fluidInputs([<liquid:manainfusedlube> * 200, <liquid:water> * 4800]).fluidOutputs([<liquid:manainfusedDF> * 5000]) .duration(40).EUt(10).buildAndRegister();
+
+// Replace T2LV circuit
+circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2], [<liquid:tin> * 144]).remove();
+circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2], [<liquid:soldering_alloy> * 72]).remove();
+circuit_assembler.recipeBuilder().inputs([<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineCopper> * 2, <gregtech:meta_bolt:32002> * 2]).fluidInputs([<liquid:fluidmanasteel> * 72]).outputs([<gregtech:meta_item_1:623> * 2])  .duration(320).EUt(16).buildAndRegister();
+
 makeShaped("Coal_boiler", <gregtech:machine:1>,
-	["  ",
+	["   ",
 	 " S ",
 	 "BFB"],
 	{ F : <minecraft:furnace>,
@@ -20,8 +29,6 @@ makeShaped("Coal_boiler", <gregtech:machine:1>,
 	  S : <contenttweaker:brokenboiler>
 	  });
 
-
-	  
 makeShaped("stone_plank", <gregtech:meta_item_1:12328>,
 	[" H ",
 	 " P ",
@@ -56,9 +63,9 @@ makeShaped("tiertwodrill", <contenttweaker:tiertwodrill>,
 	["SBS",
 	 "PBP",
 	 " D "],
-	{ D : <gregtech:meta_tool_head_drill:324>,
+	{ D : <gregtech:meta_tool_head_drill:51>,
 	  S : <minecraft:stone_slab:4>,
-	  P : <gregtech:fluid_pipe_tiny:260>,
+	  P : <gregtech:meta_plate:324>,
 	  B : <minecraft:brick_block>
 	  });
 
@@ -70,6 +77,7 @@ makeShaped("PBFbricks", <gregtech:meta_item_1:351> * 8,
 	  M : <gregtech:meta_item_1:348>
 	  });
 
+recipes.remove(<gregtech:machine:3>);
 makeShaped("AGless Solar boiler", <gregtech:machine:3>,
 	["GGG",
 	 "III",
@@ -79,7 +87,8 @@ makeShaped("AGless Solar boiler", <gregtech:machine:3>,
 	  P : <gregtech:fluid_pipe_small:260>,
 	  H : <gregtech:steam_casing:1>,
 	  });
-	  
+
+recipes.remove(<gregtech:machine:4>);	
 makeShaped("AGless HP Solar boiler", <gregtech:machine:4>,
 	["GGG",
 	 "III",
@@ -97,10 +106,8 @@ blast_furnace.recipeBuilder()
     .outputs(<gregtech:meta_item_1:361>)
     .property("temperature", 1000)
     .EUt(1080000)
-	.duration(9000)	
+	.duration(9500)	
     .buildAndRegister();
-
-
 
 recipes.remove(<gregtech:meta_item_1:402>);
 makeShaped("AGless goodboard recipe", <gregtech:meta_item_1:402>,
@@ -111,3 +118,44 @@ makeShaped("AGless goodboard recipe", <gregtech:meta_item_1:402>,
 	  B : <gregtech:meta_item_1:382>,
 	  });
 
+makeShaped("tierthreedrill", <contenttweaker:tierthreedrill>,
+	["PLP",
+	 " C ",
+	 " D "],
+	{ D : <gregtech:meta_tool_head_drill:324>,
+	  C : <gregtech:meta_item_1:127>,
+	  L : <gregtech:meta_item_1:621>,
+	  P : <gregtech:meta_plate:51>
+	  });
+
+makeShaped("tierfourdrill", <contenttweaker:tierfourdrill>,
+	["CLC",
+	 " P ",
+	 " D "],
+	{ D : <gregtech:meta_tool_head_drill:324>,
+	  C : <gregtech:meta_item_1:157>,
+	  P : <gregtech:meta_item_1:142>,
+	  L : <gregtech:meta_item_1:621>
+	  });
+
+makeShaped("tierfivedrill", <contenttweaker:tierfivedrill>,
+	["CLC",
+	 "MAM",
+	 " D "],
+	{ D : <gregtech:meta_tool_head_drill:2>,
+	  C : <gregtech:meta_item_1:173>,
+	  A : <gregtech:meta_item_1:81>,
+	  M : <contenttweaker:dmanastone>,
+	  L : <gregtech:machine:1627>
+	  });
+
+makeShaped("tiersixdrill", <contenttweaker:tiersixdrill>,
+	["SPS",
+	 "FPF",
+	 " D "],
+	{ D : <gregtech:meta_tool_head_drill:324>,
+	  S : <gregtech:meta_item_1:233>,
+	  G : <gregtech:meta_gear:214>,
+	  P : <gregtech:meta_item_1:143>,
+	  F : <gregtech:meta_plate:32002>
+	  });

@@ -1,0 +1,41 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/logo.png",
+            "posX" : -147,
+            "posY" : 10,
+            "width" : 300,
+            "height" : 90,
+            "alignment" : "top_center"
+        }
+    },
+    "other":
+    {
+        "background":
+        {
+            "image" : "custommainmenu:textures/gui/bg.png",
+            "mode" : "fill"
+        }
+    },
+	"labels":
+	{	
+		"credittop":
+		{
+			"text" : "Credits:",
+            "posX" : -135,
+            "posY" : 100,
+			"color": -1,
+            "alignment" : "top_center"
+		},
+		"creditbody":
+		{
+			"text" : "web:https://pastebin.com/raw/X8URx06B",
+            "posX" : -135,
+            "posY" : 120,
+			"color": -1,
+            "alignment" : "top_center"
+		}
+	}
+}

@@ -78,3 +78,24 @@ dmanastone.register();
 
 var fluidmanasteel = VanillaFactory.createFluid("fluidmanasteel", Color.fromHex("66d1ad")); 
 fluidmanasteel.register();
+
+var manasap = VanillaFactory.createFluid("manasap", Color.fromHex("66d1ad")); 
+manasap.register();
+
+var manainfusedlube = VanillaFactory.createFluid("manainfusedlube", Color.fromHex("66d1ad")); 
+manainfusedlube.register();
+
+var manainfusedDF = VanillaFactory.createFluid("manainfusedDF", Color.fromHex("66d1ad")); 
+manainfusedDF.register();
+
+var tierfivedrill = VanillaFactory.createItem("tierfivedrill");
+tierfivedrill.maxStackSize = 64;
+tierfivedrill.register();
+
+var tiersixdrill = VanillaFactory.createItem("tiersixdrill");
+tiersixdrill.maxStackSize = 64;
+tiersixdrill.register();
+
+var pressplate = VanillaFactory.createItem("pressplate");
+pressplate.maxStackSize = 1;
+pressplate.register();

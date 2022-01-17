@@ -68,7 +68,7 @@ global isCreative   as IItemCondition = function(stack as IItemStack) { return s
 
 
 global rfengine         as IItemStack  = <progressiveautomation:rf_engine>.withTag({Energy: 0});
-
+global endoflame        as IItemStack  = <botania:specialflower>.withTag({type: "endoflame"});
 
 /*
  Converts a text representation of a crafting grid recipe into an array of

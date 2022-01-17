@@ -23,6 +23,7 @@ recipes.addShaped(rfengine, [
 	[null, <minecraft:redstone_block>, null]]);
 
 
+
 ## Removal
 mods.jei.JEI.removeAndHide(<progressiveautomation:capacitor_wooden>);
 mods.jei.JEI.removeAndHide(<progressiveautomation:capacitor_stone>);

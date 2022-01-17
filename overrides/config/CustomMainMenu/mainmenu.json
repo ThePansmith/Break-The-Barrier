@@ -45,9 +45,9 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+            "posX" : 154,
+            "posY" : 132,
+            "width" : 50,
             "height" : 20,
             "action" : 
             {
@@ -81,22 +81,7 @@
             {
                 "type" : "quit"
             }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
+        },   
         "refresh":
         {
             "text" : "",
@@ -108,6 +93,20 @@
             "action" : 
             {
                 "type" : "refresh"
+            }
+        },
+        "credits":
+        {
+            "text" : "",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "text" : "Credits",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.credits"
             }
         }
     },
