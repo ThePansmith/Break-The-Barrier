@@ -60,6 +60,6 @@ makeShaped("tap", <botania:terraplate>,
 	 "DCD",
 	 "DDD"],
 	{ B	: <botania:storage>,
-	  C : <contenttweaker:dmanastone>,
-	  D : <ore:circuitGood>
+	  D : <contenttweaker:dmanastone>,
+	  C : <ore:circuitGood>
 	  });
