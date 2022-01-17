@@ -1,8 +1,0 @@
-// The PBF is not going to be present in this pack
-import mods.gregtech.recipe.RecipeMap;
-
-removeAllRecipes(RecipeMaps.getPrimitiveBlastFurnaceRecipes() {
-	recipe.remove()
-}
-
-mods.jei.JEI.removeAndHide(<gregtech:machine:1000>);
