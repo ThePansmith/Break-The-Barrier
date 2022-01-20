@@ -105,7 +105,7 @@ tier_three_drill_base
     .outputs(<gregtech:ore_quartzite_0> * 10,
 			 <gregtech:ore_emerald_0> * 5,
 	         <gregtech:ore_silver_0> * 10,
-	         <gregtech:ore_redstone_0> * 6)
+	         <gregtech:ore_redstone_0> * 10)
     .buildAndRegister();
 	
 tier_three_drill_base

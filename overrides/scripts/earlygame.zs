@@ -38,12 +38,21 @@ makeShaped("stone_plank", <gregtech:meta_item_1:12328>,
 	  });
 	  
 makeShaped("woodstonedrilltip", <contenttweaker:woodstonedrilltip>,
-	["WSW",
-	 "WSW",
-	 "SHS"],
-	{ H : <ore:gtceHardHammers>,
-	  W : <gregtech:meta_item_1:12196>,
-	  S : <gregtech:meta_item_1:12328>
+	["SWS",
+	 "SWS",
+	 " F "],
+	{ F : <ore:gemFlint>,
+	  W : <ore:plankWood>,
+	  S : <ore:stoneCobble>
+	  });
+	  
+makeShaped("woodstonedrilltip2", <contenttweaker:woodstonedrilltip>,
+	["SWS",
+	 "SWS",
+	 " F "],
+	{ F : <ore:gemFlint>,
+	  W : <ore:plankWood>,
+	  S : <ore:stoneSmooth>
 	  });
 
 // Drill recipes will likely be temp until there are textures for the drill 
@@ -98,7 +107,14 @@ makeShaped("AGless HP Solar boiler", <gregtech:machine:4>,
 	  P : <gregtech:fluid_pipe_small:324>,
 	  H : <gregtech:steam_casing:3>,
 	  });
-
+	  
+makeShaped("woodpipebad", <gregtech:fluid_pipe_small:1617> * 3,
+	["W W",
+	 "WHW",
+	 "W W"],
+	{ W : <ore:plankWood>,
+	  H : <ore:craftingToolSoftHammer>
+	  });
 // Reverting Silicon boule recipe
 blast_furnace.recipeBuilder()
     .inputs(<gregtech:meta_dust:99> * 32,
