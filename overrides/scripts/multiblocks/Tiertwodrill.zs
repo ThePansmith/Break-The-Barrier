@@ -94,11 +94,11 @@ tier_two_drill_base
     .duration(300)
 	.EUt(16)
     .inputs(<contenttweaker:tierthreedrill>)
-	.fluidInputs(<liquid:steam> * 2000)
-    .outputs(<gregtech:meta_ingot:25> * 16,
-			 <gregtech:meta_ingot:112> * 8,
-	         <minecraft:iron_ingot> * 12,
-	         <minecraft:redstone> * 8)
+	.fluidInputs(<liquid:lubricant> * 2000)
+    .outputs(<gregtech:ore_iron_0> * 10,
+			 <gregtech:ore_tin_0> * 16,
+	         <gregtech:ore_copper_0> * 10,
+	         <gregtech:ore_soapstone_0> * 8)
     .buildAndRegister();
 	
 tier_two_drill_base
@@ -107,9 +107,9 @@ tier_two_drill_base
     .duration(400)
 	.EUt(24)
     .inputs(<contenttweaker:tierfourdrill>)
-	.fluidInputs(<liquid:steam> * 4000)
-    .outputs(<minecraft:coal> * 16,
-	         <gregtech:meta_dust:103> * 10,
-			 <minecraft:iron_ingot> * 20,
-	         <gregtech:meta_ingot:25> * 10)
+	.fluidInputs(<liquid:drilling_fluid> * 2000)
+    .outputs(<gregtech:ore_aluminium_0:2> * 16,
+	         <gregtech:ore_nickel_0:2> * 10,
+	         <gregtech:ore_gold_0:2> * 10,
+			 <gregtech:ore_sphalerite_0> * 5)
     .buildAndRegister();
