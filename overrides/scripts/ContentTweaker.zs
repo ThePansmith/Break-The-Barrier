@@ -12,17 +12,9 @@ import mods.contenttweaker.AxisAlignedBB;
 import mods.contenttweaker.IItemFoodEaten;
 import crafttweaker.potions.IPotion;
 
-var tieronedrill = VanillaFactory.createItem("tieronedrill");
-tieronedrill.maxStackSize = 64;
-tieronedrill.register();
-
 var woodstonedrilltip = VanillaFactory.createItem("woodstonedrilltip");
 woodstonedrilltip.maxStackSize = 64;
 woodstonedrilltip.register();
-
-var tiertwodrill = VanillaFactory.createItem("tiertwodrill");
-tiertwodrill.maxStackSize = 64;
-tiertwodrill.register();
 
 var worldgenblock = VanillaFactory.createBlock("worldgenblock", <blockmaterial:sand>);
 worldgenblock.setBlockHardness(0.5);
@@ -56,18 +48,6 @@ spunchcube.setToolLevel(1);
 spunchcube.setBlockSoundType(<soundtype:sand>);
 spunchcube.register();
 
-var tierthreedrill = VanillaFactory.createItem("tierthreedrill");
-tierthreedrill.maxStackSize = 64;
-tierthreedrill.register();
-
-var tierfourdrill = VanillaFactory.createItem("tierfourdrill");
-tierfourdrill.maxStackSize = 64;
-tierfourdrill.register();
-
-var biomedrill = VanillaFactory.createItem("biomedrill");
-biomedrill.maxStackSize = 64;
-biomedrill.register();
-
 var dmanastone = VanillaFactory.createBlock("dmanastone", <blockmaterial:sand>);
 dmanastone.setBlockHardness(1);
 dmanastone.setBlockResistance(2.5);
@@ -85,17 +65,52 @@ manasap.register();
 var manainfusedlube = VanillaFactory.createFluid("manainfusedlube", Color.fromHex("66d1ad")); 
 manainfusedlube.register();
 
-var manainfusedDF = VanillaFactory.createFluid("manainfusedDF", Color.fromHex("66d1ad")); 
-manainfusedDF.register();
-
-var tierfivedrill = VanillaFactory.createItem("tierfivedrill");
-tierfivedrill.maxStackSize = 64;
-tierfivedrill.register();
-
-var tiersixdrill = VanillaFactory.createItem("tiersixdrill");
-tiersixdrill.maxStackSize = 64;
-tiersixdrill.register();
+var manainfuseddf = VanillaFactory.createFluid("manainfuseddf", Color.fromHex("66d1ad")); 
+manainfuseddf.register();
 
 var pressplate = VanillaFactory.createItem("pressplate");
 pressplate.maxStackSize = 1;
 pressplate.register();
+
+// Drills 
+var tieronedrill = VanillaFactory.createItem("tieronedrill");
+tieronedrill.maxStackSize = 1;
+tieronedrill.rarity = "rare";
+tieronedrill.maxDamage = 3;
+tieronedrill.register();
+
+var tiertwodrill = VanillaFactory.createItem("tiertwodrill");
+tiertwodrill.maxStackSize = 1;
+tiertwodrill.rarity = "rare";
+tiertwodrill.maxDamage = 3;
+tiertwodrill.register();
+
+var tierthreedrill = VanillaFactory.createItem("tierthreedrill");
+tierthreedrill.maxStackSize = 1;
+tierthreedrill.rarity = "rare";
+tierthreedrill.maxDamage = 5;
+tierthreedrill.register();
+
+var tierfourdrill = VanillaFactory.createItem("tierfourdrill");
+tierfourdrill.maxStackSize = 1;
+tierfourdrill.rarity = "rare";
+tierfourdrill.maxDamage = 5;
+tierfourdrill.register();
+
+var biomedrill = VanillaFactory.createItem("biomedrill");
+biomedrill.maxStackSize = 1;
+biomedrill.rarity = "rare";
+biomedrill.maxDamage = 5;
+biomedrill.register();
+
+var tierfivedrill = VanillaFactory.createItem("tierfivedrill");
+tierfivedrill.maxStackSize = 1;
+tierfivedrill.rarity = "rare";
+tierfivedrill.maxDamage = 5;
+tierfivedrill.register();
+
+var tiersixdrill = VanillaFactory.createItem("tiersixdrill");
+tiersixdrill.maxStackSize = 1;
+tiersixdrill.rarity = "rare";
+tiersixdrill.maxDamage = 5;
+tiersixdrill.register();

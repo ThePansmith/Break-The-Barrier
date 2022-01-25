@@ -9,7 +9,9 @@ import mods.gregtech.multiblock.CTPredicate;
 import mods.gregtech.multiblock.IBlockPattern;
 import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
-
+import mods.gregtech.recipe.IRecipeLogic;
+import mods.gregtech.recipe.functions.ICompleteRecipeFunction;
+import crafttweaker.data.IData;
 // Multiblock 
 
 
@@ -21,23 +23,24 @@ val tier_two_drill_base = Builder.start(loc)
                        return FactoryBlockPattern.start()
             .aisle(
                 "F~F",
-                "~C~",
-                "F~F")
+                "F~F",
+				"F~F",
+                "III")
+            .aisle(
+                "~~~",
+				"~~~",
+				"~~~",
+                "IBI")
             .aisle(
                 "F~F",
-                "~C~",
-                "F~F")
-            .aisle(
-                "III",
-                "IBI",
+				"F~F",
+				"F~F",
                 "IEI")
             .where("E", controller.self())
             .where("~", CTPredicate.getAir())
-			.where("F", <gregtech:meta_block_frame_20:4>)
-			.where("C", <minecraft:iron_bars>)
-			.where("S", <gregtech:meta_block_frame_20:4>)
-			.where("B", <gregtech:meta_block_compressed_157:5>)
-			.where("C", CTPredicate.states(<metastate:gregtech:metal_casing:4>)
+			.where("F", <metastate:gregtech:meta_block_frame_20:4>)
+			.where("B", <metastate:gregtech:meta_block_compressed_157:5>)
+			.where("I", CTPredicate.states(<metastate:gregtech:metal_casing:4>)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1) // There is at least one IMPORT_ITEMS bus. JEI preview shows only one.
                                       | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setPreviewCount(1)
@@ -54,7 +57,7 @@ val tier_two_drill_base = Builder.start(loc)
 						.minOutputs(1)
                         .maxOutputs(4)
                         .build())
-    .withBaseTexture(<gregtech:turbine_casing>.asBlock().definition.getStateFromMeta(3))
+    .withBaseTexture(<gregtech:metal_casing>.asBlock().definition.getStateFromMeta(4))
     .buildAndRegister();
 
 // set optional properties
@@ -78,11 +81,11 @@ game.setLocalization(
 );
 
 // Controller Recipe
-recipes.addShaped( <gregtech:machine:3000>,
+recipes.addShaped(<gregtech:machine:32000>,
     [
-        [<minecraft:dirt>,         null ,         null],
-        [null , null ,  null ],
-        [null ,         null ,         null]
+        [<ore:plateSteel>,         <ore:ingotRedAlloy> ,        <ore:plateSteel>],
+        [<ore:ingotRedAlloy> ,     <ore:circuitBasic> ,         <ore:ingotRedAlloy> ],
+        [<ore:plateSteel> ,        <gregtech:meta_item_1:142> , <ore:plateSteel>]
     ]
 );
 
@@ -113,3 +116,129 @@ tier_two_drill_base
 	         <gregtech:ore_gold_0:2> * 10,
 			 <gregtech:ore_sphalerite_0> * 5)
     .buildAndRegister();
+	
+
+//Merged biome drill into here
+
+tier_two_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.circuit(1)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:sapling> * 5,
+			 <minecraft:wheat_seeds> * 10,
+	         <minecraft:double_plant:2> * 10,
+	         <minecraft:red_flower> * 10)
+    .buildAndRegister();
+	
+tier_two_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.circuit(2)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:sponge> * 10,
+			 <minecraft:dye> * 15)
+    .buildAndRegister();
+	
+tier_two_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.circuit(3)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:deadbush> * 10,
+		     <minecraft:sand:1> * 128,
+			 <minecraft:cactus> * 5)
+    .buildAndRegister();
+	
+tier_two_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.circuit(4)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:reeds> * 5,
+			 <minecraft:vine> * 10,
+			 <minecraft:red_flower:2> * 8)
+    .buildAndRegister();
+	
+tier_two_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.circuit(5)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:sapling:3> * 10,
+		     <minecraft:melon> * 3,
+			<minecraft:dye:3> * 5)
+    .buildAndRegister();
+	
+tier_two_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.circuit(6)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:sapling:2> * 5,
+		     <minecraft:potato> * 3,
+			 <minecraft:beetroot_seeds> * 5,
+			 <minecraft:red_flower:3> * 10)
+    .buildAndRegister();
+	
+tier_two_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.circuit(7)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:sapling:5> * 4,
+			 <minecraft:yellow_flower> * 10)
+    .buildAndRegister();
+	
+tier_two_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.circuit(8)
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:sapling:4> * 4,
+			 <minecraft:potato> * 10,
+			 <minecraft:red_flower:1> * 10)
+    .buildAndRegister();
+
+
+val drills = "contenttweaker:tier";
+
+tier_two_drill_base.completeRecipe = function(logic as IRecipeLogic) {
+    for slot, stack in logic.inputInventory {
+        if(!isNull(stack) && stack.definition.id.startsWith(drills)) {
+            logic.inputInventory.setStackInSlot(
+            slot,
+                stack.withTag(
+                    stack.tag + ({
+						Damage: asInt(stack.tag.Damage) + 1,
+                    } as IData)
+			   )
+            );
+            return;
+        }
+    }
+} as ICompleteRecipeFunction;

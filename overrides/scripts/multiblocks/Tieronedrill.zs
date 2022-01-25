@@ -17,26 +17,24 @@ val tier_one_drill_base = Builder.start(loc)
                        return FactoryBlockPattern.start()
             .aisle(
                 "F~F",
-                "~C~",
-                "F~F")
+				"F~F",
+                "FFF",
+                "III")
+            .aisle(
+                "~~~",
+				"~~~",
+                "FFF",
+                "IBI")
             .aisle(
                 "F~F",
-                "~C~",
-                "F~F")
-            .aisle(
-                "III",
-                "IBI",
+				"F~F",
+                "FFF",
                 "IEI")
-			.aisle(
-                "SSS",
-                "SSS",
-                "SSS")
             .where("E", controller.self())
-			.where("F", <gregtech:metal_casing:1>)
+			.where("F", <metastate:gregtech:metal_casing:1>)
             .where("~", CTPredicate.getAir())
-			.where("C", <minecraft:cobblestone_wall>)
-			.where("S", <gregtech:metal_casing:1>)
-			.where("B", <gregtech:metal_casing>)
+			.where("S", <metastate:gregtech:metal_casing:1>)
+			.where("B", <metastate:gregtech:metal_casing>)
             .where("I", CTPredicate.states(<metastate:gregtech:metal_casing>)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1) // There is at least one IMPORT_ITEMS bus. JEI preview shows only one.
                                       | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
@@ -53,7 +51,7 @@ val tier_one_drill_base = Builder.start(loc)
 						.minOutputs(1)
                         .maxOutputs(4)
                         .build())
-		.withBaseTexture(<gregtech:metal_casing>.asBlock().definition.getStateFromMeta(1))
+	.withBaseTexture(<gregtech:metal_casing>.asBlock())
 		.buildAndRegister();
 // set optional properties
 tier_one_drill_base.hasMaintenanceMechanics = false;
@@ -76,9 +74,9 @@ game.setLocalization(
 
 // Controller Recipe
 recipes.addShaped(
-    <gregtech:machine:3000>,
+    <gregtech:machine:32001>,
     [
-        [<gregtech:fluid_pipe_normal:1617>,         <gregtech:fluid_pipe_normal:1617>,         <gregtech:fluid_pipe_normal:1617>],
+        [<gregtech:fluid_pipe_normal:1617>,         <gregtech:metal_casing:1>,         <gregtech:fluid_pipe_normal:1617>],
         [<minecraft:glass>, <gregtech:metal_casing:1>,  <minecraft:glass>],
         [<gregtech:fluid_pipe_normal:1617>,         <gregtech:metal_casing:1>,         <gregtech:fluid_pipe_normal:1617>]
     ]
@@ -88,8 +86,9 @@ recipes.addShaped(
 	
 tier_one_drill_base
 	.recipeMap
-    .recipeBuilder()
+		.recipeBuilder()
     .duration(500)
+	.EUt(1)
     .inputs(<contenttweaker:tieronedrill>)
 	.fluidInputs(<liquid:steam> * 2000)
     .outputs(<gregtech:meta_ingot:25> * 16,
@@ -100,8 +99,9 @@ tier_one_drill_base
 	
 tier_one_drill_base
 	.recipeMap
-    .recipeBuilder()
+		.recipeBuilder()
     .duration(500)
+	.EUt(0)
     .inputs(<contenttweaker:tiertwodrill>)
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:coal> * 16,

@@ -93,17 +93,14 @@ extruder.recipeBuilder()
 			   .buildAndRegister();
 
 // Removal of shaped drive recipes
-val drives = [			<appliedenergistics2:storage_cell_1k>.withTag({}),
-						<appliedenergistics2:storage_cell_4k>.withTag({}),
-						<appliedenergistics2:storage_cell_16k>.withTag({}),
-						<appliedenergistics2:storage_cell_64k>.withTag({}),
-						<appliedenergistics2:fluid_storage_cell_1k>.withTag({}),
-						<appliedenergistics2:fluid_storage_cell_4k>.withTag({}),
-						<appliedenergistics2:fluid_storage_cell_16k>.withTag({}),
-						<appliedenergistics2:fluid_storage_cell_64k>.withTag({})] as IItemStack[];
-for ing in drives {
-recipes.removeShaped(ing);
-}
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_1k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_4k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_16k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_64k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_1k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_4k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_16k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_64k");
 
 makeShaped("ae2mold", <contenttweaker:pressplate>,
 	[" C ",
@@ -134,7 +131,7 @@ makeShaped("ae2drive", <appliedenergistics2:drive>,
 	  });
 
 recipes.remove(<appliedenergistics2:interface>);
-makeShaped("ae2interface", <appliedenergistics2:interface> * 4,
+makeShaped("ae2interfacev", <appliedenergistics2:interface> * 4,
 	["PIP",
 	 "CFC",
 	 "PIP"],
@@ -167,7 +164,7 @@ makeShaped("ae2housing", <appliedenergistics2:material:39>,
 	  });
 
 recipes.remove(<appliedenergistics2:material:52>);
-makeShaped("ae2housing", <appliedenergistics2:material:52> * 4,
+makeShaped("ae2interface", <appliedenergistics2:material:52> * 4,
 	[" M ",
 	 "MGM",
 	 "SSS"],
@@ -177,11 +174,6 @@ makeShaped("ae2housing", <appliedenergistics2:material:52> * 4,
 	  });
 	  
 
-// Allow swap between interface and fluid interface
-// Will likly put this in chisel as well
-
-recipes.remove(<appliedenergistics2:fluid_interface>);
-recipes.addShapeless(<appliedenergistics2:fluid_interface>, <appliedenergistics2:interface>);
 
 //removal
 mods.jei.JEI.removeAndHide(<appliedenergistics2:charger>);

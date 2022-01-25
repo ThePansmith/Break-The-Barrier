@@ -16,52 +16,53 @@ val tier_three_drill_base = Builder.start(loc)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
                        return FactoryBlockPattern.start()
             .aisle(
-                "F   F",
-                "     ",
-				"  P  ",
-				"     ",
-				"F   F")
+				"F~~~F",
+				"F~~~F",
+				"BIIIB",
+				"~~~~~")
             .aisle(
-                "F   F",
-                "     ",
-				"  P  ",
-				"     ",
-				"F   F")
+                "~~~~~",
+				"~~~~~",
+				"ICCCI",
+				"~CCC~")
             .aisle(
-                "BIIIB",
-                "I   I",
-				"I P I",
-				"I   I",
-				"BIEIB")
-			.aisle(
-                "     ",
-                " CCC ",
-				" CBC ",
-				" CCC ",
-				"     ")
+                "~~~~~",
+				"~~~~~",
+				"ICCCI",
+				"~CBC~")
+            .aisle(
+                "~~~~~",
+				"~~~~~",
+				"ICCCI",
+				"~CCC~")
+            .aisle(
+				"F~~~F",
+				"F~~~F",
+				"BIEIB",
+				"~~~~~")
             .where("E", controller.self())
             .where("~", CTPredicate.getAir())
-			.where("F", <gregtech:meta_block_frame_0:2>)
-			.where("B", <gregtech:boiler_casing:1>)
-			.where("C", <gregtech:metal_casing:4>)
-            .whereOr("I", CTPredicate.states(<metastate:gregtech:metal_casing:4>)
+			.where("F", <metastate:gregtech:meta_block_frame_0:2>)
+			.where("B", <metastate:gregtech:boiler_casing:1>)
+			.where("C", <metastate:gregtech:metal_casing:4>)
+            .where("I", CTPredicate.states(<metastate:gregtech:metal_casing:4>)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1) // There is at least one IMPORT_ITEMS bus. JEI preview shows only one.
                                       | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setPreviewCount(1)
-                                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1) // There is at least one INPUT_ENERGY hatch and no more than three of it. JEI preview shows only one.
-                    )
+                                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1) // There is at least one INPUT_ENERGY hatch and no more than three of it. JEI preview shows only one.
+            )
             .build();
     } as IPatternBuilderFunction)
     .withRecipeMap(
         FactoryRecipeMap.start("tier_three_drill_base")
                         .minFluidInputs(1)
-                        .maxFluidInputs(2)
+                        .maxFluidInputs(1)
                         .minInputs(1)
 						.maxInputs(1)
 						.minOutputs(1)
-                        .maxOutputs(9)
+                        .maxOutputs(4)
                         .build())
-	.withBaseTexture(<gregtech:metal_casing>.asBlock().definition.getStateFromMeta(4))					
+    .withBaseTexture(<gregtech:metal_casing>.asBlock().definition.getStateFromMeta(4))
     .buildAndRegister();
 
 // set optional properties
@@ -85,7 +86,7 @@ game.setLocalization(
 
 // Controller Recipe
 recipes.addShaped(
-    <gregtech:machine:3002>,
+    <gregtech:machine:32002>,
     [
         [<gregtech:meta_plate_double:324>, <ore:circuitGood>, <gregtech:meta_plate_double:324>],
         [<gregtech:meta_item_1:143>, <gregtech:machine:987>, <gregtech:meta_item_1:248>],

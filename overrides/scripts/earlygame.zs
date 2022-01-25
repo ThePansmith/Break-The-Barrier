@@ -6,14 +6,16 @@ import scripts.CommonVars.makeShaped as makeShaped;
 
 // Wood pulp into chad
 compressor.recipeBuilder().inputs([<gregtech:meta_dust:1617> * 2]).outputs([<gregtech:meta_dust:1618>]).duration(100).EUt(10).buildAndRegister();
-alloy.recipeBuilder().inputs([<minecraft:coal:1> * 16, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(200).EUt(16).buildAndRegister();
-alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 8, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(16).buildAndRegister();
+alloy.recipeBuilder().inputs([<minecraft:coal:1> * 16, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(200).EUt(10).buildAndRegister();
+alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 8, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(8).buildAndRegister();
+alloy.recipeBuilder().inputs([<minecraft:coal:1> * 10, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(8).buildAndRegister();
+alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 6, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(130).EUt(6).buildAndRegister();
 alloy.recipeBuilder().inputs([<minecraft:sponge>, <minecraft:ghast_tear>]).outputs([<contenttweaker:spunchcube>]).duration(300).EUt(16).buildAndRegister();
 compressor.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 compressor.recipeBuilder().inputs([<minecraft:coal> * 16]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
 mixer.recipeBuilder().fluidInputs([<liquid:lubricant> * 200, <liquid:manasap> * 100]).fluidOutputs([<liquid:manainfusedlube> * 100]) .duration(20).EUt(10).buildAndRegister();
-mixer.recipeBuilder().inputs([<botania:manaresource:23> * 2]).fluidInputs([<liquid:manainfusedlube> * 200, <liquid:water> * 4800]).fluidOutputs([<liquid:manainfusedDF> * 5000]) .duration(40).EUt(10).buildAndRegister();
+mixer.recipeBuilder().inputs([<botania:manaresource:23> * 2]).fluidInputs([<liquid:manainfusedlube> * 200, <liquid:water> * 4800]).fluidOutputs([<liquid:manainfuseddf> * 5000]) .duration(40).EUt(10).buildAndRegister();
 
 // Replace T2LV circuit
 circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2], [<liquid:tin> * 144]).remove();
