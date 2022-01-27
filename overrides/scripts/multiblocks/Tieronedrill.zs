@@ -7,12 +7,16 @@ import mods.gregtech.multiblock.CTPredicate;
 import mods.gregtech.multiblock.IBlockPattern;
 import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.recipe.IRecipeLogic;
+import mods.gregtech.recipe.IRecipe;
+import mods.gregtech.recipe.ISetupRecipeFunction;
+import mods.gregtech.recipe.IRecipeFunction;
 // Multiblock 
 
 
-var loc = "mbt:tier_one_drill_base";
+var loc = "mbt:tier_1_drill_base";
 
-val tier_one_drill_base = Builder.start(loc)
+val tier_1_drill_base = Builder.start(loc)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
                        return FactoryBlockPattern.start()
             .aisle(
@@ -43,7 +47,7 @@ val tier_one_drill_base = Builder.start(loc)
             .build();
     } as IPatternBuilderFunction)
 	    .withRecipeMap(
-		FactoryRecipeMap.start("tier_one_drill_base")
+		FactoryRecipeMap.start("tier_1_drill_base")
                         .minFluidInputs(1)
                         .maxFluidInputs(1)
                         .minInputs(1)
@@ -54,21 +58,21 @@ val tier_one_drill_base = Builder.start(loc)
 	.withBaseTexture(<gregtech:metal_casing>.asBlock())
 		.buildAndRegister();
 // set optional properties
-tier_one_drill_base.hasMaintenanceMechanics = false;
-tier_one_drill_base.hasMufflerMechanics = false;
+tier_1_drill_base.hasMaintenanceMechanics = false;
+tier_1_drill_base.hasMufflerMechanics = false;
 
 // Lang	
 game.setLocalization(
-    "multiblocktweaker.machine.tier_one_drill_base.name",
+    "multiblocktweaker.machine.tier_1_drill_base.name",
     "Tier one drill base controller"
 );
 game.setLocalization(
-    "multiblocktweaker.multiblock.tier_one_drill_base.description",
+    "multiblocktweaker.multiblock.tier_1_drill_base.description",
     "i forgor"
 );	
 
 game.setLocalization(
-    "recipemap.tier_one_drill_base.name",
+    "recipemap.tier_1_drill_base.name",
     "Tier one drill base"
 );
 
@@ -84,7 +88,7 @@ recipes.addShaped(
 
 // Recipes	
 	
-tier_one_drill_base
+tier_1_drill_base
 	.recipeMap
 		.recipeBuilder()
     .duration(500)
@@ -97,11 +101,11 @@ tier_one_drill_base
 	         <minecraft:redstone> * 8)
     .buildAndRegister();
 	
-tier_one_drill_base
+tier_1_drill_base
 	.recipeMap
 		.recipeBuilder()
     .duration(500)
-	.EUt(0)
+	.EUt(1)
     .inputs(<contenttweaker:tiertwodrill>)
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:coal> * 16,
@@ -109,3 +113,11 @@ tier_one_drill_base
 			 <minecraft:iron_ingot> * 20,
 	         <gregtech:meta_ingot:25> * 10)
     .buildAndRegister();
+	
+// Logic to have T1 base actually require 0eu/t
+// Shoutouts to kilabash
+tier_1_drill_base.setupRecipeFunction = function(recipeLogic as IRecipeLogic, recipe as IRecipe) as bool {
+recipeLogic.superSetupRecipe(recipe);
+    recipeLogic.recipeEUt = 0;
+    return false;
+} as ISetupRecipeFunction;

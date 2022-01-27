@@ -56,16 +56,16 @@ dmanastone.setToolLevel(1);
 dmanastone.setBlockSoundType(<soundtype:sand>);
 dmanastone.register();
 
-var fluidmanasteel = VanillaFactory.createFluid("fluidmanasteel", Color.fromHex("66d1ad")); 
+var fluidmanasteel = VanillaFactory.createFluid("fluidmanasteel", Color.fromHex("0010ff")); 
 fluidmanasteel.register();
 
-var manasap = VanillaFactory.createFluid("manasap", Color.fromHex("66d1ad")); 
+var manasap = VanillaFactory.createFluid("manasap", Color.fromHex("01ebfc")); 
 manasap.register();
 
-var manainfusedlube = VanillaFactory.createFluid("manainfusedlube", Color.fromHex("66d1ad")); 
+var manainfusedlube = VanillaFactory.createFluid("manainfusedlube", Color.fromHex("129BCB")); 
 manainfusedlube.register();
 
-var manainfuseddf = VanillaFactory.createFluid("manainfuseddf", Color.fromHex("66d1ad")); 
+var manainfuseddf = VanillaFactory.createFluid("manainfuseddf", Color.fromHex("1186AF")); 
 manainfuseddf.register();
 
 var pressplate = VanillaFactory.createItem("pressplate");

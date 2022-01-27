@@ -5,6 +5,8 @@ import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
 import mods.gregtech.material.Material;
 import mods.appliedenergistics2.Inscriber;
+
+
 //cables
 recipes.remove(<appliedenergistics2:part:16>);
 recipes.remove(<appliedenergistics2:part:140>);
@@ -172,8 +174,23 @@ makeShaped("ae2interface", <appliedenergistics2:material:52> * 4,
 	  M : <botania:manaresource:23>,
 	  S : <gregtech:meta_ingot:324>
 	  });
+	 
+recipes.remove(<appliedenergistics2:fluid_interface>);  
+makeShaped("fluidalt", <appliedenergistics2:fluid_interface> * 1,
+	["   ",
+	 " B ",
+	 " W "],
+	{ W : <ore:craftingToolWrench>,
+	  B : <appliedenergistics2:interface>
+	  });
 	  
-
+makeShaped("fluidrevert", <appliedenergistics2:interface> * 1,
+	["   ",
+	 " B ",
+	 " W "],
+	{ W : <ore:craftingToolWrench>,
+	  B : <appliedenergistics2:fluid_interface>
+	  });
 
 //removal
 mods.jei.JEI.removeAndHide(<appliedenergistics2:charger>);
@@ -181,4 +198,6 @@ mods.jei.JEI.removeAndHide(<appliedenergistics2:inscriber>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:part:260>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:part:240>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:fluix_block>);
-
+mods.jei.JEI.removeAndHide(<appliedenergistics2:crystal_seed>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:crystal_seed:600>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:crystal_seed:1200>);

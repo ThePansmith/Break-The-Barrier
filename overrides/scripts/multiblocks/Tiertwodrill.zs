@@ -10,15 +10,15 @@ import mods.gregtech.multiblock.IBlockPattern;
 import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.IRecipeLogic;
-import mods.gregtech.recipe.functions.ICompleteRecipeFunction;
-import crafttweaker.data.IData;
+import mods.gregtech.recipe.IRecipe;
+import mods.gregtech.recipe.ISetupRecipeFunction;
 // Multiblock 
 
 
 
-var loc = "mbt:tier_two_drill_base";
+var loc = "mbt:tier_2_drill_base";
 
-val tier_two_drill_base = Builder.start(loc)
+val tier_2_drill_base = Builder.start(loc)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
                        return FactoryBlockPattern.start()
             .aisle(
@@ -49,7 +49,7 @@ val tier_two_drill_base = Builder.start(loc)
             .build();
     } as IPatternBuilderFunction)
     .withRecipeMap(
-        FactoryRecipeMap.start("tier_two_drill_base")
+        FactoryRecipeMap.start("tier_2_drill_base")
                         .minFluidInputs(1)
                         .maxFluidInputs(1)
                         .minInputs(1)
@@ -61,22 +61,22 @@ val tier_two_drill_base = Builder.start(loc)
     .buildAndRegister();
 
 // set optional properties
-tier_two_drill_base.hasMaintenanceMechanics = false;
-tier_two_drill_base.hasMufflerMechanics = false;
+tier_2_drill_base.hasMaintenanceMechanics = false;
+tier_2_drill_base.hasMufflerMechanics = false;
 
 
 // Lang	
 game.setLocalization(
-    "multiblocktweaker.machine.tier_two_drill_base.name",
+    "multiblocktweaker.machine.tier_2_drill_base.name",
     "Tier two drill base controller"
 );
 game.setLocalization(
-    "multiblocktweaker.multiblock.tier_two_drill_base.description",
+    "multiblocktweaker.multiblock.tier_2_drill_base.description",
     "i forgor"
 );	
 
 game.setLocalization(
-    "recipemap.tier_two_drill_base.name",
+    "recipemap.tier_2_drill_base.name",
     "Tier two drill base"
 );
 
@@ -91,7 +91,7 @@ recipes.addShaped(<gregtech:machine:32000>,
 
 // Recipes	
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
 		.recipeBuilder()
     .duration(300)
@@ -104,23 +104,23 @@ tier_two_drill_base
 	         <gregtech:ore_soapstone_0> * 8)
     .buildAndRegister();
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
 		.recipeBuilder()
     .duration(400)
 	.EUt(24)
     .inputs(<contenttweaker:tierfourdrill>)
 	.fluidInputs(<liquid:drilling_fluid> * 2000)
-    .outputs(<gregtech:ore_aluminium_0:2> * 16,
-	         <gregtech:ore_nickel_0:2> * 10,
-	         <gregtech:ore_gold_0:2> * 10,
+    .outputs(<gregtech:ore_aluminium_0> * 16,
+	         <gregtech:ore_nickel_0> * 10,
+	         <gregtech:ore_gold_0> * 10,
 			 <gregtech:ore_sphalerite_0> * 5)
     .buildAndRegister();
 	
 
 //Merged biome drill into here
 
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -134,7 +134,7 @@ tier_two_drill_base
 	         <minecraft:red_flower> * 10)
     .buildAndRegister();
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -146,7 +146,7 @@ tier_two_drill_base
 			 <minecraft:dye> * 15)
     .buildAndRegister();
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -159,7 +159,7 @@ tier_two_drill_base
 			 <minecraft:cactus> * 5)
     .buildAndRegister();
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -172,7 +172,7 @@ tier_two_drill_base
 			 <minecraft:red_flower:2> * 8)
     .buildAndRegister();
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -185,7 +185,7 @@ tier_two_drill_base
 			<minecraft:dye:3> * 5)
     .buildAndRegister();
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -199,7 +199,7 @@ tier_two_drill_base
 			 <minecraft:red_flower:3> * 10)
     .buildAndRegister();
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -211,7 +211,7 @@ tier_two_drill_base
 			 <minecraft:yellow_flower> * 10)
     .buildAndRegister();
 	
-tier_two_drill_base
+tier_2_drill_base
 	.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -223,22 +223,3 @@ tier_two_drill_base
 			 <minecraft:potato> * 10,
 			 <minecraft:red_flower:1> * 10)
     .buildAndRegister();
-
-
-val drills = "contenttweaker:tier";
-
-tier_two_drill_base.completeRecipe = function(logic as IRecipeLogic) {
-    for slot, stack in logic.inputInventory {
-        if(!isNull(stack) && stack.definition.id.startsWith(drills)) {
-            logic.inputInventory.setStackInSlot(
-            slot,
-                stack.withTag(
-                    stack.tag + ({
-						Damage: asInt(stack.tag.Damage) + 1,
-                    } as IData)
-			   )
-            );
-            return;
-        }
-    }
-} as ICompleteRecipeFunction;

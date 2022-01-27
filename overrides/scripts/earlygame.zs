@@ -6,14 +6,26 @@ import scripts.CommonVars.makeShaped as makeShaped;
 
 // Wood pulp into chad
 compressor.recipeBuilder().inputs([<gregtech:meta_dust:1617> * 2]).outputs([<gregtech:meta_dust:1618>]).duration(100).EUt(10).buildAndRegister();
+
+// Charcoal or coke into steel
+// Coke is a bit faster, at the cost of itself taking longer to produce
+// Same goes for wrought iron
 alloy.recipeBuilder().inputs([<minecraft:coal:1> * 16, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(200).EUt(10).buildAndRegister();
 alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 8, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(8).buildAndRegister();
 alloy.recipeBuilder().inputs([<minecraft:coal:1> * 10, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(8).buildAndRegister();
 alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 6, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(130).EUt(6).buildAndRegister();
+
+//Spunch
 alloy.recipeBuilder().inputs([<minecraft:sponge>, <minecraft:ghast_tear>]).outputs([<contenttweaker:spunchcube>]).duration(300).EUt(16).buildAndRegister();
+
+//(Char)coal into diamond
 compressor.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 compressor.recipeBuilder().inputs([<minecraft:coal> * 16]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
+
+//Conversion
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
+
+// May end up replacing these fluids
 mixer.recipeBuilder().fluidInputs([<liquid:lubricant> * 200, <liquid:manasap> * 100]).fluidOutputs([<liquid:manainfusedlube> * 100]) .duration(20).EUt(10).buildAndRegister();
 mixer.recipeBuilder().inputs([<botania:manaresource:23> * 2]).fluidInputs([<liquid:manainfusedlube> * 200, <liquid:water> * 4800]).fluidOutputs([<liquid:manainfuseddf> * 5000]) .duration(40).EUt(10).buildAndRegister();
 

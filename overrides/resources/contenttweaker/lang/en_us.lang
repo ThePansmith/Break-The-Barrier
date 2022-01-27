@@ -12,3 +12,17 @@ item.contenttweaker.tiersixdrill.name=Tier 6 Drill
 item.contenttweaker.biomedrill.name=Biome Drill
 item.contenttweaker.pressplate.name=Extruder Shape (Printed Circuit)
 tile.contenttweaker.dmanastone.name=Diluted Mana stone
+fluid.fluidmanasteel=Molten Manasteel
+fluid.manasap=Mana Sap
+fluid.manainfusedlube=Mana Mana Infused lube
+fluid.manainfuseddf=Mana Mana Infused Drill Fluid
+mbt.machine.tier_1_drill_base.name=Tier 1 base controller
+mbt.multiblock.tier_1_drill_base.description= The first base, mines up basic resources with steam
+recipemap.tier_1_drill_base.name=Tier 1 base
+mbt.machine.tier_2_drill_base.name=Tier 2 base controller
+mbt.multiblock.tier_2_drill_base.description= The second base, allows for more efficient gathering of resources, now with ores!
+recipemap.tier_2_drill_base.name=Tier 2 base
+mbt.machine.tier_3_drill_base.name=Tier 3 base controller
+mbt.multiblock.tier_3_drill_base.description= The third base, allows for the gathering of some new resources, which will help push into AE2 and beyond.
+recipemap.tier_3_drill_base.name=Tier 3 base
+

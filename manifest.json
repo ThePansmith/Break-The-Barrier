@@ -148,6 +148,18 @@
 		"required": true
 	},
 	{
+		"alias": "Chisel",
+		"fileID": 2915375,
+		"projectID": 235279,
+		"required": true
+	},
+	{
+		"alias": "CTM",
+		"fileID": 2915363,
+		"projectID": 267602,
+		"required": true
+	},
+	{
 		"alias": "Load My Resources [Forge]",
 		"fileID": 3484298,
 		"projectID": 534502,

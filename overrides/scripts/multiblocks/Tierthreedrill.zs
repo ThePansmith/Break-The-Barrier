@@ -10,9 +10,9 @@ import mods.gregtech.recipe.RecipeMap;
 
 // Multiblock 
 
-var loc = "mbt:tier_three_drill_base";
+var loc = "mbt:tier_3_drill_base";
 
-val tier_three_drill_base = Builder.start(loc)
+val tier_3_drill_base = Builder.start(loc)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
                        return FactoryBlockPattern.start()
             .aisle(
@@ -54,7 +54,7 @@ val tier_three_drill_base = Builder.start(loc)
             .build();
     } as IPatternBuilderFunction)
     .withRecipeMap(
-        FactoryRecipeMap.start("tier_three_drill_base")
+        FactoryRecipeMap.start("tier_3_drill_base")
                         .minFluidInputs(1)
                         .maxFluidInputs(1)
                         .minInputs(1)
@@ -66,21 +66,21 @@ val tier_three_drill_base = Builder.start(loc)
     .buildAndRegister();
 
 // set optional properties
-tier_three_drill_base.hasMaintenanceMechanics = false;
-tier_three_drill_base.hasMufflerMechanics = false;
+tier_3_drill_base.hasMaintenanceMechanics = false;
+tier_3_drill_base.hasMufflerMechanics = false;
 
 // Lang	
 game.setLocalization(
-    "multiblocktweaker.machine.tier_three_drill_base.name",
-    "Tier three drill base controller"
+    "mbt.machine.tier_3_drill_base.name",
+    "Tier 3 base controller"
 );
 game.setLocalization(
-    "multiblocktweaker.multiblock.tier_three_drill_base.description",
+    "mbt.multiblock.tier_3_drill_base.description",
     "i forgor"
 );	
 
 game.setLocalization(
-    "recipemap.tier_three_drill_base.name",
+    "recipemap.tier_3_drill_base.name",
     "Tier three drill base"
 );
 
@@ -96,7 +96,7 @@ recipes.addShaped(
 
 // Recipes	
 	
-tier_three_drill_base
+tier_3_drill_base
 	.recipeMap
 		.recipeBuilder()
     .duration(500)
@@ -109,7 +109,7 @@ tier_three_drill_base
 	         <gregtech:ore_redstone_0> * 10)
     .buildAndRegister();
 	
-tier_three_drill_base
+tier_3_drill_base
 	.recipeMap
 		.recipeBuilder()
     .duration(700)

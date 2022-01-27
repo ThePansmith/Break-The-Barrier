@@ -4,6 +4,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
 
+//Removed all recipes to start
 recipes.removeByMod("storagenetwork");  
 
 
@@ -58,7 +59,7 @@ makeShaped("remote", <storagenetwork:remote:2>,
 	  P : <gregtech:meta_plate:324>
 	  });
 
-
+// Removal
 mods.jei.JEI.removeAndHide(<storagenetwork:inventory>);
 mods.jei.JEI.removeAndHide(<storagenetwork:controller>);
 mods.jei.JEI.removeAndHide(<storagenetwork:upgrade:1>);
