@@ -9,8 +9,9 @@ import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.IRecipeLogic;
 import mods.gregtech.recipe.IRecipe;
-import mods.gregtech.recipe.ISetupRecipeFunction;
-import mods.gregtech.recipe.IRecipeFunction;
+import mods.gregtech.recipe.functions.ISetupRecipeFunction;
+import mods.gregtech.recipe.functions.ICompleteRecipeFunction;
+import crafttweaker.item.IItemCondition;
 // Multiblock 
 
 
@@ -43,6 +44,7 @@ val tier_1_drill_base = Builder.start(loc)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1) // There is at least one IMPORT_ITEMS bus. JEI preview shows only one.
                                       | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setPreviewCount(1)
+                                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1) // There is at least one INPUT_ENERGY hatch and no more than three of it. JEI preview shows only one.
             )              
             .build();
     } as IPatternBuilderFunction)
@@ -86,13 +88,22 @@ recipes.addShaped(
     ]
 );
 
+// Logic to have T1 base actually require 0eu/t
+// Shoutouts to kilabash
+// JEI doesnt update to show 0eu/t, note this in qb
+tier_1_drill_base.setupRecipeFunction = function(recipeLogic as IRecipeLogic, recipe as IRecipe) as bool {
+recipeLogic.superSetupRecipe(recipe);
+    recipeLogic.recipeEUt = 0;
+    return false;
+} as ISetupRecipeFunction;
+
 // Recipes	
-	
+
 tier_1_drill_base
 	.recipeMap
 		.recipeBuilder()
     .duration(500)
-	.EUt(1)
+	.EUt(-1)
     .inputs(<contenttweaker:tieronedrill>)
 	.fluidInputs(<liquid:steam> * 2000)
     .outputs(<gregtech:meta_ingot:25> * 16,
@@ -105,7 +116,7 @@ tier_1_drill_base
 	.recipeMap
 		.recipeBuilder()
     .duration(500)
-	.EUt(1)
+	.EUt(-1)
     .inputs(<contenttweaker:tiertwodrill>)
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:coal> * 16,
@@ -113,11 +124,13 @@ tier_1_drill_base
 			 <minecraft:iron_ingot> * 20,
 	         <gregtech:meta_ingot:25> * 10)
     .buildAndRegister();
-	
-// Logic to have T1 base actually require 0eu/t
-// Shoutouts to kilabash
-tier_1_drill_base.setupRecipeFunction = function(recipeLogic as IRecipeLogic, recipe as IRecipe) as bool {
-recipeLogic.superSetupRecipe(recipe);
-    recipeLogic.recipeEUt = 0;
-    return false;
-} as ISetupRecipeFunction;
+
+// logic
+
+tier_1_drill_base.CompleteRecipeFunction = function(logic as IRecipeLogic) {
+    for slot, stack in logic.inputInventory {
+	    if(!isNull(stack){
+			transformDamage()
+		}
+	}
+} as ICompleteRecipeFunction;

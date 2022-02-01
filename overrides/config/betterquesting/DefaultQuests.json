@@ -11410,7 +11410,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier one drill base + T1 drill",
-          "desc:8": "Drills are your primary method to get resources in this world. Drills, well, drill, your resouces up. Drills require a base to launch them, and a drill will \"belong\" to a base (eg you can only launch tier one and two drills on a tier one base). A single drill doesnt bring back many resources on it\u0027s own, but it\u0027s power is in numbers. LV and above base, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. While you can not overclock steam, it\u0027s drills are fairly cheap to make, so I would recomend making a few more while you are at it."
+          "desc:8": "Drills are your primary method to get resources in this world. Drills, well, drill, your resouces up. Drills require a base to launch them, and a drill will \"belong\" to a base (eg you can only launch tier one and two drills on a tier one base). A single drill doesnt bring back many resources on it\u0027s own, but it\u0027s power is in numbers. LV and above base, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. While you can not overclock steam, it\u0027s drills are fairly cheap to make, so I would recomend making a few more while you are at it.\n\nAlso, this bases requires no eu/t, but it still requires a hatch, this is a mbt limitation.\n\n"
         }
       },
       "tasks:9": {
@@ -11453,6 +11453,12 @@
               "id:8": "gregtech:machine",
               "Count:3": 1,
               "Damage:2": 1181,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1210,
               "OreDict:8": ""
             }
           }
@@ -19638,7 +19644,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Gregtech AE2 automation review",
-          "desc:8": "§rFor those that may need a quick refresher, here\u0027s a basic guide on how to automate GT machines with AE2.\n\n§F§0§1§2§3§k§l§l§k§e§f§l§l§b§c§5§6§3§e§b§eFull credit goes to the Nomifactory team for this excerpt§b§e.\n§bThat is not a mispelling of omnifactory, and is intentonal. The cause for that is beyond this guide.\n\n§rYou can easily automate most §bGregTech§r machines with §aME Interfaces§r and processing §aPatterns§r early on by using the machine\u0027s auto-output feature.\n\nUse a §aGregTech Wrench§r to relocate the output side of a machine where you want it to be, right-click it with a §aGregTech Screwdriver§r to permit input on the output face, then put an ME Interface on that side of the machine.\n\nYou can also permit input from the output side by shift-right-clicking with a screwdriver on the output side via the machine grid.\n\nRight-click the machine and enable item auto-output (§6orange box§r in the bottom-left corner of the GUI).\n\nNow, stuff the ME Interface with processing patterns. The next time you order an item, the ME Interface will push ingredients into the machine, and the machine will push outputs back into the Interface once they\u0027re ready, completing the craft."
+          "desc:8": "§rFor those that may need a quick refresher, here\u0027s a basic guide on how to automate GT machines with AE2.\n\n§F§0§1§2§3§k§l§l§k§e§f§l§l§b§c§5§6§3§e§b§eFull credit goes to the Nomifactory team for this excerpt§b§e.\n§bThat is not a mispelling of omnifactory, and is intentonal. The cause for that is beyond this guide.\n\n§rYou can easily automate most §bGregTech§r machines with §aME Interfaces§r and processing §aPatterns§r early on by using the machine\u0027s auto-output feature.\n\nUse a §aGregTech Wrench§r to relocate the output side of a machine where you want it to be, right-click it with a §aGregTech Screwdriver§r to permit input on the output face, then put an ME Interface on that side of the machine.\n\nYou can also permit input from the output side by shift-right-clicking with a screwdriver on the output side via the machine grid.\n\nRight-click the machine and enable item auto-output (§6orange box§r in the bottom-left corner of the GUI).\n\nNow, stuff the ME Interface with processing patterns. The next time you order an item, the ME Interface will push ingredients into the machine, and the machine will push outputs back into the Interface once they\u0027re ready, completing the craft§a§r."
         }
       },
       "tasks:9": {
