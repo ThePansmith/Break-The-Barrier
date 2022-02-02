@@ -68,6 +68,12 @@ manainfusedlube.register();
 var manainfuseddf = VanillaFactory.createFluid("manainfuseddf", Color.fromHex("1186AF")); 
 manainfuseddf.register();
 
+var manainfusedethylene = VanillaFactory.createFluid("manainfusedethylene", Color.fromHex("1186AF")); 
+manainfusedethylene.register();
+
+var manainfusedpe = VanillaFactory.createFluid("manainfusedpe", Color.fromHex("BF40BF")); 
+manainfusedpe.register();
+
 var pressplate = VanillaFactory.createItem("pressplate");
 pressplate.maxStackSize = 1;
 pressplate.register();

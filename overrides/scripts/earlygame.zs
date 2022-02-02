@@ -29,6 +29,13 @@ recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
 mixer.recipeBuilder().fluidInputs([<liquid:lubricant> * 200, <liquid:manasap> * 100]).fluidOutputs([<liquid:manainfusedlube> * 100]) .duration(20).EUt(10).buildAndRegister();
 mixer.recipeBuilder().inputs([<botania:manaresource:23> * 2]).fluidInputs([<liquid:manainfusedlube> * 200, <liquid:water> * 4800]).fluidOutputs([<liquid:manainfuseddf> * 5000]) .duration(40).EUt(10).buildAndRegister();
 
+// Various mana boosted fluid recipes
+// Large chem recipes to come later
+// Also mana buffed PE recipe
+chemreactor.recipeBuilder().fluidInputs([<liquid:ethylene> * 200, <liquid:manasap> * 100]).fluidOutputs([<liquid:manainfusedethylene> * 100]) .duration(30).EUt(16).buildAndRegister();
+mixer.recipeBuilder().inputs([<gregtech:meta_dust:32002> * 1]).fluidInputs([<liquid:plastic> * 100]).fluidOutputs([<liquid:manainfusedpe> * 100]) .duration(40).EUt(10).buildAndRegister();
+chemreactor.recipeBuilder().fluidInputs([<liquid:oxygen> * 1000, <liquid:manainfusedethylene> * 144]).fluidOutputs([<liquid:plastic> * 360]) .duration(20).EUt(10).buildAndRegister();
+
 // Replace T2LV circuit
 circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2], [<liquid:tin> * 144]).remove();
 circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2], [<liquid:soldering_alloy> * 72]).remove();

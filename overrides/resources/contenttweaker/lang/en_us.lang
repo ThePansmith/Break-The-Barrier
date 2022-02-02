@@ -16,6 +16,7 @@ fluid.fluidmanasteel=Molten Manasteel
 fluid.manasap=Mana Sap
 fluid.manainfusedlube=Mana Infused lube
 fluid.manainfuseddf=Mana Infused Drill Fluid
+fluid.manainfusedpe=Mana Infused PE
 mbt.machine.tier_1_drill_base.name=Tier 1 base controller
 mbt.multiblock.tier_1_drill_base.description= The first base, mines up basic resources with steam
 recipemap.tier_1_drill_base.name=Tier 1 base

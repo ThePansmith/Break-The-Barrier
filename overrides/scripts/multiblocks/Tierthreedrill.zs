@@ -102,7 +102,7 @@ tier_3_drill_base
     .duration(500)
 	.EUt(40)
     .inputs(<contenttweaker:tierfivedrill>)
-	.fluidInputs(<liquid:manainfusedlube> * 2000)
+	.fluidInputs(<liquid:manainfusedethylene> * 2000)
     .outputs(<gregtech:ore_quartzite_0> * 10,
 			 <gregtech:ore_emerald_0> * 5,
 	         <gregtech:ore_silver_0> * 10,
@@ -115,7 +115,7 @@ tier_3_drill_base
     .duration(700)
 	.EUt(100)
     .inputs(<contenttweaker:tiersixdrill>)
-	.fluidInputs(<liquid:manainfuseddf> * 3000)
+	.fluidInputs(<liquid:manainfusedPE> * 3000)
     .outputs(<gregtech:ore_tantalite_0> * 5,
 	         <gregtech:ore_emerald_0> * 3,
 	         <gregtech:ore_ruby_0> * 10)
