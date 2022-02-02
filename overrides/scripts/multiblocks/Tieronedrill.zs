@@ -124,13 +124,3 @@ tier_1_drill_base
 			 <minecraft:iron_ingot> * 20,
 	         <gregtech:meta_ingot:25> * 10)
     .buildAndRegister();
-
-// logic
-
-tier_1_drill_base.CompleteRecipeFunction = function(logic as IRecipeLogic) {
-    for slot, stack in logic.inputInventory {
-	    if(!isNull(stack){
-			transformDamage()
-		}
-	}
-} as ICompleteRecipeFunction;

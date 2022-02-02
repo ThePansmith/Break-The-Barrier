@@ -18473,7 +18473,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier five drill",
-          "desc:8": "I\u0027m sure that at at this point, you know what makes these things special.\n\nQuartzite will be used to make quartz (and later certus quartz) via botania. Silver can be used to make electrium, which can be used to make various MV components.\n\n\nAs a dev note, im kinda iffy on these fluid choices, let me know what you think about them."
+          "desc:8": "I\u0027m sure that at at this point, you know what makes these things special.\n\nQuartzite will be used to make quartz (and later certus quartz) via botania. Silver can be used to make electrium, which can be used to make various MV components.\n\nTip: Botania can be used to make these fluids at a better ratio."
         }
       },
       "tasks:9": {
