@@ -11,6 +11,15 @@ mods.exnihilocreatio.Hammer.addRecipe(<minecraft:brick_block>, <gregtech:meta_du
 recipes.replaceAllOccurences(<exnihilocreatio:item_material:1>, <gregtech:meta_item_1:351>, <*>);
 
 mods.jei.JEI.hideCategory("exnihilocreatio:sieve");
+
+recipes.remove(<exnihilocreatio:block_barrel0>);
+makeShaped("barrel", <exnihilocreatio:block_barrel0>,
+	["P P",
+	 "P P",
+	 "PHP"],
+	{ P : <ore:plankWood>,
+	  H : <minecraft:wooden_pressure_plate>,
+	  });
 ## Removal
 mods.jei.JEI.removeAndHide(<exnihilocreatio:item_mesh>);
 mods.jei.JEI.removeAndHide(<exnihilocreatio:item_mesh:1>);
