@@ -121,6 +121,6 @@ tier_1_drill_base
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:coal> * 16,
 	         <gregtech:meta_dust:103> * 10,
-			 <minecraft:iron_ingot> * 20,
+			 <gregtech:meta_ingot:55> * 12,
 	         <gregtech:meta_ingot:25> * 10)
     .buildAndRegister();

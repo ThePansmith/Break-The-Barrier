@@ -17,6 +17,7 @@ fluid.manasap=Mana Sap
 fluid.manainfusedlube=Mana Infused lube
 fluid.manainfuseddf=Mana Infused Drill Fluid
 fluid.manainfusedpe=Mana Infused PE
+fluid.manainfusedethylene=Mana Infused Ethylene
 mbt.machine.tier_1_drill_base.name=Tier 1 base controller
 mbt.multiblock.tier_1_drill_base.description= The first base, mines up basic resources with steam
 recipemap.tier_1_drill_base.name=Tier 1 base
@@ -26,4 +27,4 @@ recipemap.tier_2_drill_base.name=Tier 2 base
 mbt.machine.tier_3_drill_base.name=Tier 3 base controller
 mbt.multiblock.tier_3_drill_base.description= The third base, allows for the gathering of some new resources, which will help push into AE2 and beyond.
 recipemap.tier_3_drill_base.name=Tier 3 base
-
+material.fluix=Fluix
