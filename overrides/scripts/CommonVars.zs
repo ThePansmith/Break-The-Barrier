@@ -58,7 +58,7 @@ global thermal_sep       as RecipeMap = RecipeMap.getByName("thermal_centrifuge"
 global tower             as RecipeMap = RecipeMap.getByName("distillation_tower");
 global unpackager        as RecipeMap = RecipeMap.getByName("unpacker");
 global wiremill          as RecipeMap = RecipeMap.getByName("wiremill");
-global thermalpresser    as RecipeMap = RecipeMap.getByName("thermalpresser");
+
 
 global isBasic      as IItemCondition = function(stack as IItemStack) { return stack.tag has {Level: 0 as byte} as IData && !(stack.tag has {Creative: 1 as byte} as IData); };
 global isHardened   as IItemCondition = function(stack as IItemStack) { return stack.tag has {Level: 1 as byte} as IData && !(stack.tag has {Creative: 1 as byte} as IData); };

@@ -4,7 +4,6 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
 
-val thermalpresser as RecipeMap = <recipemap:thermalpress>;
 
 
 // Wood pulp into chad
