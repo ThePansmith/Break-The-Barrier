@@ -21,4 +21,4 @@ MachineBuilder.create(32004, "thermalpresser")
     .addSteamTier(true)
     .buildAndRegister();
 	
-global thermalpresser    as RecipeMap = RecipeMap.getByName("thermalpresser");
+global thermalpress    as RecipeMap = RecipeMap.getByName("thermalpresser");
