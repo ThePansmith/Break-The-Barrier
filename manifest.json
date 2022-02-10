@@ -166,6 +166,12 @@
 		"required": true
 	},
 	{
+		"alias": "devtech",
+		"fileID": 3632558,
+		"projectID": 412037,
+		"required": true
+	},
+	{
 		"alias": "Load My Resources [Forge]",
 		"fileID": 3484298,
 		"projectID": 534502,

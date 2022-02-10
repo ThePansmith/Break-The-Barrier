@@ -82,9 +82,9 @@ game.setLocalization(
 recipes.addShaped(
     <gregtech:machine:32001>,
     [
-        [<gregtech:fluid_pipe_normal:1617>,         <gregtech:metal_casing:1>,         <gregtech:fluid_pipe_normal:1617>],
+        [<gregtech:fluid_pipe_small:1617>,         <gregtech:metal_casing:1>,         <gregtech:fluid_pipe_small:1617>],
         [<minecraft:glass>, <gregtech:metal_casing:1>,  <minecraft:glass>],
-        [<gregtech:fluid_pipe_normal:1617>,         <gregtech:metal_casing:1>,         <gregtech:fluid_pipe_normal:1617>]
+        [<gregtech:fluid_pipe_small:1617>,         <gregtech:metal_casing:1>,         <gregtech:fluid_pipe_small:1617>]
     ]
 );
 
@@ -120,7 +120,7 @@ tier_1_drill_base
     .inputs(<contenttweaker:tiertwodrill>)
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:coal> * 16,
-	         <gregtech:meta_dust:103> * 10,
+	         <gregtech:meta_dust:103> * 20,
 			 <gregtech:meta_ingot:55> * 12,
 	         <gregtech:meta_ingot:25> * 10)
     .buildAndRegister();

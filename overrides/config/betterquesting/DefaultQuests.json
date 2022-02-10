@@ -2,55 +2,6 @@
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
-      "questID:3": 13,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:diamond",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "Pressure pushing",
-          "desc:8": "By pressurizing some charcoal, you can make diamonds out of it!\nUse these diamonds to make a macerator, and to generally upgrade your tools.\n\n\n"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecraft:diamond",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "1:10": {
       "questID:3": 23,
       "preRequisites:11": [],
       "properties:10": {
@@ -86,56 +37,7 @@
       },
       "rewards:9": {}
     },
-    "2:10": {
-      "questID:3": 58,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:diamond",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Pressure pushing",
-          "desc:8": "By pressurizing some charcoal, you can make diamonds out of it!\nUse these diamonds to make a macerator, and to generally upgrade your tools.\n\n\n"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecraft:diamond",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "3:10": {
+    "1:10": {
       "questID:3": 68,
       "preRequisites:11": [],
       "properties:10": {
@@ -171,56 +73,7 @@
       },
       "rewards:9": {}
     },
-    "4:10": {
-      "questID:3": 108,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:diamond",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Pressure pushing",
-          "desc:8": "By pressurizing some charcoal, you can make diamonds out of it!\nUse these diamonds to make a macerator, and to generally upgrade your tools.\n\n\n"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecraft:diamond",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "5:10": {
+    "2:10": {
       "questID:3": 118,
       "preRequisites:11": [],
       "properties:10": {
@@ -256,56 +109,7 @@
       },
       "rewards:9": {}
     },
-    "6:10": {
-      "questID:3": 158,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:diamond",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Pressure pushing",
-          "desc:8": "By pressurizing some charcoal, you can make diamonds out of it!\nUse these diamonds to make a macerator, and to generally upgrade your tools.\n\n\n"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecraft:diamond",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "7:10": {
+    "3:10": {
       "questID:3": 168,
       "preRequisites:11": [],
       "properties:10": {
@@ -341,7 +145,7 @@
       },
       "rewards:9": {}
     },
-    "8:10": {
+    "4:10": {
       "questID:3": 216,
       "preRequisites:11": [],
       "properties:10": {
@@ -454,7 +258,7 @@
       },
       "rewards:9": {}
     },
-    "9:10": {
+    "5:10": {
       "questID:3": 221,
       "preRequisites:11": [
         230
@@ -511,7 +315,7 @@
       },
       "rewards:9": {}
     },
-    "10:10": {
+    "6:10": {
       "questID:3": 222,
       "preRequisites:11": [
         367
@@ -562,7 +366,7 @@
       },
       "rewards:9": {}
     },
-    "11:10": {
+    "7:10": {
       "questID:3": 223,
       "preRequisites:11": [
         222
@@ -623,7 +427,7 @@
       },
       "rewards:9": {}
     },
-    "12:10": {
+    "8:10": {
       "questID:3": 224,
       "preRequisites:11": [
         222
@@ -674,7 +478,7 @@
       },
       "rewards:9": {}
     },
-    "13:10": {
+    "9:10": {
       "questID:3": 225,
       "preRequisites:11": [
         223
@@ -725,7 +529,7 @@
       },
       "rewards:9": {}
     },
-    "14:10": {
+    "10:10": {
       "questID:3": 226,
       "preRequisites:11": [
         224
@@ -776,7 +580,7 @@
       },
       "rewards:9": {}
     },
-    "15:10": {
+    "11:10": {
       "questID:3": 227,
       "preRequisites:11": [
         225,
@@ -804,7 +608,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Boiler!",
-          "desc:8": "Using some brick blocks and a furance, you can repair that broken boiler into a working steam boiler"
+          "desc:8": "Using some brick blocks and a furance, you can repair that broken boiler into a working steam boiler.\n\nTip: boilers can not autooutput through the bottom."
         }
       },
       "tasks:9": {
@@ -828,7 +632,7 @@
       },
       "rewards:9": {}
     },
-    "16:10": {
+    "12:10": {
       "questID:3": 228,
       "preRequisites:11": [
         227
@@ -879,7 +683,7 @@
       },
       "rewards:9": {}
     },
-    "17:10": {
+    "13:10": {
       "questID:3": 229,
       "preRequisites:11": [
         227
@@ -896,7 +700,7 @@
           "icon:10": {
             "id:8": "gregtech:fluid_pipe_small",
             "Count:3": 1,
-            "Damage:2": 1617,
+            "Damage:2": 2524,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -920,8 +724,8 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:fluid_pipe_small",
-              "Count:3": 4,
-              "Damage:2": 1617,
+              "Count:3": 6,
+              "Damage:2": 2524,
               "OreDict:8": ""
             }
           },
@@ -930,7 +734,7 @@
       },
       "rewards:9": {}
     },
-    "18:10": {
+    "14:10": {
       "questID:3": 230,
       "preRequisites:11": [
         229,
@@ -958,7 +762,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 1 Base + T1 Drill",
-          "desc:8": "Drills are your primary method to get resources in this world. Drills, well, drill, your resouces up. Drills require a base to launch them, and a drill will \"belong\" to a base (eg you can only launch tier one and two drills on a tier one base). A single drill doesnt bring back many resources on it\u0027s own, but it\u0027s power is in numbers. LV and above base, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. While you can not overclock steam, it\u0027s drills are fairly cheap to make, so I would recomend making a few more while you are at it.\n\nAlso, this bases requires no eu/t, but it still requires a hatch, this is a mbt limitation.\n\n"
+          "desc:8": "Drills are your primary method to get resources in this world. Drills, well, drill, your resources up. Drills require a base to launch them, and a drill will \"belong\" to a base (eg you can only launch tier one and two drills on a tier one base). A single drill doesnt bring back many resources on it\u0027s own, but it\u0027s power is in numbers. The LV and above bases, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. While you can not overclock steam, it\u0027s drills are fairly cheap to make, so I would recomend making a few more while you are at it.\n\nAlso, this base requires no eu/t, but it still requires a hatch, this is a mbt limitation.\n\n"
         }
       },
       "tasks:9": {
@@ -1008,17 +812,12 @@
               "Count:3": 1,
               "Damage:2": 1210,
               "OreDict:8": ""
-            "4:10": {
-              "id:8": "gregtech:metal_casing",
-              "Count:3": 4,
-              "Damage:2": 1210,
-              "OreDict:8": ""
             }
           }
         }
       }
     },
-    "19:10": {
+    "15:10": {
       "questID:3": 231,
       "preRequisites:11": [
         230
@@ -1069,7 +868,7 @@
       },
       "rewards:9": {}
     },
-    "20:10": {
+    "16:10": {
       "questID:3": 232,
       "preRequisites:11": [
         231
@@ -1107,7 +906,7 @@
       },
       "rewards:9": {}
     },
-    "21:10": {
+    "17:10": {
       "questID:3": 233,
       "preRequisites:11": [
         232
@@ -1158,7 +957,7 @@
       },
       "rewards:9": {}
     },
-    "22:10": {
+    "18:10": {
       "questID:3": 234,
       "preRequisites:11": [
         232
@@ -1185,7 +984,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Steel!",
-          "desc:8": "The PBF is slow and boring, so you decided to use something that is slightly less slow. The alloy smelter recipe is somewhat inefficient, but it works well enough for now.\n\nYou can also use it to upgrade your steam machines into highpressure steam machines, which doubles their speed."
+          "desc:8": "The PBF is slow and boring, so you decided to use something that is slightly less slow. The alloy smelter recipe is somewhat inefficient, but it works well enough for now.\n\nYou can also use it to upgrade your steam machines into highpressure steam machines, which doubles their speed.\n\nTip: GT axes have AOE, this may help when you are gathering wood.\n\n"
         }
       },
       "tasks:9": {
@@ -1209,7 +1008,7 @@
       },
       "rewards:9": {}
     },
-    "23:10": {
+    "19:10": {
       "questID:3": 235,
       "preRequisites:11": [
         232
@@ -1260,7 +1059,7 @@
       },
       "rewards:9": {}
     },
-    "24:10": {
+    "20:10": {
       "questID:3": 237,
       "preRequisites:11": [
         331
@@ -1311,7 +1110,7 @@
       },
       "rewards:9": {}
     },
-    "25:10": {
+    "21:10": {
       "questID:3": 238,
       "preRequisites:11": [
         331
@@ -1337,7 +1136,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "Khalimov\u0027s Ernest contribution 1",
+          "name:8": "Khalimov\u0027s Ernest contribution",
           "desc:8": "Wood pulp can be compressed into chad, which inturn can be compressed into paper.\n\nYes, the quest title is a pun."
         }
       },
@@ -1362,7 +1161,7 @@
       },
       "rewards:9": {}
     },
-    "26:10": {
+    "22:10": {
       "questID:3": 239,
       "preRequisites:11": [
         331
@@ -1392,10 +1191,28 @@
           "desc:8": "By smashing and reforming some glass, you can make some glass tubes."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 517,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "27:10": {
+    "23:10": {
       "questID:3": 240,
       "preRequisites:11": [
         331
@@ -1446,7 +1263,7 @@
       },
       "rewards:9": {}
     },
-    "28:10": {
+    "24:10": {
       "questID:3": 241,
       "preRequisites:11": [
         228
@@ -1503,7 +1320,7 @@
       },
       "rewards:9": {}
     },
-    "29:10": {
+    "25:10": {
       "questID:3": 242,
       "preRequisites:11": [
         232
@@ -1554,7 +1371,7 @@
       },
       "rewards:9": {}
     },
-    "30:10": {
+    "26:10": {
       "questID:3": 243,
       "preRequisites:11": [
         232
@@ -1592,7 +1409,7 @@
       },
       "rewards:9": {}
     },
-    "31:10": {
+    "27:10": {
       "questID:3": 244,
       "preRequisites:11": [
         238,
@@ -1646,7 +1463,7 @@
       },
       "rewards:9": {}
     },
-    "32:10": {
+    "28:10": {
       "questID:3": 246,
       "preRequisites:11": [
         244
@@ -1697,7 +1514,7 @@
       },
       "rewards:9": {}
     },
-    "33:10": {
+    "29:10": {
       "questID:3": 247,
       "preRequisites:11": [
         246
@@ -1757,7 +1574,7 @@
       },
       "rewards:9": {}
     },
-    "34:10": {
+    "30:10": {
       "questID:3": 248,
       "preRequisites:11": [
         246
@@ -1795,7 +1612,7 @@
       },
       "rewards:9": {}
     },
-    "35:10": {
+    "31:10": {
       "questID:3": 249,
       "preRequisites:11": [
         253
@@ -1846,7 +1663,7 @@
       },
       "rewards:9": {}
     },
-    "36:10": {
+    "32:10": {
       "questID:3": 250,
       "preRequisites:11": [
         246
@@ -1879,7 +1696,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "37:10": {
+    "33:10": {
       "questID:3": 251,
       "preRequisites:11": [
         246
@@ -1917,7 +1734,7 @@
       },
       "rewards:9": {}
     },
-    "38:10": {
+    "34:10": {
       "questID:3": 252,
       "preRequisites:11": [
         231
@@ -1947,10 +1764,34 @@
           "desc:8": "If you absolutely need connected storage asap, you have an option. There is a somewhat neutered version of Simple storage network that only requires bronze and steel related materials. While it does lack output out of it\u0027s \"network\", it still retains the ability to have a crafting grid built into your system, which can help with microcrafting monotony."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:master",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "storagenetwork:request",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "39:10": {
+    "35:10": {
       "questID:3": 253,
       "preRequisites:11": [
         251
@@ -2009,7 +1850,7 @@
       },
       "rewards:9": {}
     },
-    "40:10": {
+    "36:10": {
       "questID:3": 254,
       "preRequisites:11": [
         253
@@ -2068,7 +1909,7 @@
       },
       "rewards:9": {}
     },
-    "41:10": {
+    "37:10": {
       "questID:3": 255,
       "preRequisites:11": [
         365
@@ -2119,7 +1960,7 @@
       },
       "rewards:9": {}
     },
-    "42:10": {
+    "38:10": {
       "questID:3": 256,
       "preRequisites:11": [
         254
@@ -2170,7 +2011,7 @@
       },
       "rewards:9": {}
     },
-    "43:10": {
+    "39:10": {
       "questID:3": 257,
       "preRequisites:11": [
         249,
@@ -2228,7 +2069,7 @@
       },
       "rewards:9": {}
     },
-    "44:10": {
+    "40:10": {
       "questID:3": 258,
       "preRequisites:11": [
         259,
@@ -2281,7 +2122,7 @@
       },
       "rewards:9": {}
     },
-    "45:10": {
+    "41:10": {
       "questID:3": 259,
       "preRequisites:11": [
         256
@@ -2332,7 +2173,7 @@
       },
       "rewards:9": {}
     },
-    "46:10": {
+    "42:10": {
       "questID:3": 260,
       "preRequisites:11": [
         249
@@ -2383,7 +2224,7 @@
       },
       "rewards:9": {}
     },
-    "47:10": {
+    "43:10": {
       "questID:3": 261,
       "preRequisites:11": [
         365
@@ -2434,11 +2275,9 @@
       },
       "rewards:9": {}
     },
-    "48:10": {
+    "44:10": {
       "questID:3": 262,
       "preRequisites:11": [
-        258,
-        263,
         264
       ],
       "properties:10": {
@@ -2498,58 +2337,7 @@
         }
       }
     },
-    "49:10": {
-      "questID:3": 263,
-      "preRequisites:11": [
-        258
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "gregtech:meta_item_1",
-            "Count:3": 1,
-            "Damage:2": 402,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "Board-ing",
-          "desc:8": "These squares  (and it\u0027s relatives) will be used in a decent number of circuits from here on out.\n\nCrafting them manually will require on, but later one, once you get silver, you can save resources by crafting them in a assember."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 1,
-              "Damage:2": 402,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "50:10": {
+    "45:10": {
       "questID:3": 264,
       "preRequisites:11": [
         258
@@ -2600,56 +2388,7 @@
       },
       "rewards:9": {}
     },
-    "51:10": {
-      "questID:3": 278,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:diamond",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Pressure pushing",
-          "desc:8": "By pressurizing some charcoal, you can make diamonds out of it!\nUse these diamonds to make a macerator, and to generally upgrade your tools.\n\n\n"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecraft:diamond",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "52:10": {
+    "46:10": {
       "questID:3": 288,
       "preRequisites:11": [],
       "properties:10": {
@@ -2685,9 +2424,11 @@
       },
       "rewards:9": {}
     },
-    "53:10": {
+    "47:10": {
       "questID:3": 314,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        231
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2734,62 +2475,12 @@
       },
       "rewards:9": {}
     },
-    "54:10": {
-      "questID:3": 328,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:diamond",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Pressure pushing",
-          "desc:8": "By pressurizing some charcoal, you can make diamonds out of it!\nUse these diamonds to make a macerator, and to generally upgrade your tools.\n\n\n"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecraft:diamond",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "55:10": {
+    "48:10": {
       "questID:3": 331,
       "preRequisites:11": [
-        328,
-        233,
         234,
-        235
+        235,
+        233
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2837,7 +2528,7 @@
       },
       "rewards:9": {}
     },
-    "56:10": {
+    "49:10": {
       "questID:3": 338,
       "preRequisites:11": [],
       "properties:10": {
@@ -2873,7 +2564,7 @@
       },
       "rewards:9": {}
     },
-    "57:10": {
+    "50:10": {
       "questID:3": 350,
       "preRequisites:11": [
         331
@@ -2900,7 +2591,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Tanks!",
-          "desc:8": "They store fluids, if you havent made some by this point, you really should.\n\nThere are also wooden tanks, ideal for holding large amounts of water."
+          "desc:8": "They store fluids, if you havent made some by this point, it might be worth considering.\n\nThere are also wooden tanks, ideal for holding large amounts of water."
         }
       },
       "tasks:9": {
@@ -2911,7 +2602,7 @@
       },
       "rewards:9": {}
     },
-    "58:10": {
+    "51:10": {
       "questID:3": 365,
       "preRequisites:11": [
         262,
@@ -2963,7 +2654,7 @@
       },
       "rewards:9": {}
     },
-    "59:10": {
+    "52:10": {
       "questID:3": 366,
       "preRequisites:11": [
         246
@@ -3014,7 +2705,7 @@
       },
       "rewards:9": {}
     },
-    "60:10": {
+    "53:10": {
       "questID:3": 367,
       "preRequisites:11": [],
       "properties:10": {
@@ -3104,7 +2795,7 @@
         }
       }
     },
-    "61:10": {
+    "54:10": {
       "questID:3": 368,
       "preRequisites:11": [
         257
@@ -3155,7 +2846,7 @@
       },
       "rewards:9": {}
     },
-    "62:10": {
+    "55:10": {
       "questID:3": 370,
       "preRequisites:11": [
         374
@@ -3188,7 +2879,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "63:10": {
+    "56:10": {
       "questID:3": 371,
       "preRequisites:11": [
         255
@@ -3256,7 +2947,7 @@
         }
       }
     },
-    "64:10": {
+    "57:10": {
       "questID:3": 372,
       "preRequisites:11": [
         373
@@ -3289,7 +2980,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "65:10": {
+    "58:10": {
       "questID:3": 373,
       "preRequisites:11": [
         261,
@@ -3341,7 +3032,7 @@
       },
       "rewards:9": {}
     },
-    "66:10": {
+    "59:10": {
       "questID:3": 374,
       "preRequisites:11": [
         371
@@ -3404,7 +3095,7 @@
       },
       "rewards:9": {}
     },
-    "67:10": {
+    "60:10": {
       "questID:3": 375,
       "preRequisites:11": [
         370
@@ -3455,7 +3146,7 @@
       },
       "rewards:9": {}
     },
-    "68:10": {
+    "61:10": {
       "questID:3": 376,
       "preRequisites:11": [
         371
@@ -3508,7 +3199,7 @@
         }
       }
     },
-    "69:10": {
+    "62:10": {
       "questID:3": 377,
       "preRequisites:11": [
         375
@@ -3559,7 +3250,7 @@
       },
       "rewards:9": {}
     },
-    "70:10": {
+    "63:10": {
       "questID:3": 378,
       "preRequisites:11": [
         375,
@@ -3611,7 +3302,7 @@
       },
       "rewards:9": {}
     },
-    "71:10": {
+    "64:10": {
       "questID:3": 379,
       "preRequisites:11": [
         383
@@ -3644,7 +3335,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "72:10": {
+    "65:10": {
       "questID:3": 380,
       "preRequisites:11": [
         370
@@ -3695,7 +3386,7 @@
       },
       "rewards:9": {}
     },
-    "73:10": {
+    "66:10": {
       "questID:3": 381,
       "preRequisites:11": [
         380
@@ -3746,7 +3437,7 @@
       },
       "rewards:9": {}
     },
-    "74:10": {
+    "67:10": {
       "questID:3": 382,
       "preRequisites:11": [
         373
@@ -3779,7 +3470,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "75:10": {
+    "68:10": {
       "questID:3": 383,
       "preRequisites:11": [
         377
@@ -3830,7 +3521,7 @@
       },
       "rewards:9": {}
     },
-    "76:10": {
+    "69:10": {
       "questID:3": 384,
       "preRequisites:11": [
         377,
@@ -3882,7 +3573,7 @@
       },
       "rewards:9": {}
     },
-    "77:10": {
+    "70:10": {
       "questID:3": 385,
       "preRequisites:11": [
         384
@@ -3912,10 +3603,28 @@
           "desc:8": "Let\u0027s be real, you already know how ae2 works.\n\nHowever, some things have been changed (and some other things you may want to take note of), which will be covered in the next chapter. One thing to note right away is that channels are disabled."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:energy_acceptor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "78:10": {
+    "71:10": {
       "questID:3": 386,
       "preRequisites:11": [
         385
@@ -4030,7 +3739,7 @@
       },
       "rewards:9": {}
     },
-    "79:10": {
+    "72:10": {
       "questID:3": 387,
       "preRequisites:11": [
         374
@@ -4081,7 +3790,7 @@
       },
       "rewards:9": {}
     },
-    "80:10": {
+    "73:10": {
       "questID:3": 388,
       "preRequisites:11": [
         230
@@ -4118,31 +3827,13 @@
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_tool",
-              "Count:3": 1,
-              "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
-                }
-              },
-              "Damage:2": 19,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
     },
-    "81:10": {
+    "74:10": {
       "questID:3": 389,
       "preRequisites:11": [
         231
@@ -4199,7 +3890,7 @@
       },
       "rewards:9": {}
     },
-    "82:10": {
+    "75:10": {
       "questID:3": 390,
       "preRequisites:11": [
         386
@@ -4250,7 +3941,7 @@
         }
       }
     },
-    "83:10": {
+    "76:10": {
       "questID:3": 391,
       "preRequisites:11": [
         386
@@ -4288,7 +3979,7 @@
       },
       "rewards:9": {}
     },
-    "84:10": {
+    "77:10": {
       "questID:3": 392,
       "preRequisites:11": [
         386
@@ -4339,7 +4030,7 @@
       },
       "rewards:9": {}
     },
-    "85:10": {
+    "78:10": {
       "questID:3": 393,
       "preRequisites:11": [
         391
@@ -4390,7 +4081,7 @@
       },
       "rewards:9": {}
     },
-    "86:10": {
+    "79:10": {
       "questID:3": 395,
       "preRequisites:11": [
         391
@@ -4423,7 +4114,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "87:10": {
+    "80:10": {
       "questID:3": 396,
       "preRequisites:11": [
         395
@@ -4461,7 +4152,7 @@
       },
       "rewards:9": {}
     },
-    "88:10": {
+    "81:10": {
       "questID:3": 397,
       "preRequisites:11": [
         395
@@ -4494,7 +4185,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "89:10": {
+    "82:10": {
       "questID:3": 398,
       "preRequisites:11": [
         233
@@ -4527,10 +4218,31 @@
           "desc:8": "Along with just being your normal chisel, the chisel has gained the power to swap between differnt blocktypes, such as your SSN cables, ae2 cables, and more!"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "chisel:chisel_diamond",
+              "Count:3": 1,
+              "tag:10": {
+                "chiseldata:10": {}
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "90:10": {
+    "83:10": {
       "questID:3": 399,
       "preRequisites:11": [
         246
@@ -4874,26 +4586,33 @@
         },
         "13:10": {
           "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -132,
+          "id:3": 314,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
           "x:3": -36,
           "y:3": -180,
           "id:3": 331,
           "sizeY:3": 24
         },
-        "14:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -132,
           "id:3": 350,
           "sizeY:3": 24
         },
-        "15:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": -228,
           "y:3": -228,
           "id:3": 389,
           "sizeY:3": 24
         },
-        "16:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -228,
@@ -5036,158 +4755,151 @@
         "16:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": -132,
-          "id:3": 263,
-          "sizeY:3": 24
-        },
-        "17:10": {
-          "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": -60,
+          "y:3": -96,
           "id:3": 264,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": -12,
           "id:3": 365,
           "sizeY:3": 24
         },
-        "19:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": -24,
           "id:3": 366,
           "sizeY:3": 24
         },
-        "20:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": -12,
           "id:3": 368,
           "sizeY:3": 24
         },
-        "21:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 132,
           "id:3": 370,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 36,
           "id:3": 371,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 48,
           "x:3": 132,
           "y:3": 120,
           "id:3": 372,
           "sizeY:3": 48
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 84,
           "id:3": 373,
           "sizeY:3": 24
         },
-        "25:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 84,
           "id:3": 374,
           "sizeY:3": 24
         },
-        "26:10": {
+        "25:10": {
           "sizeX:3": 48,
           "x:3": 24,
           "y:3": 228,
           "id:3": 375,
           "sizeY:3": 48
         },
-        "27:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 84,
           "y:3": 84,
           "id:3": 376,
           "sizeY:3": 24
         },
-        "28:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": -60,
           "y:3": 240,
           "id:3": 377,
           "sizeY:3": 24
         },
-        "29:10": {
+        "28:10": {
           "sizeX:3": 36,
           "x:3": 84,
           "y:3": 180,
           "id:3": 378,
           "sizeY:3": 36
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 48,
           "x:3": -216,
           "y:3": 228,
           "id:3": 379,
           "sizeY:3": 48
         },
-        "31:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": 132,
           "id:3": 380,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": 180,
           "id:3": 381,
           "sizeY:3": 24
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 192,
           "y:3": 84,
           "id:3": 382,
           "sizeY:3": 24
         },
-        "34:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": 240,
           "id:3": 383,
           "sizeY:3": 24
         },
-        "35:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": -60,
           "y:3": 180,
           "id:3": 384,
           "sizeY:3": 24
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 48,
           "x:3": -132,
           "y:3": 120,
           "id:3": 385,
           "sizeY:3": 48
         },
-        "37:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": 84,
           "id:3": 387,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": -300,
           "y:3": -132,

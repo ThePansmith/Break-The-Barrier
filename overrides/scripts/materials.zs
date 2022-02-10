@@ -3,6 +3,7 @@
 
 import mods.gregtech.material.MaterialBuilder;
 import mods.gregtech.material.Material;
+import mods.gregtech.material.MaterialRegistry;
 
 // AE2 resources
 var charged_certus = MaterialBuilder(32001, "charged_certus_quartz")
@@ -24,5 +25,6 @@ var fluix = MaterialBuilder(32002, "fluix")
     .build();
 
 var certus = <material:certus_quartz>;
-
 certus.addFlags("generate_rod", "generate_gear");
+
+<material:brick>.addFluidPipes(1900,10,true);

@@ -4,29 +4,40 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
 
+val thermalpresser as RecipeMap = <recipemap:thermalpress>;
+
+
 // Wood pulp into chad
-compressor.recipeBuilder().inputs([<gregtech:meta_dust:1617> * 2]).outputs([<gregtech:meta_dust:1618>]).duration(100).EUt(10).buildAndRegister();
+hammer.recipeBuilder().inputs([<gregtech:meta_dust:1617> * 3]).outputs([<gregtech:meta_dust:1618>]).duration(100).EUt(10).buildAndRegister();
 
 // Charcoal or coke into steel
 // Coke is a bit faster, at the cost of itself taking longer to produce
 // Same goes for wrought iron
-alloy.recipeBuilder().inputs([<minecraft:coal:1> * 16, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(200).EUt(10).buildAndRegister();
-alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 8, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(8).buildAndRegister();
-alloy.recipeBuilder().inputs([<minecraft:coal:1> * 10, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(8).buildAndRegister();
-alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 6, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(130).EUt(6).buildAndRegister();
+alloy.recipeBuilder().inputs([<minecraft:coal:1> * 8, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(200).EUt(10).buildAndRegister();
+alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 4, <minecraft:iron_ingot>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(8).buildAndRegister();
+alloy.recipeBuilder().inputs([<minecraft:coal:1> * 4, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(150).EUt(8).buildAndRegister();
+alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 3, <gregtech:meta_ingot:335>]).outputs([<gregtech:meta_ingot:324>]).duration(130).EUt(6).buildAndRegister();
 
 //Spunch
 alloy.recipeBuilder().inputs([<minecraft:sponge>, <minecraft:ghast_tear>]).outputs([<contenttweaker:spunchcube>]).duration(300).EUt(16).hidden().buildAndRegister();
 
+// Hot iron creation
+furnace.addRecipe(<contenttweaker:hotironingot>, <minecraft:iron_ingot>, 0.0);
+//hot iron into wrought
+hammer.recipeBuilder().inputs([<contenttweaker:hotironingot>]).outputs([<gregtech:meta_ingot:335>]).duration(100).EUt(16).buildAndRegister();
 
 //(Char)coal into diamond
-compressor.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
-compressor.recipeBuilder().inputs([<minecraft:coal> * 16]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
+thermalpresser.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
+thermalpresser.recipeBuilder().inputs([<minecraft:coal> * 16]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
+
+//Fast charcoal
+thermalpresser.recipeBuilder().inputs([<ore:logWood>]).outputs([<minecraft:coal:1>]).duration(75).EUt(10).buildAndRegister();
 
 //Conversion
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
 
 // Sand into dust, dust into clay
+hammer.recipeBuilder().inputs([<contenttweaker:worldgenblock>]).outputs([<minecraft:cobblestone>]).duration(10).EUt(16).buildAndRegister();
 hammer.recipeBuilder().inputs([<ore:sand>]).outputs([<exnihilocreatio:block_dust>]).duration(10).EUt(16).buildAndRegister();
 chemreactor.recipeBuilder().inputs([<exnihilocreatio:block_dust>]).fluidInputs([<liquid:water> * 1000]).outputs([<minecraft:clay>]).duration(40).EUt(16).buildAndRegister();
 
@@ -148,7 +159,7 @@ makeShaped("woodpipebad", <gregtech:fluid_pipe_small:1617> * 3,
 	 "WHW",
 	 "W W"],
 	{ W : <ore:plankWood>,
-	  H : <ore:craftingToolSoftHammer>
+	  H : <ore:gregSoftHammers>
 	  });
 // Reverting Silicon boule recipe
 blast_furnace.recipeBuilder()
@@ -209,4 +220,54 @@ makeShaped("tiersixdrill", <contenttweaker:tiersixdrill>,
 	  G : <gregtech:meta_gear:214>,
 	  P : <gregtech:meta_item_1:143>,
 	  F : <gregtech:meta_plate:32002>
+	  });
+	  
+makeShaped("brickpipe", <gregtech:fluid_pipe_small:2524> * 6,
+	["B B",
+	 "BHB",
+	 "B B"],
+	{ B : <ore:ingotBrick>,
+	  H : <ore:gregSoftHammers>
+	  });
+	  
+makeShaped("brickpipetiny", <gregtech:fluid_pipe_tiny:2524> * 8,
+	["BBB",
+	 " H ",
+	 "BBB"],
+	{ B : <ore:ingotBrick>,
+	  H : <ore:gregSoftHammers>
+	  });
+	  
+makeShaped("fireclayalt", <gregtech:meta_dust:2525> * 2,
+	["BC ",
+	 "   ",
+	 "   "],
+	{ B : <gregtech:meta_dust:2524>,
+	  C : <minecraft:clay_ball>
+	  });
+	  
+makeShaped("brickmoldalt", <gregtech:meta_item_1:347>,
+	[" H ",
+	 " P ",
+	 " P "],
+	{ H : <ore:gregSoftHammers>,
+	  P : <ore:plankWood>
+	  });
+	  
+makeShaped("flintcraft", <minecraft:flint>,
+	["GG ",
+	 "GG ",
+	 "  "],
+	{ G : <minecraft:gravel>
+	  });
+	  	  
+recipes.remove(<gregtech:machine:1024>);
+makeShaped("steamoveninvarless", <gregtech:machine:1024>,
+	["BGB",
+	 "DFD",
+	 "BGB"],
+	{ F : <gregtech:machine:15>,
+	  G : <gregtech:meta_gear:2037>,
+	  B : <gregtech:metal_casing>,
+	  D : <gregtech:boiler_firebox_casing>
 	  });

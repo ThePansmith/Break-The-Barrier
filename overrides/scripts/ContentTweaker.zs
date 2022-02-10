@@ -16,6 +16,21 @@ var woodstonedrilltip = VanillaFactory.createItem("woodstonedrilltip");
 woodstonedrilltip.maxStackSize = 64;
 woodstonedrilltip.register();
 
+
+// Custom hot iron ingot
+// Used instead of autogenning w/ iron
+var hotironingot = VanillaFactory.createItem("hotironingot");
+hotironingot.maxStackSize = 16;
+
+hotironingot.onItemUpdate = function(itemStack, world, owner, slot, isSelected) {
+    if (world.getWorldTime() % 20 == 0) {
+        owner.attackEntityFrom(<damageSource:heat>.setDamageBypassesArmor(), 3.0);
+    }
+    return;
+};
+
+hotironingot.register();
+
 var worldgenblock = VanillaFactory.createBlock("worldgenblock", <blockmaterial:sand>);
 worldgenblock.setBlockHardness(0.5);
 worldgenblock.setBlockResistance(2.5);
@@ -120,3 +135,5 @@ tiersixdrill.maxStackSize = 1;
 tiersixdrill.rarity = "rare";
 tiersixdrill.maxDamage = 5;
 tiersixdrill.register();
+
+

@@ -180,7 +180,7 @@ makeShaped("fluidalt", <appliedenergistics2:fluid_interface> * 1,
 	["   ",
 	 " B ",
 	 " W "],
-	{ W : <ore:craftingToolWrench>,
+	{ W : <ore:gregWrenches>,
 	  B : <appliedenergistics2:interface>
 	  });
 	  
@@ -188,7 +188,7 @@ makeShaped("fluidrevert", <appliedenergistics2:interface> * 1,
 	["   ",
 	 " B ",
 	 " W "],
-	{ W : <ore:craftingToolWrench>,
+	{ W : <ore:gregWrenches>,
 	  B : <appliedenergistics2:fluid_interface>
 	  });
 
