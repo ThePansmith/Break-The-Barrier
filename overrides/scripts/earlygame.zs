@@ -25,13 +25,6 @@ furnace.addRecipe(<contenttweaker:hotironingot>, <minecraft:iron_ingot>, 0.0);
 //hot iron into wrought
 hammer.recipeBuilder().inputs([<contenttweaker:hotironingot>]).outputs([<gregtech:meta_ingot:335>]).duration(100).EUt(16).buildAndRegister();
 
-//(Char)coal into diamond
-thermalpresser.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
-thermalpresser.recipeBuilder().inputs([<minecraft:coal> * 16]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
-
-//Fast charcoal
-thermalpresser.recipeBuilder().inputs([<ore:logWood>]).outputs([<minecraft:coal:1>]).duration(75).EUt(10).buildAndRegister();
-
 //Conversion
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
 
