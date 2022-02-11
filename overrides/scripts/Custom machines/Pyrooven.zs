@@ -29,7 +29,7 @@ val pyroovenrecipe    as RecipeMap = RecipeMap.getByName("pyroovener");
 pyroovenrecipe.recipeBuilder().inputs([<ore:logWood>]).outputs([<minecraft:coal:1>]).duration(75).EUt(10).buildAndRegister();
 
 // Recipes
-makeShaped("steamPO", <gregtech:machine:32004>,
+makeShaped("steamPO", <gregtech:machine:32011>,
 	["BBB",
 	 "BHB",
 	 "FFF"],
@@ -40,7 +40,7 @@ makeShaped("steamPO", <gregtech:machine:32004>,
 	  });
 	  
 
-makeShaped("steelPO", <gregtech:machine:32005>,
+makeShaped("steelPO", <gregtech:machine:32012>,
 	["WSW",
 	 "PTP",
 	 "WPW"],
