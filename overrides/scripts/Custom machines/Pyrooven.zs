@@ -47,5 +47,5 @@ makeShaped("steelPO", <gregtech:machine:32012>,
 	{ S : <gregtech:meta_plate:324>,
 	  W : <gregtech:meta_plate:335>,
 	  P : <gregtech:fluid_pipe_small:335>, 
-	  T : <gregtech:machine:32005>
+	  T : <gregtech:machine:32011>
 	  });
