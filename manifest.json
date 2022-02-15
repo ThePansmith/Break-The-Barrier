@@ -161,7 +161,7 @@
 	},
 	{
 		"alias": "MTB",
-		"fileID": 3617282
+		"fileID": 3617282,
 		"projectID": 386188,
 		"required": true
 	},
@@ -173,13 +173,13 @@
 	},
 	{
 		"alias": "mousetweaks",
-		"fileID": 2671937
+		"fileID": 2671937,
 		"projectID": 60089,
 		"required": true
 	},
 	{
 		"alias": "pae2",
-		"fileID": 3648391
+		"fileID": 3648391,
 		"projectID": 570458,
 		"required": true
 	},
@@ -202,6 +202,6 @@
         "version": "1.12.2"
     },
     "name": "Break The Barrier",
-  ],
+    "overrides": "overrides",
     "version": "just check github lol"
 }
