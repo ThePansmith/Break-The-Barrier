@@ -24,7 +24,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Breaking Point",
@@ -75,7 +75,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Wrought for not",
@@ -126,7 +126,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Steam boosting the oven",
@@ -155,6 +155,57 @@
       "rewards:9": {}
     },
     "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        331
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 2037,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Poton",
+          "desc:8": "Potin is one way to spend your newfound lead. If you didn\u0027t already know, this materal makes for really good pipes.\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 9,
+              "Damage:2": 2037,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "4:10": {
       "questID:3": 23,
       "preRequisites:11": [],
       "properties:10": {
@@ -175,7 +226,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -190,7 +241,7 @@
       },
       "rewards:9": {}
     },
-    "4:10": {
+    "5:10": {
       "questID:3": 68,
       "preRequisites:11": [],
       "properties:10": {
@@ -211,7 +262,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -226,7 +277,7 @@
       },
       "rewards:9": {}
     },
-    "5:10": {
+    "6:10": {
       "questID:3": 118,
       "preRequisites:11": [],
       "properties:10": {
@@ -247,7 +298,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -262,7 +313,7 @@
       },
       "rewards:9": {}
     },
-    "6:10": {
+    "7:10": {
       "questID:3": 168,
       "preRequisites:11": [],
       "properties:10": {
@@ -283,7 +334,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -298,7 +349,7 @@
       },
       "rewards:9": {}
     },
-    "7:10": {
+    "8:10": {
       "questID:3": 216,
       "preRequisites:11": [],
       "properties:10": {
@@ -319,7 +370,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Inscribing?",
@@ -411,7 +462,7 @@
       },
       "rewards:9": {}
     },
-    "8:10": {
+    "9:10": {
       "questID:3": 221,
       "preRequisites:11": [
         230
@@ -434,7 +485,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Coke vending machine",
@@ -468,7 +519,7 @@
       },
       "rewards:9": {}
     },
-    "9:10": {
+    "10:10": {
       "questID:3": 222,
       "preRequisites:11": [
         367
@@ -491,7 +542,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Dirt and wood",
@@ -519,7 +570,7 @@
       },
       "rewards:9": {}
     },
-    "10:10": {
+    "11:10": {
       "questID:3": 223,
       "preRequisites:11": [
         222
@@ -542,7 +593,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Hammer time!",
@@ -580,7 +631,7 @@
       },
       "rewards:9": {}
     },
-    "11:10": {
+    "12:10": {
       "questID:3": 224,
       "preRequisites:11": [
         222
@@ -603,11 +654,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Bucket of dirt",
-          "desc:8": "A barrel has two main uses:\n\n1. You can turn organic matter into dirt by placing it inside the barrel. Your best option currently is saplings.\n\n2. If you place a bucket of water inside, followed by a block of dust, it will turn into clay, this latter one will be a bit more important for the time being."
+          "desc:8": "A barrel has two main uses:\n\n1. You can turn organic matter into dirt by placing it inside the barrel. Your best option currently is saplings, with leaf blocks being an option very soon.\n\n2. If you place a bucket of water inside, followed by a block of dust, it will turn into clay, this latter one will be a bit more important for the time being."
         }
       },
       "tasks:9": {
@@ -631,7 +682,7 @@
       },
       "rewards:9": {}
     },
-    "12:10": {
+    "13:10": {
       "questID:3": 225,
       "preRequisites:11": [
         223
@@ -654,7 +705,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Cooking and Baking",
@@ -682,7 +733,7 @@
       },
       "rewards:9": {}
     },
-    "13:10": {
+    "14:10": {
       "questID:3": 226,
       "preRequisites:11": [
         224
@@ -705,7 +756,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Clay",
@@ -733,7 +784,7 @@
       },
       "rewards:9": {}
     },
-    "14:10": {
+    "15:10": {
       "questID:3": 227,
       "preRequisites:11": [
         225,
@@ -757,7 +808,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Boiler!",
@@ -785,7 +836,7 @@
       },
       "rewards:9": {}
     },
-    "15:10": {
+    "16:10": {
       "questID:3": 228,
       "preRequisites:11": [
         227
@@ -808,7 +859,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "PBF Bricks",
@@ -836,7 +887,7 @@
       },
       "rewards:9": {}
     },
-    "16:10": {
+    "17:10": {
       "questID:3": 229,
       "preRequisites:11": [
         227
@@ -859,7 +910,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Finally, good GT pipes.",
@@ -887,7 +938,7 @@
       },
       "rewards:9": {}
     },
-    "17:10": {
+    "18:10": {
       "questID:3": 230,
       "preRequisites:11": [
         229,
@@ -911,7 +962,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 1 Base + T1 Drill",
@@ -967,10 +1018,20 @@
               "OreDict:8": ""
             }
           }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": " ",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": " ",
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
         }
       }
     },
-    "18:10": {
+    "19:10": {
       "questID:3": 231,
       "preRequisites:11": [
         230
@@ -993,7 +1054,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Bronze",
@@ -1021,7 +1082,7 @@
       },
       "rewards:9": {}
     },
-    "19:10": {
+    "20:10": {
       "questID:3": 232,
       "preRequisites:11": [
         231
@@ -1044,7 +1105,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Steam machines proper",
@@ -1059,7 +1120,7 @@
       },
       "rewards:9": {}
     },
-    "20:10": {
+    "21:10": {
       "questID:3": 233,
       "preRequisites:11": [
         0
@@ -1082,7 +1143,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Pressure pushing",
@@ -1110,7 +1171,7 @@
       },
       "rewards:9": {}
     },
-    "21:10": {
+    "22:10": {
       "questID:3": 234,
       "preRequisites:11": [
         232
@@ -1133,7 +1194,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Steel!",
@@ -1161,7 +1222,7 @@
       },
       "rewards:9": {}
     },
-    "22:10": {
+    "23:10": {
       "questID:3": 235,
       "preRequisites:11": [
         231
@@ -1184,7 +1245,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Piston efficiency",
@@ -1212,7 +1273,7 @@
       },
       "rewards:9": {}
     },
-    "23:10": {
+    "24:10": {
       "questID:3": 237,
       "preRequisites:11": [
         331
@@ -1235,7 +1296,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Grinding away",
@@ -1263,7 +1324,7 @@
       },
       "rewards:9": {}
     },
-    "24:10": {
+    "25:10": {
       "questID:3": 238,
       "preRequisites:11": [
         331
@@ -1286,7 +1347,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Khalimov\u0027s Ernest contribution",
@@ -1314,7 +1375,7 @@
       },
       "rewards:9": {}
     },
-    "25:10": {
+    "26:10": {
       "questID:3": 239,
       "preRequisites:11": [
         331
@@ -1337,7 +1398,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Glass jars",
@@ -1365,7 +1426,7 @@
       },
       "rewards:9": {}
     },
-    "26:10": {
+    "27:10": {
       "questID:3": 240,
       "preRequisites:11": [
         331
@@ -1388,7 +1449,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Rubber trees and rubber.",
@@ -1416,7 +1477,7 @@
       },
       "rewards:9": {}
     },
-    "27:10": {
+    "28:10": {
       "questID:3": 241,
       "preRequisites:11": [
         228
@@ -1439,7 +1500,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "It\u0027s getting hot in here",
@@ -1473,7 +1534,7 @@
       },
       "rewards:9": {}
     },
-    "28:10": {
+    "29:10": {
       "questID:3": 242,
       "preRequisites:11": [
         232
@@ -1496,7 +1557,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Cobble generation and automation",
@@ -1524,7 +1585,7 @@
       },
       "rewards:9": {}
     },
-    "29:10": {
+    "30:10": {
       "questID:3": 243,
       "preRequisites:11": [
         232
@@ -1547,7 +1608,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -1562,7 +1623,7 @@
       },
       "rewards:9": {}
     },
-    "30:10": {
+    "31:10": {
       "questID:3": 244,
       "preRequisites:11": [
         238,
@@ -1588,7 +1649,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "First circuit!",
@@ -1614,9 +1675,20 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": " ",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "",
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        }
+      }
     },
-    "31:10": {
+    "32:10": {
       "questID:3": 246,
       "preRequisites:11": [
         244
@@ -1639,7 +1711,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "The power",
@@ -1667,7 +1739,7 @@
       },
       "rewards:9": {}
     },
-    "32:10": {
+    "33:10": {
       "questID:3": 247,
       "preRequisites:11": [
         246
@@ -1690,7 +1762,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Tired of cutting those trees?",
@@ -1727,7 +1799,7 @@
       },
       "rewards:9": {}
     },
-    "33:10": {
+    "34:10": {
       "questID:3": 248,
       "preRequisites:11": [
         246
@@ -1750,7 +1822,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Covers",
@@ -1765,7 +1837,7 @@
       },
       "rewards:9": {}
     },
-    "34:10": {
+    "35:10": {
       "questID:3": 249,
       "preRequisites:11": [
         253
@@ -1788,11 +1860,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 3 Drill",
-          "desc:8": "Now with ores! \n\nOres can be futher processed to give the player more resources, or even some resources can the be onlu  obtained with ore processing.\n\n"
+          "desc:8": "Now with ores! \n\nOres can be futher processed to give the player more resources, or even some resources that can be only obtained with ore processing.\n\n\n\n"
         }
       },
       "tasks:9": {
@@ -1816,7 +1888,7 @@
       },
       "rewards:9": {}
     },
-    "35:10": {
+    "36:10": {
       "questID:3": 250,
       "preRequisites:11": [
         246
@@ -1839,17 +1911,35 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "T2 Base",
           "desc:8": "As previously brought up, LV and above bases, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "36:10": {
+    "37:10": {
       "questID:3": 251,
       "preRequisites:11": [
         246
@@ -1872,11 +1962,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Machine overview",
-          "desc:8": "yeah\n\n(go over the new machines and their uses)"
+          "desc:8": "Refer to the terminal on more info on the various machines.\n\nTodo: make this happen."
         }
       },
       "tasks:9": {
@@ -1887,7 +1977,7 @@
       },
       "rewards:9": {}
     },
-    "37:10": {
+    "38:10": {
       "questID:3": 252,
       "preRequisites:11": [
         231
@@ -1910,7 +2000,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "I want my connected storage and I want it NOW!",
@@ -1944,7 +2034,7 @@
       },
       "rewards:9": {}
     },
-    "38:10": {
+    "39:10": {
       "questID:3": 253,
       "preRequisites:11": [
         251
@@ -1971,11 +2061,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Slippery",
-          "desc:8": "Lube can be made in a few ways, the main two currently being from creosote and seed oil. Just note that the slow production of creosote may be a bottleneck, so it may be worth parallelizing it."
+          "desc:8": "Lube can be made in a few ways, the main two currently being from creosote and seed oil. Just note that the slow production of creosote may be a bottleneck, so it may be worth parallelizing it, or using seed oil instead.\n\nA Progressive Automation Farmer might be helpful."
         }
       },
       "tasks:9": {
@@ -2003,7 +2093,7 @@
       },
       "rewards:9": {}
     },
-    "39:10": {
+    "40:10": {
       "questID:3": 254,
       "preRequisites:11": [
         253
@@ -2030,7 +2120,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Drilling fluid",
@@ -2062,7 +2152,7 @@
       },
       "rewards:9": {}
     },
-    "40:10": {
+    "41:10": {
       "questID:3": 255,
       "preRequisites:11": [
         365
@@ -2085,7 +2175,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Bluestone",
@@ -2113,7 +2203,7 @@
       },
       "rewards:9": {}
     },
-    "41:10": {
+    "42:10": {
       "questID:3": 256,
       "preRequisites:11": [
         254
@@ -2136,11 +2226,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 4 Drill",
-          "desc:8": "These buggers can be a bit expensive to craft, so make sure you have a handle on your resources.\n\nAnyways, the tier four drill brings back:\n"
+          "desc:8": "These buggers can be a bit expensive to craft, so make sure you have a handle on your resources.\n"
         }
       },
       "tasks:9": {
@@ -2164,7 +2254,7 @@
       },
       "rewards:9": {}
     },
-    "42:10": {
+    "43:10": {
       "questID:3": 257,
       "preRequisites:11": [
         249,
@@ -2188,7 +2278,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Shockingly hot!",
@@ -2222,7 +2312,7 @@
       },
       "rewards:9": {}
     },
-    "43:10": {
+    "44:10": {
       "questID:3": 258,
       "preRequisites:11": [
         259,
@@ -2247,7 +2337,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Pancakes",
@@ -2275,10 +2365,10 @@
       },
       "rewards:9": {}
     },
-    "44:10": {
+    "45:10": {
       "questID:3": 259,
       "preRequisites:11": [
-        256
+        249
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2298,7 +2388,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Gallium",
@@ -2326,10 +2416,10 @@
       },
       "rewards:9": {}
     },
-    "45:10": {
+    "46:10": {
       "questID:3": 260,
       "preRequisites:11": [
-        249
+        256
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2349,11 +2439,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Deville\u0027s Discovery",
-          "desc:8": "Silicon can be obtained by electrolyzing your newfound soapstone. Silicon has various uses, such as being a major part of boules.\n\nLater on, silicon can be obtained easier from electroyzing clay dust, and soapstone can be put towards making magnesium, or just making lube at a better ratio.\n"
+          "desc:8": "Silicon can be obtained by electrolyzing your newfound soapstone. Silicon has various uses, such as being a major part of boules.\n\nLater on, silicon can be obtained easier from electroyzing clay dust, and soapstone can be put towards making magnesium, or just making lube at a better ratio.\n\n\n\n"
         }
       },
       "tasks:9": {
@@ -2377,7 +2467,7 @@
       },
       "rewards:9": {}
     },
-    "46:10": {
+    "47:10": {
       "questID:3": 261,
       "preRequisites:11": [
         365
@@ -2400,7 +2490,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "T3 Base",
@@ -2428,7 +2518,7 @@
       },
       "rewards:9": {}
     },
-    "47:10": {
+    "48:10": {
       "questID:3": 262,
       "preRequisites:11": [
         264
@@ -2451,7 +2541,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Second circuits!",
@@ -2482,15 +2572,15 @@
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
           "asScript:1": 1,
-          "description:8": "Fireworks!",
+          "description:8": " ",
           "viaPlayer:1": 0,
           "index:3": 0,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "/summon fireworks_rocket ~ ~ ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:5,tag:{Fireworks:{Flight:0.4,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;1973019,5320730,11250603,4408131,15435844]}]}}}}\n"
+          "title:8": " ",
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
         }
       }
     },
-    "48:10": {
+    "49:10": {
       "questID:3": 264,
       "preRequisites:11": [
         258
@@ -2513,11 +2603,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Diodes",
-          "desc:8": "Diodes can be made with glass, but PE can be used to double the output of circuits, though it is not required just yet.\n\nUsing both PE and annealed copper will give you 8 per craft."
+          "desc:8": "Diodes can be made with glass, but PE can be used to double the output of diodes, though it is not required just yet.\n\nUsing both PE and annealed copper will give you 8 per craft."
         }
       },
       "tasks:9": {
@@ -2541,7 +2631,7 @@
       },
       "rewards:9": {}
     },
-    "49:10": {
+    "50:10": {
       "questID:3": 288,
       "preRequisites:11": [],
       "properties:10": {
@@ -2562,7 +2652,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -2577,7 +2667,7 @@
       },
       "rewards:9": {}
     },
-    "50:10": {
+    "51:10": {
       "questID:3": 314,
       "preRequisites:11": [
         231
@@ -2600,7 +2690,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Improved water!",
@@ -2628,7 +2718,7 @@
       },
       "rewards:9": {}
     },
-    "51:10": {
+    "52:10": {
       "questID:3": 331,
       "preRequisites:11": [
         234,
@@ -2652,7 +2742,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 2 Drill",
@@ -2680,7 +2770,7 @@
       },
       "rewards:9": {}
     },
-    "52:10": {
+    "53:10": {
       "questID:3": 338,
       "preRequisites:11": [],
       "properties:10": {
@@ -2701,7 +2791,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -2716,7 +2806,7 @@
       },
       "rewards:9": {}
     },
-    "53:10": {
+    "54:10": {
       "questID:3": 350,
       "preRequisites:11": [
         331
@@ -2739,11 +2829,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Tanks!",
-          "desc:8": "They store fluids, if you havent made some by this point, it might be worth considering.\n\nThere are also wooden tanks, ideal for holding large amounts of water."
+          "desc:8": "They store fluids, if you havent made some by this point, it might be worth considering.\n\nThere are also wooden tanks, ideal for holding large amounts of water.\n\nIf you don\u0027t need to store such a massive amount of fluid, drums are also an option."
         }
       },
       "tasks:9": {
@@ -2754,7 +2844,7 @@
       },
       "rewards:9": {}
     },
-    "54:10": {
+    "55:10": {
       "questID:3": 365,
       "preRequisites:11": [
         262,
@@ -2778,7 +2868,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "An upgrade!",
@@ -2806,7 +2896,7 @@
       },
       "rewards:9": {}
     },
-    "55:10": {
+    "56:10": {
       "questID:3": 366,
       "preRequisites:11": [
         246
@@ -2821,7 +2911,7 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:tieronedrill",
+            "id:8": "contenttweaker:biomedrill",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2829,7 +2919,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Biome Drill",
@@ -2857,7 +2947,7 @@
       },
       "rewards:9": {}
     },
-    "56:10": {
+    "57:10": {
       "questID:3": 367,
       "preRequisites:11": [],
       "properties:10": {
@@ -2878,7 +2968,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "The Fall",
@@ -2953,12 +3043,18 @@
               },
               "Damage:2": 8,
               "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
       }
     },
-    "57:10": {
+    "58:10": {
       "questID:3": 368,
       "preRequisites:11": [
         257
@@ -2981,7 +3077,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Blue ingots",
@@ -3009,7 +3105,7 @@
       },
       "rewards:9": {}
     },
-    "58:10": {
+    "59:10": {
       "questID:3": 370,
       "preRequisites:11": [
         374
@@ -3032,7 +3128,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Infusing",
@@ -3042,7 +3138,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "59:10": {
+    "60:10": {
       "questID:3": 371,
       "preRequisites:11": [
         255
@@ -3065,7 +3161,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Mana storage",
@@ -3110,7 +3206,7 @@
         }
       }
     },
-    "60:10": {
+    "61:10": {
       "questID:3": 372,
       "preRequisites:11": [
         373
@@ -3133,17 +3229,35 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Automation nation",
           "desc:8": "Finally, cheaper circuits! While the next tier of LV circuit a still a bit of a way\u0027s off, you still can get a discount of this tier of LV circuit by making it in here!"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 635,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "61:10": {
+    "62:10": {
       "questID:3": 373,
       "preRequisites:11": [
         261,
@@ -3159,7 +3273,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:tierfourdrill",
+            "id:8": "contenttweaker:tierfivedrill",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3167,7 +3281,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 5 Drill",
@@ -3195,7 +3309,7 @@
       },
       "rewards:9": {}
     },
-    "62:10": {
+    "63:10": {
       "questID:3": 374,
       "preRequisites:11": [
         371
@@ -3221,7 +3335,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Mana generation and movement",
@@ -3258,7 +3372,7 @@
       },
       "rewards:9": {}
     },
-    "63:10": {
+    "64:10": {
       "questID:3": 375,
       "preRequisites:11": [
         370
@@ -3281,7 +3395,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Mana plate",
@@ -3309,7 +3423,7 @@
       },
       "rewards:9": {}
     },
-    "64:10": {
+    "65:10": {
       "questID:3": 376,
       "preRequisites:11": [
         371
@@ -3333,7 +3447,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "(not so) required reading",
@@ -3362,7 +3476,7 @@
         }
       }
     },
-    "65:10": {
+    "66:10": {
       "questID:3": 377,
       "preRequisites:11": [
         375
@@ -3385,7 +3499,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Fluix",
@@ -3413,7 +3527,7 @@
       },
       "rewards:9": {}
     },
-    "66:10": {
+    "67:10": {
       "questID:3": 378,
       "preRequisites:11": [
         375,
@@ -3437,7 +3551,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Mana Infused!",
@@ -3463,9 +3577,15 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "recipes:8": "",
+          "rewardID:8": "bq_standard:recipe",
+          "index:3": 0
+        }
+      }
     },
-    "67:10": {
+    "68:10": {
       "questID:3": 379,
       "preRequisites:11": [
         383
@@ -3488,7 +3608,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "White steel",
@@ -3498,7 +3618,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "68:10": {
+    "69:10": {
       "questID:3": 380,
       "preRequisites:11": [
         370
@@ -3521,7 +3641,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Quartz creation",
@@ -3549,7 +3669,7 @@
       },
       "rewards:9": {}
     },
-    "69:10": {
+    "70:10": {
       "questID:3": 381,
       "preRequisites:11": [
         380
@@ -3572,7 +3692,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Certus creation",
@@ -3600,7 +3720,7 @@
       },
       "rewards:9": {}
     },
-    "70:10": {
+    "71:10": {
       "questID:3": 382,
       "preRequisites:11": [
         373
@@ -3623,7 +3743,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Charging up!",
@@ -3633,7 +3753,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "71:10": {
+    "72:10": {
       "questID:3": 383,
       "preRequisites:11": [
         377
@@ -3656,7 +3776,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 6 Drill",
@@ -3684,7 +3804,7 @@
       },
       "rewards:9": {}
     },
-    "72:10": {
+    "73:10": {
       "questID:3": 384,
       "preRequisites:11": [
         377,
@@ -3708,7 +3828,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Weird wires",
@@ -3736,7 +3856,7 @@
       },
       "rewards:9": {}
     },
-    "73:10": {
+    "74:10": {
       "questID:3": 385,
       "preRequisites:11": [
         384
@@ -3759,7 +3879,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "AE2",
@@ -3785,9 +3905,20 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": " ",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": " ",
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        }
+      }
     },
-    "74:10": {
+    "75:10": {
       "questID:3": 386,
       "preRequisites:11": [
         385
@@ -3810,7 +3941,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Inscribing?",
@@ -3902,7 +4033,7 @@
       },
       "rewards:9": {}
     },
-    "75:10": {
+    "76:10": {
       "questID:3": 387,
       "preRequisites:11": [
         374
@@ -3925,7 +4056,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Sparks",
@@ -3953,7 +4084,7 @@
       },
       "rewards:9": {}
     },
-    "76:10": {
+    "77:10": {
       "questID:3": 388,
       "preRequisites:11": [
         230
@@ -3981,7 +4112,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Mining away",
@@ -3996,7 +4127,7 @@
       },
       "rewards:9": {}
     },
-    "77:10": {
+    "78:10": {
       "questID:3": 389,
       "preRequisites:11": [
         231
@@ -4019,7 +4150,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Steam Multis",
@@ -4053,7 +4184,7 @@
       },
       "rewards:9": {}
     },
-    "78:10": {
+    "79:10": {
       "questID:3": 390,
       "preRequisites:11": [
         386
@@ -4076,7 +4207,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "I/O busses?",
@@ -4104,7 +4235,7 @@
         }
       }
     },
-    "79:10": {
+    "80:10": {
       "questID:3": 391,
       "preRequisites:11": [
         386
@@ -4127,7 +4258,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Interfacing",
@@ -4142,7 +4273,7 @@
       },
       "rewards:9": {}
     },
-    "80:10": {
+    "81:10": {
       "questID:3": 392,
       "preRequisites:11": [
         386
@@ -4165,7 +4296,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "In world interactions",
@@ -4193,7 +4324,7 @@
       },
       "rewards:9": {}
     },
-    "81:10": {
+    "82:10": {
       "questID:3": 393,
       "preRequisites:11": [
         391
@@ -4216,7 +4347,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Who spilled their water on my interface?",
@@ -4244,7 +4375,7 @@
       },
       "rewards:9": {}
     },
-    "82:10": {
+    "83:10": {
       "questID:3": 395,
       "preRequisites:11": [
         391
@@ -4267,7 +4398,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Patterns!",
@@ -4277,7 +4408,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "83:10": {
+    "84:10": {
       "questID:3": 396,
       "preRequisites:11": [
         395
@@ -4300,7 +4431,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Gregtech AE2 automation review",
@@ -4315,7 +4446,7 @@
       },
       "rewards:9": {}
     },
-    "84:10": {
+    "85:10": {
       "questID:3": 397,
       "preRequisites:11": [
         395
@@ -4338,7 +4469,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Passiving",
@@ -4348,7 +4479,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "85:10": {
+    "86:10": {
       "questID:3": 398,
       "preRequisites:11": [
         233
@@ -4374,7 +4505,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Blockswapping",
@@ -4405,7 +4536,7 @@
       },
       "rewards:9": {}
     },
-    "86:10": {
+    "87:10": {
       "questID:3": 399,
       "preRequisites:11": [
         246
@@ -4428,7 +4559,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Jetpack Joyride",
@@ -4679,124 +4810,131 @@
         },
         "3:10": {
           "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -228,
+          "id:3": 3,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
           "x:3": -180,
           "y:3": -180,
           "id:3": 231,
           "sizeY:3": 24
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -180,
           "id:3": 232,
           "sizeY:3": 24
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -240,
           "id:3": 233,
           "sizeY:3": 24
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -60,
           "y:3": -120,
           "id:3": 234,
           "sizeY:3": 24
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -228,
           "y:3": -132,
           "id:3": 235,
           "sizeY:3": 24
         },
-        "8:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": -192,
           "id:3": 237,
           "sizeY:3": 24
         },
-        "9:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -216,
           "id:3": 238,
           "sizeY:3": 24
         },
-        "10:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": -168,
           "id:3": 239,
           "sizeY:3": 24
         },
-        "11:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -132,
           "id:3": 240,
           "sizeY:3": 24
         },
-        "12:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -228,
           "id:3": 242,
           "sizeY:3": 24
         },
-        "13:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -132,
           "id:3": 243,
           "sizeY:3": 24
         },
-        "14:10": {
+        "15:10": {
           "sizeX:3": 48,
           "x:3": 132,
           "y:3": -192,
           "id:3": 244,
           "sizeY:3": 48
         },
-        "15:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": -180,
           "y:3": -228,
           "id:3": 252,
           "sizeY:3": 24
         },
-        "16:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -180,
           "y:3": -132,
           "id:3": 314,
           "sizeY:3": 24
         },
-        "17:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -180,
           "id:3": 331,
           "sizeY:3": 24
         },
-        "18:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -132,
           "id:3": 350,
           "sizeY:3": 24
         },
-        "19:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": -228,
           "y:3": -228,
           "id:3": 389,
           "sizeY:3": 24
         },
-        "20:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -288,
@@ -4911,14 +5049,14 @@
         "12:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -60,
+          "y:3": -132,
           "id:3": 259,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -132,
+          "y:3": -60,
           "id:3": 260,
           "sizeY:3": 24
         },

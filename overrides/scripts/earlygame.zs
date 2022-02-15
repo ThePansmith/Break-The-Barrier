@@ -28,6 +28,14 @@ hammer.recipeBuilder().inputs([<contenttweaker:hotironingot>]).outputs([<gregtec
 //Conversion
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
 
+// CE Cuni coil recipe for steel rushers
+makeShaped("cunicoil", <gregtech:wire_coil>,
+	["WWW",
+	 "WTW",
+	 "WWW"],
+	{ W : <gregtech:wire_double:274>,
+	  T : <ore:gregWrenches>
+	  });
 // Sand into dust, dust into clay
 hammer.recipeBuilder().inputs([<contenttweaker:worldgenblock>]).outputs([<minecraft:cobblestone>]).duration(10).EUt(16).buildAndRegister();
 hammer.recipeBuilder().inputs([<ore:sand>]).outputs([<exnihilocreatio:block_dust>]).duration(10).EUt(16).buildAndRegister();
@@ -45,6 +53,10 @@ circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plat
 circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2], [<liquid:soldering_alloy> * 72]).remove();
 circuit_assembler.recipeBuilder().inputs([<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineCopper> * 2, <gregtech:meta_bolt:32002> * 2]).fluidInputs([<liquid:fluidmanasteel> * 72]).outputs([<gregtech:meta_item_1:623> * 2])  .duration(320).EUt(16).buildAndRegister();
 
+// Make soapstone recipe LV
+// Will make mag require further processing to be usable to compensate 
+<recipemap:electrolyzer>.findRecipe(60, [<metaitem:dustSoapstone> * 21], null).remove();
+electrolyzer.recipeBuilder().inputs([<metaitem:dustSoapstone> * 21]).outputs([<gregtech:meta_dust:99> * 4, <gregtech:meta_dust:59> * 3]).fluidOutputs([<liquid:oxygen> * 12000, <liquid:hydrogen> * 2000]).duration(320).EUt(16).buildAndRegister();
 makeShaped("Coal_boiler", <gregtech:machine:1>,
 	["   ",
 	 " S ",
@@ -159,7 +171,7 @@ blast_furnace.recipeBuilder()
 			<gregtech:meta_dust_small:39>)
     .outputs(<gregtech:meta_item_1:361>)
     .property("temperature", 1000)
-    .EUt(1080000)
+    .EUt(120)
 	.duration(9500)	
     .buildAndRegister();
 

@@ -2,7 +2,7 @@
     "author": "Pansmith",
     "files": [
         {
-            "fileID": 3603956,
+            "fileID": 3630762,
             "projectID": 557242,
             "required": true
         },
@@ -172,6 +172,18 @@
 		"required": true
 	},
 	{
+		"alias": "mousetweaks",
+		"fileID": 2671937
+		"projectID": 60089,
+		"required": true
+	},
+	{
+		"alias": "pae2",
+		"fileID": 3648391
+		"projectID": 570458,
+		"required": true
+	},
+	{
 		"alias": "Load My Resources [Forge]",
 		"fileID": 3484298,
 		"projectID": 534502,
@@ -190,13 +202,6 @@
         "version": "1.12.2"
     },
     "name": "Break The Barrier",
-    "overrides": "overrides",
-	"externalDependencies": [
-    {
-      "name": "Applied Energistics 2 Trousers Edition",
-      "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/Experimental-v49/appliedenergistics2-rv6-stable-7.omni-fixes-v49n.jar",
-      "sha": "55f455ab190db44ad5b5f887f235a8730d2e5d40"
-    }
   ],
     "version": "just check github lol"
 }
