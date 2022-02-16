@@ -20,6 +20,9 @@ alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 3, <gregtech:meta_ingot:
 //Spunch
 alloy.recipeBuilder().inputs([<minecraft:sponge>, <minecraft:ghast_tear>]).outputs([<contenttweaker:spunchcube>]).duration(300).EUt(16).hidden().buildAndRegister();
 
+// CEu devs forgor to add rubber planks as furance fuel
+furnace.setFuel(<gregtech:planks>, 350);
+
 // Hot iron creation
 furnace.addRecipe(<contenttweaker:hotironingot>, <minecraft:iron_ingot>, 0.0);
 //hot iron into wrought
