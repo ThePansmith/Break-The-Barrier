@@ -2,7 +2,355 @@
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
-      "questID:3": 45,
+      "questID:3": 0,
+      "preRequisites:11": [
+        232
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 32004,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Breaking Point",
+          "desc:8": "The Thermal Compresser allows you to compress Charcoal or coal into diamonds!\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32004,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [
+        232
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 335,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wrought for not",
+          "desc:8": "There is a much faster way to make Wrought Iron in this pack, pulled from an earlier verison of gregtech. You can heat up an iron ingot into a hot iron ingot, then smash it with a forge hammer to make a Wrought Iron ingot!\n\n\nThe classic nugget method is also present, for those CEu purists. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 5,
+              "Damage:2": 335,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        232
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 32011,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steam boosting the oven",
+          "desc:8": "The Steam boosted Pyro Oven allows logs to be cooked into charcoal much faster than using a furance!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32011,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        331
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 2037,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Poton",
+          "desc:8": "Potin is one way to spend your newfound lead. If you didn\u0027t already know, this materal makes for really good pipes.\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 9,
+              "Damage:2": 2037,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "4:10": {
+      "questID:3": 23,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "5:10": {
+      "questID:3": 68,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "6:10": {
+      "questID:3": 118,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "7:10": {
+      "questID:3": 168,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "8:10": {
+      "questID:3": 216,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -14,7 +362,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:tieronedrill",
+            "id:8": "contenttweaker:pressplate",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -22,20 +370,102 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Overworld Drill",
-          "desc:8": "The Overworld Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the overworld drill missions are just for cosmetic purposes, you will need to launch at least one drill to the plains biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE."
+          "name:8": "Inscribing?",
+          "desc:8": "The creation of the various ae2 parts are done differently here. The prints are made in an inscriber, and the parts are alloyed together in a chemical reactor."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pressplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 16,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 17,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 18,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 20,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 23,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 24,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 22,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "1:10": {
-      "questID:3": 46,
+    "9:10": {
+      "questID:3": 221,
       "preRequisites:11": [
-        55
+        230
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -55,7 +485,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Coke vending machine",
@@ -89,10 +519,10 @@
       },
       "rewards:9": {}
     },
-    "2:10": {
-      "questID:3": 47,
+    "10:10": {
+      "questID:3": 222,
       "preRequisites:11": [
-        92
+        367
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -112,9 +542,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Dirt and wood",
           "desc:8": "Thankfully, some of the items you had before the fall didn\u0027t get destoryed. The patch of dirt that you landed on can be reformed into dirt that is plantable. Use that to get some wood going."
         }
@@ -140,10 +570,10 @@
       },
       "rewards:9": {}
     },
-    "3:10": {
-      "questID:3": 48,
+    "11:10": {
+      "questID:3": 223,
       "preRequisites:11": [
-        47
+        222
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -163,9 +593,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Hammer time!",
           "desc:8": "By crafting an ex nihilo hammer, you can mine the blocks that make up this land into cobblestone. On top of cobblestone being useful as is, you can also mine the cobblestone to get gravel, which in turn can be mined into sand and dust."
         }
@@ -201,10 +631,10 @@
       },
       "rewards:9": {}
     },
-    "4:10": {
-      "questID:3": 49,
+    "12:10": {
+      "questID:3": 224,
       "preRequisites:11": [
-        47
+        222
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -224,11 +654,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Bucket of dirt",
-          "desc:8": "A barrel has two main uses:\n\n1. You can turn organic matter into dirt by placing it inside the barrel. Your best option currently is saplings.\n\n2. If you place a bucket of water inside, followed by a block of dust, it will turn into clay, this latter one will be a bit more important for the time being."
+          "desc:8": "A barrel has two main uses:\n\n1. You can turn organic matter into dirt by placing it inside the barrel. Your best option currently is saplings, with leaf blocks being an option very soon.\n\n2. If you place a bucket of water inside, followed by a block of dust, it will turn into clay, this latter one will be a bit more important for the time being."
         }
       },
       "tasks:9": {
@@ -252,10 +682,10 @@
       },
       "rewards:9": {}
     },
-    "5:10": {
-      "questID:3": 50,
+    "13:10": {
+      "questID:3": 225,
       "preRequisites:11": [
-        48
+        223
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -275,9 +705,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Cooking and Baking",
           "desc:8": "Come on, you know how a furnace works.\n\nUse it to make some charcoal (you can smelt wood into charcoal)."
         }
@@ -303,10 +733,10 @@
       },
       "rewards:9": {}
     },
-    "6:10": {
-      "questID:3": 51,
+    "14:10": {
+      "questID:3": 226,
       "preRequisites:11": [
-        49
+        224
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -326,9 +756,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Clay",
           "desc:8": "Use the aforementioned method to make some clay. Clay will be used to smelt some bricks, and to make some brick dust with the aid of a hammer.\n\n"
         }
@@ -354,11 +784,11 @@
       },
       "rewards:9": {}
     },
-    "7:10": {
-      "questID:3": 52,
+    "15:10": {
+      "questID:3": 227,
       "preRequisites:11": [
-        50,
-        51
+        225,
+        226
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -378,11 +808,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Boiler!",
-          "desc:8": "Using some brick blocks and a furance, you can repair that broken boiler into a working steam boiler"
+          "desc:8": "Using some brick blocks and a furance, you can repair that broken boiler into a working steam boiler.\n\nTip: boilers can not autooutput through the bottom."
         }
       },
       "tasks:9": {
@@ -406,10 +836,10 @@
       },
       "rewards:9": {}
     },
-    "8:10": {
-      "questID:3": 53,
+    "16:10": {
+      "questID:3": 228,
       "preRequisites:11": [
-        52
+        227
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -429,9 +859,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "PBF Bricks",
           "desc:8": "Don\u0027t worry, you dont have to make a PBF. \n\nUse a brick mold to compress the dust into ingots.\n\nThe PBF bricks will be used to make your first drill base."
         }
@@ -457,10 +887,10 @@
       },
       "rewards:9": {}
     },
-    "9:10": {
-      "questID:3": 54,
+    "17:10": {
+      "questID:3": 229,
       "preRequisites:11": [
-        52
+        227
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -474,15 +904,15 @@
           "icon:10": {
             "id:8": "gregtech:fluid_pipe_small",
             "Count:3": 1,
-            "Damage:2": 1617,
+            "Damage:2": 2524,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Finally, good GT pipes.",
           "desc:8": "Fluid pipes can be used to transport fluids, and likewise for item pipes. You can use these pipes to move fluids into and out of your steam generator. CEu pipes work like 5u pipes, and don\u0027t look ugly as well.\n\nPipes will also be used to craft the tier one drill base.\n"
         }
@@ -498,8 +928,8 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:fluid_pipe_small",
-              "Count:3": 4,
-              "Damage:2": 1617,
+              "Count:3": 6,
+              "Damage:2": 2524,
               "OreDict:8": ""
             }
           },
@@ -508,11 +938,11 @@
       },
       "rewards:9": {}
     },
-    "10:10": {
-      "questID:3": 55,
+    "18:10": {
+      "questID:3": 230,
       "preRequisites:11": [
-        54,
-        53
+        229,
+        228
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -524,19 +954,19 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:tieronedrill",
+            "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32001,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "Tier one drill base + T1 drill",
-          "desc:8": ""
+          "name:8": "Tier 1 Base + T1 Drill",
+          "desc:8": "Drills are your primary method to get resources in this world. Drills, well, drill, your resources up. Drills require a base to launch them, and a drill will \"belong\" to a base (eg you can only launch tier one and two drills on a tier one base). A single drill doesnt bring back many resources on it\u0027s own, but it\u0027s power is in numbers. The LV and above bases, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. While you can not overclock steam, it\u0027s drills are fairly cheap to make, so I would recomend making a few more while you are at it.\n\nAlso, this base requires no eu/t, but it still requires a hatch, this is a mbt limitation.\n\n"
         }
       },
       "tasks:9": {
@@ -558,12 +988,53 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1151,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1166,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1181,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1210,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": " ",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": " ",
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        }
+      }
     },
-    "11:10": {
-      "questID:3": 56,
+    "19:10": {
+      "questID:3": 231,
       "preRequisites:11": [
-        55
+        230
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -583,9 +1054,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Bronze",
           "desc:8": "Take some of those iron ingots, turn it into a mortar. You can use that mortar to turn some tin and copper into copper, and thus into bronze."
         }
@@ -611,10 +1082,10 @@
       },
       "rewards:9": {}
     },
-    "12:10": {
-      "questID:3": 57,
+    "20:10": {
+      "questID:3": 232,
       "preRequisites:11": [
-        56
+        231
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -634,9 +1105,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Steam machines proper",
           "desc:8": "Now with a source of bronze, you can get to work making steam machines.\n\nMost of the recipes in steam machines are fairly obvious (eg the macerator macerates), but I will point out changed or new recipes."
         }
@@ -649,10 +1120,10 @@
       },
       "rewards:9": {}
     },
-    "13:10": {
-      "questID:3": 58,
+    "21:10": {
+      "questID:3": 233,
       "preRequisites:11": [
-        57
+        0
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -672,9 +1143,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Pressure pushing",
           "desc:8": "By pressurizing some charcoal, you can make diamonds out of it!\nUse these diamonds to make a macerator, and to generally upgrade your tools.\n\n\n"
         }
@@ -700,10 +1171,10 @@
       },
       "rewards:9": {}
     },
-    "14:10": {
-      "questID:3": 59,
+    "22:10": {
+      "questID:3": 234,
       "preRequisites:11": [
-        57
+        232
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -723,11 +1194,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Steel!",
-          "desc:8": "The PBF is slow and boring, so you decided to use something that is slightly less slow. The alloy smelter recipe is somewhat inefficient, but it works well enough for now.\n\nYou can also use it to upgrade your steam machines into highpressure steam machines, which doubles their speed."
+          "desc:8": "The PBF is slow and boring, so you decided to use something that is slightly less slow. The alloy smelter recipe is somewhat inefficient, but it works well enough for now.\n\nYou can also use it to upgrade your steam machines into highpressure steam machines, which doubles their speed.\n\nTip: GT axes have AOE, this may help when you are gathering wood.\n\n"
         }
       },
       "tasks:9": {
@@ -751,10 +1222,10 @@
       },
       "rewards:9": {}
     },
-    "15:10": {
-      "questID:3": 60,
+    "23:10": {
+      "questID:3": 235,
       "preRequisites:11": [
-        57
+        231
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -774,9 +1245,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Piston efficiency",
           "desc:8": "You can choose to use higher tier ingots while making pistons, which will change how many pistons you will get per craft. For example, using steel instead of iron or bronze will double how many pistons you get.\n\nRegardless if you choose to invest in that, you will still need pistons to craft various machines."
         }
@@ -802,63 +1273,10 @@
       },
       "rewards:9": {}
     },
-    "16:10": {
-      "questID:3": 61,
+    "24:10": {
+      "questID:3": 237,
       "preRequisites:11": [
-        58,
-        59,
-        60
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "contenttweaker:tiertwodrill",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "T2 drill",
-          "desc:8": "The tier two drill also runs on steam, and is used to bring back iron at a higher rate, as well as coal and sulfur, which are used in the creation of your first ciruits.\n\nIt also brings back lead."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "contenttweaker:tiertwodrill",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "17:10": {
-      "questID:3": 62,
-      "preRequisites:11": [
-        61
+        331
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -878,9 +1296,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Grinding away",
           "desc:8": "Don\u0027t use that coal to make torches!\n\nRather, grind it into a dust so you can make some circuits with it!"
         }
@@ -906,10 +1324,10 @@
       },
       "rewards:9": {}
     },
-    "18:10": {
-      "questID:3": 63,
+    "25:10": {
+      "questID:3": 238,
       "preRequisites:11": [
-        61
+        331
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -929,9 +1347,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Khalimov\u0027s Ernest contribution",
           "desc:8": "Wood pulp can be compressed into chad, which inturn can be compressed into paper.\n\nYes, the quest title is a pun."
         }
@@ -957,10 +1375,10 @@
       },
       "rewards:9": {}
     },
-    "19:10": {
-      "questID:3": 64,
+    "26:10": {
+      "questID:3": 239,
       "preRequisites:11": [
-        61
+        331
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -980,20 +1398,38 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Glass jars",
           "desc:8": "By smashing and reforming some glass, you can make some glass tubes."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 517,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "20:10": {
-      "questID:3": 65,
+    "27:10": {
+      "questID:3": 240,
       "preRequisites:11": [
-        61
+        331
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1013,9 +1449,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Rubber trees and rubber.",
           "desc:8": "Time to put all of that wood to good use! You can extract rubber pulp from rubber tree wood, which can then been combined with sulfur in an alloy smelter to make rubber, which is used to make cables\n\nAs for the rubber pulp, it is used in the creation of your first circuit board, as well as in some other parts of the first circuit."
         }
@@ -1041,10 +1477,10 @@
       },
       "rewards:9": {}
     },
-    "21:10": {
-      "questID:3": 66,
+    "28:10": {
+      "questID:3": 241,
       "preRequisites:11": [
-        53
+        228
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1064,7 +1500,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "It\u0027s getting hot in here",
@@ -1098,10 +1534,10 @@
       },
       "rewards:9": {}
     },
-    "22:10": {
-      "questID:3": 67,
+    "29:10": {
+      "questID:3": 242,
       "preRequisites:11": [
-        57
+        232
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1121,7 +1557,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Cobble generation and automation",
@@ -1149,10 +1585,10 @@
       },
       "rewards:9": {}
     },
-    "23:10": {
-      "questID:3": 68,
+    "30:10": {
+      "questID:3": 243,
       "preRequisites:11": [
-        57
+        232
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1172,7 +1608,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -1187,13 +1623,13 @@
       },
       "rewards:9": {}
     },
-    "24:10": {
-      "questID:3": 69,
+    "31:10": {
+      "questID:3": 244,
       "preRequisites:11": [
-        63,
-        62,
-        64,
-        65
+        238,
+        237,
+        239,
+        240
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1213,7 +1649,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "First circuit!",
@@ -1239,55 +1675,23 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
-    },
-    "25:10": {
-      "questID:3": 70,
-      "preRequisites:11": [
-        55
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "gregtech:meta_tool",
-            "Count:3": 1,
-            "tag:10": {
-              "GT.ToolStats:10": {
-                "Material:8": "neutronium"
-              }
-            },
-            "Damage:2": 11,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Tools of the trade",
-          "desc:8": "(go over the tools and their uses)"
-        }
-      },
-      "tasks:9": {
+      "rewards:9": {
         "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": " ",
+          "viaPlayer:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "title:8": "",
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
         }
-      },
-      "rewards:9": {}
+      }
     },
-    "26:10": {
-      "questID:3": 71,
+    "32:10": {
+      "questID:3": 246,
       "preRequisites:11": [
-        69
+        244
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1307,11 +1711,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "The power",
-          "desc:8": "It\u0027s overwheming.\n\nCraft your first LV turbine.\n\nยง1ยง1TODO: have overview of wires, cable loss and amps"
+          "desc:8": "It\u0027s overwheming.\n\nCraft your first LV turbine.\n"
         }
       },
       "tasks:9": {
@@ -1335,10 +1739,10 @@
       },
       "rewards:9": {}
     },
-    "27:10": {
-      "questID:3": 72,
+    "33:10": {
+      "questID:3": 247,
       "preRequisites:11": [
-        71
+        246
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1358,7 +1762,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Tired of cutting those trees?",
@@ -1395,10 +1799,10 @@
       },
       "rewards:9": {}
     },
-    "28:10": {
-      "questID:3": 73,
+    "34:10": {
+      "questID:3": 248,
       "preRequisites:11": [
-        71
+        246
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1418,11 +1822,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Covers",
-          "desc:8": "No Description"
+          "desc:8": "Go over what\u0027s new with covers."
         }
       },
       "tasks:9": {
@@ -1433,10 +1837,10 @@
       },
       "rewards:9": {}
     },
-    "29:10": {
-      "questID:3": 74,
+    "35:10": {
+      "questID:3": 249,
       "preRequisites:11": [
-        80
+        253
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1456,11 +1860,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Tier three drill",
-          "desc:8": "Now with ores! \n\nOres can be futher processed to give the player more resources, or even some resources can the be onlu  obtained with ore processing.\n\n"
+          "ismain:1": 1,
+          "name:8": "Tier 3 Drill",
+          "desc:8": "Now with ores! \n\nOres can be futher processed to give the player more resources, or even some resources that can be only obtained with ore processing.\n\n\n\n"
         }
       },
       "tasks:9": {
@@ -1484,10 +1888,10 @@
       },
       "rewards:9": {}
     },
-    "30:10": {
-      "questID:3": 75,
+    "36:10": {
+      "questID:3": 250,
       "preRequisites:11": [
-        71
+        246
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1499,28 +1903,46 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:tierthreedrill",
+            "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32000,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "T2 drill base",
-          "desc:8": "No Description"
+          "name:8": "T2 Base",
+          "desc:8": "As previously brought up, LV and above bases, along with the ablity to overclock, possess a (WIP) mechanic that rewards constant usage. "
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "31:10": {
-      "questID:3": 76,
+    "37:10": {
+      "questID:3": 251,
       "preRequisites:11": [
-        71
+        246
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1540,11 +1962,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Machine overview",
-          "desc:8": "yeah\n\n(go over the new machines and their uses)"
+          "desc:8": "Refer to the terminal on more info on the various machines.\n\nTodo: make this happen."
         }
       },
       "tasks:9": {
@@ -1555,10 +1977,10 @@
       },
       "rewards:9": {}
     },
-    "32:10": {
-      "questID:3": 77,
+    "38:10": {
+      "questID:3": 252,
       "preRequisites:11": [
-        56
+        231
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1578,20 +2000,44 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "I want my connected storage and I want it NOW!",
           "desc:8": "If you absolutely need connected storage asap, you have an option. There is a somewhat neutered version of Simple storage network that only requires bronze and steel related materials. While it does lack output out of it\u0027s \"network\", it still retains the ability to have a crafting grid built into your system, which can help with microcrafting monotony."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:master",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "storagenetwork:request",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "33:10": {
-      "questID:3": 78,
+    "39:10": {
+      "questID:3": 253,
       "preRequisites:11": [
-        76
+        251
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1615,11 +2061,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Slippery",
-          "desc:8": "Lube can be made in a few ways, the main two currently being from creosote and seed oil. Just note that the slow production of creosote may be a bottleneck, so it may be worth parallelizing it."
+          "desc:8": "Lube can be made in a few ways, the main two currently being from creosote and seed oil. Just note that the slow production of creosote may be a bottleneck, so it may be worth parallelizing it, or using seed oil instead.\n\nA Progressive Automation Farmer might be helpful."
         }
       },
       "tasks:9": {
@@ -1647,10 +2093,10 @@
       },
       "rewards:9": {}
     },
-    "34:10": {
-      "questID:3": 79,
+    "40:10": {
+      "questID:3": 254,
       "preRequisites:11": [
-        78
+        253
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1674,9 +2120,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Drilling fluid",
           "desc:8": "Drilling fluid is made from lube. \n\nTip: It may be worth splitting the output from whatever machine is making into two; One as a tank to hold your lube, and the other is a chemical reactor, to be futher processed into drilling fluid."
         }
@@ -1706,10 +2152,10 @@
       },
       "rewards:9": {}
     },
-    "35:10": {
-      "questID:3": 80,
+    "41:10": {
+      "questID:3": 255,
       "preRequisites:11": [
-        78
+        365
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1718,36 +2164,49 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "contenttweaker:dmanastone",
             "Count:3": 1,
-            "Damage:2": 1599,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Tanks!",
-          "desc:8": "They store fluids, if you havent made some by this point, you really should.\n\nThere are also wooden tanks, ideal for holding large amounts of water."
+          "ismain:1": 1,
+          "name:8": "Bluestone",
+          "desc:8": "You noticed by mixing some alumium with some stone, it seems to gain a strange property, perhaps this could be of use."
         }
       },
       "tasks:9": {
         "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:dmanastone",
+              "Count:3": 5,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
     },
-    "36:10": {
-      "questID:3": 81,
+    "42:10": {
+      "questID:3": 256,
       "preRequisites:11": [
-        79
+        254
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1767,11 +2226,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Tier four drill",
-          "desc:8": "These buggers can be a bit expensive to craft, so make sure you have a handle on your resources.\n\nAnyways, the tier four drill brings back:\n"
+          "ismain:1": 1,
+          "name:8": "Tier 4 Drill",
+          "desc:8": "These buggers can be a bit expensive to craft, so make sure you have a handle on your resources.\n"
         }
       },
       "tasks:9": {
@@ -1795,11 +2254,11 @@
       },
       "rewards:9": {}
     },
-    "37:10": {
-      "questID:3": 82,
+    "43:10": {
+      "questID:3": 257,
       "preRequisites:11": [
-        74,
-        81
+        249,
+        256
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1819,9 +2278,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Shockingly hot!",
           "desc:8": "The electric blast furance is, and has been a mainstay of gregtech, and this is no different. \n\nUse the nickel from the tier four drill to make some cupronickel, which will be your first EBF coils.\n\nTip: the EBF steel recipe is much cheaper, and takes less time."
         }
@@ -1853,12 +2312,12 @@
       },
       "rewards:9": {}
     },
-    "38:10": {
-      "questID:3": 83,
+    "44:10": {
+      "questID:3": 258,
       "preRequisites:11": [
-        84,
-        85,
-        82
+        259,
+        260,
+        257
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1878,9 +2337,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Pancakes",
           "desc:8": "Use your EBF to make some boules, then cut them in a cutting saw. These wafers will be used to make your first tier two circuits."
         }
@@ -1906,10 +2365,10 @@
       },
       "rewards:9": {}
     },
-    "39:10": {
-      "questID:3": 84,
+    "45:10": {
+      "questID:3": 259,
       "preRequisites:11": [
-        81
+        249
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1929,9 +2388,9 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Gallium",
           "desc:8": "Gallium can be obtained by electrolyzing your newfound sphalerite."
         }
@@ -1957,10 +2416,10 @@
       },
       "rewards:9": {}
     },
-    "40:10": {
-      "questID:3": 85,
+    "46:10": {
+      "questID:3": 260,
       "preRequisites:11": [
-        74
+        256
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1980,11 +2439,11 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Deville\u0027s Discovery",
-          "desc:8": "Silicon can be obtained by electrolyzing your newfound soapstone. Silicon has various uses, such as being a major part of boules.\n\nLater on, silicon can be obtained easier from electroyzing clay dust, and soapstone can be put towards making magnesium, or just making lube at a better ratio.\n"
+          "desc:8": "Silicon can be obtained by electrolyzing your newfound soapstone. Silicon has various uses, such as being a major part of boules.\n\nLater on, silicon can be obtained easier from electroyzing clay dust, and soapstone can be put towards making magnesium, or just making lube at a better ratio.\n\n\n\n"
         }
       },
       "tasks:9": {
@@ -2008,10 +2467,10 @@
       },
       "rewards:9": {}
     },
-    "41:10": {
-      "questID:3": 86,
+    "47:10": {
+      "questID:3": 261,
       "preRequisites:11": [
-        90
+        365
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2023,30 +2482,46 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32002,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "T3 Base",
-          "desc:8": "TBD"
+          "desc:8": "The tier three base is made of aluminium and steel, and runs on MV power."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32002,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "42:10": {
-      "questID:3": 87,
+    "48:10": {
+      "questID:3": 262,
       "preRequisites:11": [
-        83,
-        88,
-        89
+        264
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2066,7 +2541,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Second circuits!",
@@ -2097,69 +2572,18 @@
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
           "asScript:1": 1,
-          "description:8": "Fireworks!",
+          "description:8": " ",
           "viaPlayer:1": 0,
           "index:3": 0,
-          "title:8": "bq_standard.reward.command",
-          "command:8": "/summon fireworks_rocket ~ ~ ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:5,tag:{Fireworks:{Flight:0.4,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;1973019,5320730,11250603,4408131,15435844]}]}}}}\n"
+          "title:8": " ",
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
         }
       }
     },
-    "43:10": {
-      "questID:3": 88,
+    "49:10": {
+      "questID:3": 264,
       "preRequisites:11": [
-        83
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "gregtech:meta_item_1",
-            "Count:3": 1,
-            "Damage:2": 402,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Board-ing",
-          "desc:8": "These squares  (and it\u0027s relatives) will be used in a decent number of circuits from here on out.\n\nCrafting them manually will require on, but later one, once you get silver, you can save resources by crafting them in a assember."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 1,
-              "Damage:2": 402,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "44:10": {
-      "questID:3": 89,
-      "preRequisites:11": [
-        83
+        258
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2179,22 +2603,37 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Diodes",
-          "desc:8": "Diodes can be made with glass, but PE can be used to double the output of circuits, though it is not required just yet.\n\nUsing both PE and annealed copper will give you 8 per craft."
+          "desc:8": "Diodes can be made with glass, but PE can be used to double the output of diodes, though it is not required just yet.\n\nUsing both PE and annealed copper will give you 8 per craft."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 521,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
-    "45:10": {
-      "questID:3": 90,
-      "preRequisites:11": [
-        87,
-        93
-      ],
+    "50:10": {
+      "questID:3": 288,
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2207,99 +2646,17 @@
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 276,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "An upgrade!",
-          "desc:8": "Now with MV machinary at your disposal, you can start making new stuff, and make old stuff faster!\n\nYour first order of business aught to be making an electrolyzer, so you can get aluminum much easier."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:machine",
-              "Count:3": 1,
-              "Damage:2": 276,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "46:10": {
-      "questID:3": 91,
-      "preRequisites:11": [
-        86
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "contenttweaker:tieronedrill",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Overworld Drill",
-          "desc:8": "The Overworld Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the overworld drill missions are just for cosmetic purposes, you will need to launch at least one drill to the plains biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "47:10": {
-      "questID:3": 92,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "contenttweaker:worldgenblock",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "The Fall",
-          "desc:8": "(Exposition goes here)\n\nThe two water buckets are to be replaced with a NC watergen once the NC CEu confict crash is fixed."
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
         }
       },
       "tasks:9": {
@@ -2308,88 +2665,12 @@
           "taskID:8": "bq_standard:checkbox"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "gregtech:rubber_sapling",
-              "Count:3": 5,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:water_bucket",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "minecraft:dye",
-              "Count:3": 64,
-              "Damage:2": 15,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "48:10": {
-      "questID:3": 93,
-      "preRequisites:11": [
-        82
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "gregtech:meta_ingot",
-            "Count:3": 1,
-            "Damage:2": 2,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Blue ingots",
-          "desc:8": "Aluminum ingots are made in an EBF, and are used to make MV machines.\n\nTip: Use two LV input hatches to overclock your EBF to MV."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_ingot",
-              "Count:3": 5,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
       "rewards:9": {}
     },
-    "49:10": {
-      "questID:3": 94,
+    "51:10": {
+      "questID:3": 314,
       "preRequisites:11": [
-        56
+        231
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2409,7 +2690,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Improved water!",
@@ -2436,104 +2717,2057 @@
         }
       },
       "rewards:9": {}
+    },
+    "52:10": {
+      "questID:3": 331,
+      "preRequisites:11": [
+        234,
+        233
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:tiertwodrill",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Tier 2 Drill",
+          "desc:8": "The tier two drill also runs on steam, and is used to bring back copper at a higher rate, as well as coal and sulfur, which are used in the creation of your first ciruits.\n\nIt also brings back lead."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tiertwodrill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "53:10": {
+      "questID:3": 338,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "54:10": {
+      "questID:3": 350,
+      "preRequisites:11": [
+        331
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1599,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Tanks!",
+          "desc:8": "They store fluids, if you havent made some by this point, it might be worth considering.\n\nThere are also wooden tanks, ideal for holding large amounts of water.\n\nIf you don\u0027t need to store such a massive amount of fluid, drums are also an option."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "55:10": {
+      "questID:3": 365,
+      "preRequisites:11": [
+        262,
+        368
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 276,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "An upgrade!",
+          "desc:8": "Now with MV machinary at your disposal, you can start making new stuff, and make old stuff faster!\n\nYour first order of business aught to be making an electrolyzer, so you can get aluminum much easier."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 276,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "56:10": {
+      "questID:3": 366,
+      "preRequisites:11": [
+        246
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:biomedrill",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Biome Drill",
+          "desc:8": "The Biome Drill breaks the formula somewhat, by ultalizing a secondary item. Overworld Drill \"missions\" are split into different biomes, determined by circuit number. Each mission contains its relevant wood, saplings, relevant plants, and a flower color.\n\nWhile most of the biome drill missions are just for cosmetic purposes (eg access to resouces to build with), you will need to launch at least one drill to the swamp biome, to get sugarcane. As well as being an easier method of paper, you will need sugarcane to make PE. As well as that, consider launching a biome drill to the plains biome to get seeds. Seeds can be used to make seed oil.\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:biomedrill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "57:10": {
+      "questID:3": 367,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:worldgenblock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "The Fall",
+          "desc:8": "(Exposition goes here)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:rubber_sapling",
+              "Count:3": 5,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bucket",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:dye",
+              "Count:3": 64,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "contenttweaker:brokenboiler",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "tag:10": {
+                "terminal:10": {
+                  "_hw:10": {}
+                }
+              },
+              "Damage:2": 465,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "nuclearcraft:water_source",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1610,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "iron"
+                }
+              },
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "58:10": {
+      "questID:3": 368,
+      "preRequisites:11": [
+        257
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Blue ingots",
+          "desc:8": "Aluminum ingots are made in an EBF, and are used to make MV machines.\n\nTip: Use two LV input hatches to overclock your EBF to MV."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 5,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "59:10": {
+      "questID:3": 370,
+      "preRequisites:11": [
+        374
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:manaresource",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Infusing",
+          "desc:8": "Manasteel requires mana and steel (wow), alongside manasteel, you can also convert quarzite into quartz, which with combined with manasteel, can be made into certus quartz."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "60:10": {
+      "questID:3": 371,
+      "preRequisites:11": [
+        255
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:pool",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Mana storage",
+          "desc:8": "Using this new stone, you can craft a mana pool. It is somewhat weak, but it will suit your needs for now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:pool",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "botania:twigwand",
+              "Count:3": 1,
+              "tag:10": {
+                "color1:3": 0,
+                "color2:3": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "61:10": {
+      "questID:3": 372,
+      "preRequisites:11": [
+        373
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 635,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Automation nation",
+          "desc:8": "Finally, cheaper circuits! While the next tier of LV circuit a still a bit of a way\u0027s off, you still can get a discount of this tier of LV circuit by making it in here!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 635,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "62:10": {
+      "questID:3": 373,
+      "preRequisites:11": [
+        261,
+        255
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:tierfivedrill",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Tier 5 Drill",
+          "desc:8": "I\u0027m sure that at at this point, you know what makes these things special.\n\nQuartzite will be used to make quartz (and later certus quartz) via botania. Silver can be used to make electrium, which can be used to make various MV components.\n\nTip: Botania can be used to make these fluids at a better ratio."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tierfivedrill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "63:10": {
+      "questID:3": 374,
+      "preRequisites:11": [
+        371
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:specialflower",
+            "Count:3": 1,
+            "tag:10": {
+              "type:8": "endoflame"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Mana generation and movement",
+          "desc:8": "Now that you have a place to store your mana, it\u0027s time to start making some!\n\nThe endoflame is likly going to be your best bet to start with, and with all of that excess wood that you have now that you (hopefully) swapped to making your steel in an EBF, it\u0027s a perfect fit. \n\nTo move your mana, use a mana spreader. Tip: if you place the mana spreader down first, all flowers in range will sync to the spreader in their own."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:specialflower",
+              "Count:3": 1,
+              "tag:10": {
+                "type:8": "endoflame"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botania:spreader",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "64:10": {
+      "questID:3": 375,
+      "preRequisites:11": [
+        370
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:terraplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Mana plate",
+          "desc:8": "You can use a TAP to start making some alloys, the one most relevent to you right now is fluix.\n\nTo make said alloy, place the items on top of the plate, and start feeding it mana.\n(Tip: use sparks)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:terraplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "65:10": {
+      "questID:3": 376,
+      "preRequisites:11": [
+        371
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:lexicon",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "(not so) required reading",
+          "desc:8": "Here\u0027s a free copy of that flower book, while some of it may be different to how botania works, it\u0027s still a great resource for getting the basics of botania."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "botania:lexicon",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "66:10": {
+      "questID:3": 377,
+      "preRequisites:11": [
+        375
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 32002,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Fluix",
+          "desc:8": "Use the TAP to make fluix ingots, which will be used in the creation of AE2 materials, as well as the Tier 6 drill.\n\nAlso, fluix cables arnt half bad, so it may be worth looking into using those to transfer MV power."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 32002,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "67:10": {
+      "questID:3": 378,
+      "preRequisites:11": [
+        375,
+        372
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 623,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Mana Infused!",
+          "desc:8": "Fluix and manasteel are some of the parts of crafting the T2LV circuit."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 623,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "recipes:8": "",
+          "rewardID:8": "bq_standard:recipe",
+          "index:3": 0
+        }
+      }
+    },
+    "68:10": {
+      "questID:3": 379,
+      "preRequisites:11": [
+        383
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 323,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "White steel",
+          "desc:8": "I\u0027m not 100% sure what the stainless recipe will be, and that is beyond the scope of this update, but thanks for playing!\n\nOr doing /bq_admin edit lol."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "69:10": {
+      "questID:3": 380,
+      "preRequisites:11": [
+        370
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:quartz",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Quartz creation",
+          "desc:8": "Quartzite can be found by drilling with a tier 5 drill."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:quartz",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "70:10": {
+      "questID:3": 381,
+      "preRequisites:11": [
+        380
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_gem",
+            "Count:3": 1,
+            "Damage:2": 214,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Certus creation",
+          "desc:8": "By using molten manasteel, you can refine quartz into a certus quartz ingots."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_gem",
+              "Count:3": 3,
+              "Damage:2": 214,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "71:10": {
+      "questID:3": 382,
+      "preRequisites:11": [
+        373
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 718,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Charging up!",
+          "desc:8": "Batteries may be worth making, now that they are craftable."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "72:10": {
+      "questID:3": 383,
+      "preRequisites:11": [
+        377
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:tiersixdrill",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Tier 6 Drill",
+          "desc:8": "Things got a bit expensive real quick. It might be worth taking a detour to get your ae2 system up. Anyhow, this drill contains the final pieces of what\u0027s needed to create stainless steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tiersixdrill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "73:10": {
+      "questID:3": 384,
+      "preRequisites:11": [
+        377,
+        381
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:part",
+            "Count:3": 1,
+            "Damage:2": 16,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Weird wires",
+          "desc:8": "By futher processing certus quartz and fluix (along with some glass), you can make some fluix glass cables."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 4,
+              "Damage:2": 16,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "74:10": {
+      "questID:3": 385,
+      "preRequisites:11": [
+        384
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:energy_acceptor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "AE2",
+          "desc:8": "Let\u0027s be real, you already know how ae2 works.\n\nHowever, some things have been changed (and some other things you may want to take note of), which will be covered in the next chapter. One thing to note right away is that channels are disabled."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:energy_acceptor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": " ",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": " ",
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+        }
+      }
+    },
+    "75:10": {
+      "questID:3": 386,
+      "preRequisites:11": [
+        385
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:pressplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Inscribing?",
+          "desc:8": "Nope.\n\nThe creation of the various ae2 parts are done differently here. The prints are made in an inscriber, and the parts are alloyed together in a chemical reactor."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pressplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 16,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 17,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 18,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 20,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 23,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 24,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 1,
+              "Damage:2": 22,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "76:10": {
+      "questID:3": 387,
+      "preRequisites:11": [
+        374
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:spark",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Sparks",
+          "desc:8": "Ima keep it real with you: for whatever reason, the time it takes for a TAP recipe to complete is not depentent on the mana cost, rather it is a fixed time. So to not have this part take a trillion years, you can craft sparks, which can move the mana much faster.\n\nLater on, various modifiers to sparks will be opened, which will allow to you get really funky with that you can do with these balls of light."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:spark",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "77:10": {
+      "questID:3": 388,
+      "preRequisites:11": [
+        230
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_tool",
+            "Count:3": 1,
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "neutronium"
+              }
+            },
+            "Damage:2": 19,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Mining away",
+          "desc:8": "Mining hammers can mine in a 3x3 area! This will be helpful when expanding your base."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "78:10": {
+      "questID:3": 389,
+      "preRequisites:11": [
+        231
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1024,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steam Multis",
+          "desc:8": "The steam era does have a couple steam machines to it\u0027s name, that can aid in bulk processing some items. With how easy it is to get steam resources, it may be worth considering building these.\n\nThey also have their own steam I/O hatches as well."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1024,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1025,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "79:10": {
+      "questID:3": 390,
+      "preRequisites:11": [
+        386
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:part",
+            "Count:3": 1,
+            "Damage:2": 260,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "I/O busses?",
+          "desc:8": "Nope. \n\nI/O busses are disabled because of lag reasons, rather, use interfaces for I/O.\n\nHere\u0027s some interfaces to get you started!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:interface",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "80:10": {
+      "questID:3": 391,
+      "preRequisites:11": [
+        386
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:interface",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Interfacing",
+          "desc:8": "You already know how good these are, and as noted before, they are your method of I/O with your ME system.\n\nIf you haven\u0027t already, check the I/O busses quest to pick some up for free.\n\n\nAlso, a small little trick, interfaces can transmit me power, so if you have a line of them, you do not need to attach a cable to every single one of them."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "81:10": {
+      "questID:3": 392,
+      "preRequisites:11": [
+        386
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:part",
+            "Count:3": 1,
+            "Damage:2": 320,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "In world interactions",
+          "desc:8": "These can be used to drop objects into the world.\n\nThey can be rather useful for automating botania resources."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 1,
+              "Damage:2": 320,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "82:10": {
+      "questID:3": 393,
+      "preRequisites:11": [
+        391
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:fluid_interface",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Who spilled their water on my interface?",
+          "desc:8": "Fluid interfaces work how would expect, they are I/O for fluids within your ME system. They can\u0027t autocraft with fluids, however.\n\nYou can easily swap between the two interface types with a crafting recipe."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:fluid_interface",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "83:10": {
+      "questID:3": 395,
+      "preRequisites:11": [
+        391
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:material",
+            "Count:3": 1,
+            "Damage:2": 52,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Patterns!",
+          "desc:8": "And just like that, full on autocrafting!\n\nUse your first couple of patterns to autocraft the stuff needed to autocraft more patterns and interfaces."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "84:10": {
+      "questID:3": 396,
+      "preRequisites:11": [
+        395
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 111,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Gregtech AE2 automation review",
+          "desc:8": "§rFor those that may need a quick refresher, here\u0027s a basic guide on how to automate GT machines with AE2.\n\n§F§0§1§2§3§k§l§l§k§e§f§l§l§b§c§5§6§3§e§b§eFull credit goes to the Nomifactory team for this excerpt§b§e.\n§bThat is not a mispelling of omnifactory, and is intentonal. The cause for that is beyond this guide.\n\n§rYou can easily automate most §bGregTech§r machines with §aME Interfaces§r and processing §aPatterns§r early on by using the machine\u0027s auto-output feature.\n\nUse a §aGregTech Wrench§r to relocate the output side of a machine where you want it to be, right-click it with a §aGregTech Screwdriver§r to permit input on the output face, then put an ME Interface on that side of the machine.\n\nYou can also permit input from the output side by shift-right-clicking with a screwdriver on the output side via the machine grid.\n\nRight-click the machine and enable item auto-output (§6orange box§r in the bottom-left corner of the GUI).\n\nNow, stuff the ME Interface with processing patterns. The next time you order an item, the ME Interface will push ingredients into the machine, and the machine will push outputs back into the Interface once they\u0027re ready, completing the craft§a§r."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "85:10": {
+      "questID:3": 397,
+      "preRequisites:11": [
+        395
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:material",
+            "Count:3": 1,
+            "Damage:2": 26,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Passiving",
+          "desc:8": "Passiving is an important idea in GT packs, and this is no different.\n\n(todo:write good example here)"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "86:10": {
+      "questID:3": 398,
+      "preRequisites:11": [
+        233
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:chisel_diamond",
+            "Count:3": 1,
+            "tag:10": {
+              "chiseldata:10": {}
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Blockswapping",
+          "desc:8": "Along with just being your normal chisel, the chisel has gained the power to swap between differnt blocktypes, such as your SSN cables, ae2 cables, and more!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "chisel:chisel_diamond",
+              "Count:3": 1,
+              "tag:10": {
+                "chiseldata:10": {}
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "87:10": {
+      "questID:3": 399,
+      "preRequisites:11": [
+        246
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt_armor",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Jetpack Joyride",
+          "desc:8": "If you enjoy vertical movement, it may be worth going out of your way to make a liquid fueled jetpack.\n\nAs per the name, it runs on liquid fuels, and is fueled at the canning machine. \n\nYour options for fuel are somewhat limited at the moment, so ethanol will likely be your best choice for now."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt_armor",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
     "0:10": {
       "quests:9": {
         "0:10": {
+          "sizeX:3": 48,
+          "x:3": -96,
+          "y:3": -24,
+          "id:3": 385,
+          "sizeY:3": 48
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -12,
+          "id:3": 386,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -60,
+          "id:3": 390,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -12,
+          "id:3": 391,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 36,
+          "id:3": 392,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": -60,
+          "id:3": 393,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 48,
+          "x:3": 144,
+          "y:3": -24,
+          "id:3": 395,
+          "sizeY:3": 48
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 156,
+          "y:3": -60,
+          "id:3": 396,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 156,
+          "y:3": 36,
+          "id:3": 397,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Storage and automation",
+          "icon:10": {
+            "id:8": "appliedenergistics2:interface",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "This minichapter assumes that you already know the basics of AE2, and will instead cover that is changed and what is new.\n\nIf you need a resource for learning ae2, minecraftguides is a good resource to get the basics.\n"
+        }
+      },
+      "order:3": 3
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": -144,
-          "id:3": 46,
+          "id:3": 221,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
           "x:3": -360,
           "y:3": -96,
-          "id:3": 47,
+          "id:3": 222,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
           "x:3": -312,
           "y:3": -132,
-          "id:3": 48,
+          "id:3": 223,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": -312,
           "y:3": -60,
-          "id:3": 49,
+          "id:3": 224,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": -132,
-          "id:3": 50,
+          "id:3": 225,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": -60,
-          "id:3": 51,
+          "id:3": 226,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": -96,
-          "id:3": 52,
+          "id:3": 227,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -72,
-          "id:3": 53,
+          "id:3": 228,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -120,
-          "id:3": 54,
+          "id:3": 229,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 48,
           "x:3": -120,
           "y:3": -108,
-          "id:3": 55,
+          "id:3": 230,
           "sizeY:3": 48
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -36,
-          "id:3": 66,
+          "id:3": 241,
           "sizeY:3": 24
         },
         "11:10": {
-          "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -48,
-          "id:3": 70,
-          "sizeY:3": 24
-        },
-        "12:10": {
           "sizeX:3": 48,
           "x:3": -420,
           "y:3": -108,
-          "id:3": 92,
+          "id:3": 367,
           "sizeY:3": 48
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -48,
+          "id:3": 388,
+          "sizeY:3": 24
         }
       },
-      "lineID:3": 0,
+      "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -2551,123 +4785,172 @@
       },
       "order:3": 0
     },
-    "1:10": {
+    "2:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": -180,
-          "id:3": 56,
+          "x:3": -84,
+          "y:3": -240,
+          "id:3": 0,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -180,
-          "id:3": 57,
+          "x:3": -60,
+          "y:3": -204,
+          "id:3": 1,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -228,
-          "id:3": 58,
+          "x:3": -60,
+          "y:3": -156,
+          "id:3": 2,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -180,
-          "id:3": 59,
+          "x:3": 12,
+          "y:3": -228,
+          "id:3": 3,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -132,
-          "id:3": 60,
+          "x:3": -180,
+          "y:3": -180,
+          "id:3": 231,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -36,
+          "x:3": -132,
           "y:3": -180,
-          "id:3": 61,
+          "id:3": 232,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -192,
-          "id:3": 62,
+          "x:3": -36,
+          "y:3": -240,
+          "id:3": 233,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": -228,
-          "id:3": 63,
+          "x:3": -60,
+          "y:3": -120,
+          "id:3": 234,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": -168,
-          "id:3": 64,
+          "x:3": -228,
+          "y:3": -132,
+          "id:3": 235,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": -132,
-          "id:3": 65,
+          "x:3": 72,
+          "y:3": -192,
+          "id:3": 237,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -228,
-          "id:3": 67,
+          "x:3": 96,
+          "y:3": -216,
+          "id:3": 238,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -132,
-          "id:3": 68,
+          "x:3": 72,
+          "y:3": -168,
+          "id:3": 239,
           "sizeY:3": 24
         },
         "12:10": {
-          "sizeX:3": 48,
+          "sizeX:3": 24,
           "x:3": 96,
-          "y:3": -192,
-          "id:3": 69,
-          "sizeY:3": 48
+          "y:3": -132,
+          "id:3": 240,
+          "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": -180,
+          "x:3": -132,
           "y:3": -228,
-          "id:3": 77,
+          "id:3": 242,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -132,
+          "id:3": 243,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 48,
+          "x:3": 132,
+          "y:3": -192,
+          "id:3": 244,
+          "sizeY:3": 48
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": -228,
+          "id:3": 252,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
           "x:3": -180,
           "y:3": -132,
-          "id:3": 94,
+          "id:3": 314,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -180,
+          "id:3": 331,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -132,
+          "id:3": 350,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -228,
+          "id:3": 389,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -288,
+          "id:3": 398,
           "sizeY:3": 24
         }
       },
-      "lineID:3": 1,
+      "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
-          "name:8": "Gassed Up",
+          "name:8": "Steamed Up",
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 19,
+            "Damage:2": 32011,
             "OreDict:8": ""
           },
           "bg_image:8": "",
@@ -2677,157 +4960,276 @@
       },
       "order:3": 1
     },
-    "2:10": {
+    "3:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": -96,
-          "id:3": 71,
+          "id:3": 246,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
           "x:3": -228,
           "y:3": -132,
-          "id:3": 72,
+          "id:3": 247,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": -168,
-          "id:3": 73,
+          "id:3": 248,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": -60,
           "y:3": -132,
-          "id:3": 74,
+          "id:3": 249,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
           "x:3": -228,
           "y:3": -60,
-          "id:3": 75,
+          "id:3": 250,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
           "x:3": -204,
           "y:3": -96,
-          "id:3": 76,
+          "id:3": 251,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
           "x:3": -156,
           "y:3": -96,
-          "id:3": 78,
+          "id:3": 253,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -60,
-          "id:3": 79,
+          "id:3": 254,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -132,
-          "id:3": 80,
+          "x:3": 84,
+          "y:3": 36,
+          "id:3": 255,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
           "x:3": -60,
           "y:3": -60,
-          "id:3": 81,
+          "id:3": 256,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": -96,
-          "id:3": 82,
+          "id:3": 257,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": -96,
-          "id:3": 83,
+          "id:3": 258,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -60,
-          "id:3": 84,
+          "y:3": -132,
+          "id:3": 259,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -132,
-          "id:3": 85,
+          "y:3": -60,
+          "id:3": 260,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 144,
           "y:3": 36,
-          "id:3": 86,
+          "id:3": 261,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 48,
-          "x:3": 120,
+          "x:3": 132,
           "y:3": -108,
-          "id:3": 87,
+          "id:3": 262,
           "sizeY:3": 48
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": -132,
-          "id:3": 88,
+          "x:3": 84,
+          "y:3": -96,
+          "id:3": 264,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": -60,
-          "id:3": 89,
+          "x:3": 144,
+          "y:3": -12,
+          "id:3": 365,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": -12,
-          "id:3": 90,
+          "x:3": -264,
+          "y:3": -24,
+          "id:3": 366,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 36,
-          "id:3": 91,
+          "x:3": -24,
+          "y:3": -12,
+          "id:3": 368,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -12,
-          "id:3": 93,
+          "x:3": 36,
+          "y:3": 132,
+          "id:3": 370,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 36,
+          "id:3": 371,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 48,
+          "x:3": 132,
+          "y:3": 120,
+          "id:3": 372,
+          "sizeY:3": 48
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 84,
+          "id:3": 373,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 84,
+          "id:3": 374,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 48,
+          "x:3": 24,
+          "y:3": 228,
+          "id:3": 375,
+          "sizeY:3": 48
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 84,
+          "id:3": 376,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 240,
+          "id:3": 377,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 36,
+          "x:3": 84,
+          "y:3": 180,
+          "id:3": 378,
+          "sizeY:3": 36
+        },
+        "29:10": {
+          "sizeX:3": 48,
+          "x:3": -216,
+          "y:3": 228,
+          "id:3": 379,
+          "sizeY:3": 48
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 132,
+          "id:3": 380,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 180,
+          "id:3": 381,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 84,
+          "id:3": 382,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 240,
+          "id:3": 383,
+          "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 180,
+          "id:3": 384,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 48,
+          "x:3": -132,
+          "y:3": 120,
+          "id:3": 385,
+          "sizeY:3": 48
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 84,
+          "id:3": 387,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": -300,
+          "y:3": -132,
+          "id:3": 399,
           "sizeY:3": 24
         }
       },
-      "lineID:3": 2,
+      "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",

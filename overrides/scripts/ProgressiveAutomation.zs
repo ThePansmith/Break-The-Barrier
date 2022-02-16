@@ -5,6 +5,7 @@ import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
 
 
+//Replaces stone machines in recipes with LV hulls
  val stonemachines = [<progressiveautomation:chopper_stone>, 
                     <progressiveautomation:crafter_stone>,
                     <progressiveautomation:farmer_stone>, 
@@ -23,7 +24,8 @@ recipes.addShaped(rfengine, [
 	[null, <minecraft:redstone_block>, null]]);
 
 
-## Removal
+
+// Removal
 mods.jei.JEI.removeAndHide(<progressiveautomation:capacitor_wooden>);
 mods.jei.JEI.removeAndHide(<progressiveautomation:capacitor_stone>);
 mods.jei.JEI.removeAndHide(<progressiveautomation:capacitor_iron>);

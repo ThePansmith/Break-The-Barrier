@@ -2,7 +2,7 @@
     "author": "Pansmith",
     "files": [
         {
-            "fileID": 3585578,
+            "fileID": 3630762,
             "projectID": 557242,
             "required": true
         },
@@ -106,6 +106,90 @@
 		"required": true
 	},
 	{
+		"alias": "Botania",
+		"fileID": 3330934,
+		"projectID": 225643,
+		"required": true
+	},
+	{
+		"alias": "Baubles",
+		"fileID": 2518667,
+		"projectID": 227083,
+		"required": true
+	},
+	{
+		"alias": "Botanic Additions",
+		"fileID": 2939405,
+		"projectID": 310637,
+		"required": true
+	},
+	{
+		"alias": "Hammercore",
+		"fileID": 3366814,
+		"projectID": 247401,
+		"required": true
+	},
+	{
+		"alias": "Botania Tweaks",
+		"fileID": 3092102,
+		"projectID": 295114,
+		"required": true
+	},
+	{
+		"alias": "NC:O",
+		"fileID": 3386487,
+		"projectID": 336895,
+		"required": true
+	},
+	{
+		"alias": "QMD",
+		"fileID": 3493623,
+		"projectID": 362056,
+		"required": true
+	},
+	{
+		"alias": "Chisel",
+		"fileID": 2915375,
+		"projectID": 235279,
+		"required": true
+	},
+	{
+		"alias": "CTM",
+		"fileID": 2915363,
+		"projectID": 267602,
+		"required": true
+	},
+	{
+		"alias": "MTB",
+		"fileID": 3617282,
+		"projectID": 386188,
+		"required": true
+	},
+	{
+		"alias": "devtech",
+		"fileID": 3632558,
+		"projectID": 412037,
+		"required": true
+	},
+	{
+		"alias": "mousetweaks",
+		"fileID": 2671937,
+		"projectID": 60089,
+		"required": true
+	},
+	{
+		"alias": "pae2",
+		"fileID": 3648391,
+		"projectID": 570458,
+		"required": true
+	},
+	{
+		"alias": "Just Enough Dimensions",
+		"fileID": 2932048,
+		"projectID": 254317,
+		"required": true
+	},
+	{
 		"alias": "Load My Resources [Forge]",
 		"fileID": 3484298,
 		"projectID": 534502,
@@ -125,5 +209,5 @@
     },
     "name": "Break The Barrier",
     "overrides": "overrides",
-    "version": "0.1"
+    "version": "just check github lol"
 }

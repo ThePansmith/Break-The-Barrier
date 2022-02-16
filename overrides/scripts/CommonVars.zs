@@ -59,6 +59,7 @@ global tower             as RecipeMap = RecipeMap.getByName("distillation_tower"
 global unpackager        as RecipeMap = RecipeMap.getByName("unpacker");
 global wiremill          as RecipeMap = RecipeMap.getByName("wiremill");
 
+
 global isBasic      as IItemCondition = function(stack as IItemStack) { return stack.tag has {Level: 0 as byte} as IData && !(stack.tag has {Creative: 1 as byte} as IData); };
 global isHardened   as IItemCondition = function(stack as IItemStack) { return stack.tag has {Level: 1 as byte} as IData && !(stack.tag has {Creative: 1 as byte} as IData); };
 global isReinforced as IItemCondition = function(stack as IItemStack) { return stack.tag has {Level: 2 as byte} as IData && !(stack.tag has {Creative: 1 as byte} as IData); };
@@ -68,7 +69,7 @@ global isCreative   as IItemCondition = function(stack as IItemStack) { return s
 
 
 global rfengine         as IItemStack  = <progressiveautomation:rf_engine>.withTag({Energy: 0});
-
+global endoflame        as IItemStack  = <botania:specialflower>.withTag({type: "endoflame"});
 
 /*
  Converts a text representation of a crafting grid recipe into an array of

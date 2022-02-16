@@ -74,3 +74,9 @@ eula.txt
 banned-players.json
 banned-ips.json
 ChangelogGenerator.jar
+overrides/config/jei/jei.cfg
+overrides/config/jei/bookmarks.ini
+overrides/config/jei/itemBlacklist.cfg
+overrides/config/jei/searchColors.cfg
+overrides/config/gregtech/terminal/config/theme.json
+overrides/config/gregtech/terminal/config/theme.json
