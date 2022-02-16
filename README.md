@@ -1,7 +1,7 @@
 # Break the barrier 
 [![Curseforge](http://cf.way2muchnoise.eu/full_564328_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/break-the-barrier) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_564328_all.svg)](https://www.curseforge.com/minecraft/modpacks/break-the-barrier)
 
-Break the barrier is a gregtech-centered pack centered around the mass production of drills that generate resources, along with interactions with other mods, with the eventual endgoal of building a massive laser to shatter a barrier that keeps the player trapped within a dimension. 
+Break the barrier is a gregtech-centered pack centered around the mass production of drills that generate resources, with the eventual endgoal of building a massive laser to shatter a barrier that keeps the player trapped within a dimension. 
 
 [Discord](https://discord.gg/N8b2JEfAqb)
 
