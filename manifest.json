@@ -184,6 +184,12 @@
 		"required": true
 	},
 	{
+		"alias": "Just Enough Dimensions",
+		"fileID": 2932048,
+		"projectID": 254317,
+		"required": true
+	},
+	{
 		"alias": "Load My Resources [Forge]",
 		"fileID": 3484298,
 		"projectID": 534502,
