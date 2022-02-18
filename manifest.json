@@ -178,18 +178,6 @@
 		"required": true
 	},
 	{
-		"alias": "Cyclops Core",
-		"fileID": 2953029,
-		"projectID": 232758,
-		"required": true
-	},
-	{
-		"alias": "flopper",
-		"fileID": 2689287,
-		"projectID": 290404,
-		"required": true
-	},
-	{
 		"alias": "pae2",
 		"fileID": 3648391,
 		"projectID": 570458,
