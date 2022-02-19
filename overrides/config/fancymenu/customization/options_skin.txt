@@ -1,0 +1,119 @@
+type = menu
+
+customization-meta {
+  identifier = com.zeitheron.hammercore.client.gui.impl.GuiCustomizeSkinHC
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = btb_intro_lololol
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505190%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=505238%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=345190%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=345238%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=400286%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=505166%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=505214%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=505262%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=345166%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=345214%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=345262%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+

@@ -1,0 +1,137 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = btb_intro_lololol
+  action = animatebackground
+}
+
+customization {
+  path = resources/minecraft/sounds/phantomMenu.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = element
+  orientation_element = vanillabtn:400346
+  x = 102
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = element
+  orientation_element = 99705624-a39c-45fa-806e-595a7f06b5101645301845118
+  x = 52
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/custommainmenu/textures/gui/logo.png
+  orientation = top-centered
+  delayappearanceseconds = 0.0
+  x = -185
+  width = 368
+  actionid = d97b9a6d-89b3-4414-9314-3a68379aa7c11645300139202
+  action = addtexture
+  y = 37
+  delayappearance = true
+  delayappearanceeverytime = true
+  height = 61
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  label = Credits
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:400346
+  x = 0
+  width = 200
+  actionid = 99705624-a39c-45fa-806e-595a7f06b5101645301845118
+  action = addbutton
+  y = 25
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+  value = https://pastebin.com/raw/1GY4Cg0Z
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+

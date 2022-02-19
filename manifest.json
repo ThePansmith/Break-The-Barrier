@@ -94,9 +94,9 @@
 		"required": true
 	},
 	{
-		"alias": "CMM",
-		"fileID": 2857869,
-		"projectID": 226406,
+		"alias": "fancymenu",
+		"fileID": 3651351,
+		"projectID": 367706,
 		"required": true
 	},
 	{
@@ -151,6 +151,18 @@
 		"alias": "Chisel",
 		"fileID": 2915375,
 		"projectID": 235279,
+		"required": true
+	},
+	{
+		"alias": "Konkrete [Forge]",
+		"fileID": 3593196,
+		"projectID": 410295,
+		"required": true
+	},
+	{
+		"alias": "MixinBootstrap",
+		"fileID": 3437402,
+		"projectID": 357178,
 		"required": true
 	},
 	{

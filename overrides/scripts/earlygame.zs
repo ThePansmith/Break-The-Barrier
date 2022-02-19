@@ -68,15 +68,7 @@ makeShaped("Coal_boiler", <gregtech:machine:1>,
 	  B : <minecraft:brick_block>,
 	  S : <contenttweaker:brokenboiler>
 	  });
-
-makeShaped("stone_plank", <gregtech:meta_item_1:12328>,
-	[" H ",
-	 " P ",
-	 " P "],
-	{ H : <ore:gtceHardHammers>,
-	  P : <ore:stone>
-	  });
-	  
+  
 makeShaped("woodstonedrilltip", <contenttweaker:woodstonedrilltip>,
 	["SWS",
 	 "SWS",
@@ -94,7 +86,19 @@ makeShaped("woodstonedrilltip2", <contenttweaker:woodstonedrilltip>,
 	  W : <ore:plankWood>,
 	  S : <ore:stoneSmooth>
 	  });
-
+	  
+recipes.remove(<gregtech:machine:1647>);
+makeShaped("craftingstation", <gregtech:machine:1647>,
+	["EPE",
+	 "WCW",
+	 "WSW"],
+	{ C : <minecraft:crafting_table>,
+	  P : <minecraft:wooden_pressure_plate>,
+	  E : <ore:chestWood>,
+	  W : <ore:plankWood>,
+	  S : <ore:gregSaws>
+	  });
+	  
 // Drill recipes will likely be temp until there are textures for the drill 
 makeShaped("tieronedrill", <contenttweaker:tieronedrill>,
 	["SCS",

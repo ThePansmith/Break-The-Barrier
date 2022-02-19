@@ -1,0 +1,38 @@
+type = customizablemenus
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraft.client.gui.GuiControls {
+}
+
+com.zeitheron.hammercore.client.gui.impl.GuiCustomizeSkinHC {
+}
+
+net.minecraft.client.gui.GuiVideoSettings {
+}
+
+net.minecraft.client.gui.GuiLanguage {
+}
+
+net.minecraft.client.gui.GuiScreenResourcePacks {
+}
+
+net.minecraft.client.gui.GuiScreenOptionsSounds {
+}
+
+net.minecraft.client.gui.GuiSnooper {
+}
+
+net.minecraft.client.gui.ScreenChatOptions {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiMultiplayer {
+}
+

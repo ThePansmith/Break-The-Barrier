@@ -1,0 +1,42 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiVideoSettings
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = btb_intro_lololol
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400973%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  orientation = element
+  shadow = false
+  orientation_element = vanillabtn:400973
+  x = 4
+  actionid = 49ba20a9-c957-4751-8c32-5061dd96fa861645303781673
+  action = addtext
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = Can't change most of these buttons :(
+}
+
