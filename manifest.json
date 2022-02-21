@@ -172,6 +172,72 @@
 		"required": true
 	},
 	{
+		"alias": "Fastleaf",
+		"fileID": 2463272,
+		"projectID": 230976,
+		"required": true
+	},
+	{
+		"alias": "Crafting Tweaks",
+		"fileID": 2562139,
+		"projectID": 233071,
+		"required": true
+	},
+	{
+		"alias": "Inventory Tweaks [1.12 only]",
+		"fileID": 2482481,
+		"projectID": 223094,
+		"required": true
+	},
+	{
+		"alias": "FastFurnace",
+		"fileID": 2706111,
+		"projectID": 299540,
+		"required": true
+	},
+	{
+		"alias": "FastWorkbench",
+		"fileID": 2838777,
+		"projectID": 288885,
+		"required": true
+	},
+	{
+		"alias": "Placebo",
+		"fileID": 2694382,
+		"projectID": 283644,
+		"required": true
+	},
+	{
+		"alias": "Diet Hoppers",
+		"fileID": 2482543,
+		"projectID": 278385,
+		"required": true
+	},
+	{
+		"alias": "Diet Hoppers",
+		"fileID": 2482543,
+		"projectID": 278385,
+		"required": true
+	},
+	{
+		"alias": "RongASM",
+		"fileID": 3650472,
+		"projectID": 460609,
+		"required": true
+	},
+	{
+		"alias": "MixinBooter",
+		"fileID": 3642000,
+		"projectID": 419286,
+		"required": true
+	},
+	{
+		"alias": "Garbage Bins",
+		"fileID": 2675062,
+		"projectID": 286710,
+		"required": true
+	},
+	{
 		"alias": "Just Enough Dimensions",
 		"fileID": 2932048,
 		"projectID": 254317,

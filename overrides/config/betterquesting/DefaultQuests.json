@@ -223,6 +223,57 @@
     "4:10": {
       "properties:10": {
         "betterquesting:10": {
+          "name:8": "P2P... for EU?!",
+          "desc:8": "Yeah!\n\nPAE2 supports P2P for EU!",
+          "icon:10": {
+            "id:8": "appliedenergistics2:part",
+            "Count:3": 1,
+            "Damage:2": 470,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 2,
+              "Damage:2": 470,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        391
+      ],
+      "questID:3": 4
+    },
+    "5:10": {
+      "properties:10": {
+        "betterquesting:10": {
           "issilent:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
@@ -271,7 +322,7 @@
       ],
       "questID:3": 5
     },
-    "5:10": {
+    "6:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -309,77 +360,62 @@
       ],
       "questID:3": 6
     },
-    "6:10": {
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "gregtech:machine",
-            "Count:3": 1,
-            "Damage:2": 3,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Other Steam generation options",
-          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "taskID:8": "bq_standard:checkbox",
-          "index:3": 0
-        }
-      },
-      "rewards:9": {},
-      "preRequisites:11": [],
-      "questID:3": 23
-    },
     "7:10": {
       "properties:10": {
         "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
+          "name:8": "Trashing Resources",
+          "desc:8": "Isn\u0027t it odd that CEu does not add trashcans or something of the like? Well, to solve that issue, garbage bins are present in this pack. \n\nThey work exactly as you would expect; piped in items or fluids are instantly deleted.",
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "trashcansreborn:trashcan",
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
           "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
           "ismain:1": 0,
-          "name:8": "Other Steam generation options",
-          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
         "0:10": {
-          "taskID:8": "bq_standard:checkbox",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "trashcansreborn:trashcan",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "trashcansreborn:trashcanfluid",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
           "index:3": 0
         }
       },
       "rewards:9": {},
-      "preRequisites:11": [],
-      "questID:3": 68
+      "preRequisites:11": [
+        231
+      ],
+      "questID:3": 7
     },
     "8:10": {
       "properties:10": {
@@ -415,7 +451,7 @@
       },
       "rewards:9": {},
       "preRequisites:11": [],
-      "questID:3": 118
+      "questID:3": 23
     },
     "9:10": {
       "properties:10": {
@@ -451,9 +487,81 @@
       },
       "rewards:9": {},
       "preRequisites:11": [],
-      "questID:3": 168
+      "questID:3": 68
     },
     "10:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 118
+    },
+    "11:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 168
+    },
+    "12:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -566,7 +674,7 @@
       "preRequisites:11": [],
       "questID:3": 216
     },
-    "11:10": {
+    "13:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -623,7 +731,7 @@
       ],
       "questID:3": 221
     },
-    "12:10": {
+    "14:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -674,7 +782,7 @@
       ],
       "questID:3": 222
     },
-    "13:10": {
+    "15:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -735,7 +843,7 @@
       ],
       "questID:3": 223
     },
-    "14:10": {
+    "16:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -786,7 +894,7 @@
       ],
       "questID:3": 224
     },
-    "15:10": {
+    "17:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -837,7 +945,7 @@
       ],
       "questID:3": 225
     },
-    "16:10": {
+    "18:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -888,7 +996,7 @@
       ],
       "questID:3": 226
     },
-    "17:10": {
+    "19:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -940,7 +1048,7 @@
       ],
       "questID:3": 227
     },
-    "18:10": {
+    "20:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -991,7 +1099,7 @@
       ],
       "questID:3": 228
     },
-    "19:10": {
+    "21:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1042,7 +1150,7 @@
       ],
       "questID:3": 229
     },
-    "20:10": {
+    "22:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1135,7 +1243,7 @@
       ],
       "questID:3": 230
     },
-    "21:10": {
+    "23:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1186,7 +1294,7 @@
       ],
       "questID:3": 231
     },
-    "22:10": {
+    "24:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1224,7 +1332,7 @@
       ],
       "questID:3": 232
     },
-    "23:10": {
+    "25:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1275,7 +1383,7 @@
       ],
       "questID:3": 233
     },
-    "24:10": {
+    "26:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1326,7 +1434,7 @@
       ],
       "questID:3": 234
     },
-    "25:10": {
+    "27:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1377,7 +1485,7 @@
       ],
       "questID:3": 235
     },
-    "26:10": {
+    "28:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1428,7 +1536,7 @@
       ],
       "questID:3": 237
     },
-    "27:10": {
+    "29:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1479,7 +1587,7 @@
       ],
       "questID:3": 238
     },
-    "28:10": {
+    "30:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1530,7 +1638,7 @@
       ],
       "questID:3": 239
     },
-    "29:10": {
+    "31:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1581,7 +1689,7 @@
       ],
       "questID:3": 240
     },
-    "30:10": {
+    "32:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1604,7 +1712,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "It\u0027s getting hot in here",
-          "desc:8": "A crucible can be used to make lava, and works in a similar way to making dirt. Remeber that you have to place a heat generating object, such as a torch, under the crucible to make lava, with hotter things being faster. (Lava works much faster than a torch)\n"
+          "desc:8": "A crucible can be used to make lava, and works in a similar way to making dirt. Remeber that you have to place a heat generating object, such as a torch, under the crucible to make lava, with hotter things being faster. (Lava works much faster than a torch)\n\nThis pack adds some new fluids that can be used as heat sources! \n(Nuclearcraft options are not available, and I am currently working on hiding them)\nTo save you the trouble, here is a full list of what your options are, and their speed (x1 is torch speed)\n\n‣Torch: x1\n‣Lava: x3\n‣Flowing lava: x3\n‣Fire: x4\n‣Molten Iron: x6\n‣Molten Wrought Iron: x7\n‣Molten Bronze: x8\n‣Molten Steel: x10\n‣Molten Aluminium: x12\n"
         }
       },
       "tasks:9": {
@@ -1638,7 +1746,7 @@
       ],
       "questID:3": 241
     },
-    "31:10": {
+    "33:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1689,7 +1797,7 @@
       ],
       "questID:3": 242
     },
-    "32:10": {
+    "34:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1727,7 +1835,7 @@
       ],
       "questID:3": 243
     },
-    "33:10": {
+    "35:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1792,7 +1900,7 @@
       ],
       "questID:3": 244
     },
-    "34:10": {
+    "36:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1843,7 +1951,7 @@
       ],
       "questID:3": 246
     },
-    "35:10": {
+    "37:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1903,7 +2011,7 @@
       ],
       "questID:3": 247
     },
-    "36:10": {
+    "38:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1941,7 +2049,7 @@
       ],
       "questID:3": 248
     },
-    "37:10": {
+    "39:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1992,7 +2100,7 @@
       ],
       "questID:3": 249
     },
-    "38:10": {
+    "40:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2043,7 +2151,7 @@
       ],
       "questID:3": 250
     },
-    "39:10": {
+    "41:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2081,7 +2189,7 @@
       ],
       "questID:3": 251
     },
-    "40:10": {
+    "42:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2138,7 +2246,7 @@
       ],
       "questID:3": 252
     },
-    "41:10": {
+    "43:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2197,7 +2305,7 @@
       ],
       "questID:3": 253
     },
-    "42:10": {
+    "44:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2256,7 +2364,7 @@
       ],
       "questID:3": 254
     },
-    "43:10": {
+    "45:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2307,7 +2415,7 @@
       ],
       "questID:3": 256
     },
-    "44:10": {
+    "46:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2365,7 +2473,7 @@
       ],
       "questID:3": 257
     },
-    "45:10": {
+    "47:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2418,7 +2526,7 @@
       ],
       "questID:3": 258
     },
-    "46:10": {
+    "48:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2469,7 +2577,7 @@
       ],
       "questID:3": 259
     },
-    "47:10": {
+    "49:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2520,7 +2628,7 @@
       ],
       "questID:3": 260
     },
-    "48:10": {
+    "50:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2571,7 +2679,7 @@
       ],
       "questID:3": 261
     },
-    "49:10": {
+    "51:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2633,7 +2741,7 @@
       ],
       "questID:3": 262
     },
-    "50:10": {
+    "52:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2684,7 +2792,7 @@
       ],
       "questID:3": 264
     },
-    "51:10": {
+    "53:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2720,7 +2828,7 @@
       "preRequisites:11": [],
       "questID:3": 288
     },
-    "52:10": {
+    "54:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2771,7 +2879,7 @@
       ],
       "questID:3": 314
     },
-    "53:10": {
+    "55:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2823,7 +2931,7 @@
       ],
       "questID:3": 331
     },
-    "54:10": {
+    "56:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2859,7 +2967,7 @@
       "preRequisites:11": [],
       "questID:3": 338
     },
-    "55:10": {
+    "57:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2897,7 +3005,7 @@
       ],
       "questID:3": 350
     },
-    "56:10": {
+    "58:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2949,7 +3057,7 @@
       ],
       "questID:3": 365
     },
-    "57:10": {
+    "59:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3000,7 +3108,7 @@
       ],
       "questID:3": 366
     },
-    "58:10": {
+    "60:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3107,7 +3215,7 @@
       "preRequisites:11": [],
       "questID:3": 367
     },
-    "59:10": {
+    "61:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3158,7 +3266,7 @@
       ],
       "questID:3": 368
     },
-    "60:10": {
+    "62:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3209,7 +3317,7 @@
       ],
       "questID:3": 372
     },
-    "61:10": {
+    "63:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3260,7 +3368,7 @@
       ],
       "questID:3": 373
     },
-    "62:10": {
+    "64:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3311,7 +3419,7 @@
       ],
       "questID:3": 377
     },
-    "63:10": {
+    "65:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3363,7 +3471,7 @@
       ],
       "questID:3": 378
     },
-    "64:10": {
+    "66:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3396,7 +3504,7 @@
       ],
       "questID:3": 379
     },
-    "65:10": {
+    "67:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3447,7 +3555,7 @@
       ],
       "questID:3": 380
     },
-    "66:10": {
+    "68:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3498,7 +3606,7 @@
       ],
       "questID:3": 381
     },
-    "67:10": {
+    "69:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3549,7 +3657,7 @@
       ],
       "questID:3": 382
     },
-    "68:10": {
+    "70:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3600,7 +3708,7 @@
       ],
       "questID:3": 383
     },
-    "69:10": {
+    "71:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3652,7 +3760,7 @@
       ],
       "questID:3": 384
     },
-    "70:10": {
+    "72:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3714,7 +3822,7 @@
       ],
       "questID:3": 385
     },
-    "71:10": {
+    "73:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3829,7 +3937,7 @@
       ],
       "questID:3": 386
     },
-    "72:10": {
+    "74:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3872,7 +3980,7 @@
       ],
       "questID:3": 388
     },
-    "73:10": {
+    "75:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3929,7 +4037,7 @@
       ],
       "questID:3": 389
     },
-    "74:10": {
+    "76:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3980,7 +4088,7 @@
       ],
       "questID:3": 390
     },
-    "75:10": {
+    "77:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4018,7 +4126,7 @@
       ],
       "questID:3": 391
     },
-    "76:10": {
+    "78:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4069,7 +4177,7 @@
       ],
       "questID:3": 392
     },
-    "77:10": {
+    "79:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4120,7 +4228,7 @@
       ],
       "questID:3": 393
     },
-    "78:10": {
+    "80:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4153,7 +4261,7 @@
       ],
       "questID:3": 395
     },
-    "79:10": {
+    "81:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4191,7 +4299,7 @@
       ],
       "questID:3": 396
     },
-    "80:10": {
+    "82:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4224,7 +4332,7 @@
       ],
       "questID:3": 397
     },
-    "81:10": {
+    "83:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4281,7 +4389,7 @@
       ],
       "questID:3": 398
     },
-    "82:10": {
+    "84:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4352,62 +4460,69 @@
       },
       "quests:9": {
         "0:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": 36,
+          "id:3": 4
+        },
+        "1:10": {
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -96,
           "y:3": -24,
           "id:3": 385
         },
-        "1:10": {
+        "2:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": -12,
           "id:3": 386
         },
-        "2:10": {
+        "3:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -60,
           "id:3": 390
         },
-        "3:10": {
+        "4:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": -12,
           "id:3": 391
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": 36,
           "id:3": 392
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -60,
           "id:3": 393
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 144,
           "y:3": -24,
           "id:3": 395
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -60,
           "id:3": 396
         },
-        "8:10": {
+        "9:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
@@ -4578,123 +4693,130 @@
         "4:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -180,
+          "id:3": 7
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
           "x:3": -180,
           "y:3": -180,
           "id:3": 231
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -132,
           "y:3": -180,
           "id:3": 232
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": -240,
           "id:3": 233
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -120,
           "id:3": 234
         },
-        "8:10": {
+        "9:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
           "y:3": -132,
           "id:3": 235
         },
-        "9:10": {
+        "10:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": -192,
           "id:3": 237
         },
-        "10:10": {
+        "11:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -228,
           "id:3": 238
         },
-        "11:10": {
+        "12:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": -168,
           "id:3": 239
         },
-        "12:10": {
+        "13:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -132,
           "id:3": 240
         },
-        "13:10": {
+        "14:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -132,
           "y:3": -228,
           "id:3": 242
         },
-        "14:10": {
+        "15:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -132,
           "y:3": -132,
           "id:3": 243
         },
-        "15:10": {
+        "16:10": {
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 132,
           "y:3": -192,
           "id:3": 244
         },
-        "16:10": {
+        "17:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -180,
           "y:3": -228,
           "id:3": 252
         },
-        "17:10": {
+        "18:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -180,
           "y:3": -132,
           "id:3": 314
         },
-        "18:10": {
+        "19:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": -180,
           "id:3": 331
         },
-        "19:10": {
+        "20:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": -132,
           "id:3": 350
         },
-        "20:10": {
+        "21:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
           "y:3": -228,
           "id:3": 389
         },
-        "21:10": {
+        "22:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
