@@ -226,6 +226,12 @@
 		"required": true
 	},
 	{
+		"alias": "Foamfix",
+		"fileID": 3327893,
+		"projectID": 278494,
+		"required": true
+	},
+	{
 		"alias": "MixinBooter",
 		"fileID": 3642000,
 		"projectID": 419286,
