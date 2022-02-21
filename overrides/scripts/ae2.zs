@@ -17,7 +17,7 @@ reactor.recipeBuilder().inputs(<gregtech:wire_single:32002> * 2, <appliedenergis
 reactor.recipeBuilder().inputs(<gregtech:wire_quadruple:32002> * 2, <appliedenergistics2:part:140> * 4).fluidInputs(<liquid:glass> * 2000, <liquid:rubber> * 2000).outputs(<appliedenergistics2:part:516>).EUt(40).duration(120).buildAndRegister();
 
 //quartz into certus quartz
-mixer.recipeBuilder().inputs(<minecraft:quartz>).fluidInputs(<liquid:fluidmanasteel> * 31).outputs(<gregtech:meta_gem:214>).EUt(16).duration(60).buildAndRegister();
+mixer.recipeBuilder().inputs(<minecraft:quartz>).fluidInputs(<liquid:aluminium> * 31).outputs(<gregtech:meta_gem:214>).EUt(16).duration(60).buildAndRegister();
 
 // Replace fluix crystals with ingots in all recipes (may reintroduce fluix crystals later on)
 recipes.replaceAllOccurences(<appliedenergistics2:material:7>, <gregtech:meta_ingot:32002>, <*>);
@@ -50,7 +50,7 @@ extruder.recipeBuilder()
 	.buildAndRegister();
 			   
 extruder.recipeBuilder()
-	.inputs(<botania:manaresource:2>)
+	.inputs(<minecraft:diamond>)
 	.notConsumable(<contenttweaker:pressplate>)
 	.outputs(<appliedenergistics2:material:17>)
 	.duration(100)
@@ -108,7 +108,7 @@ makeShaped("ae2mold", <contenttweaker:pressplate>,
 	[" C ",
 	 "   ",
 	 " P "],
-	{ C	: <ore:craftingToolWireCutter>,
+	{ C	: <ore:gregWireCutters>,
 	  P : <gregtech:meta_item_1:11>
 	  });
 
@@ -140,7 +140,7 @@ makeShaped("ae2interfacev", <appliedenergistics2:interface> * 4,
 	{ C	: <gregtech:meta_item_1:188>,
 	  F : <gregtech:machine:987>,
 	  P : <gregtech:meta_plate_double:324>,
-	  I : <botania:manaresource>
+	  I : <gregtech:meta_plate:214>
 	  });
 
 recipes.remove(<appliedenergistics2:part:180>);
@@ -149,9 +149,9 @@ makeShaped("ae2panel", <appliedenergistics2:part:180>,
 	 "SRG",
 	 " MG"],
 	{ G : <appliedenergistics2:quartz_glass>,
-	  M : <botania:manaresource:23>,
+	  M : <gregtech:meta_dust:32002>,
 	  R : <minecraft:redstone>,
-	  S : <botania:manaresource>
+	  S : <gregtech:meta_ingot:2>
 	  });
 
 recipes.remove(<appliedenergistics2:material:39>);
@@ -160,7 +160,6 @@ makeShaped("ae2housing", <appliedenergistics2:material:39>,
 	 "R R",
 	 "SSS"],
 	{ G : <appliedenergistics2:quartz_glass>,
-	  M : <botania:manaresource:23>,
 	  R : <gregtech:meta_foil:2517>,
 	  S : <gregtech:meta_ingot:324>
 	  });
@@ -171,7 +170,7 @@ makeShaped("ae2interface", <appliedenergistics2:material:52> * 4,
 	 "MGM",
 	 "SSS"],
 	{ G : <gregtech:meta_gear:214>,
-	  M : <botania:manaresource:23>,
+	  M : <gregtech:meta_dust:32002>,
 	  S : <gregtech:meta_ingot:324>
 	  });
 	 

@@ -106,33 +106,9 @@
 		"required": true
 	},
 	{
-		"alias": "Botania",
-		"fileID": 3330934,
-		"projectID": 225643,
-		"required": true
-	},
-	{
 		"alias": "Baubles",
 		"fileID": 2518667,
 		"projectID": 227083,
-		"required": true
-	},
-	{
-		"alias": "Botanic Additions",
-		"fileID": 2939405,
-		"projectID": 310637,
-		"required": true
-	},
-	{
-		"alias": "Hammercore",
-		"fileID": 3366814,
-		"projectID": 247401,
-		"required": true
-	},
-	{
-		"alias": "Botania Tweaks",
-		"fileID": 3092102,
-		"projectID": 295114,
 		"required": true
 	},
 	{

@@ -20,6 +20,8 @@ alloy.recipeBuilder().inputs([<gregtech:meta_gem:319> * 3, <gregtech:meta_ingot:
 //Spunch
 alloy.recipeBuilder().inputs([<minecraft:sponge>, <minecraft:ghast_tear>]).outputs([<contenttweaker:spunchcube>]).duration(300).EUt(16).hidden().buildAndRegister();
 
+
+alloy.recipeBuilder().inputs([<gregtech:meta_ingot:2517>, <gregtech:meta_ingot:2>]).outputs([<gregtech:meta_ingot:32002> * 4]).duration(300).EUt(16).buildAndRegister();
 // CEu devs forgor to add rubber planks as furance fuel
 furnace.setFuel(<gregtech:planks>, 350);
 
@@ -47,14 +49,13 @@ chemreactor.recipeBuilder().inputs([<exnihilocreatio:block_dust>]).fluidInputs([
 // Various mana boosted fluid recipes
 // Large chem recipes to come later
 // Also mana buffed PE recipe
-chemreactor.recipeBuilder().fluidInputs([<liquid:ethylene> * 200, <liquid:manasap> * 100]).fluidOutputs([<liquid:manainfusedethylene> * 100]) .duration(30).EUt(16).buildAndRegister();
-mixer.recipeBuilder().inputs([<gregtech:meta_dust:32002> * 1]).fluidInputs([<liquid:plastic> * 100]).fluidOutputs([<liquid:manainfusedpe> * 100]) .duration(40).EUt(10).buildAndRegister();
 chemreactor.recipeBuilder().fluidInputs([<liquid:oxygen> * 1000, <liquid:manainfusedethylene> * 144]).fluidOutputs([<liquid:plastic> * 360]) .duration(100).EUt(16).buildAndRegister();
 
 // Replace T2LV circuit
 circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2], [<liquid:tin> * 144]).remove();
 circuit_assembler.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2], [<liquid:soldering_alloy> * 72]).remove();
-circuit_assembler.recipeBuilder().inputs([<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineCopper> * 2, <gregtech:meta_bolt:32002> * 2]).fluidInputs([<liquid:fluidmanasteel> * 72]).outputs([<gregtech:meta_item_1:623> * 2])  .duration(320).EUt(16).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs([<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineCopper> * 2, <gregtech:meta_bolt:32002> * 2]).fluidInputs([<liquid:soldering_alloy> * 72]).outputs([<gregtech:meta_item_1:623> * 2])  .duration(320).EUt(16).buildAndRegister();
+circuit_assembler.recipeBuilder().inputs([<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineCopper> * 2, <gregtech:meta_bolt:32002> * 2]).fluidInputs([<liquid:soldering_alloy> * 144]).outputs([<gregtech:meta_item_1:623> * 2])  .duration(320).EUt(16).buildAndRegister();
 
 // Make soapstone recipe LV
 // Will make mag require further processing to be usable to compensate 
@@ -218,7 +219,7 @@ makeShaped("tierfivedrill", <contenttweaker:tierfivedrill>,
 	{ D : <gregtech:meta_tool_head_drill:2>,
 	  C : <gregtech:meta_item_1:173>,
 	  A : <gregtech:meta_item_1:81>,
-	  M : <contenttweaker:dmanastone>,
+	  M : <gregtech:meta_plate:2>,
 	  L : <gregtech:machine:1627>
 	  });
 

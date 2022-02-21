@@ -65,16 +65,6 @@ spunchcube.setToolLevel(1);
 spunchcube.setBlockSoundType(<soundtype:sand>);
 spunchcube.register();
  
-var dmanastone = VanillaFactory.createBlock("dmanastone", <blockmaterial:sand>);
-dmanastone.setBlockHardness(1);
-dmanastone.setBlockResistance(2.5);
-dmanastone.setToolClass("pickaxe");
-dmanastone.setToolLevel(1);
-dmanastone.setBlockSoundType(<soundtype:sand>);
-dmanastone.register();
- 
-var fluidmanasteel = VanillaFactory.createFluid("fluidmanasteel", Color.fromHex("0010ff")); 
-fluidmanasteel.register();
  
 var manasap = VanillaFactory.createFluid("manasap", Color.fromHex("01ebfc")); 
 manasap.register();
