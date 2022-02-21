@@ -1,0 +1,11 @@
+{
+  "minecraft:torch:-1": 1,
+  "minecraft:lava:-1": 3,
+  "minecraft:flowing_lava:-1": 3,
+  "minecraft:fire:-1": 4,
+  "gregtech:fluid.iron:-1": 6,
+  "gregtech:fluid.wrought_iron:-1": 7,
+  "gregtech:fluid.bronze:-1": 8,
+  "gregtech:fluid.steel:-1": 10,
+  "gregtech:fluid.aluminium:-1": 12
+}
