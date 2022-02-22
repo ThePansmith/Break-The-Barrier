@@ -36,3 +36,6 @@ net.minecraft.client.gui.GuiWorldSelection {
 net.minecraft.client.gui.GuiMultiplayer {
 }
 
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
