@@ -214,12 +214,6 @@
 		"required": true
 	},
 	{
-		"alias": "Diet Hoppers",
-		"fileID": 2482543,
-		"projectID": 278385,
-		"required": true
-	},
-	{
 		"alias": "LoliASM",
 		"fileID": 3650472,
 		"projectID": 460609,
