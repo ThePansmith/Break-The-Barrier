@@ -1,12 +1,22 @@
 {
-  "build:8": "3.5.329",
-  "format:8": "2.0.0",
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesdef:3": 3,
+      "pack_name:8": "",
+      "home_anchor_y:5": 0.0,
+      "livesmax:3": 10,
+      "home_anchor_x:5": 0.5,
+      "editmode:1": 0,
+      "hardcore:1": 0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "party_enable:1": 1,
+      "pack_version:3": 0,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  },
   "questDatabase:9": {
     "0:10": {
-      "questID:3": 0,
-      "preRequisites:11": [
-        232
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -14,7 +24,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -25,7 +35,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Breaking Point",
@@ -35,11 +45,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -48,16 +57,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "1:10": {
-      "questID:3": 1,
+      "rewards:9": {},
       "preRequisites:11": [
         232
       ],
+      "questID:3": 0
+    },
+    "1:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -65,7 +75,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_ingot",
@@ -76,7 +86,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Wrought for not",
@@ -86,11 +96,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_ingot",
@@ -99,16 +108,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "2:10": {
-      "questID:3": 2,
+      "rewards:9": {},
       "preRequisites:11": [
         232
       ],
+      "questID:3": 1
+    },
+    "2:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -116,7 +126,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -127,7 +137,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Steam boosting the oven",
@@ -137,11 +147,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -150,16 +159,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        232
+      ],
+      "questID:3": 2
     },
     "3:10": {
-      "questID:3": 3,
-      "preRequisites:11": [
-        331
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -167,7 +177,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_ingot",
@@ -178,7 +188,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Poton",
@@ -188,11 +198,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_ingot",
@@ -201,50 +210,68 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        331
+      ],
+      "questID:3": 3
     },
     "4:10": {
-      "questID:3": 23,
-      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
+          "name:8": "P2P... for EU?!",
+          "desc:8": "Yeah!\n\nPAE2 supports P2P for EU!",
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "appliedenergistics2:part",
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 470,
             "OreDict:8": ""
           },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
           "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
           "ismain:1": 0,
-          "name:8": "Other Steam generation options",
-          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 2,
+              "Damage:2": 470,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        391
+      ],
+      "questID:3": 4
     },
     "5:10": {
-      "questID:3": 68,
-      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -257,7 +284,7 @@
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 32017,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -265,58 +292,94 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Other Steam generation options",
-          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+          "ismain:1": 1,
+          "name:8": "Reassembling",
+          "desc:8": "The Quartz Reassembler allows you to transform your newfound quartzite into quartz!\n\nMore powerful verisons even have the ability to change quartzite directly into certus quartz!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32017,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        373
+      ],
+      "questID:3": 5
     },
     "6:10": {
-      "questID:3": 118,
-      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
+          "name:8": "Trashing Resources",
+          "desc:8": "Isn\u0027t it odd that CEu does not add trashcans or something of the like? Well, to solve that issue, garbage bins are present in this pack. \n\nThey work exactly as you would expect; piped in items or fluids are instantly deleted.",
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "trashcansreborn:trashcan",
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
           "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
           "ismain:1": 0,
-          "name:8": "Other Steam generation options",
-          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "trashcansreborn:trashcan",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "trashcansreborn:trashcanfluid",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        231
+      ],
+      "questID:3": 7
     },
     "7:10": {
-      "questID:3": 168,
-      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -335,7 +398,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -344,15 +407,15 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 23
     },
     "8:10": {
-      "questID:3": 216,
-      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -360,7 +423,115 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 68
+    },
+    "9:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 118
+    },
+    "10:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 168
+    },
+    "11:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:pressplate",
@@ -371,7 +542,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Inscribing?",
@@ -381,11 +552,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:pressplate",
@@ -394,15 +564,15 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         },
         "1:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 1,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:material",
@@ -429,15 +599,15 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 1
         },
         "2:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 2,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:material",
@@ -458,16 +628,15 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 2
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 216
     },
-    "9:10": {
-      "questID:3": 221,
-      "preRequisites:11": [
-        230
-      ],
+    "12:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -486,7 +655,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Coke vending machine",
@@ -496,11 +665,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -515,16 +683,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "10:10": {
-      "questID:3": 222,
+      "rewards:9": {},
       "preRequisites:11": [
-        367
+        230
       ],
+      "questID:3": 221
+    },
+    "13:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -543,7 +712,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Dirt and wood",
@@ -553,11 +722,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:rubber_log",
@@ -566,16 +734,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "11:10": {
-      "questID:3": 223,
+      "rewards:9": {},
       "preRequisites:11": [
-        222
+        367
       ],
+      "questID:3": 222
+    },
+    "14:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -594,7 +763,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Hammer time!",
@@ -606,37 +775,37 @@
           "blocks:9": {
             "0:10": {
               "blockID:8": "minecraft:cobblestone",
+              "meta:3": -1,
               "nbt:10": {},
               "amount:3": 5,
-              "oreDict:8": "",
-              "meta:3": -1
+              "oreDict:8": ""
             },
             "1:10": {
               "blockID:8": "minecraft:gravel",
+              "meta:3": 0,
               "nbt:10": {},
               "amount:3": 5,
-              "oreDict:8": "",
-              "meta:3": 0
+              "oreDict:8": ""
             },
             "2:10": {
               "blockID:8": "minecraft:sand",
+              "meta:3": 0,
               "nbt:10": {},
               "amount:3": 5,
-              "oreDict:8": "",
-              "meta:3": 0
+              "oreDict:8": ""
             }
           },
-          "index:3": 0,
-          "taskID:8": "bq_standard:block_break"
+          "taskID:8": "bq_standard:block_break",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "12:10": {
-      "questID:3": 224,
+      "rewards:9": {},
       "preRequisites:11": [
         222
       ],
+      "questID:3": 223
+    },
+    "15:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -655,7 +824,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Bucket of dirt",
@@ -665,11 +834,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "exnihilocreatio:block_barrel0",
@@ -678,16 +846,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "13:10": {
-      "questID:3": 225,
+      "rewards:9": {},
       "preRequisites:11": [
-        223
+        222
       ],
+      "questID:3": 224
+    },
+    "16:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -706,7 +875,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Cooking and Baking",
@@ -716,11 +885,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:furnace",
@@ -729,16 +897,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "14:10": {
-      "questID:3": 226,
+      "rewards:9": {},
       "preRequisites:11": [
-        224
+        223
       ],
+      "questID:3": 225
+    },
+    "17:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -757,7 +926,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Clay",
@@ -767,11 +936,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:clay",
@@ -780,17 +948,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "15:10": {
-      "questID:3": 227,
+      "rewards:9": {},
       "preRequisites:11": [
-        225,
-        226
+        224
       ],
+      "questID:3": 226
+    },
+    "18:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -809,7 +977,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Boiler!",
@@ -819,11 +987,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -832,16 +999,18 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "16:10": {
-      "questID:3": 228,
+      "rewards:9": {},
       "preRequisites:11": [
-        227
+        225,
+        226
       ],
+      "questID:3": 227
+    },
+    "19:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -860,7 +1029,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "PBF Bricks",
@@ -870,11 +1039,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:metal_casing",
@@ -883,16 +1051,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "17:10": {
-      "questID:3": 229,
+      "rewards:9": {},
       "preRequisites:11": [
         227
       ],
+      "questID:3": 228
+    },
+    "20:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -911,21 +1080,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Finally, good GT pipes.",
-          "desc:8": "Fluid pipes can be used to transport fluids, and likewise for item pipes. You can use these pipes to move fluids into and out of your steam generator. CEu pipes work like 5u pipes, and don\u0027t look ugly as well.\n\nPipes will also be used to craft the tier one drill base.\n"
+          "desc:8": "Fluid pipes can be used to transport fluids, and likewise for item pipes. You can use these pipes to move fluids into and out of your steam generator. CEu pipes work like 5u pipes, and don\u0027t look ugly as well.\n\nPipes will also be used to craft the tier one drill base.\n\nAlso, a small little tip: You can right click with a screwdriver (once you make one) on a barrel or drum to have it autooutput."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:fluid_pipe_small",
@@ -934,17 +1102,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "18:10": {
-      "questID:3": 230,
+      "rewards:9": {},
       "preRequisites:11": [
-        229,
-        228
+        227
       ],
+      "questID:3": 229
+    },
+    "21:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -963,7 +1131,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 1 Base + T1 Drill",
@@ -973,11 +1141,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:tieronedrill",
@@ -986,13 +1153,12 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
           "rewards:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -1018,25 +1184,28 @@
               "Damage:2": 1210,
               "OreDict:8": ""
             }
-          }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
         },
         "1:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}",
+          "title:8": " ",
           "description:8": " ",
           "viaPlayer:1": 0,
-          "index:3": 1,
-          "title:8": " ",
-          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+          "hideBlockIcon:1": 1,
+          "asScript:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "index:3": 1
         }
-      }
-    },
-    "19:10": {
-      "questID:3": 231,
+      },
       "preRequisites:11": [
-        230
+        229,
+        228
       ],
+      "questID:3": 230
+    },
+    "22:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1055,21 +1224,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Bronze",
-          "desc:8": "Take some of those iron ingots, turn it into a mortar. You can use that mortar to turn some tin and copper into copper, and thus into bronze."
+          "desc:8": "Take some of those iron ingots, turn it into a mortar. You can use that mortar to turn some tin and copper into dust, and thus into bronze."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_ingot",
@@ -1078,16 +1246,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "20:10": {
-      "questID:3": 232,
+      "rewards:9": {},
       "preRequisites:11": [
-        231
+        230
       ],
+      "questID:3": 231
+    },
+    "23:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1106,7 +1275,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Steam machines proper",
@@ -1115,17 +1284,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "21:10": {
-      "questID:3": 233,
+      "rewards:9": {},
       "preRequisites:11": [
-        0
+        231
       ],
+      "questID:3": 232
+    },
+    "24:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1144,7 +1313,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Pressure pushing",
@@ -1154,11 +1323,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:diamond",
@@ -1167,16 +1335,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "22:10": {
-      "questID:3": 234,
+      "rewards:9": {},
       "preRequisites:11": [
-        232
+        0
       ],
+      "questID:3": 233
+    },
+    "25:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1195,7 +1364,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Steel!",
@@ -1205,11 +1374,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_ingot",
@@ -1218,16 +1386,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "23:10": {
-      "questID:3": 235,
+      "rewards:9": {},
       "preRequisites:11": [
-        231
+        232
       ],
+      "questID:3": 234
+    },
+    "26:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1246,7 +1415,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Piston efficiency",
@@ -1256,11 +1425,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:piston",
@@ -1269,16 +1437,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "24:10": {
-      "questID:3": 237,
+      "rewards:9": {},
       "preRequisites:11": [
-        331
+        231
       ],
+      "questID:3": 235
+    },
+    "27:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1297,7 +1466,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Grinding away",
@@ -1307,11 +1476,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_dust",
@@ -1320,16 +1488,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "25:10": {
-      "questID:3": 238,
+      "rewards:9": {},
       "preRequisites:11": [
         331
       ],
+      "questID:3": 237
+    },
+    "28:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1348,7 +1517,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Khalimov\u0027s Ernest contribution",
@@ -1358,11 +1527,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:paper",
@@ -1371,16 +1539,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "26:10": {
-      "questID:3": 239,
+      "rewards:9": {},
       "preRequisites:11": [
         331
       ],
+      "questID:3": 238
+    },
+    "29:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1399,7 +1568,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Glass jars",
@@ -1409,11 +1578,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
@@ -1422,16 +1590,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "27:10": {
-      "questID:3": 240,
+      "rewards:9": {},
       "preRequisites:11": [
         331
       ],
+      "questID:3": 239
+    },
+    "30:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1450,7 +1619,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Rubber trees and rubber.",
@@ -1460,11 +1629,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_ingot",
@@ -1473,16 +1641,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "28:10": {
-      "questID:3": 241,
+      "rewards:9": {},
       "preRequisites:11": [
-        228
+        331
       ],
+      "questID:3": 240
+    },
+    "31:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1501,21 +1670,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "It\u0027s getting hot in here",
-          "desc:8": "A crucible can be used to make lava, and works in a similar way to making dirt. Remeber that you have to place a heat generating object, such as a torch, under the crucible to make lava, with hotter things being faster. (Lava works much faster than a torch)\n"
+          "desc:8": "A crucible can be used to make lava, and works in a similar way to making dirt. Remeber that you have to place a heat generating object, such as a torch, under the crucible to make lava, with hotter things being faster. (Lava works much faster than a torch)\n\nThis pack adds some new fluids that can be used as heat sources! \n(Nuclearcraft options are not available, and I am currently working on hiding them)\nTo save you the trouble, here is a full list of what your options are, and their speed (x1 is torch speed)\n\n‣Torch: x1\n‣Lava: x3\n‣Flowing lava: x3\n‣Fire: x4\n‣Molten Iron: x6\n‣Molten Wrought Iron: x7\n‣Molten Bronze: x8\n‣Molten Steel: x10\n‣Molten Aluminium: x12\n"
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "exnihilocreatio:block_crucible",
@@ -1530,16 +1698,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "29:10": {
-      "questID:3": 242,
+      "rewards:9": {},
       "preRequisites:11": [
-        232
+        228
       ],
+      "questID:3": 241
+    },
+    "32:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1558,7 +1727,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Cobble generation and automation",
@@ -1568,11 +1737,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 1,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -1581,16 +1749,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "30:10": {
-      "questID:3": 243,
+      "rewards:9": {},
       "preRequisites:11": [
         232
       ],
+      "questID:3": 242
+    },
+    "33:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1609,7 +1778,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -1618,20 +1787,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "31:10": {
-      "questID:3": 244,
+      "rewards:9": {},
       "preRequisites:11": [
-        238,
-        237,
-        239,
-        240
+        232
       ],
+      "questID:3": 243
+    },
+    "34:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1650,7 +1816,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "First circuit!",
@@ -1660,11 +1826,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
@@ -1673,27 +1838,31 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
       "rewards:9": {
         "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}",
+          "title:8": "",
           "description:8": " ",
           "viaPlayer:1": 0,
-          "index:3": 0,
-          "title:8": "",
-          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+          "hideBlockIcon:1": 1,
+          "asScript:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0
         }
-      }
-    },
-    "32:10": {
-      "questID:3": 246,
+      },
       "preRequisites:11": [
-        244
+        238,
+        237,
+        239,
+        240
       ],
+      "questID:3": 244
+    },
+    "35:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1712,7 +1881,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "The power",
@@ -1722,11 +1891,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -1735,16 +1903,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "33:10": {
-      "questID:3": 247,
+      "rewards:9": {},
       "preRequisites:11": [
-        246
+        244
       ],
+      "questID:3": 246
+    },
+    "36:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1763,7 +1932,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Tired of cutting those trees?",
@@ -1773,19 +1942,18 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "progressiveautomation:rf_engine",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "Energy:3": 0
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
@@ -1795,16 +1963,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "34:10": {
-      "questID:3": 248,
+      "rewards:9": {},
       "preRequisites:11": [
         246
       ],
+      "questID:3": 247
+    },
+    "37:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1823,7 +1992,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Covers",
@@ -1832,17 +2001,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "35:10": {
-      "questID:3": 249,
+      "rewards:9": {},
       "preRequisites:11": [
-        253
+        246
       ],
+      "questID:3": 248
+    },
+    "38:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1861,7 +2030,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 3 Drill",
@@ -1871,11 +2040,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:tierthreedrill",
@@ -1884,16 +2052,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "36:10": {
-      "questID:3": 250,
+      "rewards:9": {},
       "preRequisites:11": [
-        246
+        253
       ],
+      "questID:3": 249
+    },
+    "39:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1912,7 +2081,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "T2 Base",
@@ -1922,11 +2091,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -1935,16 +2103,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "37:10": {
-      "questID:3": 251,
+      "rewards:9": {},
       "preRequisites:11": [
         246
       ],
+      "questID:3": 250
+    },
+    "40:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1963,7 +2132,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Machine overview",
@@ -1972,17 +2141,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "38:10": {
-      "questID:3": 252,
+      "rewards:9": {},
       "preRequisites:11": [
-        231
+        246
       ],
+      "questID:3": 251
+    },
+    "41:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2001,7 +2170,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "I want my connected storage and I want it NOW!",
@@ -2011,11 +2180,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 1,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "storagenetwork:master",
@@ -2030,16 +2198,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 1
         }
       },
-      "rewards:9": {}
-    },
-    "39:10": {
-      "questID:3": 253,
+      "rewards:9": {},
       "preRequisites:11": [
-        251
+        231
       ],
+      "questID:3": 252
+    },
+    "42:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2052,17 +2221,17 @@
           "icon:10": {
             "id:8": "forge:bucketfilled",
             "Count:3": 1,
+            "Damage:2": 0,
             "tag:10": {
               "FluidName:8": "lubricant",
               "Amount:3": 1000
             },
-            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Slippery",
@@ -2072,33 +2241,33 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "forge:bucketfilled",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "FluidName:8": "lubricant",
                 "Amount:3": 1000
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "40:10": {
-      "questID:3": 254,
+      "rewards:9": {},
       "preRequisites:11": [
-        253
+        251
       ],
+      "questID:3": 253
+    },
+    "43:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2111,17 +2280,17 @@
           "icon:10": {
             "id:8": "forge:bucketfilled",
             "Count:3": 1,
+            "Damage:2": 0,
             "tag:10": {
               "FluidName:8": "drilling_fluid",
               "Amount:3": 1000
             },
-            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Drilling fluid",
@@ -2131,84 +2300,33 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "forge:bucketfilled",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "FluidName:8": "drilling_fluid",
                 "Amount:3": 1000
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "41:10": {
-      "questID:3": 255,
+      "rewards:9": {},
       "preRequisites:11": [
-        365
+        253
       ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "contenttweaker:dmanastone",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "Bluestone",
-          "desc:8": "You noticed by mixing some alumium with some stone, it seems to gain a strange property, perhaps this could be of use."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "contenttweaker:dmanastone",
-              "Count:3": 5,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
+      "questID:3": 254
     },
-    "42:10": {
-      "questID:3": 256,
-      "preRequisites:11": [
-        254
-      ],
+    "44:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2227,7 +2345,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 4 Drill",
@@ -2237,11 +2355,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:tierfourdrill",
@@ -2250,17 +2367,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "43:10": {
-      "questID:3": 257,
+      "rewards:9": {},
       "preRequisites:11": [
-        249,
-        256
+        254
       ],
+      "questID:3": 256
+    },
+    "45:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2279,7 +2396,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Shockingly hot!",
@@ -2289,11 +2406,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -2308,18 +2424,18 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "44:10": {
-      "questID:3": 258,
+      "rewards:9": {},
       "preRequisites:11": [
-        259,
-        260,
-        257
+        249,
+        256
       ],
+      "questID:3": 257
+    },
+    "46:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2338,7 +2454,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Pancakes",
@@ -2348,11 +2464,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
@@ -2361,16 +2476,19 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "45:10": {
-      "questID:3": 259,
+      "rewards:9": {},
       "preRequisites:11": [
-        249
+        259,
+        260,
+        257
       ],
+      "questID:3": 258
+    },
+    "47:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2389,7 +2507,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Gallium",
@@ -2399,11 +2517,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_dust_small",
@@ -2412,16 +2529,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "46:10": {
-      "questID:3": 260,
+      "rewards:9": {},
       "preRequisites:11": [
-        256
+        249
       ],
+      "questID:3": 259
+    },
+    "48:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2440,7 +2558,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Deville\u0027s Discovery",
@@ -2450,11 +2568,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_dust",
@@ -2463,16 +2580,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "47:10": {
-      "questID:3": 261,
+      "rewards:9": {},
       "preRequisites:11": [
-        365
+        256
       ],
+      "questID:3": 260
+    },
+    "49:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2491,7 +2609,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "T3 Base",
@@ -2501,11 +2619,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -2514,16 +2631,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "48:10": {
-      "questID:3": 262,
+      "rewards:9": {},
       "preRequisites:11": [
-        264
+        365
       ],
+      "questID:3": 261
+    },
+    "50:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2542,7 +2660,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Second circuits!",
@@ -2552,11 +2670,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
@@ -2565,27 +2682,28 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
       "rewards:9": {
         "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}",
+          "title:8": " ",
           "description:8": " ",
           "viaPlayer:1": 0,
-          "index:3": 0,
-          "title:8": " ",
-          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+          "hideBlockIcon:1": 1,
+          "asScript:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0
         }
-      }
-    },
-    "49:10": {
-      "questID:3": 264,
+      },
       "preRequisites:11": [
-        258
+        264
       ],
+      "questID:3": 262
+    },
+    "51:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2604,7 +2722,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Diodes",
@@ -2614,11 +2732,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
@@ -2627,14 +2744,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        258
+      ],
+      "questID:3": 264
     },
-    "50:10": {
-      "questID:3": 288,
-      "preRequisites:11": [],
+    "52:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2653,7 +2773,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -2662,17 +2782,15 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 288
     },
-    "51:10": {
-      "questID:3": 314,
-      "preRequisites:11": [
-        231
-      ],
+    "53:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2691,7 +2809,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Improved water!",
@@ -2701,11 +2819,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -2714,17 +2831,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "52:10": {
-      "questID:3": 331,
+      "rewards:9": {},
       "preRequisites:11": [
-        234,
-        233
+        231
       ],
+      "questID:3": 314
+    },
+    "54:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2743,7 +2860,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 2 Drill",
@@ -2753,11 +2870,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:tiertwodrill",
@@ -2766,14 +2882,18 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        234,
+        233
+      ],
+      "questID:3": 331
     },
-    "53:10": {
-      "questID:3": 338,
-      "preRequisites:11": [],
+    "55:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2792,7 +2912,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Other Steam generation options",
@@ -2801,17 +2921,15 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 338
     },
-    "54:10": {
-      "questID:3": 350,
-      "preRequisites:11": [
-        331
-      ],
+    "56:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2830,7 +2948,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Tanks!",
@@ -2839,18 +2957,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "55:10": {
-      "questID:3": 365,
+      "rewards:9": {},
       "preRequisites:11": [
-        262,
-        368
+        331
       ],
+      "questID:3": 350
+    },
+    "57:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2869,7 +2986,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "An upgrade!",
@@ -2879,11 +2996,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -2892,16 +3008,18 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "56:10": {
-      "questID:3": 366,
+      "rewards:9": {},
       "preRequisites:11": [
-        246
+        262,
+        368
       ],
+      "questID:3": 365
+    },
+    "58:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2920,7 +3038,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Biome Drill",
@@ -2930,11 +3048,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:biomedrill",
@@ -2943,14 +3060,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        246
+      ],
+      "questID:3": 366
     },
-    "57:10": {
-      "questID:3": 367,
-      "preRequisites:11": [],
+    "59:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2969,23 +3089,21 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "The Fall",
-          "desc:8": "(Exposition goes here)"
+          "desc:8": "(Exposition goes here)\n\n\nAnyways, this questbook assumes you already know the basics of gregtech, and will instead focus on pack progression, and what\u0027s new in CEu.\n"
         }
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
           "rewards:9": {
             "0:10": {
               "id:8": "gregtech:rubber_sapling",
@@ -3014,12 +3132,12 @@
             "4:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 1,
+              "Damage:2": 465,
               "tag:10": {
                 "terminal:10": {
                   "_hw:10": {}
                 }
               },
-              "Damage:2": 465,
               "OreDict:8": ""
             },
             "5:10": {
@@ -3037,12 +3155,12 @@
             "7:10": {
               "id:8": "gregtech:meta_tool",
               "Count:3": 1,
+              "Damage:2": 8,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "iron"
+                  "Material:8": "steel"
                 }
               },
-              "Damage:2": 8,
               "OreDict:8": ""
             },
             "8:10": {
@@ -3051,15 +3169,15 @@
               "Damage:2": 0,
               "OreDict:8": ""
             }
-          }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
         }
-      }
+      },
+      "preRequisites:11": [],
+      "questID:3": 367
     },
-    "58:10": {
-      "questID:3": 368,
-      "preRequisites:11": [
-        257
-      ],
+    "60:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3078,7 +3196,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Blue ingots",
@@ -3088,11 +3206,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_ingot",
@@ -3101,117 +3218,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "59:10": {
-      "questID:3": 370,
+      "rewards:9": {},
       "preRequisites:11": [
-        374
+        257
       ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "botania:manaresource",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "Infusing",
-          "desc:8": "Manasteel requires mana and steel (wow), alongside manasteel, you can also convert quarzite into quartz, which with combined with manasteel, can be made into certus quartz."
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "60:10": {
-      "questID:3": 371,
-      "preRequisites:11": [
-        255
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "botania:pool",
-            "Count:3": 1,
-            "Damage:2": 2,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "Mana storage",
-          "desc:8": "Using this new stone, you can craft a mana pool. It is somewhat weak, but it will suit your needs for now."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "botania:pool",
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "botania:twigwand",
-              "Count:3": 1,
-              "tag:10": {
-                "color1:3": 0,
-                "color2:3": 0
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "questID:3": 368
     },
     "61:10": {
-      "questID:3": 372,
-      "preRequisites:11": [
-        373
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3219,7 +3236,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -3230,7 +3247,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Automation nation",
@@ -3240,11 +3257,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -3253,17 +3269,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        373
+      ],
+      "questID:3": 372
     },
     "62:10": {
-      "questID:3": 373,
-      "preRequisites:11": [
-        261,
-        255
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3271,7 +3287,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:tierfivedrill",
@@ -3282,21 +3298,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 5 Drill",
-          "desc:8": "I\u0027m sure that at at this point, you know what makes these things special.\n\nQuartzite will be used to make quartz (and later certus quartz) via botania. Silver can be used to make electrium, which can be used to make various MV components.\n\nTip: Botania can be used to make these fluids at a better ratio."
+          "desc:8": "I\u0027m sure that at at this point, you know what makes these things special.\n\nQuartzite will be used to make quartz (and later certus quartz) via botania. Silver can be used to make electrium, which can be used to make various MV components.\n"
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:tierfivedrill",
@@ -3305,16 +3320,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        261
+      ],
+      "questID:3": 373
     },
     "63:10": {
-      "questID:3": 374,
-      "preRequisites:11": [
-        371
-      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3322,174 +3338,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "botania:specialflower",
-            "Count:3": 1,
-            "tag:10": {
-              "type:8": "endoflame"
-            },
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "Mana generation and movement",
-          "desc:8": "Now that you have a place to store your mana, it\u0027s time to start making some!\n\nThe endoflame is likly going to be your best bet to start with, and with all of that excess wood that you have now that you (hopefully) swapped to making your steel in an EBF, it\u0027s a perfect fit. \n\nTo move your mana, use a mana spreader. Tip: if you place the mana spreader down first, all flowers in range will sync to the spreader in their own."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "botania:specialflower",
-              "Count:3": 1,
-              "tag:10": {
-                "type:8": "endoflame"
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "botania:spreader",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "64:10": {
-      "questID:3": 375,
-      "preRequisites:11": [
-        370
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "botania:terraplate",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "Mana plate",
-          "desc:8": "You can use a TAP to start making some alloys, the one most relevent to you right now is fluix.\n\nTo make said alloy, place the items on top of the plate, and start feeding it mana.\n(Tip: use sparks)"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "botania:terraplate",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "65:10": {
-      "questID:3": 376,
-      "preRequisites:11": [
-        371
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "botania:lexicon",
-            "Count:3": 1,
-            "tag:10": {},
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "(not so) required reading",
-          "desc:8": "Here\u0027s a free copy of that flower book, while some of it may be different to how botania works, it\u0027s still a great resource for getting the basics of botania."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 1,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "botania:lexicon",
-              "Count:3": 1,
-              "tag:10": {},
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "66:10": {
-      "questID:3": 377,
-      "preRequisites:11": [
-        375
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_ingot",
@@ -3500,21 +3349,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Fluix",
-          "desc:8": "Use the TAP to make fluix ingots, which will be used in the creation of AE2 materials, as well as the Tier 6 drill.\n\nAlso, fluix cables arnt half bad, so it may be worth looking into using those to transfer MV power."
+          "desc:8": "Use an alloy smelter to make fluix ingots, which will be used in the creation of AE2 materials, as well as the Tier 6 drill.\n\nAlso, fluix cables arnt half bad, so it may be worth looking into using those to transfer MV power.\n\n§1For now, this recipe is just an alloy smelter recipe. But if you have any cool ideas, multiblock or otherwise, let me know."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_ingot",
@@ -3523,17 +3371,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "67:10": {
-      "questID:3": 378,
+      "rewards:9": {},
       "preRequisites:11": [
-        375,
-        372
+        365
       ],
+      "questID:3": 377
+    },
+    "64:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3541,7 +3389,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -3552,7 +3400,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Mana Infused!",
@@ -3562,11 +3410,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
@@ -3575,22 +3422,18 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "recipes:8": "",
-          "rewardID:8": "bq_standard:recipe",
+          "taskID:8": "bq_standard:retrieval",
           "index:3": 0
         }
-      }
-    },
-    "68:10": {
-      "questID:3": 379,
+      },
+      "rewards:9": {},
       "preRequisites:11": [
-        383
+        372,
+        377
       ],
+      "questID:3": 378
+    },
+    "65:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3598,7 +3441,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_ingot",
@@ -3609,7 +3452,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "White steel",
@@ -3617,13 +3460,13 @@
         }
       },
       "tasks:9": {},
-      "rewards:9": {}
-    },
-    "69:10": {
-      "questID:3": 380,
+      "rewards:9": {},
       "preRequisites:11": [
-        370
+        383
       ],
+      "questID:3": 379
+    },
+    "66:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3631,7 +3474,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:quartz",
@@ -3642,21 +3485,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Quartz creation",
-          "desc:8": "Quartzite can be found by drilling with a tier 5 drill."
+          "desc:8": "Reminder that quartzite can be found by drilling with a tier 5 drill."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:quartz",
@@ -3665,16 +3507,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "70:10": {
-      "questID:3": 381,
+      "rewards:9": {},
       "preRequisites:11": [
-        380
+        5
       ],
+      "questID:3": 380
+    },
+    "67:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3682,7 +3525,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_gem",
@@ -3693,21 +3536,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Certus creation",
-          "desc:8": "By using molten manasteel, you can refine quartz into a certus quartz ingots."
+          "desc:8": "By using molten aluminium, you can refine quartz into certus quartz."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_gem",
@@ -3716,16 +3558,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "71:10": {
-      "questID:3": 382,
+      "rewards:9": {},
       "preRequisites:11": [
-        373
+        380
       ],
+      "questID:3": 381
+    },
+    "68:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3733,7 +3576,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -3744,21 +3587,39 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Charging up!",
           "desc:8": "Batteries may be worth making, now that they are craftable."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "72:10": {
-      "questID:3": 383,
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 718,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
       "preRequisites:11": [
-        377
+        373
       ],
+      "questID:3": 382
+    },
+    "69:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3766,7 +3627,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:tiersixdrill",
@@ -3777,21 +3638,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Tier 6 Drill",
-          "desc:8": "Things got a bit expensive real quick. It might be worth taking a detour to get your ae2 system up. Anyhow, this drill contains the final pieces of what\u0027s needed to create stainless steel."
+          "desc:8": "Things got a bit expensive real quick, so it might be worth taking a detour to get your ae2 system up.\n\n Anyhow, this drill contains the final pieces of what\u0027s needed to create stainless steel."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:tiersixdrill",
@@ -3800,17 +3660,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "73:10": {
-      "questID:3": 384,
+      "rewards:9": {},
       "preRequisites:11": [
-        377,
-        381
+        377
       ],
+      "questID:3": 383
+    },
+    "70:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3818,7 +3678,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:part",
@@ -3829,7 +3689,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Weird wires",
@@ -3839,11 +3699,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:part",
@@ -3852,16 +3711,18 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "74:10": {
-      "questID:3": 385,
+      "rewards:9": {},
       "preRequisites:11": [
-        384
+        381,
+        377
       ],
+      "questID:3": 384
+    },
+    "71:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3869,7 +3730,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:energy_acceptor",
@@ -3880,7 +3741,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "AE2",
@@ -3890,11 +3751,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:energy_acceptor",
@@ -3903,27 +3763,28 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
       "rewards:9": {
         "0:10": {
-          "hideBlockIcon:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "asScript:1": 1,
+          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}",
+          "title:8": " ",
           "description:8": " ",
           "viaPlayer:1": 0,
-          "index:3": 0,
-          "title:8": " ",
-          "command:8": "/summon fireworks_rocket ~ ~1 ~ {LifeTime:15,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2651799,14188952,4312372,14602026,15435844],FadeColors:[I;15790320]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]}]}}}}"
+          "hideBlockIcon:1": 1,
+          "asScript:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0
         }
-      }
-    },
-    "75:10": {
-      "questID:3": 386,
+      },
       "preRequisites:11": [
-        385
+        384
       ],
+      "questID:3": 385
+    },
+    "72:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3931,7 +3792,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:pressplate",
@@ -3942,7 +3803,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Inscribing?",
@@ -3952,11 +3813,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "contenttweaker:pressplate",
@@ -3965,15 +3825,15 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         },
         "1:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 1,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:material",
@@ -4000,15 +3860,15 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 1
         },
         "2:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 2,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:material",
@@ -4029,16 +3889,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 2
         }
       },
-      "rewards:9": {}
-    },
-    "76:10": {
-      "questID:3": 387,
+      "rewards:9": {},
       "preRequisites:11": [
-        374
+        385
       ],
+      "questID:3": 386
+    },
+    "73:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4046,74 +3907,23 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "botania:spark",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Sparks",
-          "desc:8": "Ima keep it real with you: for whatever reason, the time it takes for a TAP recipe to complete is not depentent on the mana cost, rather it is a fixed time. So to not have this part take a trillion years, you can craft sparks, which can move the mana much faster.\n\nLater on, various modifiers to sparks will be opened, which will allow to you get really funky with that you can do with these balls of light."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "botania:spark",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "77:10": {
-      "questID:3": 388,
-      "preRequisites:11": [
-        230
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_tool",
             "Count:3": 1,
+            "Damage:2": 19,
             "tag:10": {
               "GT.ToolStats:10": {
                 "Material:8": "neutronium"
               }
             },
-            "Damage:2": 19,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Mining away",
@@ -4122,17 +3932,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "78:10": {
-      "questID:3": 389,
+      "rewards:9": {},
       "preRequisites:11": [
-        231
+        230
       ],
+      "questID:3": 388
+    },
+    "74:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4140,7 +3950,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4151,7 +3961,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Steam Multis",
@@ -4161,11 +3971,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:machine",
@@ -4180,16 +3989,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "79:10": {
-      "questID:3": 390,
+      "rewards:9": {},
       "preRequisites:11": [
-        386
+        231
       ],
+      "questID:3": 389
+    },
+    "75:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4197,7 +4007,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:part",
@@ -4208,7 +4018,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "I/O busses?",
@@ -4217,14 +4027,12 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
           "rewards:9": {
             "0:10": {
               "id:8": "appliedenergistics2:interface",
@@ -4232,15 +4040,17 @@
               "Damage:2": 0,
               "OreDict:8": ""
             }
-          }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
         }
-      }
-    },
-    "80:10": {
-      "questID:3": 391,
+      },
       "preRequisites:11": [
         386
       ],
+      "questID:3": 390
+    },
+    "76:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4248,7 +4058,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:interface",
@@ -4259,7 +4069,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Interfacing",
@@ -4268,17 +4078,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "81:10": {
-      "questID:3": 392,
+      "rewards:9": {},
       "preRequisites:11": [
         386
       ],
+      "questID:3": 391
+    },
+    "77:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4286,7 +4096,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:part",
@@ -4297,21 +4107,20 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "In world interactions",
-          "desc:8": "These can be used to drop objects into the world.\n\nThey can be rather useful for automating botania resources."
+          "desc:8": "These can be used to drop objects into the world."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:part",
@@ -4320,16 +4129,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "82:10": {
-      "questID:3": 393,
+      "rewards:9": {},
       "preRequisites:11": [
-        391
+        386
       ],
+      "questID:3": 392
+    },
+    "78:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4337,7 +4147,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:fluid_interface",
@@ -4348,7 +4158,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Who spilled their water on my interface?",
@@ -4358,11 +4168,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "appliedenergistics2:fluid_interface",
@@ -4371,16 +4180,17 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "83:10": {
-      "questID:3": 395,
+      "rewards:9": {},
       "preRequisites:11": [
         391
       ],
+      "questID:3": 393
+    },
+    "79:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4388,7 +4198,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:material",
@@ -4399,7 +4209,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Patterns!",
@@ -4407,13 +4217,13 @@
         }
       },
       "tasks:9": {},
-      "rewards:9": {}
-    },
-    "84:10": {
-      "questID:3": 396,
+      "rewards:9": {},
       "preRequisites:11": [
-        395
+        391
       ],
+      "questID:3": 395
+    },
+    "80:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4421,7 +4231,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:machine",
@@ -4432,7 +4242,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Gregtech AE2 automation review",
@@ -4441,17 +4251,17 @@
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "85:10": {
-      "questID:3": 397,
+      "rewards:9": {},
       "preRequisites:11": [
         395
       ],
+      "questID:3": 396
+    },
+    "81:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4459,7 +4269,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:material",
@@ -4470,7 +4280,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Passiving",
@@ -4478,13 +4288,13 @@
         }
       },
       "tasks:9": {},
-      "rewards:9": {}
-    },
-    "86:10": {
-      "questID:3": 398,
+      "rewards:9": {},
       "preRequisites:11": [
-        233
+        395
       ],
+      "questID:3": 397
+    },
+    "82:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4492,21 +4302,21 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "chisel:chisel_diamond",
             "Count:3": 1,
+            "Damage:2": 0,
             "tag:10": {
               "chiseldata:10": {}
             },
-            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Blockswapping",
@@ -4516,32 +4326,32 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "chisel:chisel_diamond",
               "Count:3": 1,
+              "Damage:2": 0,
               "tag:10": {
                 "chiseldata:10": {}
               },
-              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
-    },
-    "87:10": {
-      "questID:3": 399,
+      "rewards:9": {},
       "preRequisites:11": [
-        246
+        233
       ],
+      "questID:3": 398
+    },
+    "83:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4549,7 +4359,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:gt_armor",
@@ -4560,7 +4370,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Jetpack Joyride",
@@ -4570,11 +4380,10 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
           "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt_armor",
@@ -4583,83 +4392,22 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {},
+      "preRequisites:11": [
+        246
+      ],
+      "questID:3": 399
     }
   },
   "questLines:9": {
     "0:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 48,
-          "x:3": -96,
-          "y:3": -24,
-          "id:3": 385,
-          "sizeY:3": 48
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -12,
-          "id:3": 386,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": -60,
-          "id:3": 390,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": -12,
-          "id:3": 391,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 36,
-          "id:3": 392,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -60,
-          "id:3": 393,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 48,
-          "x:3": 144,
-          "y:3": -24,
-          "id:3": 395,
-          "sizeY:3": 48
-        },
-        "7:10": {
-          "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": -60,
-          "id:3": 396,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 36,
-          "id:3": 397,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Storage and automation",
           "icon:10": {
             "id:8": "appliedenergistics2:interface",
@@ -4672,103 +4420,82 @@
           "desc:8": "This minichapter assumes that you already know the basics of AE2, and will instead cover that is changed and what is new.\n\nIf you need a resource for learning ae2, minecraftguides is a good resource to get the basics.\n"
         }
       },
-      "order:3": 3
-    },
-    "1:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -144,
-          "id:3": 221,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": 36,
+          "id:3": 4
         },
         "1:10": {
-          "sizeX:3": 24,
-          "x:3": -360,
-          "y:3": -96,
-          "id:3": 222,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -96,
+          "y:3": -24,
+          "id:3": 385
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -312,
-          "y:3": -132,
-          "id:3": 223,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -12,
+          "id:3": 386
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -312,
+          "sizeY:3": 24,
+          "x:3": 36,
           "y:3": -60,
-          "id:3": 224,
-          "sizeY:3": 24
+          "id:3": 390
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -132,
-          "id:3": 225,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": -12,
+          "id:3": 391
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -60,
-          "id:3": 226,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 36,
+          "id:3": 392
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -216,
-          "y:3": -96,
-          "id:3": 227,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -60,
+          "id:3": 393
         },
         "7:10": {
-          "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -72,
-          "id:3": 228,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 144,
+          "y:3": -24,
+          "id:3": 395
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -120,
-          "id:3": 229,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": -60,
+          "id:3": 396
         },
         "9:10": {
-          "sizeX:3": 48,
-          "x:3": -120,
-          "y:3": -108,
-          "id:3": 230,
-          "sizeY:3": 48
-        },
-        "10:10": {
           "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -36,
-          "id:3": 241,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 48,
-          "x:3": -420,
-          "y:3": -108,
-          "id:3": 367,
-          "sizeY:3": 48
-        },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -48,
-          "id:3": 388,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": 36,
+          "id:3": 397
         }
       },
-      "lineID:3": 1,
+      "lineID:3": 0,
+      "order:3": 3
+    },
+    "1:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -4784,166 +4511,103 @@
           "desc:8": "Welcome to the underground.\n\nYour top priority is to get some steam power going, so you can start mining up your first resources."
         }
       },
-      "order:3": 0
-    },
-    "2:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -240,
-          "id:3": 0,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": -144,
+          "id:3": 221
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -204,
-          "id:3": 1,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -360,
+          "y:3": -96,
+          "id:3": 222
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -156,
-          "id:3": 2,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -312,
+          "y:3": -132,
+          "id:3": 223
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -228,
-          "id:3": 3,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -312,
+          "y:3": -60,
+          "id:3": 224
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": -180,
-          "id:3": 231,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -264,
+          "y:3": -132,
+          "id:3": 225
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -180,
-          "id:3": 232,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -264,
+          "y:3": -60,
+          "id:3": 226
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -240,
-          "id:3": 233,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": -96,
+          "id:3": 227
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -120,
-          "id:3": 234,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -168,
+          "y:3": -72,
+          "id:3": 228
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -228,
-          "y:3": -132,
-          "id:3": 235,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -168,
+          "y:3": -120,
+          "id:3": 229
         },
         "9:10": {
-          "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": -192,
-          "id:3": 237,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -120,
+          "y:3": -108,
+          "id:3": 230
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -216,
-          "id:3": 238,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -168,
+          "y:3": -36,
+          "id:3": 241
         },
         "11:10": {
-          "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": -168,
-          "id:3": 239,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -420,
+          "y:3": -108,
+          "id:3": 367
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -132,
-          "id:3": 240,
-          "sizeY:3": 24
-        },
-        "13:10": {
-          "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -228,
-          "id:3": 242,
-          "sizeY:3": 24
-        },
-        "14:10": {
-          "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -132,
-          "id:3": 243,
-          "sizeY:3": 24
-        },
-        "15:10": {
-          "sizeX:3": 48,
-          "x:3": 132,
-          "y:3": -192,
-          "id:3": 244,
-          "sizeY:3": 48
-        },
-        "16:10": {
-          "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": -228,
-          "id:3": 252,
-          "sizeY:3": 24
-        },
-        "17:10": {
-          "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": -132,
-          "id:3": 314,
-          "sizeY:3": 24
-        },
-        "18:10": {
-          "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -180,
-          "id:3": 331,
-          "sizeY:3": 24
-        },
-        "19:10": {
-          "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -132,
-          "id:3": 350,
-          "sizeY:3": 24
-        },
-        "20:10": {
-          "sizeX:3": 24,
-          "x:3": -228,
-          "y:3": -228,
-          "id:3": 389,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -288,
-          "id:3": 398,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": -48,
+          "id:3": 388
         }
       },
-      "lineID:3": 2,
+      "lineID:3": 1,
+      "order:3": 0
+    },
+    "2:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -4959,278 +4623,173 @@
           "desc:8": "Now with your first drill base and steam power, you can start mining some resources and making some steam machines to help push into LV."
         }
       },
-      "order:3": 1
-    },
-    "3:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -96,
-          "id:3": 246,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -240,
+          "id:3": 0
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -228,
-          "y:3": -132,
-          "id:3": 247,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -204,
+          "id:3": 1
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -168,
-          "id:3": 248,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -156,
+          "id:3": 2
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -132,
-          "id:3": 249,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -228,
+          "id:3": 3
         },
         "4:10": {
           "sizeX:3": 24,
+          "sizeY:3": 24,
           "x:3": -228,
-          "y:3": -60,
-          "id:3": 250,
-          "sizeY:3": 24
+          "y:3": -180,
+          "id:3": 7
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -204,
-          "y:3": -96,
-          "id:3": 251,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -180,
+          "id:3": 231
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -156,
-          "y:3": -96,
-          "id:3": 253,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -132,
+          "y:3": -180,
+          "id:3": 232
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -60,
-          "id:3": 254,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": -240,
+          "id:3": 233
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": 36,
-          "id:3": 255,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -120,
+          "id:3": 234
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -60,
-          "id:3": 256,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -132,
+          "id:3": 235
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -96,
-          "id:3": 257,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": -192,
+          "id:3": 237
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": -96,
-          "id:3": 258,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -228,
+          "id:3": 238
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -132,
-          "id:3": 259,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": -168,
+          "id:3": 239
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -60,
-          "id:3": 260,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -132,
+          "id:3": 240
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 36,
-          "id:3": 261,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -132,
+          "y:3": -228,
+          "id:3": 242
         },
         "15:10": {
-          "sizeX:3": 48,
-          "x:3": 132,
-          "y:3": -108,
-          "id:3": 262,
-          "sizeY:3": 48
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -132,
+          "y:3": -132,
+          "id:3": 243
         },
         "16:10": {
-          "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": -96,
-          "id:3": 264,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 132,
+          "y:3": -192,
+          "id:3": 244
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": -12,
-          "id:3": 365,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -228,
+          "id:3": 252
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": -264,
-          "y:3": -24,
-          "id:3": 366,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": -132,
+          "id:3": 314
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": -12,
-          "id:3": 368,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -180,
+          "id:3": 331
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 132,
-          "id:3": 370,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": -132,
+          "id:3": 350
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 36,
-          "id:3": 371,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -228,
+          "id:3": 389
         },
         "22:10": {
-          "sizeX:3": 48,
-          "x:3": 132,
-          "y:3": 120,
-          "id:3": 372,
-          "sizeY:3": 48
-        },
-        "23:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 84,
-          "id:3": 373,
-          "sizeY:3": 24
-        },
-        "24:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 84,
-          "id:3": 374,
-          "sizeY:3": 24
-        },
-        "25:10": {
-          "sizeX:3": 48,
-          "x:3": 24,
-          "y:3": 228,
-          "id:3": 375,
-          "sizeY:3": 48
-        },
-        "26:10": {
-          "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": 84,
-          "id:3": 376,
-          "sizeY:3": 24
-        },
-        "27:10": {
-          "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 240,
-          "id:3": 377,
-          "sizeY:3": 24
-        },
-        "28:10": {
-          "sizeX:3": 36,
-          "x:3": 84,
-          "y:3": 180,
-          "id:3": 378,
-          "sizeY:3": 36
-        },
-        "29:10": {
-          "sizeX:3": 48,
-          "x:3": -216,
-          "y:3": 228,
-          "id:3": 379,
-          "sizeY:3": 48
-        },
-        "30:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 132,
-          "id:3": 380,
-          "sizeY:3": 24
-        },
-        "31:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 180,
-          "id:3": 381,
-          "sizeY:3": 24
-        },
-        "32:10": {
-          "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 84,
-          "id:3": 382,
-          "sizeY:3": 24
-        },
-        "33:10": {
-          "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": 240,
-          "id:3": 383,
-          "sizeY:3": 24
-        },
-        "34:10": {
-          "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 180,
-          "id:3": 384,
-          "sizeY:3": 24
-        },
-        "35:10": {
-          "sizeX:3": 48,
-          "x:3": -132,
-          "y:3": 120,
-          "id:3": 385,
-          "sizeY:3": 48
-        },
-        "36:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 84,
-          "id:3": 387,
-          "sizeY:3": 24
-        },
-        "37:10": {
-          "sizeX:3": 24,
-          "x:3": -300,
-          "y:3": -132,
-          "id:3": 399,
-          "sizeY:3": 24
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": -288,
+          "id:3": 398
         }
       },
-      "lineID:3": 3,
+      "lineID:3": 2,
+      "order:3": 1
+    },
+    "3:10": {
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
@@ -5246,23 +4805,236 @@
           "desc:8": "Finally, power! \n\nThis chapter covers LV and MV. LV and early MV are relativly unmodified in terms of recipes, to aid the player in getting infastructure up."
         }
       },
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": 114,
+          "id:3": 5
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -264,
+          "y:3": -96,
+          "id:3": 246
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -132,
+          "id:3": 247
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -264,
+          "y:3": -156,
+          "id:3": 248
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -132,
+          "id:3": 249
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -60,
+          "id:3": 250
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -204,
+          "y:3": -96,
+          "id:3": 251
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -96,
+          "id:3": 253
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -60,
+          "id:3": 254
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -60,
+          "id:3": 256
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -96,
+          "id:3": 257
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -96,
+          "id:3": 258
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": -132,
+          "id:3": 259
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": -60,
+          "id:3": 260
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 42,
+          "id:3": 261
+        },
+        "15:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 132,
+          "y:3": -108,
+          "id:3": 262
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -96,
+          "id:3": 264
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": -12,
+          "id:3": 365
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -300,
+          "y:3": -60,
+          "id:3": 366
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -12,
+          "id:3": 368
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 163,
+          "id:3": 372
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 90,
+          "id:3": 373
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 132,
+          "y:3": 42,
+          "id:3": 377
+        },
+        "23:10": {
+          "sizeX:3": 30,
+          "sizeY:3": 30,
+          "x:3": 129,
+          "y:3": 160,
+          "id:3": 378
+        },
+        "24:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -36,
+          "y:3": 30,
+          "id:3": 379
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 114,
+          "id:3": 380
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 78,
+          "y:3": 90,
+          "id:3": 381
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 246,
+          "y:3": 90,
+          "id:3": 382
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 42,
+          "id:3": 383
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 90,
+          "id:3": 384
+        },
+        "30:10": {
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 24,
+          "y:3": 144,
+          "id:3": 385
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -300,
+          "y:3": -132,
+          "id:3": 399
+        }
+      },
+      "lineID:3": 3,
       "order:3": 2
     }
   },
-  "questSettings:10": {
-    "betterquesting:10": {
-      "livesdef:3": 3,
-      "pack_name:8": "",
-      "home_anchor_y:5": 0.0,
-      "livesmax:3": 10,
-      "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
-      "hardcore:1": 0,
-      "home_image:8": "betterquesting:textures/gui/default_title.png",
-      "party_enable:1": 1,
-      "pack_version:3": 0,
-      "home_offset_x:3": -128,
-      "home_offset_y:3": 0
-    }
-  }
+  "format:8": "2.0.0",
+  "build:8": "3.5.329"
 }

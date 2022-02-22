@@ -1,31 +1,19 @@
 {
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2022-02-15 18:50:02 -0600"
-    },
-    "done": true
-  },
   "nuclearcraft:root": {
     "criteria": {
-      "location": "2022-02-15 18:23:29 -0600"
+      "location": "2022-02-21 20:53:36 -0600"
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "obsidian": "2022-02-15 18:50:02 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2022-02-15 18:50:02 -0600"
+      "has_lots_of_items": "2022-02-21 21:02:05 -0600"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "plains": "2022-02-15 18:23:29 -0600"
+      "plains": "2022-02-21 20:53:36 -0600"
     },
     "done": false
   }

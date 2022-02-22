@@ -1,7 +1,15 @@
 {
-  "config_version": {
-    "id": "__default",
-    "version": 0
-  },
-  "dimensions": []
+    "dimensions":
+    [
+        {
+            "dim": -1,
+            "unregister": true,
+            "disable_teleporting_to": true
+        },
+        {
+            "dim": 1,
+            "unregister": true,
+            "disable_teleporting_to": true
+        }
+    ]
 }
