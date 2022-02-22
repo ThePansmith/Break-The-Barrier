@@ -1,0 +1,96 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiCreateWorld
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=505972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=425187%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=505120%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=505151%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=345100%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=345151%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=505100%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
+customization {
+  identifier = %id=425115%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\custommainmenu\textures\gui\menu_text_box_selected.png
+  backgroundnormal = resources\custommainmenu\textures\gui\menu_box.png
+}
+
