@@ -119,7 +119,7 @@ tier_1_drill_base
 	.EUt(-1)
     .inputs(<contenttweaker:tiertwodrill>)
 	.fluidInputs(<liquid:steam> * 4000)
-    .outputs(<minecraft:coal> * 16,
+    .outputs(<minecraft:coal> * 32,
 	         <gregtech:meta_dust:103> * 20,
 			 <gregtech:meta_ingot:55> * 12,
 	         <gregtech:meta_ingot:25> * 10)
