@@ -79,3 +79,18 @@ mods.chisel.Carving.addGroup("SSNcables");
 for ing in cables {
 mods.chisel.Carving.addVariation("SSNcables", ing);
 }
+
+//Remove metal block uncrafting recipes
+recipes.removeByRecipeName("chisel:uncraft_blocksteel");
+recipes.removeByRecipeName("chisel:uncraft_blockiron");
+recipes.removeByRecipeName("chisel:uncraft_blocktin");
+recipes.removeByRecipeName("chisel:uncraft_blockuranium");
+recipes.removeByRecipeName("chisel:uncraft_blocksilver");
+recipes.removeByRecipeName("chisel:uncraft_blockgold");
+recipes.removeByRecipeName("chisel:uncraft_blocknickel");
+recipes.removeByRecipeName("chisel:uncraft_blockcobalt");
+recipes.removeByRecipeName("chisel:uncraft_blockplatinum");
+recipes.removeByRecipeName("chisel:uncraft_blockcopper");
+recipes.removeByRecipeName("chisel:uncraft_blockaluminum");
+recipes.removeByRecipeName("chisel:uncraft_blocklead");
+recipes.removeByRecipeName("chisel:uncraft_blockbronze");

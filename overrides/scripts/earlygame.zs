@@ -46,6 +46,9 @@ hammer.recipeBuilder().inputs([<contenttweaker:worldgenblock>]).outputs([<minecr
 hammer.recipeBuilder().inputs([<ore:sand>]).outputs([<exnihilocreatio:block_dust>]).duration(10).EUt(16).buildAndRegister();
 chemreactor.recipeBuilder().inputs([<exnihilocreatio:block_dust>]).fluidInputs([<liquid:water> * 1000]).outputs([<minecraft:clay>]).duration(40).EUt(16).buildAndRegister();
 
+//Clay to clay balls
+recipes.addShapeless(<minecraft:clay_ball> * 4, [<minecraft:clay>]);
+
 // Various mana boosted fluid recipes
 // Large chem recipes to come later
 // Also mana buffed PE recipe
@@ -250,13 +253,7 @@ makeShaped("brickpipetiny", <gregtech:fluid_pipe_tiny:2524> * 8,
 	  H : <ore:gregSoftHammers>
 	  });
 	  
-makeShaped("fireclayalt", <gregtech:meta_dust:2525> * 2,
-	["BC ",
-	 "   ",
-	 "   "],
-	{ B : <gregtech:meta_dust:2524>,
-	  C : <minecraft:clay_ball>
-	  });
+recipes.addShapeless(<gregtech:meta_dust:2525> * 2, [<gregtech:meta_dust:2524>,<minecraft:clay_ball>]);
 	  
 makeShaped("brickmoldalt", <gregtech:meta_item_1:347>,
 	[" H ",
@@ -266,12 +263,7 @@ makeShaped("brickmoldalt", <gregtech:meta_item_1:347>,
 	  P : <ore:plankWood>
 	  });
 	  
-makeShaped("flintcraft", <minecraft:flint>,
-	["GG ",
-	 "GG ",
-	 "  "],
-	{ G : <minecraft:gravel>
-	  });
+recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>,<minecraft:gravel>,<minecraft:gravel>,<minecraft:gravel>]);
 	  	  
 recipes.remove(<gregtech:machine:1024>);
 makeShaped("steamoveninvarless", <gregtech:machine:1024>,
