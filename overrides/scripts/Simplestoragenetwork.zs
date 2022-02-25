@@ -38,7 +38,7 @@ makeShaped("SSNcableimport", <storagenetwork:im_kabel> * 1,
 	["   ",
 	 " B ",
 	 " W "],
-	{ W : <ore:gregWrenches>,
+	{ W : <ore:fixedcraftingToolWrench>,
 	  B : <storagenetwork:simple_kabel>
 	  });
 	  
@@ -46,7 +46,7 @@ makeShaped("SSNcablerevert", <storagenetwork:simple_kabel> * 1,
 	["   ",
 	 " B ",
 	 " W "],
-	{ W : <ore:gregWrenches>,
+	{ W : <ore:fixedcraftingToolWrench>,
 	  B : <storagenetwork:im_kabel>
 	  });
 
