@@ -80,6 +80,59 @@ for ing in cables {
 mods.chisel.Carving.addVariation("SSNcables", ing);
 }
 
+//Programmed circuits
+mods.chisel.Carving.addGroup("programmed_circuits");
+ val programmed_circuits = [<metaitem:circuit.integrated>.withTag({Configuration: 0}),
+<metaitem:circuit.integrated>.withTag({Configuration: 1}),
+<metaitem:circuit.integrated>.withTag({Configuration: 2}),
+<metaitem:circuit.integrated>.withTag({Configuration: 3}),
+<metaitem:circuit.integrated>.withTag({Configuration: 4}),
+<metaitem:circuit.integrated>.withTag({Configuration: 5}),
+<metaitem:circuit.integrated>.withTag({Configuration: 6}),
+<metaitem:circuit.integrated>.withTag({Configuration: 7}),
+<metaitem:circuit.integrated>.withTag({Configuration: 8}),
+<metaitem:circuit.integrated>.withTag({Configuration: 9}),
+<metaitem:circuit.integrated>.withTag({Configuration: 10}),
+<metaitem:circuit.integrated>.withTag({Configuration: 11}),
+<metaitem:circuit.integrated>.withTag({Configuration: 12}),
+<metaitem:circuit.integrated>.withTag({Configuration: 13}),
+<metaitem:circuit.integrated>.withTag({Configuration: 14}),
+<metaitem:circuit.integrated>.withTag({Configuration: 15}),
+<metaitem:circuit.integrated>.withTag({Configuration: 16}),
+<metaitem:circuit.integrated>.withTag({Configuration: 17}),
+<metaitem:circuit.integrated>.withTag({Configuration: 18}),
+<metaitem:circuit.integrated>.withTag({Configuration: 19}),
+<metaitem:circuit.integrated>.withTag({Configuration: 20}),
+<metaitem:circuit.integrated>.withTag({Configuration: 21}),
+<metaitem:circuit.integrated>.withTag({Configuration: 22}),
+<metaitem:circuit.integrated>.withTag({Configuration: 23}),
+<metaitem:circuit.integrated>.withTag({Configuration: 24}),
+<metaitem:circuit.integrated>.withTag({Configuration: 25}),
+<metaitem:circuit.integrated>.withTag({Configuration: 26}),
+<metaitem:circuit.integrated>.withTag({Configuration: 27}),
+<metaitem:circuit.integrated>.withTag({Configuration: 28}),
+<metaitem:circuit.integrated>.withTag({Configuration: 29}),
+<metaitem:circuit.integrated>.withTag({Configuration: 30}),
+<metaitem:circuit.integrated>.withTag({Configuration: 31}),
+<metaitem:circuit.integrated>.withTag({Configuration: 32})] as IItemStack[];
+for ing in programmed_circuits {
+mods.chisel.Carving.addVariation("programmed_circuits", ing);
+}
+
+//Gregtech filters
+mods.chisel.Carving.addGroup("gregtech_filters");
+ val gregtech_filters = [<metaitem:fluid_filter>,
+<metaitem:item_filter>,
+<metaitem:ore_dictionary_filter>,
+<metaitem:smart_item_filter>] as IItemStack[];
+for ing in gregtech_filters {
+mods.chisel.Carving.addVariation("gregtech_filters", ing);
+}
+
+//Worldgen blocks
+mods.chisel.Carving.addVariation("stonebrick", <contenttweaker:worldgenblock>);
+mods.chisel.Carving.addVariation("dirt", <contenttweaker:worldgendirtblock>);
+
 //Remove metal block uncrafting recipes
 recipes.removeByRecipeName("chisel:uncraft_blocksteel");
 recipes.removeByRecipeName("chisel:uncraft_blockiron");

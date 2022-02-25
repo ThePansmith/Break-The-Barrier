@@ -39,7 +39,7 @@ makeShaped("cunicoil", <gregtech:wire_coil>,
 	 "WTW",
 	 "WWW"],
 	{ W : <gregtech:wire_double:274>,
-	  T : <ore:gregWrenches>
+	  T : <ore:fixedcraftingToolWrench>
 	  });
 // Sand into dust, dust into clay
 hammer.recipeBuilder().inputs([<contenttweaker:worldgenblock>]).outputs([<minecraft:cobblestone>]).duration(10).EUt(16).buildAndRegister();
@@ -100,7 +100,7 @@ makeShaped("craftingstation", <gregtech:machine:1647>,
 	  P : <minecraft:wooden_pressure_plate>,
 	  E : <ore:chestWood>,
 	  W : <ore:plankWood>,
-	  S : <ore:gregSaws>
+	  S : <ore:fixedcraftingToolSaw>
 	  });
 	  
 // Drill recipes will likely be temp until there are textures for the drill 
@@ -174,7 +174,7 @@ makeShaped("woodpipebad", <gregtech:fluid_pipe_small:1617> * 3,
 	 "WHW",
 	 "W W"],
 	{ W : <ore:plankWood>,
-	  H : <ore:gregSoftHammers>
+	  H : <ore:fixedcraftingToolSoftHammer>
 	  });
 // Reverting Silicon boule recipe
 blast_furnace.recipeBuilder()
@@ -242,7 +242,7 @@ makeShaped("brickpipe", <gregtech:fluid_pipe_small:2524> * 6,
 	 "BHB",
 	 "B B"],
 	{ B : <ore:ingotBrick>,
-	  H : <ore:gregSoftHammers>
+	  H : <ore:fixedcraftingToolSoftHammer>
 	  });
 	  
 makeShaped("brickpipetiny", <gregtech:fluid_pipe_tiny:2524> * 8,
@@ -250,7 +250,7 @@ makeShaped("brickpipetiny", <gregtech:fluid_pipe_tiny:2524> * 8,
 	 " H ",
 	 "BBB"],
 	{ B : <ore:ingotBrick>,
-	  H : <ore:gregSoftHammers>
+	  H : <ore:fixedcraftingToolSoftHammer>
 	  });
 	  
 recipes.addShapeless(<gregtech:meta_dust:2525> * 2, [<gregtech:meta_dust:2524>,<minecraft:clay_ball>]);
@@ -259,12 +259,17 @@ makeShaped("brickmoldalt", <gregtech:meta_item_1:347>,
 	[" H ",
 	 " P ",
 	 " P "],
-	{ H : <ore:gregSoftHammers>,
+	{ H : <ore:fixedcraftingToolSoftHammer>,
 	  P : <ore:plankWood>
 	  });
 	  
 recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>,<minecraft:gravel>,<minecraft:gravel>,<minecraft:gravel>]);
-	  	  
+
+recipes.addShapeless(<metaitem:fluid_filter>, [<ore:fixedcraftingToolWrench>,<metaitem:item_filter>]);
+recipes.addShapeless(<metaitem:ore_dictionary_filter>, [<ore:fixedcraftingToolWrench>,<metaitem:fluid_filter>]);
+recipes.addShapeless(<metaitem:smart_item_filter>, [<ore:fixedcraftingToolWrench>,<metaitem:ore_dictionary_filter>]);
+recipes.addShapeless(<metaitem:item_filter>, [<ore:fixedcraftingToolWrench>,<metaitem:smart_item_filter>]);
+
 recipes.remove(<gregtech:machine:1024>);
 makeShaped("steamoveninvarless", <gregtech:machine:1024>,
 	["BGB",

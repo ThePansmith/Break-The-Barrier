@@ -108,7 +108,7 @@ makeShaped("ae2mold", <contenttweaker:pressplate>,
 	[" C ",
 	 "   ",
 	 " P "],
-	{ C	: <ore:gregWireCutters>,
+	{ C	: <ore:fixedcraftingToolWireCutter>,
 	  P : <gregtech:meta_item_1:11>
 	  });
 
@@ -179,7 +179,7 @@ makeShaped("fluidalt", <appliedenergistics2:fluid_interface> * 1,
 	["   ",
 	 " B ",
 	 " W "],
-	{ W : <ore:gregWrenches>,
+	{ W : <ore:fixedcraftingToolWrench>,
 	  B : <appliedenergistics2:interface>
 	  });
 	  
@@ -187,7 +187,7 @@ makeShaped("fluidrevert", <appliedenergistics2:interface> * 1,
 	["   ",
 	 " B ",
 	 " W "],
-	{ W : <ore:gregWrenches>,
+	{ W : <ore:fixedcraftingToolWrench>,
 	  B : <appliedenergistics2:fluid_interface>
 	  });
 
