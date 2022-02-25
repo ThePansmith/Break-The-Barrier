@@ -5,59 +5,10 @@ import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
 
 //AE2 cables
-// Had these sorted by color but chisel fucked it up :(
 mods.chisel.Carving.addGroup("ae2cables");
- val ae2cableswires = [<appliedenergistics2:part:16>,
-<appliedenergistics2:part:14>,
-<appliedenergistics2:part:1>,
-<appliedenergistics2:part:4>,
-<appliedenergistics2:part:13>,
-<appliedenergistics2:part:5>,
-<appliedenergistics2:part:9>,
-<appliedenergistics2:part:11>,
-<appliedenergistics2:part:10>,
-<appliedenergistics2:part:6>,
-<appliedenergistics2:part>,
-<appliedenergistics2:part:7>,
-<appliedenergistics2:part:15>,
-<appliedenergistics2:part:12>,
-<appliedenergistics2:part:22>,
-<appliedenergistics2:part:26>,
-<appliedenergistics2:part:20>,
-<appliedenergistics2:part:28>,
-<appliedenergistics2:part:27>,
-<appliedenergistics2:part:35>,
-<appliedenergistics2:part:32>,
-<appliedenergistics2:part:16>,
-<appliedenergistics2:part:14>,
-<appliedenergistics2:part:1>,
-<appliedenergistics2:part:4>,
-<appliedenergistics2:part:13>,
-<appliedenergistics2:part:5>,
-<appliedenergistics2:part:3>,
-<appliedenergistics2:part:9>,
-<appliedenergistics2:part:11>,
-<appliedenergistics2:part:10>,
-<appliedenergistics2:part:2>,
-<appliedenergistics2:part:6>,
-<appliedenergistics2:part>,
-<appliedenergistics2:part:8>,
-<appliedenergistics2:part:7>,
-<appliedenergistics2:part:15>,
-<appliedenergistics2:part:12>,
-<appliedenergistics2:part:36>,
-<appliedenergistics2:part:34>,
-<appliedenergistics2:part:21>,
-<appliedenergistics2:part:24>,
-<appliedenergistics2:part:33>,
-<appliedenergistics2:part:25>,
-<appliedenergistics2:part:23>,
-<appliedenergistics2:part:29>,
-<appliedenergistics2:part:31>,
-<appliedenergistics2:part:30>] as IItemStack[];
-
-for ing in ae2cableswires {
-mods.chisel.Carving.addVariation("ae2cables", ing);
+for i in [14,1,4,13,5,9,3,11,10,2,6,0,8,7,15,12,16] {
+	mods.chisel.Carving.addVariation("ae2cables", <appliedenergistics2:part>.withDamage(i));
+	mods.chisel.Carving.addVariation("ae2cables", <appliedenergistics2:part>.withDamage(i+20));
 }
 
 //AE2 interfaces
@@ -82,41 +33,8 @@ mods.chisel.Carving.addVariation("SSNcables", ing);
 
 //Programmed circuits
 mods.chisel.Carving.addGroup("programmed_circuits");
- val programmed_circuits = [<metaitem:circuit.integrated>.withTag({Configuration: 0}),
-<metaitem:circuit.integrated>.withTag({Configuration: 1}),
-<metaitem:circuit.integrated>.withTag({Configuration: 2}),
-<metaitem:circuit.integrated>.withTag({Configuration: 3}),
-<metaitem:circuit.integrated>.withTag({Configuration: 4}),
-<metaitem:circuit.integrated>.withTag({Configuration: 5}),
-<metaitem:circuit.integrated>.withTag({Configuration: 6}),
-<metaitem:circuit.integrated>.withTag({Configuration: 7}),
-<metaitem:circuit.integrated>.withTag({Configuration: 8}),
-<metaitem:circuit.integrated>.withTag({Configuration: 9}),
-<metaitem:circuit.integrated>.withTag({Configuration: 10}),
-<metaitem:circuit.integrated>.withTag({Configuration: 11}),
-<metaitem:circuit.integrated>.withTag({Configuration: 12}),
-<metaitem:circuit.integrated>.withTag({Configuration: 13}),
-<metaitem:circuit.integrated>.withTag({Configuration: 14}),
-<metaitem:circuit.integrated>.withTag({Configuration: 15}),
-<metaitem:circuit.integrated>.withTag({Configuration: 16}),
-<metaitem:circuit.integrated>.withTag({Configuration: 17}),
-<metaitem:circuit.integrated>.withTag({Configuration: 18}),
-<metaitem:circuit.integrated>.withTag({Configuration: 19}),
-<metaitem:circuit.integrated>.withTag({Configuration: 20}),
-<metaitem:circuit.integrated>.withTag({Configuration: 21}),
-<metaitem:circuit.integrated>.withTag({Configuration: 22}),
-<metaitem:circuit.integrated>.withTag({Configuration: 23}),
-<metaitem:circuit.integrated>.withTag({Configuration: 24}),
-<metaitem:circuit.integrated>.withTag({Configuration: 25}),
-<metaitem:circuit.integrated>.withTag({Configuration: 26}),
-<metaitem:circuit.integrated>.withTag({Configuration: 27}),
-<metaitem:circuit.integrated>.withTag({Configuration: 28}),
-<metaitem:circuit.integrated>.withTag({Configuration: 29}),
-<metaitem:circuit.integrated>.withTag({Configuration: 30}),
-<metaitem:circuit.integrated>.withTag({Configuration: 31}),
-<metaitem:circuit.integrated>.withTag({Configuration: 32})] as IItemStack[];
-for ing in programmed_circuits {
-mods.chisel.Carving.addVariation("programmed_circuits", ing);
+for i in 0 .. 33 {
+	mods.chisel.Carving.addVariation("programmed_circuits", <metaitem:circuit.integrated>.withTag({Configuration: i}));
 }
 
 //Gregtech filters
