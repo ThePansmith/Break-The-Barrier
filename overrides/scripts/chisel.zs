@@ -6,7 +6,7 @@ import scripts.CommonVars.makeShaped as makeShaped;
 
 //AE2 cables
 mods.chisel.Carving.addGroup("ae2cables");
-for i in [14,1,4,13,5,9,3,11,10,2,6,0,8,7,15,12,16] {
+for i in [14,1,4,13,5,9,3,11,10,2,6,0,8,7,15,12,16] as int[] {
 	mods.chisel.Carving.addVariation("ae2cables", <appliedenergistics2:part>.withDamage(i));
 	mods.chisel.Carving.addVariation("ae2cables", <appliedenergistics2:part>.withDamage(i+20));
 }
