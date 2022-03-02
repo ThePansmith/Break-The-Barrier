@@ -36,7 +36,7 @@
 		"png-to-jpeg": "^1.0.1",
 		"prettier": "^2.2.1",
 		"request": "^2.88.2",
-		"requestretry": "^5.0.0",
+		"requestretry": "^7.0.0",
 		"sanitize-filename": "^1.6.3",
 		"sha1": "^1.1.1",
 		"ts-node": "^9.1.1",
