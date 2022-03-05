@@ -27,11 +27,13 @@ var fluix = MaterialBuilder(32002, "fluix")
 var certus = <material:certus_quartz>;
 certus.addFlags("generate_rod", "generate_gear");
 
+// Brick pipes
 <material:brick>.addFluidPipes(1900,10,true);
 
-## Pourable metals for crucible heating
+// Pourable metals for crucible heating
 <material:iron>.addFluid("fluid", true);
 <material:wrought_iron>.addFluid("fluid", true);
 <material:bronze>.addFluid("fluid", true);
 <material:steel>.addFluid("fluid", true);
 <material:aluminium>.addFluid("fluid", true);
+

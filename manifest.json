@@ -2,7 +2,7 @@
     "author": "Pansmith",
     "files": [
         {
-            "fileID": 3630762,
+            "fileID": 3665578,
             "projectID": 557242,
             "required": true
         },
@@ -155,7 +155,7 @@
 	},
 	{
 		"alias": "devtech",
-		"fileID": 3632558,
+		"fileID": 3670893,
 		"projectID": 412037,
 		"required": true
 	},
@@ -199,6 +199,12 @@
 		"alias": "FastWorkbench",
 		"fileID": 2838777,
 		"projectID": 288885,
+		"required": true
+	},
+	{
+		"alias": "PotionRingsBTB",
+		"fileID": 3669508,
+		"projectID": 585193,
 		"required": true
 	},
 	{

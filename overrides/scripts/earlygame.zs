@@ -33,14 +33,6 @@ hammer.recipeBuilder().inputs([<contenttweaker:hotironingot>]).outputs([<gregtec
 //Conversion
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:worldgendirtblock>]);
 
-// CE Cuni coil recipe for steel rushers
-makeShaped("cunicoil", <gregtech:wire_coil>,
-	["WWW",
-	 "WTW",
-	 "WWW"],
-	{ W : <gregtech:wire_double:274>,
-	  T : <ore:fixedcraftingToolWrench>
-	  });
 // Sand into dust, dust into clay
 hammer.recipeBuilder().inputs([<contenttweaker:worldgenblock>]).outputs([<minecraft:cobblestone>]).duration(10).EUt(16).buildAndRegister();
 hammer.recipeBuilder().inputs([<ore:sand>]).outputs([<exnihilocreatio:block_dust>]).duration(10).EUt(16).buildAndRegister();
