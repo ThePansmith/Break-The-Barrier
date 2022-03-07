@@ -244,6 +244,30 @@
 		"required": true
 	},
 	{
+		"alias": "excraftingnomi",
+		"fileID": 3613140,
+		"projectID": 398267,
+		"required": true
+	},
+	{
+		"alias": "Cucumber Library",
+		"fileID": 2645867,
+		"projectID": 272335,
+		"required": true
+	},  
+	{
+		"alias": "pex",
+		"fileID": 3214400,
+		"projectID": 322861,
+		"required": true
+	},
+	{
+		"alias": "pauto",
+		"fileID": 3614585,
+		"projectID": 308380,
+		"required": true
+	}, 
+	{
 		"alias": "Just Enough Dimensions",
 		"fileID": 2932048,
 		"projectID": 254317,
