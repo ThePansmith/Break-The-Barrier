@@ -238,7 +238,7 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
@@ -290,7 +290,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Reassembling",
@@ -340,12 +340,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -389,7 +389,7 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
@@ -450,12 +450,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -488,12 +488,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -540,12 +540,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -592,12 +592,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -644,12 +644,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -682,12 +682,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -733,12 +733,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -771,12 +771,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -823,12 +823,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -874,12 +874,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -925,12 +925,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -976,12 +976,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1011,12 +1011,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1049,12 +1049,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1082,12 +1082,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1160,12 +1160,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1202,12 +1202,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1240,12 +1240,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1278,12 +1278,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1311,12 +1311,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1345,12 +1345,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1378,12 +1378,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1415,12 +1415,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1453,12 +1453,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1491,12 +1491,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1548,12 +1548,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1581,12 +1581,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1632,12 +1632,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -6291,7 +6291,7 @@
             "Damage:2": 988,
             "OreDict:8": ""
           },
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "bg_image:8": "",
           "bg_size:3": 256
         }
