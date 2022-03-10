@@ -118,6 +118,7 @@ tier_2_drill_base
 	
 
 //Merged biome drill into here
+//.circuit() doesn't work properly for some reason
 
 tier_2_drill_base
 	.recipeMap
@@ -125,6 +126,7 @@ tier_2_drill_base
     .duration(300)
 	.EUt(30)
     .inputs(<contenttweaker:biomedrill>)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:sapling> * 5,
 			 <minecraft:wheat_seeds> * 10,
@@ -138,7 +140,7 @@ tier_2_drill_base
     .duration(300)
 	.EUt(30)
     .inputs(<contenttweaker:biomedrill>)
-	.circuit(2)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:sponge> * 10,
 			 <minecraft:dye> * 15)
@@ -150,7 +152,7 @@ tier_2_drill_base
     .duration(300)
 	.EUt(30)
     .inputs(<contenttweaker:biomedrill>)
-	.circuit(3)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 3}))
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:deadbush> * 10,
 		     <minecraft:sand:1> * 128,
@@ -163,7 +165,7 @@ tier_2_drill_base
     .duration(300)
 	.EUt(30)
     .inputs(<contenttweaker:biomedrill>)
-	.circuit(4)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 4}))
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:reeds> * 5,
 			 <minecraft:vine> * 10,
@@ -176,7 +178,7 @@ tier_2_drill_base
     .duration(300)
 	.EUt(30)
     .inputs(<contenttweaker:biomedrill>)
-	.circuit(5)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 5}))
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:sapling:3> * 10,
 		     <minecraft:melon> * 3,
@@ -189,7 +191,7 @@ tier_2_drill_base
     .duration(300)
 	.EUt(30)
     .inputs(<contenttweaker:biomedrill>)
-	.circuit(6)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 6}))
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:sapling:2> * 5,
 		     <minecraft:potato> * 3,
@@ -203,7 +205,7 @@ tier_2_drill_base
     .duration(300)
 	.EUt(30)
     .inputs(<contenttweaker:biomedrill>)
-	.circuit(7)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 7}))
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:sapling:5> * 4,
 			 <minecraft:yellow_flower> * 10)
@@ -215,9 +217,23 @@ tier_2_drill_base
     .duration(300)
 	.EUt(30)
     .inputs(<contenttweaker:biomedrill>)
-	.circuit(8)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 8}))
 	.fluidInputs(<liquid:steam> * 4000)
     .outputs(<minecraft:sapling:4> * 4,
 			 <minecraft:potato> * 10,
 			 <minecraft:red_flower:1> * 10)
+    .buildAndRegister();
+	
+tier_2_drill_base
+	.recipeMap
+    .recipeBuilder()
+    .duration(300)
+	.EUt(30)
+    .inputs(<contenttweaker:biomedrill>)
+	.notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 9}))
+	.fluidInputs(<liquid:steam> * 4000)
+    .outputs(<minecraft:sapling:1> * 4,
+			 <minecraft:pumpkin_seeds> * 5,
+			 <minecraft:tallgrass:2> * 5,
+			 <minecraft:double_plant:3> * 5)
     .buildAndRegister();
