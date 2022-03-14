@@ -56,6 +56,7 @@ circuit_assembler.recipeBuilder().inputs([<metaitem:circuit_board.basic>, <metai
 // Will make mag require further processing to be usable to compensate 
 <recipemap:electrolyzer>.findRecipe(60, [<metaitem:dustSoapstone> * 21], null).remove();
 electrolyzer.recipeBuilder().inputs([<metaitem:dustSoapstone> * 21]).outputs([<gregtech:meta_dust:99> * 4, <gregtech:meta_dust:59> * 3]).fluidOutputs([<liquid:oxygen> * 12000, <liquid:hydrogen> * 2000]).duration(320).EUt(16).buildAndRegister();
+electrolyzer.recipeBuilder().inputs([<contenttweaker:worldgenblock> * 4]).outputs([<minecraft:cobblestone> * 4, <gregtech:meta_gem:316>]).duration(100).EUt(16).buildAndRegister();
 makeShaped("Coal_boiler", <gregtech:machine:1>,
 	["   ",
 	 " S ",
