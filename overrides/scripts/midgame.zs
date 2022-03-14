@@ -3,7 +3,10 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
-
+import scripts.CommonVars.makeExtremeRecipe5 as makeExtremeRecipe5;
+import scripts.CommonVars.makeExtremeRecipe7 as makeExtremeRecipe7;
+import scripts.CommonVars.makeExtremeRecipe9 as makeExtremeRecipe9;
+import scripts.CommonVars.makeShapeless3 as makeShapeless3;
 
 // Small Sodium Battery is also a new battery 
 // If devtech adds the ability to create batteries this will be changed to be its own battery.
@@ -41,3 +44,24 @@ makeShaped("oildrill", <contenttweaker:oildrill>,
 	  S : <gregtech:meta_tool_head_drill:323>
 	  });
 <contenttweaker:oildrill>.addShiftTooltip("It floats in rain");
+
+
+makeExtremeRecipe5(<contenttweaker:tiereightdrill>,
+	["EPUPE",
+	 "ECDCE",
+	 " BFB ",
+	 "  M  ",
+	 "  T  "],
+	{ E : <ore:plateReinforcedEpoxyResin>,
+	  P : <gregtech:meta_item_1:173>,
+	  U : <gregtech:meta_item_1:143>,
+	  C : <gregtech:machine:1629>,
+	  D : <gregtech:machine:1614>,
+	  B : <gregtech:meta_plate:2011>,
+	  F : <ore:circuitExtreme>,
+	  M : <gregtech:machine:921>,
+	  T : <gregtech:meta_tool_head_drill:323>}
+);
+
+implosion.recipeBuilder().inputs([<gregtech:meta_plate:80>, <gregtech:meta_plate:113>]).outputs([<gregtech:meta_plate:32000> * 2]).property("explosives", 2).duration(100).EUt(30).buildAndRegister();
+implosion.recipeBuilder().inputs([<gregtech:meta_plate:80>, <gregtech:meta_plate:113>]).outputs([<gregtech:meta_plate:32000> * 2]).property("explosives", <gregtech:meta_item_1:460>).duration(100).EUt(30).buildAndRegister();

@@ -170,6 +170,7 @@ function makeShapedFA(name as string,
         recipeFunction, recipeAction);
 }
 
+
 // Support varying arities so RecipeFunction/Action may be optionally used
 function makeShapedF(name as string,
                      output as IItemStack,
@@ -184,4 +185,55 @@ function makeShaped(name as string,
                     recipe as string[],
                     replacements as IIngredient[string]) {
     makeShapedF(name, output, recipe, replacements, null);
+}
+
+function makeExtremeRecipe5(output as IItemStack,
+                            recipe as string[],
+                            replacements as IIngredient[string]) {
+
+    var ingredients =
+        [[null,null,null,null,null],
+         [null,null,null,null,null],
+         [null,null,null,null,null],
+         [null,null,null,null,null],
+         [null,null,null,null,null]] as IIngredient[][];
+
+    mods.extendedcrafting.TableCrafting.addShaped(output,
+        textToIngredients(ingredients, output, recipe, replacements));
+}
+
+function makeExtremeRecipe7(output as IItemStack,
+                            recipe as string[],
+                            replacements as IIngredient[string]) {
+
+    var ingredients =
+        [[null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null]] as IIngredient[][];
+
+    mods.extendedcrafting.TableCrafting.addShaped(output,
+        textToIngredients(ingredients, output, recipe, replacements));
+}
+
+function makeExtremeRecipe9(output as IItemStack,
+                            recipe as string[],
+                            replacements as IIngredient[string]) {
+
+    var ingredients =
+        [[null,null,null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null,null,null],
+         [null,null,null,null,null,null,null,null,null]] as IIngredient[][];
+
+    mods.extendedcrafting.TableCrafting.addShaped(output,
+        textToIngredients(ingredients, output, recipe, replacements));
 }

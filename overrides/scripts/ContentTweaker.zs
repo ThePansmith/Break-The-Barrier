@@ -87,46 +87,51 @@ pressplate.register();
  
 // Drills 
 var tieronedrill = VanillaFactory.createItem("tieronedrill");
-tieronedrill.maxStackSize = 1;
+tieronedrill.maxStackSize = 16;
 tieronedrill.rarity = "rare";
 tieronedrill.register();
  
 var tiertwodrill = VanillaFactory.createItem("tiertwodrill");
-tiertwodrill.maxStackSize = 1;
+tiertwodrill.maxStackSize = 16;
 tiertwodrill.rarity = "rare";
 tiertwodrill.register();
  
 var tierthreedrill = VanillaFactory.createItem("tierthreedrill");
-tierthreedrill.maxStackSize = 1;
+tierthreedrill.maxStackSize = 16;
 tierthreedrill.rarity = "rare";
 tierthreedrill.register();
  
 var tierfourdrill = VanillaFactory.createItem("tierfourdrill");
-tierfourdrill.maxStackSize = 1;
+tierfourdrill.maxStackSize = 16;
 tierfourdrill.rarity = "rare";
 tierfourdrill.register();
  
 var biomedrill = VanillaFactory.createItem("biomedrill");
-biomedrill.maxStackSize = 1;
+biomedrill.maxStackSize = 16;
 biomedrill.rarity = "rare";
 biomedrill.register();
  
 var tierfivedrill = VanillaFactory.createItem("tierfivedrill");
-tierfivedrill.maxStackSize = 1;
+tierfivedrill.maxStackSize = 16;
 tierfivedrill.rarity = "rare";
 tierfivedrill.register();
  
 var tiersixdrill = VanillaFactory.createItem("tiersixdrill");
-tiersixdrill.maxStackSize = 1;
+tiersixdrill.maxStackSize = 16;
 tiersixdrill.rarity = "rare";
 tiersixdrill.register();
 
 var oildrill = VanillaFactory.createItem("oildrill");
-oildrill.maxStackSize = 1;
+oildrill.maxStackSize = 16;
 oildrill.rarity = "rare";
 oildrill.register();
 
 var tiersevendrill = VanillaFactory.createItem("tiersevendrill");
-tiersevendrill.maxStackSize = 1;
+tiersevendrill.maxStackSize = 16;
 tiersevendrill.rarity = "rare";
 tiersevendrill.register();
+
+var tiereightdrill = VanillaFactory.createItem("tiereightdrill");
+tiereightdrill.maxStackSize = 16;
+tiereightdrill.rarity = "rare";
+tiereightdrill.register();

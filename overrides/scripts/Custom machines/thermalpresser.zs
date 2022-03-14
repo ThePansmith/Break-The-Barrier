@@ -31,7 +31,6 @@ val thermalpressrecipe    as RecipeMap = RecipeMap.getByName("thermalpresser");
 //(Char)coal into diamond
 thermalpressrecipe.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 thermalpressrecipe.recipeBuilder().inputs([<minecraft:coal> * 16]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
-
 // Recipes
 makeShaped("steamTP", <gregtech:machine:32004>,
 	["BPB",

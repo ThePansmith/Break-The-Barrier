@@ -37,3 +37,10 @@ certus.addFlags("generate_rod", "generate_gear");
 <material:steel>.addFluid("fluid", true);
 <material:aluminium>.addFluid("fluid", true);
 
+val plattanium = MaterialBuilder(32000, "plattanium")
+    .ingot().fluid()
+    .color(0xD4B6C7)
+    .flags(["generate_plate", "generate_rod", "generate_gear"])
+    .components([<material:titanium> * 1, <material:platinum> * 1])
+    .cableProperties(8192, 2, 1)
+    .build();

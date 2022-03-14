@@ -87,3 +87,16 @@ tier_4_drill_base
 	         <gregtech:ore_silver_0> * 10,
 	         <gregtech:ore_redstone_0> * 10)
     .buildAndRegister();
+	
+tier_4_drill_base
+	.recipeMap
+		.recipeBuilder()
+    .duration(300)
+	.EUt(512)
+    .inputs(<contenttweaker:tiereightdrill>)
+	.fluidInputs(<liquid:rocket_fuel> * 1000)
+    .outputs(<gregtech:ore_quartzite_0> * 10,
+			 <gregtech:ore_stibnite_0> * 5,
+	         <gregtech:ore_silver_0> * 10,
+	         <gregtech:ore_redstone_0> * 10)
+    .buildAndRegister();

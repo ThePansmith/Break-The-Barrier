@@ -238,7 +238,7 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
@@ -290,7 +290,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Reassembling",
@@ -340,12 +340,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -389,7 +389,7 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
@@ -450,12 +450,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -488,12 +488,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -540,12 +540,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -592,12 +592,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -644,12 +644,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -682,12 +682,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -733,12 +733,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -771,12 +771,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -823,12 +823,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -874,12 +874,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -925,12 +925,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -964,7 +964,7 @@
           "name:8": "T8 Drill",
           "desc:8": "A few chains passived later, you\u0027re here!\n\nThe T8 Drill will give you the materials required to craft EV machines.",
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:tiereightdrill",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -976,15 +976,33 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tiereightdrill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
       "rewards:9": {},
       "preRequisites:11": [
         9,
@@ -1011,12 +1029,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1049,12 +1067,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {},
@@ -1082,12 +1100,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1160,12 +1178,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1202,12 +1220,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1240,12 +1258,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1266,7 +1284,7 @@
           "name:8": "T7 Drill",
           "desc:8": "The T7 Drill brings back various goodies, such as the means to craft superconductors up to HV.\n",
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:tiersevendrill",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1278,15 +1296,33 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:tiersevendrill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
       "rewards:9": {},
       "preRequisites:11": [
         10
@@ -1296,12 +1332,12 @@
     "28:10": {
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "New Quest",
-          "desc:8": "No Description",
+          "name:8": "Plattinium",
+          "desc:8": "WIP\n\n",
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:meta_ingot",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32000,
             "OreDict:8": ""
           },
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1311,19 +1347,37 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 8,
+              "Damage:2": 32000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
       "rewards:9": {},
       "preRequisites:11": [
-        11,
-        8
+        37,
+        38
       ],
       "questID:3": 28
     },
@@ -1333,9 +1387,9 @@
           "name:8": "T4 Base ",
           "desc:8": "No Description",
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32003,
             "OreDict:8": ""
           },
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1345,15 +1399,33 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32003,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
       "rewards:9": {},
       "preRequisites:11": [
         6
@@ -1366,7 +1438,7 @@
           "name:8": "It floats on water",
           "desc:8": "Oil Drill does exactly what you think it does.\n",
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:oildrill",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1378,15 +1450,33 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:oildrill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
       "rewards:9": {},
       "preRequisites:11": [
         6
@@ -1415,12 +1505,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1453,12 +1543,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1491,12 +1581,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1548,12 +1638,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {},
@@ -1581,12 +1671,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
@@ -1632,12 +1722,12 @@
           "repeattime:3": -1,
           "repeat_relative:1": 1,
           "lockedprogress:1": 0,
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "issilent:1": 0,
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {},
@@ -1650,74 +1740,104 @@
     "37:10": {
       "properties:10": {
         "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
+          "name:8": "Titanium ",
+          "desc:8": "Well, that previous quest was a bit of a lie.\n\nYou can\u0027t craft EV stuff just yet, that will be an option in the next update, anyways, thanks for playing up to this point!",
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "gregtech:meta_ingot",
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 113,
             "OreDict:8": ""
           },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
           "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
           "ismain:1": 0,
-          "name:8": "Other Steam generation options",
-          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
         "0:10": {
-          "taskID:8": "bq_standard:checkbox",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 113,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
           "index:3": 0
         }
       },
       "rewards:9": {},
-      "preRequisites:11": [],
-      "questID:3": 68
+      "preRequisites:11": [
+        19
+      ],
+      "questID:3": 37
     },
     "38:10": {
       "properties:10": {
         "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
+          "name:8": "Plat",
+          "desc:8": "Well, that previous quest was a bit of a lie.\n\nYou can\u0027t craft EV stuff just yet, that will be an option in the next update, anyways, thanks for playing up to this point!",
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "gregtech:meta_ingot",
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 80,
             "OreDict:8": ""
           },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
           "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
           "ismain:1": 0,
-          "name:8": "Other Steam generation options",
-          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL"
         }
       },
       "tasks:9": {
         "0:10": {
-          "taskID:8": "bq_standard:checkbox",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 80,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
           "index:3": 0
         }
       },
       "rewards:9": {},
-      "preRequisites:11": [],
-      "questID:3": 118
+      "preRequisites:11": [
+        19
+      ],
+      "questID:3": 38
     },
     "39:10": {
       "properties:10": {
@@ -1753,9 +1873,81 @@
       },
       "rewards:9": {},
       "preRequisites:11": [],
-      "questID:3": 168
+      "questID:3": 68
     },
     "40:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 118
+    },
+    "41:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 168
+    },
+    "42:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1868,7 +2060,7 @@
       "preRequisites:11": [],
       "questID:3": 216
     },
-    "41:10": {
+    "43:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1925,7 +2117,7 @@
       ],
       "questID:3": 221
     },
-    "42:10": {
+    "44:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1976,7 +2168,7 @@
       ],
       "questID:3": 222
     },
-    "43:10": {
+    "45:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2037,7 +2229,7 @@
       ],
       "questID:3": 223
     },
-    "44:10": {
+    "46:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2088,7 +2280,7 @@
       ],
       "questID:3": 224
     },
-    "45:10": {
+    "47:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2139,7 +2331,7 @@
       ],
       "questID:3": 225
     },
-    "46:10": {
+    "48:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2190,7 +2382,7 @@
       ],
       "questID:3": 226
     },
-    "47:10": {
+    "49:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2242,7 +2434,7 @@
       ],
       "questID:3": 227
     },
-    "48:10": {
+    "50:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2293,7 +2485,7 @@
       ],
       "questID:3": 228
     },
-    "49:10": {
+    "51:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2344,7 +2536,7 @@
       ],
       "questID:3": 229
     },
-    "50:10": {
+    "52:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2437,7 +2629,7 @@
       ],
       "questID:3": 230
     },
-    "51:10": {
+    "53:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2488,7 +2680,7 @@
       ],
       "questID:3": 231
     },
-    "52:10": {
+    "54:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2526,7 +2718,7 @@
       ],
       "questID:3": 232
     },
-    "53:10": {
+    "55:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2577,7 +2769,7 @@
       ],
       "questID:3": 233
     },
-    "54:10": {
+    "56:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2628,7 +2820,7 @@
       ],
       "questID:3": 234
     },
-    "55:10": {
+    "57:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2679,7 +2871,7 @@
       ],
       "questID:3": 235
     },
-    "56:10": {
+    "58:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2730,7 +2922,7 @@
       ],
       "questID:3": 237
     },
-    "57:10": {
+    "59:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2781,7 +2973,7 @@
       ],
       "questID:3": 238
     },
-    "58:10": {
+    "60:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2832,7 +3024,7 @@
       ],
       "questID:3": 239
     },
-    "59:10": {
+    "61:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2883,7 +3075,7 @@
       ],
       "questID:3": 240
     },
-    "60:10": {
+    "62:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2940,7 +3132,7 @@
       ],
       "questID:3": 241
     },
-    "61:10": {
+    "63:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2991,7 +3183,7 @@
       ],
       "questID:3": 242
     },
-    "62:10": {
+    "64:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3029,7 +3221,7 @@
       ],
       "questID:3": 243
     },
-    "63:10": {
+    "65:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3094,7 +3286,7 @@
       ],
       "questID:3": 244
     },
-    "64:10": {
+    "66:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3145,7 +3337,7 @@
       ],
       "questID:3": 246
     },
-    "65:10": {
+    "67:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3205,7 +3397,7 @@
       ],
       "questID:3": 247
     },
-    "66:10": {
+    "68:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3243,7 +3435,7 @@
       ],
       "questID:3": 248
     },
-    "67:10": {
+    "69:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3294,7 +3486,7 @@
       ],
       "questID:3": 249
     },
-    "68:10": {
+    "70:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3345,7 +3537,7 @@
       ],
       "questID:3": 250
     },
-    "69:10": {
+    "71:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3383,7 +3575,7 @@
       ],
       "questID:3": 251
     },
-    "70:10": {
+    "72:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3440,7 +3632,7 @@
       ],
       "questID:3": 252
     },
-    "71:10": {
+    "73:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3499,7 +3691,7 @@
       ],
       "questID:3": 253
     },
-    "72:10": {
+    "74:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3558,7 +3750,7 @@
       ],
       "questID:3": 254
     },
-    "73:10": {
+    "75:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3609,7 +3801,7 @@
       ],
       "questID:3": 256
     },
-    "74:10": {
+    "76:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3667,7 +3859,7 @@
       ],
       "questID:3": 257
     },
-    "75:10": {
+    "77:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3720,7 +3912,7 @@
       ],
       "questID:3": 258
     },
-    "76:10": {
+    "78:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3771,7 +3963,7 @@
       ],
       "questID:3": 259
     },
-    "77:10": {
+    "79:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3822,7 +4014,7 @@
       ],
       "questID:3": 260
     },
-    "78:10": {
+    "80:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3873,7 +4065,7 @@
       ],
       "questID:3": 261
     },
-    "79:10": {
+    "81:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3935,7 +4127,7 @@
       ],
       "questID:3": 262
     },
-    "80:10": {
+    "82:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3986,7 +4178,7 @@
       ],
       "questID:3": 264
     },
-    "81:10": {
+    "83:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4022,7 +4214,7 @@
       "preRequisites:11": [],
       "questID:3": 288
     },
-    "82:10": {
+    "84:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4073,7 +4265,7 @@
       ],
       "questID:3": 314
     },
-    "83:10": {
+    "85:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4125,7 +4317,7 @@
       ],
       "questID:3": 331
     },
-    "84:10": {
+    "86:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4161,7 +4353,7 @@
       "preRequisites:11": [],
       "questID:3": 338
     },
-    "85:10": {
+    "87:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4199,7 +4391,7 @@
       ],
       "questID:3": 350
     },
-    "86:10": {
+    "88:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4251,7 +4443,7 @@
       ],
       "questID:3": 365
     },
-    "87:10": {
+    "89:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4302,7 +4494,7 @@
       ],
       "questID:3": 366
     },
-    "88:10": {
+    "90:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4409,7 +4601,7 @@
       "preRequisites:11": [],
       "questID:3": 367
     },
-    "89:10": {
+    "91:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4460,7 +4652,7 @@
       ],
       "questID:3": 368
     },
-    "90:10": {
+    "92:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4511,7 +4703,7 @@
       ],
       "questID:3": 372
     },
-    "91:10": {
+    "93:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4562,7 +4754,7 @@
       ],
       "questID:3": 373
     },
-    "92:10": {
+    "94:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4613,7 +4805,7 @@
       ],
       "questID:3": 377
     },
-    "93:10": {
+    "95:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4665,7 +4857,7 @@
       ],
       "questID:3": 378
     },
-    "94:10": {
+    "96:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4698,7 +4890,7 @@
       ],
       "questID:3": 379
     },
-    "95:10": {
+    "97:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4749,7 +4941,7 @@
       ],
       "questID:3": 380
     },
-    "96:10": {
+    "98:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4800,7 +4992,7 @@
       ],
       "questID:3": 381
     },
-    "97:10": {
+    "99:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4851,7 +5043,7 @@
       ],
       "questID:3": 382
     },
-    "98:10": {
+    "100:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4902,7 +5094,7 @@
       ],
       "questID:3": 383
     },
-    "99:10": {
+    "101:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4954,7 +5146,7 @@
       ],
       "questID:3": 384
     },
-    "100:10": {
+    "102:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5016,7 +5208,7 @@
       ],
       "questID:3": 385
     },
-    "101:10": {
+    "103:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5131,7 +5323,7 @@
       ],
       "questID:3": 386
     },
-    "102:10": {
+    "104:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5174,7 +5366,7 @@
       ],
       "questID:3": 388
     },
-    "103:10": {
+    "105:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5231,7 +5423,7 @@
       ],
       "questID:3": 389
     },
-    "104:10": {
+    "106:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5282,7 +5474,7 @@
       ],
       "questID:3": 390
     },
-    "105:10": {
+    "107:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5320,7 +5512,7 @@
       ],
       "questID:3": 391
     },
-    "106:10": {
+    "108:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5371,7 +5563,7 @@
       ],
       "questID:3": 392
     },
-    "107:10": {
+    "109:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5422,7 +5614,7 @@
       ],
       "questID:3": 393
     },
-    "108:10": {
+    "110:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5455,7 +5647,7 @@
       ],
       "questID:3": 395
     },
-    "109:10": {
+    "111:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5493,7 +5685,7 @@
       ],
       "questID:3": 396
     },
-    "110:10": {
+    "112:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5526,7 +5718,7 @@
       ],
       "questID:3": 397
     },
-    "111:10": {
+    "113:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5583,7 +5775,7 @@
       ],
       "questID:3": 398
     },
-    "112:10": {
+    "114:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -6291,7 +6483,7 @@
             "Damage:2": 988,
             "OreDict:8": ""
           },
-          "visibility:8": "ALWAYS",
+          "visibility:8": "NORMAL",
           "bg_image:8": "",
           "bg_size:3": 256
         }
@@ -6431,10 +6623,10 @@
           "id:3": 27
         },
         "19:10": {
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -276,
-          "y:3": -92,
+          "sizeX:3": 32,
+          "sizeY:3": 32,
+          "x:3": 144,
+          "y:3": -96,
           "id:3": 28
         },
         "20:10": {
@@ -6485,6 +6677,20 @@
           "x:3": -192,
           "y:3": -132,
           "id:3": 36
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 104,
+          "y:3": -124,
+          "id:3": 37
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 104,
+          "y:3": -56,
+          "id:3": 38
         }
       },
       "lineID:3": 4,
