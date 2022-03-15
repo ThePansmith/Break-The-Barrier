@@ -116,15 +116,15 @@ val Plants as IPlantRecipe[] = [
 	seeds
 ];
 
-for Input in Plants {
+for Plant in Plants {
 	for Fluid in Fluids {
 			<multiblock:multiblocktweaker:greenhouse>.recipeMap.recipeBuilder()
-				.inputs([Plants.getInput()])
-				.fluidInputs([Fluids.Fluid()])
-				.outputs(Plants.getOutput())
-				.outputs(Plants.getOutput2())
-				.duration(Fluids.getDuration())
-				.EUt(Plants.getEUt())
+				.inputs([Plant.getInput()])
+				.fluidInputs([Fluid.Fluid()])
+				.outputs(Plant.getOutput())
+				.outputs(Plant.getOutput2())
+				.duration(Fluid.getDuration())
+				.EUt(Plant.getEUt())
 				.buildAndRegister();
 				}
 }
