@@ -22,11 +22,11 @@ zenClass IPlantRecipe {
 		return this.Input;
 	}
 	
-	function getOutput() as IOreDictEntry{
+	function getOutput() as IItemStack{
 		return this.Output;
 	}
 	
-	function getOutput2() as IOreDictEntry{
+	function getOutput2() as IItemStack{
 		return this.Output2;
 	}
 	
