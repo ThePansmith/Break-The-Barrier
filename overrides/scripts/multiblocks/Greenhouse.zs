@@ -120,7 +120,7 @@ for Plant in Plants {
 	for Fluid in Fluids {
 			<multiblock:multiblocktweaker:greenhouse>.recipeMap.recipeBuilder()
 				.inputs([Plant.getInput()])
-				.fluidInputs([Fluid.ColdFluid()])
+				.fluidInputs([Fluid.getColdFluid()])
 				.outputs(Plant.getOutput())
 				.outputs(Plant.getOutput2())
 				.duration(Fluid.getDuration())
