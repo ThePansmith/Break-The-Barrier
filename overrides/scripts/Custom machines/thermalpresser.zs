@@ -17,7 +17,7 @@ val thermalpress as RecipeMap = RecipeMapBuilder.create("thermalpresser")
     .setHidden(false)
     .build();
 	
-MachineBuilder.create(32004, "thermalpresser")
+MachineBuilder.create(32104, "thermalpresser")
     .setRecipeMap(thermalpress)
     .setRenderer("machines/thermal_centrifuge")
 	.addTierRange(1, 4)
@@ -32,7 +32,7 @@ val thermalpressrecipe    as RecipeMap = RecipeMap.getByName("thermalpresser");
 thermalpressrecipe.recipeBuilder().inputs([<minecraft:coal:1> * 32]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 thermalpressrecipe.recipeBuilder().inputs([<minecraft:coal> * 16]).outputs([<minecraft:diamond>]).duration(500).EUt(10).buildAndRegister();
 // Recipes
-makeShaped("steamTP", <gregtech:machine:32004>,
+makeShaped("steamTP", <gregtech:machine:32104>,
 	["BPB",
 	 "BHB",
 	 "BFB"],
@@ -43,7 +43,7 @@ makeShaped("steamTP", <gregtech:machine:32004>,
 	  });
 	  
 
-makeShaped("steelTP", <gregtech:machine:32005>,
+makeShaped("steelTP", <gregtech:machine:32105>,
 	["WSW",
 	 "PTP",
 	 "WPW"],
@@ -53,7 +53,7 @@ makeShaped("steelTP", <gregtech:machine:32005>,
 	  T : <gregtech:machine:32004>
 	  });
 	  
-makeShaped("LVTP", <gregtech:machine:32007>,
+makeShaped("LVTP", <gregtech:machine:32107>,
 	["PLP",
 	 "CHC",
 	 "TLT"],
@@ -64,7 +64,7 @@ makeShaped("LVTP", <gregtech:machine:32007>,
 	  L : <ore:circuitBasic>
 	  });
 	  
-makeShaped("MVTP", <gregtech:machine:32008>,
+makeShaped("MVTP", <gregtech:machine:32108>,
 	["PLP",
 	 "CHC",
 	 "TLT"],
