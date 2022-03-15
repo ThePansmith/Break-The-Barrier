@@ -15,6 +15,7 @@ zenClass IPlantRecipe {
 	zenConstructor(Input as IItemStack, Output as IItemStack, Output2 as IItemStack, EUt as int){
 		this.Input = Input;
 		this.Output = Output;
+		this.Output2 = Output2;
 		this.EUt = EUt;
 	}
 	
