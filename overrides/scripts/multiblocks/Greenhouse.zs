@@ -98,8 +98,8 @@ val oak as IPlantRecipe = IPlantRecipe(<minecraft:sapling>, <minecraft:log> * 4,
 val spruce as IPlantRecipe = IPlantRecipe(<minecraft:sapling:1>, <minecraft:log:1> * 4, <minecraft:sapling:1>, 60);
 val birch as IPlantRecipe = IPlantRecipe(<minecraft:sapling:2>, <minecraft:log:2> * 4, <minecraft:sapling:2>, 60);
 val jungle as IPlantRecipe = IPlantRecipe(<minecraft:sapling:3>, <minecraft:log:3> * 4, <minecraft:sapling:3>, 60);
-val acacia as IPlantRecipe = IPlantRecipe(<minecraft:sapling:4>, <minecraft:log:4> * 4, <minecraft:sapling:4>, 60);
-val darkoak as IPlantRecipe = IPlantRecipe(<minecraft:sapling:5>, <minecraft:log:5> * 4, <minecraft:sapling:5>, 60);
+val acacia as IPlantRecipe = IPlantRecipe(<minecraft:sapling:4>, <minecraft:log2> * 4, <minecraft:sapling:4>, 60);
+val darkoak as IPlantRecipe = IPlantRecipe(<minecraft:sapling:5>, <minecraft:log2:1> * 4, <minecraft:sapling:5>, 60);
 val rubber as IPlantRecipe = IPlantRecipe(<gregtech:rubber_sapling>, <gregtech:rubber_log> * 4, <gregtech:rubber_sapling>, 60);
 val sugarcane as IPlantRecipe = IPlantRecipe(<minecraft:reeds>, <minecraft:reeds> * 6, <minecraft:reeds> * 2, 32);
 val seeds as IPlantRecipe = IPlantRecipe(<minecraft:wheat_seeds>, <minecraft:wheat> * 2, <minecraft:wheat_seeds> * 6, 32);
@@ -118,7 +118,7 @@ val Plants as IPlantRecipe[] = [
 
 for Plant in Plants {
 	for Fluid in Fluids {
-			<multiblock:multiblocktweaker:greenhouse>.recipeMap.recipeBuilder()
+			<multiblock:mbt:greenhouse>.recipeMap.recipeBuilder()
 				.inputs([Plant.getInput()])
 				.fluidInputs([Fluid.getColdFluid()])
 				.outputs(Plant.getOutput())
