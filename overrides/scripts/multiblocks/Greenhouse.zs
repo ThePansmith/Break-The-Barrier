@@ -13,9 +13,6 @@ import mods.gregtech.recipe.functions.ISetupRecipeFunction;
 import mods.gregtech.recipe.functions.ICompleteRecipeFunction;
 import crafttweaker.item.IItemCondition;
 
-import scripts.custom_classes.IPlantRecipe.IPlantRecipe;
-import scripts.custom_classes.IPlantFluid.IPlantFluid;
-
 // Multiblock 
 
 
