@@ -83,48 +83,39 @@ recipes.addShaped(
     ]
 );
 
+val Fluids = {
+	//duration : fluid * amount
+	200 : <liquid:ammonium_nitrate> * 500
+	// More to come
+} as ILiquidStack[int];
 
+val Plants = {
+	//EUt : [[[inputs],[outputs]], [[inputs],[outputs]], etc]
+	60 : [
+		[[<minecraft:sapling>], [<minecraft:log> * 4, <minecraft:sapling>]],
+		[[<minecraft:sapling:1>], [<minecraft:log:1> * 4, <minecraft:sapling:1>]],
+		[[<minecraft:sapling:2>], [<minecraft:log:2> * 4, <minecraft:sapling:2>]],
+		[[<minecraft:sapling:3>], [<minecraft:log:3> * 4, <minecraft:sapling:3>]],
+		[[<minecraft:sapling:4>], [<minecraft:log2> * 4, <minecraft:sapling:4>]],
+		[[<minecraft:sapling:5>], [<minecraft:log2:1> * 4, <minecraft:sapling:5>]],
+		[[<gregtech:rubber_sapling>], [<gregtech:rubber_log> * 4, <gregtech:rubber_sapling>]]
+	],
+	32 : [
+		[[<minecraft:reeds>], [<minecraft:reeds> * 6, <minecraft:reeds> * 2]],
+		[[<minecraft:wheat_seeds>], [<minecraft:wheat> * 2, <minecraft:wheat_seeds> * 6]]
+	]
+} as IItemStack[][][][int];
 
-// IPlantFluid(fluid, amount, duration)
-val ammoniumnitrate as IPlantFluid = IPlantFluid(<liquid:ammonium_nitrate>, 500, 200);
-// More to come
-
-val Fluids as IPlantFluid[] = [
-	ammoniumnitrate
-];
-
-// IPlantRecipe (Input, Output, 2nd Output, EUt)
-val oak as IPlantRecipe = IPlantRecipe(<minecraft:sapling>, <minecraft:log> * 4, <minecraft:sapling>, 60);
-val spruce as IPlantRecipe = IPlantRecipe(<minecraft:sapling:1>, <minecraft:log:1> * 4, <minecraft:sapling:1>, 60);
-val birch as IPlantRecipe = IPlantRecipe(<minecraft:sapling:2>, <minecraft:log:2> * 4, <minecraft:sapling:2>, 60);
-val jungle as IPlantRecipe = IPlantRecipe(<minecraft:sapling:3>, <minecraft:log:3> * 4, <minecraft:sapling:3>, 60);
-val acacia as IPlantRecipe = IPlantRecipe(<minecraft:sapling:4>, <minecraft:log2> * 4, <minecraft:sapling:4>, 60);
-val darkoak as IPlantRecipe = IPlantRecipe(<minecraft:sapling:5>, <minecraft:log2:1> * 4, <minecraft:sapling:5>, 60);
-val rubber as IPlantRecipe = IPlantRecipe(<gregtech:rubber_sapling>, <gregtech:rubber_log> * 4, <gregtech:rubber_sapling>, 60);
-val sugarcane as IPlantRecipe = IPlantRecipe(<minecraft:reeds>, <minecraft:reeds> * 6, <minecraft:reeds> * 2, 32);
-val seeds as IPlantRecipe = IPlantRecipe(<minecraft:wheat_seeds>, <minecraft:wheat> * 2, <minecraft:wheat_seeds> * 6, 32);
-
-val Plants as IPlantRecipe[] = [
-	oak,
-	spruce,
-	birch,
-	jungle,
-	acacia,
-	darkoak,
-	rubber,
-	sugarcane,
-	seeds
-];
-
-for Plant in Plants {
-	for Fluid in Fluids {
+for EUt, recipes in Plants {
+	for recipe in recipes {
+		for duration, fluid in Fluids {
 			<multiblock:mbt:greenhouse>.recipeMap.recipeBuilder()
-				.inputs([Plant.getInput()])
-				.fluidInputs([Fluid.getColdFluid()])
-				.outputs(Plant.getOutput())
-				.outputs(Plant.getOutput2())
-				.duration(Fluid.getDuration())
-				.EUt(Plant.getEUt())
+				.inputs(recipe[0])
+				.fluidInputs(fluid)
+				.outputs(recipe[1])
+				.duration(duration)
+				.EUt(EUt)
 				.buildAndRegister();
-				}
+		}
+	}
 }
