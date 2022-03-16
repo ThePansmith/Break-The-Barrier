@@ -12,12 +12,9 @@ import mods.gregtech.recipe.IRecipe;
 import mods.gregtech.recipe.functions.ISetupRecipeFunction;
 import mods.gregtech.recipe.functions.ICompleteRecipeFunction;
 import crafttweaker.item.IItemCondition;
-
-import scripts.custom_classes.IPlantRecipe.IPlantRecipe;
-import scripts.custom_classes.IPlantFluid.IPlantFluid;
-
-// Multiblock 
-
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
 
 // Multiblock 
 
@@ -26,34 +23,38 @@ var loc = "mbt:greenhouse";
 val greenhouse = Builder.start(loc)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
                        return FactoryBlockPattern.start()
-						  .aisle("A~~~A", "A~~~A", "A~~~A", "SSSSS")
-                          .aisle("~~~~~", "~~~~~", "~~~~~", "SCCCS")
-                          .aisle("~~~~~", "~~~~~", "~~~~~", "SCCCS")
-                          .aisle("A~~~A", "A~~~A", "A~~~A", "SSESS")
-            .where("E", controller.self())
-            .where("~", CTPredicate.getAir())
-			.where("A", <metastate:gregtech:meta_block_frame_0:2>)
-			.where("I", <metastate:gregtech:metal_casing:5>)
-			.where("C", <metastate:gregtech:metal_casing:3>)
-            .where("S", CTPredicate.states(<metastate:gregtech:metal_casing:5>)
-                                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1) // There is at least one IMPORT_ITEMS bus. JEI preview shows only one.
+                          .aisle("IIIII", "SGGGS", "SGGGS", "SGGGS", "IIIII")
+			  .aisle("IDDDI", "G~~~G", "G~~~G", "G~~~G", "IMAMI")
+                          .aisle("IDDDI", "G~~~G", "G~~~G", "G~~~G", "IAAAI")
+                          .aisle("IDDDI", "G~~~G", "G~~~G", "G~~~G", "IMAMI")
+                          .aisle("IIEII", "SGGGS", "SGGGS", "SGGGS", "IIIII")
+			  .where("E", controller.self())
+			  .where("~", CTPredicate.getAir())
+			  .where("G", <metastate:chisel:glass>)
+			  .where("M", <metastate:gregtech:multiblock_casing:2>)
+			  .where("A", <metastate:chisel:glowstone:7>)
+			  .where("S", <metastate:gregtech:metal_casing:3>)
+			  .where("D", <metastate:minecraft:dirt>)
+            		  .where("I", CTPredicate.states(<metastate:gregtech:metal_casing:5>)
+                                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
                                       | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setPreviewCount(1)
-                                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1) // There is at least one INPUT_ENERGY hatch and no more than three of it. JEI preview shows only one.
+                                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1)
             )
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(
-        FactoryRecipeMap.start("greenhouse")
+	    .withRecipeMap(
+		FactoryRecipeMap.start("greenhouse")
                         .minFluidInputs(1)
-                        .maxFluidInputs(1)
+                        .maxFluidInputs(2)
                         .minInputs(1)
-						.maxInputs(1)
-						.minOutputs(1)
-                        .maxOutputs(9)
+			.maxInputs(1)
+			.minOutputs(1)
+                        .maxOutputs(2)
                         .build())
-    .withBaseTexture(<gregtech:metal_casing>.asBlock().definition.getStateFromMeta(5))
-    .buildAndRegister();
+		.withBaseTexture(<gregtech:metal_casing>.asBlock().definition.getStateFromMeta(5))
+		.buildAndRegister();
+
 // set optional properties
 greenhouse.hasMaintenanceMechanics = false;
 greenhouse.hasMufflerMechanics = false;
@@ -83,48 +84,39 @@ recipes.addShaped(
     ]
 );
 
+val Fluids = {
+	//duration : fluid * amount
+	200 : [<liquid:ammonium_nitrate> * 500]
+	// More to come
+} as ILiquidStack[][int];
 
+val Plants = {
+	//EUt : {[inputs] : [outputs]}
+	60 : {
+		[<minecraft:sapling>] : [<minecraft:log> * 4, <minecraft:sapling>],
+		[<minecraft:sapling:1>] : [<minecraft:log:1> * 4, <minecraft:sapling:1>],
+		[<minecraft:sapling:2>] : [<minecraft:log:2> * 4, <minecraft:sapling:2>],
+		[<minecraft:sapling:3>] : [<minecraft:log:3> * 4, <minecraft:sapling:3>],
+		[<minecraft:sapling:4>] : [<minecraft:log2> * 4, <minecraft:sapling:4>],
+		[<minecraft:sapling:5>] : [<minecraft:log2:1> * 4, <minecraft:sapling:5>],
+		[<gregtech:rubber_sapling>] : [<gregtech:rubber_log> * 4, <gregtech:rubber_sapling>]
+	},
+	32 : {
+		[<minecraft:reeds>] : [<minecraft:reeds> * 6, <minecraft:reeds> * 2],
+		[<minecraft:wheat_seeds>] : [<minecraft:wheat> * 2, <minecraft:wheat_seeds> * 6]
+	}
+} as IItemStack[][IIngredient[]][int];
 
-// IPlantFluid(fluid, amount, duration)
-val ammoniumnitrate as IPlantFluid = IPlantFluid(<liquid:ammonium_nitrate>, 500, 200);
-// More to come
-
-val Fluids as IPlantFluid[] = [
-	ammoniumnitrate
-];
-
-// IPlantRecipe (Input, Output, 2nd Output, EUt)
-val oak as IPlantRecipe = IPlantRecipe(<minecraft:sapling>, <minecraft:log> * 4, <minecraft:sapling>, 60);
-val spruce as IPlantRecipe = IPlantRecipe(<minecraft:sapling:1>, <minecraft:log:1> * 4, <minecraft:sapling:1>, 60);
-val birch as IPlantRecipe = IPlantRecipe(<minecraft:sapling:2>, <minecraft:log:2> * 4, <minecraft:sapling:2>, 60);
-val jungle as IPlantRecipe = IPlantRecipe(<minecraft:sapling:3>, <minecraft:log:3> * 4, <minecraft:sapling:3>, 60);
-val acacia as IPlantRecipe = IPlantRecipe(<minecraft:sapling:4>, <minecraft:log2> * 4, <minecraft:sapling:4>, 60);
-val darkoak as IPlantRecipe = IPlantRecipe(<minecraft:sapling:5>, <minecraft:log2:1> * 4, <minecraft:sapling:5>, 60);
-val rubber as IPlantRecipe = IPlantRecipe(<gregtech:rubber_sapling>, <gregtech:rubber_log> * 4, <gregtech:rubber_sapling>, 60);
-val sugarcane as IPlantRecipe = IPlantRecipe(<minecraft:reeds>, <minecraft:reeds> * 6, <minecraft:reeds> * 2, 32);
-val seeds as IPlantRecipe = IPlantRecipe(<minecraft:wheat_seeds>, <minecraft:wheat> * 2, <minecraft:wheat_seeds> * 6, 32);
-
-val Plants as IPlantRecipe[] = [
-	oak,
-	spruce,
-	birch,
-	jungle,
-	acacia,
-	darkoak,
-	rubber,
-	sugarcane,
-	seeds
-];
-
-for Plant in Plants {
-	for Fluid in Fluids {
+for EUt, recipes in Plants {
+	for inputs, outputs in recipes {
+		for duration, fluid in Fluids {
 			<multiblock:mbt:greenhouse>.recipeMap.recipeBuilder()
-				.inputs([Plant.getInput()])
-				.fluidInputs([Fluid.getColdFluid()])
-				.outputs(Plant.getOutput())
-				.outputs(Plant.getOutput2())
-				.duration(Fluid.getDuration())
-				.EUt(Plant.getEUt())
+				.inputs(inputs)
+				.fluidInputs(fluid)
+				.outputs(outputs)
+				.duration(duration)
+				.EUt(EUt)
 				.buildAndRegister();
-				}
+		}
+	}
 }
