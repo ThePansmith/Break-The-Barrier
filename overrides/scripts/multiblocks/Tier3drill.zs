@@ -1,3 +1,4 @@
+#priority 997
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
 import mods.gregtech.multiblock.RelativeDirection;
@@ -123,15 +124,6 @@ tier_3_drill_base
 			 <gregtech:ore_salt_0> * 2,
 	         <gregtech:ore_ruby_0> * 10)
     .buildAndRegister();
-	
-tier_3_drill_base
-	.recipeMap
-		.recipeBuilder()
-    .duration(100)
-	.EUt(100)
-    .inputs(<contenttweaker:oildrill>)
-	.fluidInputs(<liquid:plastic> * 1000)
-    .fluidOutputs([<liquid:oil> * 8000])
-    .buildAndRegister();
+
 	
 	

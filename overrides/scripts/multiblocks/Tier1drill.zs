@@ -1,3 +1,4 @@
+#priority 999
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
 import mods.gregtech.multiblock.RelativeDirection;
@@ -80,7 +81,7 @@ game.setLocalization(
 
 // Controller Recipe
 recipes.addShaped(
-    <gregtech:machine:32001>,
+    <gregtech:machine:32000>,
     [
         [<gregtech:fluid_pipe_small:1617>,         <gregtech:metal_casing:1>,         <gregtech:fluid_pipe_small:1617>],
         [<minecraft:glass>, <gregtech:metal_casing:1>,  <minecraft:glass>],

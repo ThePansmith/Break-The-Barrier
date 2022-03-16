@@ -84,6 +84,10 @@ manainfusedpe.register();
 var pressplate = VanillaFactory.createItem("pressplate");
 pressplate.maxStackSize = 1;
 pressplate.register();
+
+var bluedust = VanillaFactory.createItem("bluedust");
+bluedust.maxStackSize = 64;
+bluedust.register();
  
 // Drills 
 var tieronedrill = VanillaFactory.createItem("tieronedrill");

@@ -50,7 +50,7 @@ makeShaped("steelTP", <gregtech:machine:32105>,
 	{ S : <gregtech:meta_plate:324>,
 	  W : <gregtech:meta_plate:335>,
 	  P : <gregtech:fluid_pipe_small:335>, 
-	  T : <gregtech:machine:32004>
+	  T : <gregtech:machine:32104>
 	  });
 	  
 makeShaped("LVTP", <gregtech:machine:32107>,

@@ -1,3 +1,4 @@
+#priority 996
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
 import mods.gregtech.multiblock.RelativeDirection;
@@ -51,7 +52,7 @@ tier_4_drill_base.hasMufflerMechanics = false;
 // Lang	
 game.setLocalization(
     "mbt.machine.tier_4_drill_base.name",
-    "just use lang"
+    "Tier 4 Base Controller"
 );
 game.setLocalization(
     "mbt.multiblock.tier_4_drill_base.description",
@@ -65,7 +66,7 @@ game.setLocalization(
 
 // Controller Recipe
 recipes.addShaped(
-    <gregtech:machine:32016>,
+    <gregtech:machine:32003>,
     [
         [<gregtech:meta_plate_double:324>, <ore:circuitGood>, <gregtech:meta_plate_double:324>],
         [<gregtech:meta_item_1:143>, <gregtech:machine:987>, <gregtech:meta_item_1:248>],

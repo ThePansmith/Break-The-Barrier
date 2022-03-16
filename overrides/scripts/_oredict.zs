@@ -12,4 +12,7 @@ val diode = <ore:diode>;
 resistor.addItems([<metaitem:component.resistor>, <metaitem:component.smd.resistor>]);
 diode.addItems([<metaitem:component.diode>, <metaitem:component.smd.diode>]);
 
+val dyeBlue = <ore:dyeBlue>;
+dyeBlue.add(<contenttweaker:bluedust>);
+
 mods.jei.JEI.hideCategory("minecraft.anvil");

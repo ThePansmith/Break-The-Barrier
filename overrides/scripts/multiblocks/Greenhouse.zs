@@ -1,3 +1,4 @@
+#priority 995
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
 import mods.gregtech.multiblock.RelativeDirection;
@@ -76,7 +77,7 @@ game.setLocalization(
 
 // Controller Recipe
 recipes.addShaped(
-    <gregtech:machine:32015>,
+    <gregtech:machine:32004>,
     [
         [<gregtech:meta_item_1:144>,   <ore:circuitExtreme>,           <gregtech:meta_item_1:144>],
         [<gregtech:metal_casing:5>,    <gregtech:machine:988>,         <gregtech:metal_casing:5>],

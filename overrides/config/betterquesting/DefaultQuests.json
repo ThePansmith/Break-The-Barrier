@@ -29,7 +29,7 @@
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 32004,
+            "Damage:2": 32104,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -53,7 +53,7 @@
             "0:10": {
               "id:8": "gregtech:machine",
               "Count:3": 1,
-              "Damage:2": 32004,
+              "Damage:2": 32104,
               "OreDict:8": ""
             }
           },
@@ -345,7 +345,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -455,7 +455,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -493,7 +493,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -545,7 +545,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -597,7 +597,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -649,7 +649,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -687,7 +687,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -738,7 +738,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -776,7 +776,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -828,7 +828,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -879,7 +879,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -930,7 +930,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -981,7 +981,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1034,7 +1034,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1055,9 +1055,9 @@
           "name:8": "Green House",
           "desc:8": "The Green House can be used to grow plants and trees! This will be rather useful for the creation of various fluids, as well as just having wood to be able to build with.\n\nOnly catch is that it requires Ammonium Nitrate.",
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "gregtech:machine",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 32004,
             "OreDict:8": ""
           },
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1072,10 +1072,28 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32004,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
       "rewards:9": {},
       "preRequisites:11": [
         15
@@ -1105,7 +1123,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1183,7 +1201,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1225,7 +1243,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1263,7 +1281,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1301,7 +1319,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1352,7 +1370,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1404,7 +1422,7 @@
           "ismain:1": 1,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1435,7 +1453,7 @@
     "30:10": {
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "It floats on water",
+          "name:8": "America",
           "desc:8": "Oil Drill does exactly what you think it does.\n",
           "icon:10": {
             "id:8": "contenttweaker:oildrill",
@@ -1455,7 +1473,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1470,6 +1488,12 @@
               "id:8": "contenttweaker:oildrill",
               "Count:3": 1,
               "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 32005,
               "OreDict:8": ""
             }
           },
@@ -1510,7 +1534,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1548,7 +1572,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1586,7 +1610,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1643,7 +1667,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1676,7 +1700,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1727,7 +1751,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
@@ -1760,7 +1784,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1811,7 +1835,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -1842,38 +1866,40 @@
     "39:10": {
       "properties:10": {
         "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
+          "name:8": "Half Life",
+          "desc:8": "Try electrolyzing some worldgenstone, you could use the blue-ish dust to help create a crowbar.",
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "gregtech:meta_tool",
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 10,
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "steel"
+              }
+            },
             "OreDict:8": ""
           },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
           "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
           "ismain:1": 0,
-          "name:8": "Other Steam generation options",
-          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "taskID:8": "bq_standard:checkbox",
-          "index:3": 0
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {},
-      "preRequisites:11": [],
-      "questID:3": 68
+      "preRequisites:11": [
+        246
+      ],
+      "questID:3": 39
     },
     "40:10": {
       "properties:10": {
@@ -1909,7 +1935,7 @@
       },
       "rewards:9": {},
       "preRequisites:11": [],
-      "questID:3": 118
+      "questID:3": 68
     },
     "41:10": {
       "properties:10": {
@@ -1945,9 +1971,45 @@
       },
       "rewards:9": {},
       "preRequisites:11": [],
-      "questID:3": 168
+      "questID:3": 118
     },
     "42:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Other Steam generation options",
+          "desc:8": "If standard coal boilers are not your thing, you do have some other options of making steam. Lava boilers work faster than coal boilers, but require lava in their production. You could also take advantage of the shaft of light at spawn to use solar boilers to generate free steam. Later on, multiblock options for steam generation also unlock, so keep an eye out for those.\n\nAll of these methods can be upgraded to high pressure once you get steel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 168
+    },
+    "43:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2060,7 +2122,7 @@
       "preRequisites:11": [],
       "questID:3": 216
     },
-    "43:10": {
+    "44:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2117,7 +2179,7 @@
       ],
       "questID:3": 221
     },
-    "44:10": {
+    "45:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2168,7 +2230,7 @@
       ],
       "questID:3": 222
     },
-    "45:10": {
+    "46:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2229,7 +2291,7 @@
       ],
       "questID:3": 223
     },
-    "46:10": {
+    "47:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2280,7 +2342,7 @@
       ],
       "questID:3": 224
     },
-    "47:10": {
+    "48:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2331,7 +2393,7 @@
       ],
       "questID:3": 225
     },
-    "48:10": {
+    "49:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2382,7 +2444,7 @@
       ],
       "questID:3": 226
     },
-    "49:10": {
+    "50:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2434,7 +2496,7 @@
       ],
       "questID:3": 227
     },
-    "50:10": {
+    "51:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2485,7 +2547,7 @@
       ],
       "questID:3": 228
     },
-    "51:10": {
+    "52:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2536,7 +2598,7 @@
       ],
       "questID:3": 229
     },
-    "52:10": {
+    "53:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2629,7 +2691,7 @@
       ],
       "questID:3": 230
     },
-    "53:10": {
+    "54:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2680,7 +2742,7 @@
       ],
       "questID:3": 231
     },
-    "54:10": {
+    "55:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2718,7 +2780,7 @@
       ],
       "questID:3": 232
     },
-    "55:10": {
+    "56:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2769,7 +2831,7 @@
       ],
       "questID:3": 233
     },
-    "56:10": {
+    "57:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2820,7 +2882,7 @@
       ],
       "questID:3": 234
     },
-    "57:10": {
+    "58:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2871,7 +2933,7 @@
       ],
       "questID:3": 235
     },
-    "58:10": {
+    "59:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2922,7 +2984,7 @@
       ],
       "questID:3": 237
     },
-    "59:10": {
+    "60:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2973,7 +3035,7 @@
       ],
       "questID:3": 238
     },
-    "60:10": {
+    "61:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3024,7 +3086,7 @@
       ],
       "questID:3": 239
     },
-    "61:10": {
+    "62:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3075,7 +3137,7 @@
       ],
       "questID:3": 240
     },
-    "62:10": {
+    "63:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3132,7 +3194,7 @@
       ],
       "questID:3": 241
     },
-    "63:10": {
+    "64:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3183,7 +3245,7 @@
       ],
       "questID:3": 242
     },
-    "64:10": {
+    "65:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3221,7 +3283,7 @@
       ],
       "questID:3": 243
     },
-    "65:10": {
+    "66:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3286,7 +3348,7 @@
       ],
       "questID:3": 244
     },
-    "66:10": {
+    "67:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3337,7 +3399,7 @@
       ],
       "questID:3": 246
     },
-    "67:10": {
+    "68:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3397,7 +3459,7 @@
       ],
       "questID:3": 247
     },
-    "68:10": {
+    "69:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3435,7 +3497,7 @@
       ],
       "questID:3": 248
     },
-    "69:10": {
+    "70:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3486,7 +3548,7 @@
       ],
       "questID:3": 249
     },
-    "70:10": {
+    "71:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3537,7 +3599,7 @@
       ],
       "questID:3": 250
     },
-    "71:10": {
+    "72:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3575,7 +3637,7 @@
       ],
       "questID:3": 251
     },
-    "72:10": {
+    "73:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3632,7 +3694,7 @@
       ],
       "questID:3": 252
     },
-    "73:10": {
+    "74:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3691,7 +3753,7 @@
       ],
       "questID:3": 253
     },
-    "74:10": {
+    "75:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3750,7 +3812,7 @@
       ],
       "questID:3": 254
     },
-    "75:10": {
+    "76:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3801,7 +3863,7 @@
       ],
       "questID:3": 256
     },
-    "76:10": {
+    "77:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3859,7 +3921,7 @@
       ],
       "questID:3": 257
     },
-    "77:10": {
+    "78:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3912,7 +3974,7 @@
       ],
       "questID:3": 258
     },
-    "78:10": {
+    "79:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3963,7 +4025,7 @@
       ],
       "questID:3": 259
     },
-    "79:10": {
+    "80:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4014,7 +4076,7 @@
       ],
       "questID:3": 260
     },
-    "80:10": {
+    "81:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4065,7 +4127,7 @@
       ],
       "questID:3": 261
     },
-    "81:10": {
+    "82:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4127,7 +4189,7 @@
       ],
       "questID:3": 262
     },
-    "82:10": {
+    "83:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4178,7 +4240,7 @@
       ],
       "questID:3": 264
     },
-    "83:10": {
+    "84:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4214,7 +4276,7 @@
       "preRequisites:11": [],
       "questID:3": 288
     },
-    "84:10": {
+    "85:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4265,7 +4327,7 @@
       ],
       "questID:3": 314
     },
-    "85:10": {
+    "86:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4317,7 +4379,7 @@
       ],
       "questID:3": 331
     },
-    "86:10": {
+    "87:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4353,7 +4415,7 @@
       "preRequisites:11": [],
       "questID:3": 338
     },
-    "87:10": {
+    "88:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4391,7 +4453,7 @@
       ],
       "questID:3": 350
     },
-    "88:10": {
+    "89:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4443,7 +4505,7 @@
       ],
       "questID:3": 365
     },
-    "89:10": {
+    "90:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4494,7 +4556,7 @@
       ],
       "questID:3": 366
     },
-    "90:10": {
+    "91:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4601,7 +4663,7 @@
       "preRequisites:11": [],
       "questID:3": 367
     },
-    "91:10": {
+    "92:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4652,7 +4714,7 @@
       ],
       "questID:3": 368
     },
-    "92:10": {
+    "93:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4703,7 +4765,7 @@
       ],
       "questID:3": 372
     },
-    "93:10": {
+    "94:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4754,7 +4816,7 @@
       ],
       "questID:3": 373
     },
-    "94:10": {
+    "95:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4805,7 +4867,7 @@
       ],
       "questID:3": 377
     },
-    "95:10": {
+    "96:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4857,7 +4919,7 @@
       ],
       "questID:3": 378
     },
-    "96:10": {
+    "97:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4890,7 +4952,7 @@
       ],
       "questID:3": 379
     },
-    "97:10": {
+    "98:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4941,7 +5003,7 @@
       ],
       "questID:3": 380
     },
-    "98:10": {
+    "99:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -4992,7 +5054,7 @@
       ],
       "questID:3": 381
     },
-    "99:10": {
+    "100:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5043,7 +5105,7 @@
       ],
       "questID:3": 382
     },
-    "100:10": {
+    "101:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5094,7 +5156,7 @@
       ],
       "questID:3": 383
     },
-    "101:10": {
+    "102:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5146,7 +5208,7 @@
       ],
       "questID:3": 384
     },
-    "102:10": {
+    "103:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5208,7 +5270,7 @@
       ],
       "questID:3": 385
     },
-    "103:10": {
+    "104:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5323,7 +5385,7 @@
       ],
       "questID:3": 386
     },
-    "104:10": {
+    "105:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5366,7 +5428,7 @@
       ],
       "questID:3": 388
     },
-    "105:10": {
+    "106:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5423,7 +5485,7 @@
       ],
       "questID:3": 389
     },
-    "106:10": {
+    "107:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5474,7 +5536,7 @@
       ],
       "questID:3": 390
     },
-    "107:10": {
+    "108:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5512,7 +5574,7 @@
       ],
       "questID:3": 391
     },
-    "108:10": {
+    "109:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5563,7 +5625,7 @@
       ],
       "questID:3": 392
     },
-    "109:10": {
+    "110:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5614,7 +5676,7 @@
       ],
       "questID:3": 393
     },
-    "110:10": {
+    "111:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5647,7 +5709,7 @@
       ],
       "questID:3": 395
     },
-    "111:10": {
+    "112:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5685,7 +5747,7 @@
       ],
       "questID:3": 396
     },
-    "112:10": {
+    "113:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5718,7 +5780,7 @@
       ],
       "questID:3": 397
     },
-    "113:10": {
+    "114:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -5775,7 +5837,7 @@
       ],
       "questID:3": 398
     },
-    "114:10": {
+    "115:10": {
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -6255,213 +6317,220 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
+          "y:3": -36,
+          "id:3": 39
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -264,
           "y:3": -96,
           "id:3": 246
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
           "y:3": -132,
           "id:3": 247
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": -156,
           "id:3": 248
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -132,
           "id:3": 249
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
           "y:3": -60,
           "id:3": 250
         },
-        "8:10": {
+        "9:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -204,
           "y:3": -96,
           "id:3": 251
         },
-        "9:10": {
+        "10:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": -96,
           "id:3": 253
         },
-        "10:10": {
+        "11:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -60,
           "id:3": 254
         },
-        "11:10": {
+        "12:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -60,
           "id:3": 256
         },
-        "12:10": {
+        "13:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
           "y:3": -96,
           "id:3": 257
         },
-        "13:10": {
+        "14:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -96,
           "id:3": 258
         },
-        "14:10": {
+        "15:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": -132,
           "id:3": 259
         },
-        "15:10": {
+        "16:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": -60,
           "id:3": 260
         },
-        "16:10": {
+        "17:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 42,
           "id:3": 261
         },
-        "17:10": {
+        "18:10": {
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 132,
           "y:3": -108,
           "id:3": 262
         },
-        "18:10": {
+        "19:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -96,
           "id:3": 264
         },
-        "19:10": {
+        "20:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -12,
           "id:3": 365
         },
-        "20:10": {
+        "21:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -300,
           "y:3": -60,
           "id:3": 366
         },
-        "21:10": {
+        "22:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
           "y:3": -12,
           "id:3": 368
         },
-        "22:10": {
+        "23:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 163,
           "id:3": 372
         },
-        "23:10": {
+        "24:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 90,
           "id:3": 373
         },
-        "24:10": {
+        "25:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 132,
           "y:3": 42,
           "id:3": 377
         },
-        "25:10": {
+        "26:10": {
           "sizeX:3": 30,
           "sizeY:3": 30,
           "x:3": 129,
           "y:3": 160,
           "id:3": 378
         },
-        "26:10": {
+        "27:10": {
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -36,
           "y:3": 30,
           "id:3": 379
         },
-        "27:10": {
+        "28:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 114,
           "id:3": 380
         },
-        "28:10": {
+        "29:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": 90,
           "id:3": 381
         },
-        "29:10": {
+        "30:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 246,
           "y:3": 90,
           "id:3": 382
         },
-        "30:10": {
+        "31:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": 42,
           "id:3": 383
         },
-        "31:10": {
+        "32:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": 90,
           "id:3": 384
         },
-        "32:10": {
+        "33:10": {
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 24,
           "y:3": 144,
           "id:3": 385
         },
-        "33:10": {
+        "34:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -300,
@@ -6483,7 +6552,7 @@
             "Damage:2": 988,
             "OreDict:8": ""
           },
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "bg_image:8": "",
           "bg_size:3": 256
         }

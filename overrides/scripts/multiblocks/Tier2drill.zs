@@ -1,4 +1,4 @@
-#priority 2
+#priority 998
 
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
@@ -80,7 +80,7 @@ game.setLocalization(
 );
 
 // Controller Recipe
-recipes.addShaped(<gregtech:machine:32000>,
+recipes.addShaped(<gregtech:machine:32001>,
     [
         [<ore:plateSteel>,         <ore:ingotRedAlloy> ,        <ore:plateSteel>],
         [<ore:ingotRedAlloy> ,     <ore:circuitBasic> ,         <ore:ingotRedAlloy> ],
