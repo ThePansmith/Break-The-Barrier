@@ -12,9 +12,9 @@ import mods.gregtech.recipe.IRecipe;
 import mods.gregtech.recipe.functions.ISetupRecipeFunction;
 import mods.gregtech.recipe.functions.ICompleteRecipeFunction;
 import crafttweaker.item.IItemCondition;
-
-// Multiblock 
-
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
 
 // Multiblock 
 
@@ -23,34 +23,38 @@ var loc = "mbt:greenhouse";
 val greenhouse = Builder.start(loc)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
                        return FactoryBlockPattern.start()
-						  .aisle("A~~~A", "A~~~A", "A~~~A", "SSSSS")
-                          .aisle("~~~~~", "~~~~~", "~~~~~", "SCCCS")
-                          .aisle("~~~~~", "~~~~~", "~~~~~", "SCCCS")
-                          .aisle("A~~~A", "A~~~A", "A~~~A", "SSESS")
-            .where("E", controller.self())
-            .where("~", CTPredicate.getAir())
-			.where("A", <metastate:gregtech:meta_block_frame_0:2>)
-			.where("I", <metastate:gregtech:metal_casing:5>)
-			.where("C", <metastate:gregtech:metal_casing:3>)
-            .where("S", CTPredicate.states(<metastate:gregtech:metal_casing:5>)
-                                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1) // There is at least one IMPORT_ITEMS bus. JEI preview shows only one.
+                          .aisle("IIIII", "SGGGS", "SGGGS", "SGGGS", "IIIII")
+			  .aisle("IDDDI", "G~~~G", "G~~~G", "G~~~G", "IMAMI")
+                          .aisle("IDDDI", "G~~~G", "G~~~G", "G~~~G", "IAAAI")
+                          .aisle("IDDDI", "G~~~G", "G~~~G", "G~~~G", "IMAMI")
+                          .aisle("IIEII", "SGGGS", "SGGGS", "SGGGS", "IIIII")
+			  .where("E", controller.self())
+			  .where("~", CTPredicate.getAir())
+			  .where("G", <metastate:chisel:glass>)
+			  .where("M", <metastate:gregtech:multiblock_casing:2>)
+			  .where("A", <metastate:chisel:glowstone:7>)
+			  .where("S", <metastate:gregtech:metal_casing:3>)
+			  .where("D", <metastate:minecraft:dirt>)
+            		  .where("I", CTPredicate.states(<metastate:gregtech:metal_casing:5>)
+                                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
                                       | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setPreviewCount(1)
                                       | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setPreviewCount(1)
-                                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1) // There is at least one INPUT_ENERGY hatch and no more than three of it. JEI preview shows only one.
+                                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1)
             )
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(
-        FactoryRecipeMap.start("greenhouse")
+	    .withRecipeMap(
+		FactoryRecipeMap.start("greenhouse")
                         .minFluidInputs(1)
-                        .maxFluidInputs(1)
+                        .maxFluidInputs(2)
                         .minInputs(1)
-						.maxInputs(1)
-						.minOutputs(1)
-                        .maxOutputs(9)
+			.maxInputs(1)
+			.minOutputs(1)
+                        .maxOutputs(2)
                         .build())
-    .withBaseTexture(<gregtech:metal_casing>.asBlock().definition.getStateFromMeta(5))
-    .buildAndRegister();
+		.withBaseTexture(<gregtech:metal_casing>.asBlock().definition.getStateFromMeta(5))
+		.buildAndRegister();
+
 // set optional properties
 greenhouse.hasMaintenanceMechanics = false;
 greenhouse.hasMufflerMechanics = false;
@@ -82,9 +86,9 @@ recipes.addShaped(
 
 val Fluids = {
 	//duration : fluid * amount
-	200 : <liquid:ammonium_nitrate> * 500
+	200 : [<liquid:ammonium_nitrate> * 500]
 	// More to come
-} as ILiquidStack[int];
+} as ILiquidStack[][int];
 
 val Plants = {
 	//EUt : {[inputs] : [outputs]}
