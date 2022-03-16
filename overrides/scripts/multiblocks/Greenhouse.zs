@@ -87,29 +87,29 @@ val Fluids = {
 } as ILiquidStack[int];
 
 val Plants = {
-	//EUt : [[[inputs],[outputs]], [[inputs],[outputs]], etc]
-	60 : [
-		[[<minecraft:sapling>], [<minecraft:log> * 4, <minecraft:sapling>]],
-		[[<minecraft:sapling:1>], [<minecraft:log:1> * 4, <minecraft:sapling:1>]],
-		[[<minecraft:sapling:2>], [<minecraft:log:2> * 4, <minecraft:sapling:2>]],
-		[[<minecraft:sapling:3>], [<minecraft:log:3> * 4, <minecraft:sapling:3>]],
-		[[<minecraft:sapling:4>], [<minecraft:log2> * 4, <minecraft:sapling:4>]],
-		[[<minecraft:sapling:5>], [<minecraft:log2:1> * 4, <minecraft:sapling:5>]],
-		[[<gregtech:rubber_sapling>], [<gregtech:rubber_log> * 4, <gregtech:rubber_sapling>]]
-	],
-	32 : [
-		[[<minecraft:reeds>], [<minecraft:reeds> * 6, <minecraft:reeds> * 2]],
-		[[<minecraft:wheat_seeds>], [<minecraft:wheat> * 2, <minecraft:wheat_seeds> * 6]]
-	]
-} as IItemStack[][][][int];
+	//EUt : {[inputs] : [outputs]}
+	60 : {
+		[<minecraft:sapling>] : [<minecraft:log> * 4, <minecraft:sapling>],
+		[<minecraft:sapling:1>] : [<minecraft:log:1> * 4, <minecraft:sapling:1>],
+		[<minecraft:sapling:2>] : [<minecraft:log:2> * 4, <minecraft:sapling:2>],
+		[<minecraft:sapling:3>] : [<minecraft:log:3> * 4, <minecraft:sapling:3>],
+		[<minecraft:sapling:4>] : [<minecraft:log2> * 4, <minecraft:sapling:4>],
+		[<minecraft:sapling:5>] : [<minecraft:log2:1> * 4, <minecraft:sapling:5>],
+		[<gregtech:rubber_sapling>] : [<gregtech:rubber_log> * 4, <gregtech:rubber_sapling>]
+	},
+	32 : {
+		[<minecraft:reeds>] : [<minecraft:reeds> * 6, <minecraft:reeds> * 2],
+		[<minecraft:wheat_seeds>] : [<minecraft:wheat> * 2, <minecraft:wheat_seeds> * 6]
+	}
+} as IItemStack[][IIngredient[]][int];
 
 for EUt, recipes in Plants {
-	for recipe in recipes {
+	for inputs, outputs in recipes {
 		for duration, fluid in Fluids {
 			<multiblock:mbt:greenhouse>.recipeMap.recipeBuilder()
-				.inputs(recipe[0])
+				.inputs(inputs)
 				.fluidInputs(fluid)
-				.outputs(recipe[1])
+				.outputs(outputs)
 				.duration(duration)
 				.EUt(EUt)
 				.buildAndRegister();
