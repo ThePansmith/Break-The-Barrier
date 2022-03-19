@@ -20,7 +20,7 @@ var fluix = MaterialBuilder(32002, "fluix")
     .ingot()
     .color(0x822fe0)
     .iconSet("METALLIC")
-	.cableProperties(128, 2, 4, false)
+	.cableProperties(128, 4, 1, false)
     .flags(["disable_decomposition", "crystallizable", "generate_plate", "generate_rod", "generate_bolt_screw"])
     .build();
 
