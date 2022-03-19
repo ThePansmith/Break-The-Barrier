@@ -97,9 +97,9 @@ tier_2_drill_base
 	.EUt(16)
     .inputs(<contenttweaker:tierthreedrill>)
 	.fluidInputs(<liquid:lubricant> * 2000)
-    .outputs(<gregtech:ore_iron_0> * 10,
+    .outputs(<gregtech:ore_iron_0> * 20,
 			 <gregtech:ore_tin_0> * 16,
-	         <gregtech:ore_nickel_0> * 20,
+	         <gregtech:ore_nickel_0> * 10,
 	         <gregtech:ore_sphalerite_0> * 5)
     .buildAndRegister();
 	
@@ -113,7 +113,7 @@ tier_2_drill_base
     .outputs(<gregtech:ore_aluminium_0> * 16,
 	         <gregtech:ore_copper_0> * 10,
 	         <gregtech:ore_gold_0> * 10,
-			 <gregtech:ore_soapstone_0> * 32)
+			 <gregtech:ore_soapstone_0> * 10)
     .buildAndRegister();
 	
 
