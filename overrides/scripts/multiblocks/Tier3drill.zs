@@ -121,7 +121,7 @@ tier_3_drill_base
 	.fluidInputs(<liquid:plastic> * 3000)
     .outputs(<gregtech:ore_tantalite_0> * 5,
 	         <gregtech:ore_emerald_0> * 3,
-			 <gregtech:ore_salt_0> * 2,
+			 <gregtech:ore_copper_0> * 15,
 	         <gregtech:ore_ruby_0> * 10)
     .buildAndRegister();
 
