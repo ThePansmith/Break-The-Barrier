@@ -251,16 +251,16 @@ val templates = [[
 ] as string[][];
 
 val assemblerTemplates = [
-	{6 : "P", 1 : "C"},
-	{5 : "P", 2 : "C"},
-	{3 : "P", 4 : "C"},
-	{5 : "S", 2 : "C"},
-	{3 : "S", 4 : "C"}
-] as string[int][];
+	{"P" : 6, "C" : 1},
+	{"P" : 5, "C" : 2},
+	{"P" : 3, "C" : 4},
+	{"S" : 5, "C" : 2},
+	{"S" : 3, "C" : 4}
+] as int[string][];
 
-function assemblerTemplatesToIngredients(template as string[int], replacements as IIngredient[string]) as IIngredient[] {
+function assemblerTemplatesToIngredients(template as int[string], replacements as IIngredient[string]) as IIngredient[] {
 	var ingredients = [] as IIngredient[];
-        for quantity, item in template{
+        for item, quantity in template{
 			ingredients+=replacements[item]*quantity;
         }
 	return ingredients as IIngredient[];
@@ -269,7 +269,7 @@ function assemblerTemplatesToIngredients(template as string[int], replacements a
 for plankDmg, mat in materials{
 	for drawerDmg, drawerType in types{
 		recipes.removeByRecipeName("storagedrawers:basicdrawers_"+drawerType+mat);
-		makeShaped("basicdrawers_"+drawerType+mat, <storagedrawers:basicdrawers>.withDamage(drawerDmg).withTag({material: mat}),
+		makeShaped("basicdrawers_"+drawerType+mat, <storagedrawers:basicdrawers>.withDamage(drawerDmg).withTag({material: mat}) * assemblerTemplates[drawerDmg]["C"],
 			templates[drawerDmg],
 			{ C : <minecraft:chest>,
 			  P : <minecraft:planks>.withDamage(plankDmg),
@@ -284,7 +284,7 @@ for plankDmg, mat in materials{
 			  S : <minecraft:wooden_slab>.withDamage(plankDmg)
 			  }))
 		.circuit(9+drawerDmg)
-		.outputs(<storagedrawers:basicdrawers>.withDamage(drawerDmg).withTag({material: mat}))
+		.outputs(<storagedrawers:basicdrawers>.withDamage(drawerDmg).withTag({material: mat}) * assemblerTemplates[drawerDmg]["C"])
 		.duration(100)
 		.EUt(30)
 		.buildAndRegister();
