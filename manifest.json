@@ -278,6 +278,36 @@
 		"fileID": 3484298,
 		"projectID": 534502,
 		"required": true
+	},
+	{
+		"alias": "Chameleon lib",
+		"fileID": 2450900,
+		"projectID": 230497,
+		"required": true
+	},
+	{
+		"alias": "Storage Drawers",
+		"fileID": 2952606,
+		"projectID": 223852,
+		"required": true
+	},
+	{
+		"alias": "Framed Compacting Drawers",
+		"fileID": 3015136,
+		"projectID": 376351,
+		"required": true
+	},
+	{
+		"alias": "FindMe",
+		"fileID": 2682853,
+		"projectID": 291936,
+		"required": true
+	},
+	{
+		"alias": "TOP Addons",
+		"fileID": 2887479,
+		"projectID": 247111,
+		"required": true
 	}
     ],
     "manifestType": "minecraftModpack",
