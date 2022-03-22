@@ -1978,7 +1978,7 @@
           "name:8": "Drawers!",
           "desc:8": "With all the resources you will be gathering, having some drawers would be a good place to store resources.\n\nOn top of that, this pack includes framed drawers, so you can really make them match your style!",
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "storagedrawers:customdrawers",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1998,7 +1998,12 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
       "rewards:9": {},
       "preRequisites:11": [
         222
