@@ -83,21 +83,8 @@ tier_4_drill_base
 	.EUt(512)
     .inputs(<contenttweaker:tiersevendrill>)
 	.fluidInputs(<liquid:ethylene> * 2000)
-    .outputs(<gregtech:ore_quartzite_0> * 10,
-			 <gregtech:ore_stibnite_0> * 5,
-	         <gregtech:ore_silver_0> * 10,
-	         <gregtech:ore_redstone_0> * 10)
-    .buildAndRegister();
-	
-tier_4_drill_base
-	.recipeMap
-		.recipeBuilder()
-    .duration(300)
-	.EUt(512)
-    .inputs(<contenttweaker:tiereightdrill>)
-	.fluidInputs(<liquid:rocket_fuel> * 1000)
-    .outputs(<gregtech:ore_quartzite_0> * 10,
-			 <gregtech:ore_stibnite_0> * 5,
-	         <gregtech:ore_silver_0> * 10,
-	         <gregtech:ore_redstone_0> * 10)
+    .outputs(<gregtech:ore_pyrolusite_0> * 5,
+			 <gregtech:ore_barite_0> * 5,
+	         <gregtech:ore_calcite_0> * 7
+	         <gregtech:ore_tricalcium_phosphate_0> * 10)
     .buildAndRegister();

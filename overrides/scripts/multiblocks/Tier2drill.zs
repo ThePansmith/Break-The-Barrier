@@ -111,7 +111,7 @@ tier_2_drill_base
     .inputs(<contenttweaker:tierfourdrill>)
 	.fluidInputs(<liquid:drilling_fluid> * 2000)
     .outputs(<gregtech:ore_aluminium_0> * 16,
-	         <gregtech:ore_salt_0> * 20,
+	         <gregtech:ore_salt_0> * 10,
 	         <gregtech:ore_gold_0> * 10,
 			 <gregtech:ore_soapstone_0> * 10)
     .buildAndRegister();

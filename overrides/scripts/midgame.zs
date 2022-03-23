@@ -65,3 +65,14 @@ makeExtremeRecipe5(<contenttweaker:tiereightdrill>,
 
 implosion.recipeBuilder().inputs([<gregtech:meta_plate:80>, <gregtech:meta_plate:113>]).outputs([<gregtech:meta_plate:32000> * 2]).property("explosives", 2).duration(100).EUt(30).buildAndRegister();
 implosion.recipeBuilder().inputs([<gregtech:meta_plate:80>, <gregtech:meta_plate:113>]).outputs([<gregtech:meta_plate:32000> * 2]).property("explosives", <gregtech:meta_item_1:460>).duration(100).EUt(30).buildAndRegister();
+
+makeShaped("tier7", <contenttweaker:tiersevendrill>,
+	["PIP",
+	 "UDU",
+	 " S "],
+	{ P : <gregtech:meta_plate_double:323>,
+	  I : <gregtech:meta_item_1:174>,
+	  U : <gregtech:meta_plate:252>,
+	  D : <ore:circuitGood>,
+	  S : <gregtech:meta_tool_head_drill:323>
+	  });
