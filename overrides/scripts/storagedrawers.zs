@@ -168,6 +168,7 @@ recipes.addShaped("drawer_convert_"+i, <storagedrawers:customdrawers>.withDamage
 	},null);
 }
 
+recipes.removeByMod("framedcompactdrawers");
 recipes.addShaped("drawer_convert_compact", <framedcompactdrawers:framed_compact_drawer>.withTag({tile: {id: "storagedrawers:basicdrawers.1"}}),
 	[[<ore:fixedcraftingToolSoftHammer>, <ore:fixedcraftingToolSaw>],
 	[<metaitem:frameWood>, <storagedrawers:compdrawers>.marked("mark")]],
