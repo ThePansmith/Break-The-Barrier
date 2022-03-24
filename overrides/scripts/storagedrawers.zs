@@ -19,6 +19,59 @@ mods.jei.JEI.removeAndHide(<storagedrawers:framingtable>);
 mods.jei.JEI.removeAndHide(<storagedrawers:upgrade_conversion>);
 recipes.replaceAllOccurences(<minecraft:slime_ball>, <metaitem:rubber_drop>, <storagedrawers:tape>);
 
+//strip XYZ data from sealed drawers
+val stackEmUp = <storagedrawers:basicdrawers>.withTag({
+    display: {
+        Name: "§6Stack 'em up!",
+        Lore: [
+			"§fSealed drawers store information about their last placed position",
+			"§fIt's useless and makes otherwise identical drawers not stackable",
+			"§fThis recipe removes it and lists drawer contents"
+        ]
+    }, 
+	tile: {id: "storagedrawers:basicdrawers.1"}
+});
+
+function getDrawerStorage(Drawers as IData) as string[]{
+	var lore=[] as string[];
+	for i in 0 to Drawers.length {
+		if Drawers[i] == {} continue;
+		val id=Drawers[i].Item.id.asString();
+		val Damage=Drawers[i].Item.Damage.asInt();
+		val Count=Drawers[i].Count.asInt();
+		val tag=Drawers[i].Item.tag;
+		val item=itemUtils.getItem(id).withDamage(Damage).withAmount(Count).withTag(tag);
+		if item.amount<=64 {
+			lore+="§6"+item.displayName + "§8 : §a" + item.amount;
+		} else {
+			lore+="§6"+item.displayName + "§8 : §a" + item.amount + " §7[" + item.amount / 64 + "x64 + " + item.amount % 64+"]";
+		}
+	}
+	return lore;
+}
+
+for i in 0 to 5 {
+	recipes.addShapeless("drawer_stack_"+i, stackEmUp.withDamage(i), 
+		[<storagedrawers:basicdrawers>.withDamage(i).withTag({tile:{}}).marked("mark")],
+		function(outputs, inputs, craftingInfo){
+			val nbt = inputs.mark.tag as IData;
+			val nbtRemove = {tile : {x:0, y:0 ,z:0}} as IData;
+			val lore = {display: {Lore : ["§aStackable!"]}} as IData;
+			val storage = getDrawerStorage(nbt.tile.Drawers);
+			return inputs.mark.withTag(nbt-nbtRemove-lore+lore).withLore(storage) * 1;
+		},null);
+
+	recipes.addShapeless("drawer_stack_framed_"+i, <storagedrawers:customdrawers>.withDamage(i).withTag(stackEmUp.tag + {MatS: {id: "chisel:glowstone",Count: 1 as byte, Damage: 15 as short}}), 
+		[<storagedrawers:customdrawers>.withDamage(i).withTag({tile:{}}).marked("mark")],
+		function(outputs, inputs, craftingInfo){
+			val nbt = inputs.mark.tag as IData;
+			val nbtRemove = {tile : {x:0, y:0 ,z:0}} as IData;
+			val lore = {display: {Lore : ["§aStackable!"]}} as IData;
+			val storage = getDrawerStorage(nbt.tile.Drawers);
+			return inputs.mark.withTag(nbt-nbtRemove-lore+lore).withLore(storage) * 1;
+		},null);
+}
+
 //Frame drawers without a framing table
 //All hail Eutro 
 val framingMaterial as IIngredient = <*>.only(function(stack as IItemStack) as bool {
@@ -30,11 +83,11 @@ val framingMaterial as IIngredient = <*>.only(function(stack as IItemStack) as b
 
 val customDrawerOut = <storagedrawers:customdrawers>.withTag({
     display: {
-        Name: "Frame your drawers by hand!",
+        Name: "§6Frame your drawers by hand!",
         Lore: [
-            "Top left: sides",
-            "Top middle: trim",
-            "Middle left: front"
+            "§cTop left: sides",
+            "§aTop middle: trim",
+            "§9Middle left: front"
         ]
     },
     MatS: {
@@ -191,23 +244,6 @@ recipes.addShaped("drawer_convert_slave", <framedcompactdrawers:framed_slave>,
 	[[<ore:fixedcraftingToolSoftHammer>, <ore:fixedcraftingToolSaw>],
 	[<metaitem:frameWood>, <storagedrawers:controllerslave>]]);
 
-recipes.removeByRecipeName("storagedrawers:upgrade_template");
-makeShaped("upgrade_template", <storagedrawers:upgrade_template>,
-	["   ",
-	 "STM",
-	 "   "],
-	{ T : <metaitem:wooden_form.empty>,
-	  M : <ore:fixedcraftingToolSoftHammer>,
-	  S : <ore:fixedcraftingToolSaw>
-	  });
-assembler.recipeBuilder()
-    .inputs(<ore:plankWood>)
-    .circuit(0)
-    .outputs(<storagedrawers:upgrade_template>)
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
-
 //Drawers
 recipes.removeByRegex("storagedrawers:framed_drawer_.*");
 
@@ -324,6 +360,23 @@ assembler.recipeBuilder()
 
 //Upgrades
 recipes.removeByRegex("storagedrawers:upgrade_storage_.*");
+recipes.removeByRecipeName("storagedrawers:upgrade_template");
+
+makeShaped("upgrade_template", <storagedrawers:upgrade_template>,
+	["   ",
+	 "STM",
+	 "   "],
+	{ T : <metaitem:wooden_form.empty>,
+	  M : <ore:fixedcraftingToolSoftHammer>,
+	  S : <ore:fixedcraftingToolSaw>
+	  });
+assembler.recipeBuilder()
+    .inputs(<ore:plankWood>)
+    .circuit(0)
+    .outputs(<storagedrawers:upgrade_template>)
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
 
 makeShaped("upgrade_storage_bronze", <storagedrawers:upgrade_storage:0>,
 	["SHS",
