@@ -24,11 +24,12 @@ val stackEmUp = <storagedrawers:basicdrawers>.withTag({
     display: {
         Name: "§6Stack 'em up!",
         Lore: [
-            "§fSealed drawers store information about their last placed position",
+			"§fSealed drawers store information about their last placed position",
 			"§fIt's useless and makes otherwise identical drawers not stackable",
 			"§fThis recipe removes it and lists drawer contents"
         ]
-    },
+    }, 
+	tile: {id: "storagedrawers:basicdrawers.1"}
 });
 
 function getDrawerStorage(Drawers as IData) as string[]{
