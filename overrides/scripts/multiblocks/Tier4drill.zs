@@ -85,6 +85,6 @@ tier_4_drill_base
 	.fluidInputs(<liquid:ethylene> * 2000)
     .outputs(<gregtech:ore_pyrolusite_0> * 5,
 			 <gregtech:ore_barite_0> * 5,
-	         <gregtech:ore_calcite_0> * 7
+	         <gregtech:ore_calcite_0> * 7,
 	         <gregtech:ore_tricalcium_phosphate_0> * 10)
     .buildAndRegister();
