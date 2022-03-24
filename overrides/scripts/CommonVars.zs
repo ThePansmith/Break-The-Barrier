@@ -68,8 +68,6 @@ global isResonant   as IItemCondition = function(stack as IItemStack) { return s
 global isCreative   as IItemCondition = function(stack as IItemStack) { return stack.tag has {Creative: 1 as byte, Level: 4 as byte} as IData; };
 
 
-global rfengine         as IItemStack  = <progressiveautomation:rf_engine>.withTag({Energy: 0});
-
 /*
  Converts a text representation of a crafting grid recipe into an array of
  ingredients.

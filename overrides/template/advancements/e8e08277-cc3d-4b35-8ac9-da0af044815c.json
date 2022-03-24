@@ -1,19 +1,13 @@
 {
-  "nuclearcraft:root": {
-    "criteria": {
-      "location": "2022-02-21 20:53:36 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2022-02-21 21:02:05 -0600"
+      "has_lots_of_items": "2022-03-23 22:00:14 -0500"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "plains": "2022-02-21 20:53:36 -0600"
+      "plains": "2022-03-23 21:55:00 -0500"
     },
     "done": false
   }
