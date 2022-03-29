@@ -88,6 +88,6 @@ oildrill
     .duration(400)
 	.EUt(100)
     .inputs(<contenttweaker:oildrill>)
-	.fluidInputs(<liquid:plastic> * 1000)
+	.fluidInputs(<liquid:plastic> * 500)
     .fluidOutputs([<liquid:oil> * 6000])
     .buildAndRegister();
