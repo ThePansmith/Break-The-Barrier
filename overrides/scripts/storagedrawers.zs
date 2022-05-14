@@ -55,7 +55,7 @@ for i in 0 to 5 {
 		[<storagedrawers:basicdrawers>.withDamage(i).withTag({tile:{}}).marked("mark")],
 		function(outputs, inputs, craftingInfo){
 			val nbt = inputs.mark.tag as IData;
-			val nbtRemove = {tile : {x:0, y:0 ,z:0}} as IData;
+			val nbtRemove = {tile : {x:0, y:0, z:0, Dir:0}} as IData;
 			val lore = {display: {Lore : ["§aStackable!"]}} as IData;
 			val storage = getDrawerStorage(nbt.tile.Drawers);
 			return inputs.mark.withTag(nbt-nbtRemove-lore+lore).withLore(storage) * 1;
@@ -65,7 +65,7 @@ for i in 0 to 5 {
 		[<storagedrawers:customdrawers>.withDamage(i).withTag({tile:{}}).marked("mark")],
 		function(outputs, inputs, craftingInfo){
 			val nbt = inputs.mark.tag as IData;
-			val nbtRemove = {tile : {x:0, y:0 ,z:0}} as IData;
+			val nbtRemove = {tile : {x:0, y:0, z:0, Dir:0}} as IData;
 			val lore = {display: {Lore : ["§aStackable!"]}} as IData;
 			val storage = getDrawerStorage(nbt.tile.Drawers);
 			return inputs.mark.withTag(nbt-nbtRemove-lore+lore).withLore(storage) * 1;
